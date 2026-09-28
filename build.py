@@ -17,7 +17,7 @@ def run(c): subprocess.run(c,check=True,stdout=subprocess.DEVNULL,stderr=subproc
 FINALS=[
  dict(id='clone-war-room',pt=9.0,group='Clone War Room',title='Clone War Room',version='v1 · Seedance 2.5',src='/workspace/refs/ref1.mp4',web='encode',category='Seedance originals (made by Chase)',date_override=('Sep 28, 2026','2026-09-28T07:24:50'),note='15s Seedance 2.5 generation with native voice and SFX.'),
  dict(id='blast-furnace-take1',pt=5.0,group='Blast Furnace / Change the Creative',title='Blast Furnace / Change the Creative',version='take 1 · Seedance',src='/workspace/refs/hf/hf_20260928_043048_b9755242-d220-41de-8935-3936d2143bcb.mp4',web='encode',category='Seedance originals (made by Chase)',date_override=('Sep 27, 2026','2026-09-27T22:30:48'),note='Made about 10:30 PM MT on Sep 27.'),
- dict(id='counselor-v2',pt=20.2,group='Your Move, Counselor',title='Your Move, Counselor',version='v2 (slower)',src='Revboo-Counselor-v2.mp4',web='copy'),
+ dict(id='counselor-v2',pt=30.5,group='Your Move, Counselor',title='Your Move, Counselor',version='v2 (slower)',src='Revboo-Counselor-v2.mp4',web='copy'),
  dict(id='counselor-v1',pt=20.2,group='Your Move, Counselor',title='Your Move, Counselor',version='v1',src='Revboo-Counselor.mp4',web='copy'),
  dict(id='pi-attorneys',pt=10.0,group='PI Attorneys',title='PI Attorneys',version='v1',src='Revboo-PI-Attorneys.mp4',web='copy'),
  dict(id='remake',pt=10.0,group='The Remake',title='The Remake',version='v1',src='Revboo-Remake.mp4',web='copy'),
