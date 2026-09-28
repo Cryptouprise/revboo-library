@@ -1,5 +1,13 @@
 {
   "site": "Revboo Video Library",
+  "brands": [
+    "Revboo",
+    "Legal/PI",
+    "The Assist",
+    "Infinite AI",
+    "Solar Freedom",
+    "Generic/Other"
+  ],
   "brand": {
     "color": "#FF4B0A",
     "font": "Anton",
@@ -8,10 +16,13 @@
   "finals": [
     {
       "id": "counselor-v2",
-      "category": "Revboo ads",
+      "brand": "Legal/PI",
+      "category": "Ads for attorneys",
       "group": "Your Move, Counselor",
       "title": "Your Move, Counselor",
       "version": "v2 (slower)",
+      "width": 1080,
+      "height": 1920,
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T12:33:09",
       "duration": 36.4,
@@ -19,14 +30,18 @@
       "poster": "media/posters/counselor-v2.jpg",
       "status": "final",
       "note": "",
+      "source": "/workspace/revboo/Revboo-Counselor-v2.mp4",
       "size_mb": 5.5
     },
     {
       "id": "counselor-v1",
-      "category": "Revboo ads",
+      "brand": "Legal/PI",
+      "category": "Ads for attorneys",
       "group": "Your Move, Counselor",
       "title": "Your Move, Counselor",
       "version": "v1",
+      "width": 1080,
+      "height": 1920,
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T11:43:54",
       "duration": 24.0,
@@ -34,14 +49,18 @@
       "poster": "media/posters/counselor-v1.jpg",
       "status": "final",
       "note": "",
+      "source": "/workspace/revboo/Revboo-Counselor.mp4",
       "size_mb": 5.4
     },
     {
       "id": "pi-attorneys",
-      "category": "Revboo ads",
+      "brand": "Legal/PI",
+      "category": "Ads for attorneys",
       "group": "PI Attorneys",
       "title": "PI Attorneys",
       "version": "v1",
+      "width": 1080,
+      "height": 1920,
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T10:04:45",
       "duration": 24.0,
@@ -49,14 +68,18 @@
       "poster": "media/posters/pi-attorneys.jpg",
       "status": "final",
       "note": "",
+      "source": "/workspace/revboo/Revboo-PI-Attorneys.mp4",
       "size_mb": 5.4
     },
     {
       "id": "remake",
+      "brand": "Revboo",
       "category": "Revboo ads",
       "group": "The Remake",
       "title": "The Remake",
       "version": "v1",
+      "width": 1080,
+      "height": 1920,
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:56:47",
       "duration": 23.9,
@@ -64,14 +87,18 @@
       "poster": "media/posters/remake.jpg",
       "status": "final",
       "note": "",
+      "source": "/workspace/revboo/Revboo-Remake.mp4",
       "size_mb": 5.4
     },
     {
       "id": "graveyard-v2",
+      "brand": "Revboo",
       "category": "Revboo ads",
       "group": "The Ad Graveyard",
       "title": "The Ad Graveyard",
       "version": "v2 (retimed)",
+      "width": 1080,
+      "height": 1920,
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:02:09",
       "duration": 23.5,
@@ -79,14 +106,18 @@
       "poster": "media/posters/graveyard-v2.jpg",
       "status": "final",
       "note": "",
+      "source": "/workspace/revboo/Revboo-Graveyard-v2.mp4",
       "size_mb": 5.6
     },
     {
       "id": "graveyard-v1",
+      "brand": "Revboo",
       "category": "Revboo ads",
       "group": "The Ad Graveyard",
       "title": "The Ad Graveyard",
       "version": "v1",
+      "width": 1080,
+      "height": 1920,
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:56:23",
       "duration": 19.0,
@@ -94,14 +125,18 @@
       "poster": "media/posters/graveyard-v1.jpg",
       "status": "final",
       "note": "",
+      "source": "/workspace/revboo/Revboo-Graveyard-small.mp4",
       "size_mb": 5.1
     },
     {
       "id": "promo-v3",
+      "brand": "Revboo",
       "category": "Revboo ads",
       "group": "The Revenue Engine",
       "title": "The Revenue Engine",
       "version": "v3 (real engine SFX)",
+      "width": 1080,
+      "height": 1920,
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:29:43",
       "duration": 17.5,
@@ -109,14 +144,18 @@
       "poster": "media/posters/promo-v3.jpg",
       "status": "final",
       "note": "",
+      "source": "/workspace/revboo/revboo-promo-v3.mp4",
       "size_mb": 3.8
     },
     {
       "id": "clone-war-room",
+      "brand": "Revboo",
       "category": "Seedance originals (made by Chase)",
       "group": "Clone War Room",
       "title": "Clone War Room",
       "version": "v1 · Seedance 2.5",
+      "width": 1080,
+      "height": 1920,
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:24:50",
       "duration": 15.1,
@@ -124,14 +163,18 @@
       "poster": "media/posters/clone-war-room.jpg",
       "status": "final",
       "note": "15s Seedance 2.5 generation with native voice and SFX.",
+      "source": "/workspace/refs/ref1.mp4",
       "size_mb": 3.4
     },
     {
       "id": "promo-v2",
+      "brand": "Revboo",
       "category": "Revboo ads",
       "group": "The Revenue Engine",
       "title": "The Revenue Engine",
       "version": "v2",
+      "width": 1080,
+      "height": 1920,
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:04:08",
       "duration": 17.5,
@@ -139,14 +182,18 @@
       "poster": "media/posters/promo-v2.jpg",
       "status": "final",
       "note": "",
+      "source": "/workspace/revboo/revboo-promo-v2.mp4",
       "size_mb": 3.9
     },
     {
       "id": "promo-v1",
+      "brand": "Revboo",
       "category": "Revboo ads",
       "group": "The Revenue Engine",
       "title": "The Revenue Engine",
       "version": "v1 (stills)",
+      "width": 1080,
+      "height": 1920,
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:56",
       "duration": 16.4,
@@ -154,14 +201,417 @@
       "poster": "media/posters/promo-v1.jpg",
       "status": "rejected",
       "note": "Rejected: stills slideshow. Kept for the archive.",
+      "source": "/workspace/revboo/revboo-promo-v1.mp4",
       "size_mb": 1.7
     },
     {
+      "id": "assist-dave-official-gmsd",
+      "brand": "The Assist",
+      "category": "Assist UGC (Grok talking head)",
+      "group": "Dave hepeating · UGC",
+      "title": "Dave Hepeating (UGC talking head)",
+      "version": "captions: GET MORE SH*T DONE header",
+      "width": 720,
+      "height": 1280,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:45",
+      "duration": 15.0,
+      "video": "media/finals/assist-dave-official-gmsd.mp4",
+      "poster": "media/posters/assist-dave-official-gmsd.jpg",
+      "status": "final",
+      "note": "7 caption variants of the same take; no winner picked yet.",
+      "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-official-gmsd.mp4",
+      "size_mb": 2.0
+    },
+    {
+      "id": "assist-dave-official-unfair",
+      "brand": "The Assist",
+      "category": "Assist UGC (Grok talking head)",
+      "group": "Dave hepeating · UGC",
+      "title": "Dave Hepeating (UGC talking head)",
+      "version": "captions: \"Dave stole the credit\" → unfair advantage",
+      "width": 720,
+      "height": 1280,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:44",
+      "duration": 15.0,
+      "video": "media/finals/assist-dave-official-unfair.mp4",
+      "poster": "media/posters/assist-dave-official-unfair.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-official-unfair.mp4",
+      "size_mb": 1.9
+    },
+    {
+      "id": "assist-dave-official-days",
+      "brand": "The Assist",
+      "category": "Assist UGC (Grok talking head)",
+      "group": "Dave hepeating · UGC",
+      "title": "Dave Hepeating (UGC talking head)",
+      "version": "captions: \"better professional in 5 min\" + weekly lineup",
+      "width": 720,
+      "height": 1280,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:44",
+      "duration": 15.0,
+      "video": "media/finals/assist-dave-official-days.mp4",
+      "poster": "media/posters/assist-dave-official-days.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-official-days.mp4",
+      "size_mb": 2.0
+    },
+    {
+      "id": "assist-dave-official-301697",
+      "brand": "The Assist",
+      "category": "Assist UGC (Grok talking head)",
+      "group": "Dave hepeating · UGC",
+      "title": "Dave Hepeating (UGC talking head)",
+      "version": "captions: \"The 5-min newsletter\" · 301,697 women",
+      "width": 720,
+      "height": 1280,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:44",
+      "duration": 15.0,
+      "video": "media/finals/assist-dave-official-301697.mp4",
+      "poster": "media/posters/assist-dave-official-301697.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-official-301697.mp4",
+      "size_mb": 2.0
+    },
+    {
+      "id": "assist-dave-overlay-301k",
+      "brand": "The Assist",
+      "category": "Assist UGC (Grok talking head)",
+      "group": "Dave hepeating · UGC",
+      "title": "Dave Hepeating (UGC talking head)",
+      "version": "overlay: \"Tip: claim your idea before Dave\"",
+      "width": 720,
+      "height": 1280,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:44",
+      "duration": 15.0,
+      "video": "media/finals/assist-dave-overlay-301k.mp4",
+      "poster": "media/posters/assist-dave-overlay-301k.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-overlay-301k.mp4",
+      "size_mb": 2.0
+    },
+    {
+      "id": "assist-dave-overlay-hepeat",
+      "brand": "The Assist",
+      "category": "Assist UGC (Grok talking head)",
+      "group": "Dave hepeating · UGC",
+      "title": "Dave Hepeating (UGC talking head)",
+      "version": "overlay: \"Dave just repeated my idea…\"",
+      "width": 720,
+      "height": 1280,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:44",
+      "duration": 15.0,
+      "video": "media/finals/assist-dave-overlay-hepeat.mp4",
+      "poster": "media/posters/assist-dave-overlay-hepeat.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-overlay-hepeat.mp4",
+      "size_mb": 1.9
+    },
+    {
+      "id": "assist-dave-overlay-their-line",
+      "brand": "The Assist",
+      "category": "Assist UGC (Grok talking head)",
+      "group": "Dave hepeating · UGC",
+      "title": "Dave Hepeating (UGC talking head)",
+      "version": "overlay: their line \"better leader, keep your sanity\"",
+      "width": 720,
+      "height": 1280,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:44",
+      "duration": 15.0,
+      "video": "media/finals/assist-dave-overlay-their-line.mp4",
+      "poster": "media/posters/assist-dave-overlay-their-line.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-overlay-their-line.mp4",
+      "size_mb": 1.9
+    },
+    {
+      "id": "assist-01-dave",
+      "brand": "The Assist",
+      "category": "Assist remakes (text motion)",
+      "group": "Assist remake 01 · Dave stole my idea",
+      "title": "Dave Stole My Idea",
+      "version": "remake (text motion)",
+      "width": 1080,
+      "height": 1920,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:42",
+      "duration": 26.7,
+      "video": "media/finals/assist-01-dave.mp4",
+      "poster": "media/posters/assist-01-dave.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/outreach/andy-board/site/assist/remakes/01-dave.mp4",
+      "size_mb": 1.7
+    },
+    {
+      "id": "assist-02-sayno",
+      "brand": "The Assist",
+      "category": "Assist remakes (text motion)",
+      "group": "Assist remake 02 · Say-no script",
+      "title": "The Say-No Script",
+      "version": "remake (text motion)",
+      "width": 1080,
+      "height": 1920,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:42",
+      "duration": 22.6,
+      "video": "media/finals/assist-02-sayno.mp4",
+      "poster": "media/posters/assist-02-sayno.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/outreach/andy-board/site/assist/remakes/02-sayno.mp4",
+      "size_mb": 1.5
+    },
+    {
+      "id": "assist-03-oneone",
+      "brand": "The Assist",
+      "category": "Assist remakes (text motion)",
+      "group": "Assist remake 03 · 1:1 opener",
+      "title": "The 1:1 Opener",
+      "version": "remake (text motion)",
+      "width": 1080,
+      "height": 1920,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:42",
+      "duration": 25.2,
+      "video": "media/finals/assist-03-oneone.mp4",
+      "poster": "media/posters/assist-03-oneone.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/outreach/andy-board/site/assist/remakes/03-oneone.mp4",
+      "size_mb": 1.7
+    },
+    {
+      "id": "assist-04-ai",
+      "brand": "The Assist",
+      "category": "Assist remakes (text motion)",
+      "group": "Assist remake 04 · AI busy",
+      "title": "Not Behind on AI, Busy",
+      "version": "remake (text motion)",
+      "width": 1080,
+      "height": 1920,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:42",
+      "duration": 25.0,
+      "video": "media/finals/assist-04-ai.mp4",
+      "poster": "media/posters/assist-04-ai.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/outreach/andy-board/site/assist/remakes/04-ai.mp4",
+      "size_mb": 1.3
+    },
+    {
+      "id": "assist-05-matched",
+      "brand": "The Assist",
+      "category": "Assist remakes (text motion)",
+      "group": "Assist remake 05 · Get matched",
+      "title": "Get Matched",
+      "version": "remake (text motion)",
+      "width": 1080,
+      "height": 1920,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:42",
+      "duration": 26.8,
+      "video": "media/finals/assist-05-matched.mp4",
+      "poster": "media/posters/assist-05-matched.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/outreach/andy-board/site/assist/remakes/05-matched.mp4",
+      "size_mb": 1.7
+    },
+    {
+      "id": "infinite-hero-vsl-repaired",
+      "brand": "Infinite AI",
+      "category": "Infinite AI videos",
+      "group": "Hero VSL · same presenter",
+      "title": "Infinite AI Hero VSL",
+      "version": "final (repaired)",
+      "width": 1280,
+      "height": 720,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:32",
+      "duration": 48.0,
+      "video": "media/finals/infinite-hero-vsl-repaired.mp4",
+      "poster": "media/posters/infinite-hero-vsl-repaired.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/infinite-media/infinite-ai-final-same-presenter-hero-vsl-repaired_006e0a68.mp4",
+      "size_mb": 5.4
+    },
+    {
+      "id": "infinite-hero-vsl",
+      "brand": "Infinite AI",
+      "category": "Infinite AI videos",
+      "group": "Hero VSL · same presenter",
+      "title": "Infinite AI Hero VSL",
+      "version": "final (before repair)",
+      "width": 1280,
+      "height": 720,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:31",
+      "duration": 48.0,
+      "video": "media/finals/infinite-hero-vsl.mp4",
+      "poster": "media/posters/infinite-hero-vsl.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/infinite-media/infinite-ai-final-same-presenter-hero-vsl_307b4875.mp4",
+      "size_mb": 5.4
+    },
+    {
+      "id": "infinite-hero-vsl-source",
+      "brand": "Infinite AI",
+      "category": "Infinite AI videos",
+      "group": "Hero VSL · same presenter",
+      "title": "Infinite AI Hero VSL",
+      "version": "source-locked (1080p)",
+      "width": 1280,
+      "height": 720,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:30",
+      "duration": 47.0,
+      "video": "media/finals/infinite-hero-vsl-source.mp4",
+      "poster": "media/posters/infinite-hero-vsl-source.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/infinite-media/infinite-ai-source-locked-hero-vsl_37a8cafc.mp4",
+      "size_mb": 5.4
+    },
+    {
+      "id": "trovy-yellow-card",
+      "brand": "The Assist",
+      "category": "Trovy UGC (for Andy)",
+      "group": "Trovy · yellow card UGC",
+      "title": "Trovy Yellow Card UGC",
+      "version": "draft",
+      "width": 752,
+      "height": 416,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:27",
+      "duration": 18.0,
+      "video": "media/finals/trovy-yellow-card.mp4",
+      "poster": "media/posters/trovy-yellow-card.jpg",
+      "status": "final",
+      "note": "Trovy HELOC ad made for Andy's board (draft, 16:9-ish source).",
+      "source": "/workspace/ads/trovy/chase-ugc/video-b.mp4",
+      "size_mb": 3.3
+    },
+    {
+      "id": "infinite-control-tower-16x9",
+      "brand": "Infinite AI",
+      "category": "Infinite AI videos",
+      "group": "AI Department Control Tower",
+      "title": "AI Department Control Tower",
+      "version": "16:9 cut",
+      "width": 1280,
+      "height": 720,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:21",
+      "duration": 15.0,
+      "video": "media/finals/infinite-control-tower-16x9.mp4",
+      "poster": "media/posters/infinite-control-tower-16x9.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/uploads/ai-department-control-tower-16x9.mp4",
+      "size_mb": 2.3
+    },
+    {
+      "id": "infinite-lead-response-teaser",
+      "brand": "Infinite AI",
+      "category": "Infinite AI videos",
+      "group": "UGC · lead response teaser",
+      "title": "Lead Response Teaser (UGC)",
+      "version": "v1",
+      "width": 1280,
+      "height": 720,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:21",
+      "duration": 8.0,
+      "video": "media/finals/infinite-lead-response-teaser.mp4",
+      "poster": "media/posters/infinite-lead-response-teaser.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/infinite-media/infinite-ai-ugc-lead-response-teaser_e3ca2454.mp4",
+      "size_mb": 1.9
+    },
+    {
+      "id": "trovy-cardcut",
+      "brand": "The Assist",
+      "category": "Trovy UGC (for Andy)",
+      "group": "Trovy · card-cut UGC",
+      "title": "Trovy Card-Cut UGC",
+      "version": "card cut (control winner)",
+      "width": 720,
+      "height": 1280,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:18",
+      "duration": 17.0,
+      "video": "media/finals/trovy-cardcut.mp4",
+      "poster": "media/posters/trovy-cardcut.jpg",
+      "status": "final",
+      "note": "Trovy HELOC ad made for Andy's board. Filed under The Assist because it is Andy work.",
+      "source": "/workspace/ads/trovy/chase-ugc/video-a-cardcut.mp4",
+      "size_mb": 3.5
+    },
+    {
+      "id": "infinite-speed-to-lead",
+      "brand": "Infinite AI",
+      "category": "Infinite AI videos",
+      "group": "UGC · speed-to-lead demo",
+      "title": "Speed-to-Lead Demo (UGC)",
+      "version": "v1",
+      "width": 1280,
+      "height": 720,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:18",
+      "duration": 8.0,
+      "video": "media/finals/infinite-speed-to-lead.mp4",
+      "poster": "media/posters/infinite-speed-to-lead.jpg",
+      "status": "final",
+      "note": "",
+      "source": "/workspace/infinite-media/infinite-ai-ugc-speed-to-lead-demo_a4bf59c6.mp4",
+      "size_mb": 1.9
+    },
+    {
+      "id": "infinite-control-tower",
+      "brand": "Infinite AI",
+      "category": "Infinite AI videos",
+      "group": "AI Department Control Tower",
+      "title": "AI Department Control Tower",
+      "version": "vertical",
+      "width": 784,
+      "height": 1168,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:16",
+      "duration": 15.0,
+      "video": "media/finals/infinite-control-tower.mp4",
+      "poster": "media/posters/infinite-control-tower.jpg",
+      "status": "final",
+      "note": "imagine-sales.mp4 in uploads is the exact same file.",
+      "source": "/workspace/uploads/ai-department-control-tower.mp4",
+      "size_mb": 3.4
+    },
+    {
       "id": "blast-furnace-take1",
+      "brand": "Revboo",
       "category": "Seedance originals (made by Chase)",
       "group": "Blast Furnace / Change the Creative",
       "title": "Blast Furnace / Change the Creative",
       "version": "take 1 · Seedance",
+      "width": 1080,
+      "height": 1920,
       "date": "Sep 27, 2026",
       "datetime": "2026-09-27T22:30:48",
       "duration": 15.1,
@@ -169,12 +619,14 @@
       "poster": "media/posters/blast-furnace-take1.jpg",
       "status": "final",
       "note": "Made about 10:30 PM MT on Sep 27.",
+      "source": "/workspace/refs/hf/hf_20260928_043048_b9755242-d220-41de-8935-3936d2143bcb.mp4",
       "size_mb": 3.4
     }
   ],
   "clips": [
     {
       "id": "pi-k5",
+      "brand": "Legal/PI",
       "name": "Phone on desk – green screen",
       "categories": [
         "Phones & Scrolling",
@@ -190,11 +642,12 @@
       "duration": 5.0,
       "video": "media/clips/pi-k5.mp4",
       "poster": "media/posters/pi-k5.jpg",
-      "source": "pi/k5.mp4",
+      "source": "/workspace/revboo/pi/k5.mp4",
       "size_mb": 0.27
     },
     {
       "id": "pi-k4",
+      "brand": "Legal/PI",
       "name": "Courthouse attorney – golden hour",
       "categories": [
         "Legal/PI",
@@ -210,11 +663,12 @@
       "duration": 5.0,
       "video": "media/clips/pi-k4.mp4",
       "poster": "media/posters/pi-k4.jpg",
-      "source": "pi/k4.mp4",
+      "source": "/workspace/revboo/pi/k4.mp4",
       "size_mb": 0.71
     },
     {
       "id": "pi-k3",
+      "brand": "Legal/PI",
       "name": "Worried driver on phone – roadside, night",
       "categories": [
         "Legal/PI",
@@ -230,11 +684,12 @@
       "duration": 5.0,
       "video": "media/clips/pi-k3.mp4",
       "poster": "media/posters/pi-k3.jpg",
-      "source": "pi/k3.mp4",
+      "source": "/workspace/revboo/pi/k3.mp4",
       "size_mb": 0.56
     },
     {
       "id": "pi-k2",
+      "brand": "Legal/PI",
       "name": "Rain intersection – night headlights",
       "categories": [
         "Legal/PI",
@@ -250,11 +705,12 @@
       "duration": 5.0,
       "video": "media/clips/pi-k2.mp4",
       "poster": "media/posters/pi-k2.jpg",
-      "source": "pi/k2.mp4",
+      "source": "/workspace/revboo/pi/k2.mp4",
       "size_mb": 1.11
     },
     {
       "id": "remake-r6",
+      "brand": "Revboo",
       "name": "Couch guy lights up & taps – big grin",
       "categories": [
         "People/Reactions",
@@ -270,11 +726,12 @@
       "duration": 5.0,
       "video": "media/clips/remake-r6.mp4",
       "poster": "media/posters/remake-r6.jpg",
-      "source": "remake/r6.mp4",
+      "source": "/workspace/revboo/remake/r6.mp4",
       "size_mb": 0.49
     },
     {
       "id": "remake-r5",
+      "brand": "Revboo",
       "name": "Sneaker drops into black water – splash",
       "categories": [
         "Products",
@@ -289,11 +746,12 @@
       "duration": 5.0,
       "video": "media/clips/remake-r5.mp4",
       "poster": "media/posters/remake-r5.jpg",
-      "source": "remake/r5.mp4",
+      "source": "/workspace/revboo/remake/r5.mp4",
       "size_mb": 1.07
     },
     {
       "id": "remake-r4",
+      "brand": "Revboo",
       "name": "Sneaker lights off & levitates – orange glow",
       "categories": [
         "Products",
@@ -308,11 +766,12 @@
       "duration": 5.0,
       "video": "media/clips/remake-r4.mp4",
       "poster": "media/posters/remake-r4.jpg",
-      "source": "remake/r4.mp4",
+      "source": "/workspace/revboo/remake/r4.mp4",
       "size_mb": 0.59
     },
     {
       "id": "pi-k1",
+      "brand": "Legal/PI",
       "name": "Hand holding phone – green screen",
       "categories": [
         "Phones & Scrolling"
@@ -327,11 +786,12 @@
       "duration": 5.0,
       "video": "media/clips/pi-k1.mp4",
       "poster": "media/posters/pi-k1.jpg",
-      "source": "pi/k1.mp4",
+      "source": "/workspace/revboo/pi/k1.mp4",
       "size_mb": 0.33
     },
     {
       "id": "remake-r3",
+      "brand": "Revboo",
       "name": "Bored couch scroller – yawns at ~3s",
       "categories": [
         "People/Reactions",
@@ -347,11 +807,12 @@
       "duration": 5.0,
       "video": "media/clips/remake-r3.mp4",
       "poster": "media/posters/remake-r3.jpg",
-      "source": "remake/r3.mp4",
+      "source": "/workspace/revboo/remake/r3.mp4",
       "size_mb": 0.33
     },
     {
       "id": "remake-r2",
+      "brand": "Revboo",
       "name": "Boring sneaker – turntable, white wall",
       "categories": [
         "Products"
@@ -365,11 +826,12 @@
       "duration": 5.0,
       "video": "media/clips/remake-r2.mp4",
       "poster": "media/posters/remake-r2.jpg",
-      "source": "remake/r2.mp4",
+      "source": "/workspace/revboo/remake/r2.mp4",
       "size_mb": 0.27
     },
     {
       "id": "remake-r1",
+      "brand": "Revboo",
       "name": "POV hand – blank white phone screen",
       "categories": [
         "Phones & Scrolling"
@@ -384,11 +846,12 @@
       "duration": 5.0,
       "video": "media/clips/remake-r1.mp4",
       "poster": "media/posters/remake-r1.jpg",
-      "source": "remake/r1.mp4",
+      "source": "/workspace/revboo/remake/r1.mp4",
       "size_mb": 0.33
     },
     {
       "id": "grave-g6",
+      "brand": "Revboo",
       "name": "Thumb scrolling a feed – close-up",
       "categories": [
         "Phones & Scrolling"
@@ -403,11 +866,12 @@
       "duration": 5.0,
       "video": "media/clips/grave-g6.mp4",
       "poster": "media/posters/grave-g6.jpg",
-      "source": "grave/g6.mp4",
+      "source": "/workspace/revboo/grave/g6.mp4",
       "size_mb": 0.57
     },
     {
       "id": "grave-g5",
+      "brand": "Revboo",
       "name": "Creator points at camera – pink neon",
       "categories": [
         "People/Reactions"
@@ -421,11 +885,12 @@
       "duration": 5.0,
       "video": "media/clips/grave-g5.mp4",
       "poster": "media/posters/grave-g5.jpg",
-      "source": "grave/g5.mp4",
+      "source": "/workspace/revboo/grave/g5.mp4",
       "size_mb": 0.63
     },
     {
       "id": "grave-g4",
+      "brand": "Revboo",
       "name": "Phone erupts in hearts – dark desk",
       "categories": [
         "Phones & Scrolling",
@@ -440,11 +905,12 @@
       "duration": 5.0,
       "video": "media/clips/grave-g4.mp4",
       "poster": "media/posters/grave-g4.jpg",
-      "source": "grave/g4.mp4",
+      "source": "/workspace/revboo/grave/g4.mp4",
       "size_mb": 0.82
     },
     {
       "id": "grave-g3",
+      "brand": "Revboo",
       "name": "Grave bursts open – orange fire & dirt",
       "categories": [
         "Transitions/FX"
@@ -458,11 +924,12 @@
       "duration": 5.0,
       "video": "media/clips/grave-g3.mp4",
       "poster": "media/posters/grave-g3.jpg",
-      "source": "grave/g3.mp4",
+      "source": "/workspace/revboo/grave/g3.mp4",
       "size_mb": 0.76
     },
     {
       "id": "grave-g2",
+      "brand": "Revboo",
       "name": "Media buyer on tombstone – big shrug",
       "categories": [
         "People/Reactions"
@@ -476,11 +943,12 @@
       "duration": 5.0,
       "video": "media/clips/grave-g2.mp4",
       "poster": "media/posters/grave-g2.jpg",
-      "source": "grave/g2.mp4",
+      "source": "/workspace/revboo/grave/g2.mp4",
       "size_mb": 0.3
     },
     {
       "id": "grave-g1",
+      "brand": "Revboo",
       "name": "Foggy graveyard – blank tombstones, night",
       "categories": [
         "Transitions/FX"
@@ -494,11 +962,12 @@
       "duration": 5.0,
       "video": "media/clips/grave-g1.mp4",
       "poster": "media/posters/grave-g1.jpg",
-      "source": "grave/g1.mp4",
+      "source": "/workspace/revboo/grave/g1.mp4",
       "size_mb": 0.97
     },
     {
       "id": "chase-asset2",
+      "brand": "Revboo",
       "name": "Chase card – NEW ADS EVERY WEEK",
       "categories": [
         "Brand cards & Logo"
@@ -515,11 +984,12 @@
       "duration": 4.1,
       "video": "media/clips/chase-asset2.mp4",
       "poster": "media/posters/chase-asset2.jpg",
-      "source": "chase-asset2.mp4",
+      "source": "/workspace/revboo/chase-asset2.mp4",
       "size_mb": 0.65
     },
     {
       "id": "chase-asset1",
+      "brand": "Revboo",
       "name": "Chase card – print ad shatters to Revboo logo",
       "categories": [
         "Brand cards & Logo",
@@ -537,11 +1007,12 @@
       "duration": 4.1,
       "video": "media/clips/chase-asset1.mp4",
       "poster": "media/posters/chase-asset1.jpg",
-      "source": "chase-asset1.mp4",
+      "source": "/workspace/revboo/chase-asset1.mp4",
       "size_mb": 0.9
     },
     {
       "id": "v2-c1",
+      "brand": "Revboo",
       "name": "Dusty car stalls – dim garage",
       "categories": [
         "Cars/Engine"
@@ -556,11 +1027,12 @@
       "duration": 5.0,
       "video": "media/clips/v2-c1.mp4",
       "poster": "media/posters/v2-c1.jpg",
-      "source": "v2/c1.mp4",
+      "source": "/workspace/revboo/v2/c1.mp4",
       "size_mb": 0.33
     },
     {
       "id": "v2-c2",
+      "brand": "Revboo",
       "name": "Dashboard warning light – night",
       "categories": [
         "Cars/Engine"
@@ -574,11 +1046,12 @@
       "duration": 5.0,
       "video": "media/clips/v2-c2.mp4",
       "poster": "media/posters/v2-c2.jpg",
-      "source": "v2/c2.mp4",
+      "source": "/workspace/revboo/v2/c2.mp4",
       "size_mb": 0.27
     },
     {
       "id": "v2-c3",
+      "brand": "Revboo",
       "name": "Stressed media buyer at laptop",
       "categories": [
         "People/Reactions"
@@ -592,11 +1065,12 @@
       "duration": 5.0,
       "video": "media/clips/v2-c3.mp4",
       "poster": "media/posters/v2-c3.jpg",
-      "source": "v2/c3.mp4",
+      "source": "/workspace/revboo/v2/c3.mp4",
       "size_mb": 0.6
     },
     {
       "id": "v2-c4",
+      "brand": "Revboo",
       "name": "Ignition button press – orange sparks",
       "categories": [
         "Cars/Engine",
@@ -613,11 +1087,12 @@
       "duration": 5.0,
       "video": "media/clips/v2-c4.mp4",
       "poster": "media/posters/v2-c4.jpg",
-      "source": "v2/c4.mp4",
+      "source": "/workspace/revboo/v2/c4.mp4",
       "size_mb": 0.58
     },
     {
       "id": "v2-c5",
+      "brand": "Revboo",
       "name": "Engine pistons – orange fire",
       "categories": [
         "Cars/Engine"
@@ -631,11 +1106,12 @@
       "duration": 5.0,
       "video": "media/clips/v2-c5.mp4",
       "poster": "media/posters/v2-c5.jpg",
-      "source": "v2/c5.mp4",
+      "source": "/workspace/revboo/v2/c5.mp4",
       "size_mb": 1.08
     },
     {
       "id": "v2-c6",
+      "brand": "Revboo",
       "name": "Revboo supercar hood, then launch – sunset",
       "categories": [
         "Cars/Engine",
@@ -651,11 +1127,12 @@
       "duration": 5.0,
       "video": "media/clips/v2-c6.mp4",
       "poster": "media/posters/v2-c6.jpg",
-      "source": "v2/c6.mp4",
+      "source": "/workspace/revboo/v2/c6.mp4",
       "size_mb": 0.92
     },
     {
       "id": "v2-c7",
+      "brand": "Revboo",
       "name": "Supercar through tunnel – sparks to sunset",
       "categories": [
         "Cars/Engine"
@@ -669,11 +1146,12 @@
       "duration": 5.0,
       "video": "media/clips/v2-c7.mp4",
       "poster": "media/posters/v2-c7.jpg",
-      "source": "v2/c7.mp4",
+      "source": "/workspace/revboo/v2/c7.mp4",
       "size_mb": 1.05
     },
     {
       "id": "car",
+      "brand": "Revboo",
       "name": "Revboo supercar hood – sunset (still)",
       "categories": [
         "Cars/Engine",
@@ -688,11 +1166,12 @@
       "duration": 3.0,
       "video": "media/clips/car.mp4",
       "poster": "media/posters/car.jpg",
-      "source": "car.mp4",
+      "source": "/workspace/revboo/car.mp4",
       "size_mb": 0.26
     },
     {
       "id": "rock",
+      "brand": "Revboo",
       "name": "Revboo rock logo – molten title card",
       "categories": [
         "Brand cards & Logo"
@@ -706,11 +1185,12 @@
       "duration": 3.0,
       "video": "media/clips/rock.mp4",
       "poster": "media/posters/rock.jpg",
-      "source": "rock.mp4",
+      "source": "/workspace/revboo/rock.mp4",
       "size_mb": 0.27
     },
     {
       "id": "s1",
+      "brand": "Revboo",
       "name": "Text card – \"YOUR ADS ARE TIRED.\"",
       "categories": [
         "Brand cards & Logo"
@@ -724,11 +1204,12 @@
       "duration": 2.4,
       "video": "media/clips/s1.mp4",
       "poster": "media/posters/s1.jpg",
-      "source": "s1.mp4",
+      "source": "/workspace/revboo/s1.mp4",
       "size_mb": 0.01
     },
     {
       "id": "s2",
+      "brand": "Revboo",
       "name": "Text card – \"SAME CREATIVE. SAME RESULTS. EVERY WEEK.\"",
       "categories": [
         "Brand cards & Logo"
@@ -742,11 +1223,12 @@
       "duration": 2.2,
       "video": "media/clips/s2.mp4",
       "poster": "media/posters/s2.jpg",
-      "source": "s2.mp4",
+      "source": "/workspace/revboo/s2.mp4",
       "size_mb": 0.01
     },
     {
       "id": "s5",
+      "brand": "Revboo",
       "name": "Text card – \"FRESH PERFORMANCE ADS. EVERY WEEK. DONE FOR YOU.\"",
       "categories": [
         "Brand cards & Logo"
@@ -760,11 +1242,12 @@
       "duration": 2.6,
       "video": "media/clips/s5.mp4",
       "poster": "media/posters/s5.jpg",
-      "source": "s5.mp4",
+      "source": "/workspace/revboo/s5.mp4",
       "size_mb": 0.02
     },
     {
       "id": "s6",
+      "brand": "Revboo",
       "name": "End card – Revboo logo + \"OLD ADS IN. BANGERS OUT.\"",
       "categories": [
         "Brand cards & Logo"
@@ -778,11 +1261,12 @@
       "duration": 3.2,
       "video": "media/clips/s6.mp4",
       "poster": "media/posters/s6.jpg",
-      "source": "s6.mp4",
+      "source": "/workspace/revboo/s6.mp4",
       "size_mb": 0.03
     },
     {
       "id": "v",
+      "brand": "Revboo",
       "name": "Stills promo v1 – silent picture cut",
       "categories": [
         "Brand cards & Logo"
@@ -796,8 +1280,80 @@
       "duration": 16.4,
       "video": "media/clips/v.mp4",
       "poster": "media/posters/v.jpg",
-      "source": "v.mp4",
+      "source": "/workspace/revboo/v.mp4",
       "size_mb": 0.57
+    },
+    {
+      "id": "assist-03-office-mom-grok",
+      "brand": "The Assist",
+      "name": "Assist host – \"office mom\" talking head (Grok raw, wide)",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [],
+      "note": "Raw Grok output, landscape. Not in a finished ad yet.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:45",
+      "duration": 15.0,
+      "video": "media/clips/assist-03-office-mom-grok.mp4",
+      "poster": "media/posters/assist-03-office-mom-grok.jpg",
+      "source": "/workspace/outreach/andy-board/awesome/v2/videos/03-office-mom-grok.mp4",
+      "size_mb": 0.94
+    },
+    {
+      "id": "assist-01-dave-vertical",
+      "brand": "The Assist",
+      "name": "Assist host – \"Dave stole my idea\" talking head (clean vertical)",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "Dave Hepeating UGC"
+      ],
+      "note": "Clean vertical, no captions. Base for the caption variants.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:44",
+      "duration": 15.0,
+      "video": "media/clips/assist-01-dave-vertical.mp4",
+      "poster": "media/posters/assist-01-dave-vertical.jpg",
+      "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-vertical.mp4",
+      "size_mb": 1.38
+    },
+    {
+      "id": "assist-02-mug-their-line-grok",
+      "brand": "The Assist",
+      "name": "Assist host – coffee mug talking head (Grok raw, wide)",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [],
+      "note": "Raw Grok output, landscape. Not in a finished ad yet.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:44",
+      "duration": 15.0,
+      "video": "media/clips/assist-02-mug-their-line-grok.mp4",
+      "poster": "media/posters/assist-02-mug-their-line-grok.jpg",
+      "source": "/workspace/outreach/andy-board/awesome/v2/videos/02-mug-their-line-grok.mp4",
+      "size_mb": 1.04
+    },
+    {
+      "id": "assist-01-dave-grok",
+      "brand": "The Assist",
+      "name": "Assist host – kitchen talking head, Dave take (Grok raw, wide)",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "Dave Hepeating UGC"
+      ],
+      "note": "Raw Grok output, landscape.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:43",
+      "duration": 15.0,
+      "video": "media/clips/assist-01-dave-grok.mp4",
+      "poster": "media/posters/assist-01-dave-grok.jpg",
+      "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-grok.mp4",
+      "size_mb": 0.84
     }
   ],
   "brand_assets": [

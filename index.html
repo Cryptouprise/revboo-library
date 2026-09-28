@@ -39,6 +39,14 @@ summary{cursor:pointer;font-weight:700;color:#ddd}
 .older{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:12px;margin-top:12px}
 .older .o-item video{width:100%;aspect-ratio:9/16;background:#000;border-radius:10px}
 .older .o-item div{font-size:12px;color:var(--mut);margin-top:4px}
+/* brand tabs */
+.tabs{max-width:1280px;margin:auto;display:flex;gap:8px;padding:0 20px 12px;overflow-x:auto;scrollbar-width:none}
+.tabs a{flex:none;text-decoration:none;color:#ddd;background:#1a1a1f;border:1px solid var(--line);border-radius:12px;padding:10px 16px;font-family:Anton;font-size:18px;letter-spacing:.5px;text-transform:uppercase;white-space:nowrap}
+.tabs a small{font-family:Inter;font-size:12px;color:var(--mut);margin-left:6px;font-weight:700}
+.tabs a.on{background:var(--o);border-color:var(--o);color:#000}.tabs a.on small{color:#000}
+.tabs a.zero{opacity:.45}
+.bchip{background:#2a1a12;color:#ffb38f}
+.brandnote{color:var(--mut);margin:-4px 0 18px;font-size:15px}
 /* clips */
 .tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:20px}
 .tools button{background:#1d1d22;color:#eee;border:1px solid var(--line);border-radius:99px;padding:8px 14px;font-weight:600;cursor:pointer;font-size:14px}
@@ -69,63 +77,69 @@ footer{color:var(--mut);text-align:center;font-size:13px;padding:30px}
 </head>
 <body>
 <header><div class="bar"><div class="logo">REV<b>BOO</b> LIBRARY</div>
-<nav><a href="#ads">Finished Ads</a><a href="#clips">Clip Library</a><a href="#brand">Brand Assets</a></nav></div></header>
+<nav><a href="#ads">Finished Ads</a><a href="#clips">Clip Library</a><a href="#brand" id="navBrand">Brand Assets</a></nav></div><div class="tabs" id="tabs"></div></header>
 <main>
 <div class="hero"><h1>Revboo <span>Video Library</span></h1>
-<p>Every finished ad and every reusable clip in one place. Press play on any ad. Hover (or tap) a clip to preview it. Newest first.</p></div>
+<p>Every finished ad and reusable clip, filed by brand. Pick a brand above, or stay on All. Press play on any ad. Hover (or tap) a clip to preview it. Newest first.</p></div>
 
-<section id="ads"><h2>Finished <span>Ads</span></h2><p class="sub">The latest version of each ad is highlighted. Older versions are tucked under it.</p>
+<section id="ads"><h2 id="adsTitle">Finished <span>Ads</span></h2><p class="sub">The latest version of each ad is highlighted. Older versions are tucked under it.</p>
 <div id="adsGrid"></div></section>
 
-<section id="clips"><h2>Clip <span>Library</span></h2><p class="sub">Short source clips you can reuse in new ads. Orange notes = things to fix (blur, crop) before reuse.</p>
+<section id="clips"><h2 id="clipsTitle">Clip <span>Library</span></h2><p class="sub">Short source clips you can reuse in new ads. Orange notes = things to fix (blur, crop) before reuse.</p>
 <div class="tools" id="filters"></div>
 <div class="grid" id="clipGrid"></div><div class="empty" id="empty" hidden>No clips match.</div></section>
 
-<section id="brand"><h2>Brand <span>Assets</span></h2><p class="sub">Chase's own cards, the font and the color.</p>
+<section id="brand"><h2>Revboo Brand <span>Assets</span></h2><p class="sub">Chase's own cards, the font and the color.</p>
 <div class="brand" id="brandGrid"></div></section>
 
-<div class="howto"><b>Adding a video:</b> drop the mp4 (and a poster jpg) into <code>media/</code>, then add one entry to <code>manifest.json</code>. The page updates itself.</div>
+<div class="howto"><b>Adding a video:</b> drop the mp4 (and a poster jpg) into <code>media/</code>, then add one entry to <code>manifest.json</code> with its <code>brand</code>. The page files it under that brand tab automatically. See README "Filing rules".</div>
 </main>
 <footer>revboo.video · built from manifest.json</footer>
 <script>
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmt=s=>{s=Math.round(s);return Math.floor(s/60)+':'+String(s%60).padStart(2,'0')};
 const byNew=(a,b)=>(b.datetime||b.date||'').localeCompare(a.datetime||a.date||'');
+const BRAND_NOTES={'Revboo':'Promos for Revboo itself.','Legal/PI':'Ads aimed at attorneys and PI firms (including Revboo ads that target attorneys).',
+ 'The Assist':'Andy / LeadRoller / The Assist newsletter ads (plus the Trovy UGC made for Andy).','Infinite AI':'myinfinite.ai AI sales employee videos.',
+ 'Solar Freedom':'breakyoursolarcontract.com ads.','Generic/Other':'Anything that doesn\u2019t belong to a brand above.'};
+const touch=matchMedia('(hover:none)').matches;
 fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(m=>{
   document.documentElement.style.setProperty('--o',m.brand?.color||'#FF4B0A');
-  // ---- finals grouped by ad, newest version featured
-  const finals=(m.finals||[]);
-  const catOrder=[...new Set(finals.slice().sort(byNew).map(f=>f.category||'Revboo ads'))];
-  catOrder.sort((a,b)=>(a==='Revboo ads'?-1:b==='Revboo ads'?1:0));
-  const adCard=g=>{const f=g[0],old=g.slice(1);return `
-   <div class="ad latest"><video controls playsinline preload="metadata" poster="${esc(f.poster)}" src="${esc(f.video)}"></video>
+  const brands=m.brands||['Revboo','Legal/PI','The Assist','Infinite AI','Solar Freedom','Generic/Other'];
+  const finals=(m.finals||[]).map(f=>({...f,brand:f.brand||'Generic/Other'}));
+  const clipsAll=(m.clips||[]).map(c=>({...c,brand:c.brand||'Generic/Other'})).sort(byNew);
+  const count=b=>finals.filter(f=>b==='All'||f.brand===b).length+clipsAll.filter(c=>b==='All'||c.brand===b).length;
+  const tabsEl=document.getElementById('tabs');
+  const cur=()=>{const h=decodeURIComponent((location.hash.match(/brand=([^&]+)/)||[])[1]||'All');return h==='All'||brands.includes(h)?h:'All'};
+  function drawTabs(b){tabsEl.innerHTML=['All',...brands].map(x=>`<a href="#brand=${encodeURIComponent(x)}" class="${x===b?'on':''} ${count(x)?'':'zero'}">${esc(x)}<small>${count(x)}</small></a>`).join('')}
+  const adCard=(g,showBrand)=>{const f=g[0],old=g.slice(1);return `
+   <div class="ad latest"><video style="${f.width?`aspect-ratio:${f.width}/${f.height}`:''}" controls playsinline preload="metadata" poster="${esc(f.poster)}" src="${esc(f.video)}"></video>
     <h3>${esc(f.title)}</h3>
-    <div><span class="chip o">LATEST · ${esc(f.version)}</span>${f.status==='rejected'?'<span class="chip red">REJECTED</span>':''}</div>
+    <div>${showBrand?`<span class="chip bchip">${esc(f.brand)}</span>`:''}<span class="chip o">LATEST · ${esc(f.version)}</span>${f.status==='rejected'?'<span class="chip red">REJECTED</span>':''}</div>
     <div class="meta">${esc(f.date)} · ${fmt(f.duration)} long</div>
     ${f.note?`<div class="note">${esc(f.note)}</div>`:''}
     <a class="dl" href="${esc(f.video)}" download>⬇ Download</a>
     ${old.length?`<details><summary>Older versions (${old.length})</summary><div class="older">${old.map(o=>`
-      <div class="o-item"><video controls playsinline preload="none" poster="${esc(o.poster)}" src="${esc(o.video)}"></video>
+      <div class="o-item"><video style="${o.width?`aspect-ratio:${o.width}/${o.height}`:''}" controls playsinline preload="none" poster="${esc(o.poster)}" src="${esc(o.video)}"></video>
       <div><span class="chip${o.status==='rejected'?' red':''}">${esc(o.version)}</span>${o.status==='rejected'?'<span class="chip red">REJECTED</span>':''}<br>${esc(o.date)} · ${fmt(o.duration)}<br>${o.note?esc(o.note)+'<br>':''}<a class="dl" href="${esc(o.video)}" download>⬇ Download</a></div></div>`).join('')}</div></details>`:''}
    </div>`};
-  document.getElementById('adsGrid').innerHTML=catOrder.map(cat=>{
-    const groups={};finals.filter(f=>(f.category||'Revboo ads')===cat).forEach(f=>(groups[f.group||f.title]??=[]).push(f));
-    const gl=Object.values(groups).map(g=>g.sort(byNew)).sort((a,b)=>byNew(a[0],b[0]));
-    return `<h3 class="cat">${esc(cat)}</h3><div class="ads">${gl.map(adCard).join('')}</div>`}).join('');
+  const groupsOf=list=>{const g={};list.forEach(f=>(g[f.brand+'|'+(f.group||f.title)]??=[]).push(f));return Object.values(g).map(x=>x.sort(byNew)).sort((a,b)=>byNew(a[0],b[0]))};
+  function drawAds(b){
+    const el=document.getElementById('adsGrid');
+    const list=finals.filter(f=>b==='All'||f.brand===b);
+    document.getElementById('adsTitle').innerHTML=(b==='All'?'':esc(b)+' · ')+'Finished <span>Ads</span>';
+    if(!list.length){el.innerHTML='<p class="empty">Nothing filed here yet.</p>';return}
+    if(b==='All'){el.innerHTML=`<div class="ads">${groupsOf(list).map(g=>adCard(g,true)).join('')}</div>`;return}
+    const cats=[...new Set(list.slice().sort(byNew).map(f=>f.category||'Ads'))];
+    el.innerHTML=`<p class="brandnote">${esc(BRAND_NOTES[b]||'')}</p>`+cats.map(c=>`<h3 class="cat">${esc(c)}</h3><div class="ads">${groupsOf(list.filter(f=>(f.category||'Ads')===c)).map(g=>adCard(g,false)).join('')}</div>`).join('');
+  }
   // ---- clips
-  const clips=(m.clips||[]).slice().sort(byNew);
-  const cats=['All',...new Set(clips.flatMap(c=>c.categories||[]))];
+  let cat='All',q='',brandNow='All';
   const order=['All','Cars/Engine','Phones & Scrolling','People/Reactions','Legal/PI','Products','Brand cards & Logo','Transitions/FX'];
-  cats.sort((a,b)=>(order.indexOf(a)+1||99)-(order.indexOf(b)+1||99));
-  let cat='All',q='';
   const fl=document.getElementById('filters');
-  fl.innerHTML=cats.map(c=>`<button data-c="${esc(c)}" class="${c==='All'?'on':''}">${esc(c)}</button>`).join('')+'<input id="q" type="search" placeholder="Search clips (e.g. phone, car, attorney)">';
-  fl.querySelectorAll('button').forEach(b=>b.onclick=()=>{cat=b.dataset.c;fl.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));draw()});
-  document.getElementById('q').oninput=e=>{q=e.target.value.toLowerCase();draw()};
-  const touch=matchMedia('(hover:none)').matches;
   function card(c){return `<div class="clip"><div class="vw"><video muted loop playsinline preload="none" poster="${esc(c.poster)}" src="${esc(c.video)}"></video>
      <span class="play">${touch?'tap to play':'hover to play'}</span><span class="dur">${fmt(c.duration)}</span></div>
-     <div class="info"><div class="nm">${esc(c.name)}</div><div class="small">${esc(c.date)}</div>
+     <div class="info"><div class="nm">${esc(c.name)}</div><div class="small">${esc(c.date)}${brandNow==='All'?' · '+esc(c.brand):''}</div>
      <div>${(c.categories||[]).map(x=>`<span class="chip">${esc(x)}</span>`).join('')}</div>
      <div class="small">Used in: ${(c.used_in||[]).length?c.used_in.map(esc).join(', '):'not used yet'}</div>
      ${c.note?`<div class="warn">⚠ ${esc(c.note)}</div>`:''}
@@ -134,18 +148,31 @@ fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(m=>{
     w.addEventListener('mouseenter',()=>{if(!touch)v.play().catch(()=>{})});
     w.addEventListener('mouseleave',()=>{if(!touch){v.pause();v.currentTime=0}});
     w.addEventListener('click',()=>{v.paused?v.play().catch(()=>{}):v.pause()});})}
-  function draw(){const g=document.getElementById('clipGrid');
-    const list=clips.filter(c=>(cat==='All'||(c.categories||[]).includes(cat))&&(!q||[c.name,c.note,...(c.categories||[]),...(c.used_in||[])].join(' ').toLowerCase().includes(q)));
-    g.innerHTML=list.map(card).join('');document.getElementById('empty').hidden=list.length>0;wire(g)}
-  draw();
-  // ---- brand
+  const brandClips=()=>clipsAll.filter(c=>brandNow==='All'||c.brand===brandNow);
+  function drawFilters(){
+    const cats=['All',...new Set(brandClips().flatMap(c=>c.categories||[]))].sort((a,b)=>(order.indexOf(a)+1||99)-(order.indexOf(b)+1||99));
+    if(!cats.includes(cat))cat='All';
+    fl.innerHTML=cats.map(c=>`<button data-c="${esc(c)}" class="${c===cat?'on':''}">${esc(c)}</button>`).join('')+`<input id="q" type="search" placeholder="Search clips (e.g. phone, car, attorney)" value="${esc(q)}">`;
+    fl.querySelectorAll('button').forEach(b=>b.onclick=()=>{cat=b.dataset.c;fl.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));drawClips()});
+    document.getElementById('q').oninput=e=>{q=e.target.value.toLowerCase();drawClips()};
+  }
+  function drawClips(){const g=document.getElementById('clipGrid');
+    document.getElementById('clipsTitle').innerHTML=(brandNow==='All'?'':esc(brandNow)+' · ')+'Clip <span>Library</span>';
+    const list=brandClips().filter(c=>(cat==='All'||(c.categories||[]).includes(cat))&&(!q||[c.name,c.note,c.brand,...(c.categories||[]),...(c.used_in||[])].join(' ').toLowerCase().includes(q)));
+    g.innerHTML=list.map(card).join('');const e=document.getElementById('empty');e.hidden=list.length>0;e.textContent=brandClips().length?'No clips match.':'No clips filed under this brand yet.';wire(g)}
+  // ---- brand assets (Revboo)
   const bg=document.getElementById('brandGrid');
-  const ba=(m.brand_assets||[]).map(id=>clips.find(c=>c.id===id)).filter(Boolean);
+  const ba=(m.brand_assets||[]).map(id=>clipsAll.find(c=>c.id===id)).filter(Boolean);
   bg.innerHTML=ba.map(c=>`<div class="bcard"><video controls playsinline preload="metadata" poster="${esc(c.poster)}" src="${esc(c.video)}"></video>
      <h3>${esc(c.name)}</h3><div class="small" style="color:var(--mut);font-size:13px">${esc(c.date)} · ${fmt(c.duration)}</div>${c.note?`<div class="note">⚠ ${esc(c.note)}</div>`:''}<a class="dl" href="${esc(c.video)}" download>⬇ Download</a></div>`).join('')+
    `<div class="bcard"><div class="swatch"></div><h3>Revboo Orange</h3><div class="anton" style="font-size:32px;color:var(--o)">${esc(m.brand?.color||'#FF4B0A')}</div><p class="meta">Use for the punchline word and highlights. Everything else: white on black.</p></div>
     <div class="bcard"><div class="fontdemo">SEND US YOUR <span style="color:var(--o)">WORST AD.</span></div><h3>Font: Anton</h3><p class="meta">Free on Google Fonts. All caps, white line + orange punchline, black outline.</p><a class="dl" href="https://fonts.google.com/specimen/Anton" target="_blank" rel="noopener">Get Anton ↗</a></div>
     <div class="bcard"><div class="fontdemo" style="font-size:44px">REVBOO<span style="color:var(--o)">.VIDEO</span></div><h3>Brand name</h3><p class="meta">Always exactly "Revboo" and "revboo.video".</p></div>`;
+  function route(){const b=cur();brandNow=b;drawTabs(b);drawAds(b);drawFilters();drawClips();
+    const show=b==='All'||b==='Revboo';document.getElementById('brand').hidden=!show;document.getElementById('navBrand').hidden=!show;
+    document.title=(b==='All'?'':b+' · ')+'Revboo Video Library'}
+  addEventListener('hashchange',()=>{if(/brand=/.test(location.hash)||location.hash==='')route()});
+  route();
 }).catch(e=>{document.querySelector('main').insertAdjacentHTML('afterbegin','<p style="color:#f88">Could not load manifest.json: '+e+'</p>')});
 </script>
 </body></html>
