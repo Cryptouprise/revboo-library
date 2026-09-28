@@ -1,0 +1,754 @@
+{
+  "site": "Revboo Video Library",
+  "brand": {
+    "color": "#FF4B0A",
+    "font": "Anton",
+    "site": "revboo.video"
+  },
+  "finals": [
+    {
+      "id": "counselor-v1",
+      "group": "Your Move, Counselor",
+      "title": "Your Move, Counselor",
+      "version": "v1",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T11:43:54",
+      "duration": 24.0,
+      "video": "media/finals/counselor-v1.mp4",
+      "poster": "media/posters/counselor-v1.jpg",
+      "status": "final",
+      "note": "",
+      "size_mb": 5.4
+    },
+    {
+      "id": "pi-attorneys",
+      "group": "PI Attorneys",
+      "title": "PI Attorneys",
+      "version": "v1",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T10:04:45",
+      "duration": 24.0,
+      "video": "media/finals/pi-attorneys.mp4",
+      "poster": "media/posters/pi-attorneys.jpg",
+      "status": "final",
+      "note": "",
+      "size_mb": 5.4
+    },
+    {
+      "id": "remake",
+      "group": "The Remake",
+      "title": "The Remake",
+      "version": "v1",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:56:47",
+      "duration": 23.9,
+      "video": "media/finals/remake.mp4",
+      "poster": "media/posters/remake.jpg",
+      "status": "final",
+      "note": "",
+      "size_mb": 5.4
+    },
+    {
+      "id": "graveyard-v2",
+      "group": "The Ad Graveyard",
+      "title": "The Ad Graveyard",
+      "version": "v2 (retimed)",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:02:09",
+      "duration": 23.5,
+      "video": "media/finals/graveyard-v2.mp4",
+      "poster": "media/posters/graveyard-v2.jpg",
+      "status": "final",
+      "note": "",
+      "size_mb": 5.6
+    },
+    {
+      "id": "graveyard-v1",
+      "group": "The Ad Graveyard",
+      "title": "The Ad Graveyard",
+      "version": "v1",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T07:56:23",
+      "duration": 19.0,
+      "video": "media/finals/graveyard-v1.mp4",
+      "poster": "media/posters/graveyard-v1.jpg",
+      "status": "final",
+      "note": "",
+      "size_mb": 5.1
+    },
+    {
+      "id": "promo-v3",
+      "group": "The Revenue Engine",
+      "title": "The Revenue Engine",
+      "version": "v3 (real engine SFX)",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T07:29:43",
+      "duration": 17.5,
+      "video": "media/finals/promo-v3.mp4",
+      "poster": "media/posters/promo-v3.jpg",
+      "status": "final",
+      "note": "",
+      "size_mb": 3.8
+    },
+    {
+      "id": "promo-v2",
+      "group": "The Revenue Engine",
+      "title": "The Revenue Engine",
+      "version": "v2",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:04:08",
+      "duration": 17.5,
+      "video": "media/finals/promo-v2.mp4",
+      "poster": "media/posters/promo-v2.jpg",
+      "status": "final",
+      "note": "",
+      "size_mb": 3.9
+    },
+    {
+      "id": "promo-v1",
+      "group": "The Revenue Engine",
+      "title": "The Revenue Engine",
+      "version": "v1 (stills)",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:56",
+      "duration": 16.4,
+      "video": "media/finals/promo-v1.mp4",
+      "poster": "media/posters/promo-v1.jpg",
+      "status": "rejected",
+      "note": "Rejected: stills slideshow. Kept for the archive.",
+      "size_mb": 1.7
+    }
+  ],
+  "clips": [
+    {
+      "id": "pi-k5",
+      "name": "Phone on desk – green screen",
+      "categories": [
+        "Phones & Scrolling",
+        "Legal/PI"
+      ],
+      "used_in": [
+        "PI Attorneys",
+        "Counselor"
+      ],
+      "note": "Green screen: key in your own screen content; fake the buzz with a frame shake.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:42:31",
+      "duration": 5.0,
+      "video": "media/clips/pi-k5.mp4",
+      "poster": "media/posters/pi-k5.jpg",
+      "source": "pi/k5.mp4",
+      "size_mb": 0.27
+    },
+    {
+      "id": "pi-k4",
+      "name": "Courthouse attorney – golden hour",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys",
+        "Counselor"
+      ],
+      "note": "Blur the fake building inscription (tracked). Tight crop at 3.6–4.8s works as a hero close-up.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:42:29",
+      "duration": 5.0,
+      "video": "media/clips/pi-k4.mp4",
+      "poster": "media/posters/pi-k4.jpg",
+      "source": "pi/k4.mp4",
+      "size_mb": 0.71
+    },
+    {
+      "id": "pi-k3",
+      "name": "Worried driver on phone – roadside, night",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "PI Attorneys"
+      ],
+      "note": "Blur the fake license plate at bottom-left.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:42:27",
+      "duration": 5.0,
+      "video": "media/clips/pi-k3.mp4",
+      "poster": "media/posters/pi-k3.jpg",
+      "source": "pi/k3.mp4",
+      "size_mb": 0.56
+    },
+    {
+      "id": "pi-k2",
+      "name": "Rain intersection – night headlights",
+      "categories": [
+        "Legal/PI",
+        "Cars/Engine"
+      ],
+      "used_in": [
+        "PI Attorneys",
+        "Counselor"
+      ],
+      "note": "Blur the license plate and BMW badge (tracked in pi/blurtrack.json).",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:42:26",
+      "duration": 5.0,
+      "video": "media/clips/pi-k2.mp4",
+      "poster": "media/posters/pi-k2.jpg",
+      "source": "pi/k2.mp4",
+      "size_mb": 1.11
+    },
+    {
+      "id": "remake-r6",
+      "name": "Couch guy lights up & taps – big grin",
+      "categories": [
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "The Remake",
+        "Counselor"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:40:42",
+      "duration": 5.0,
+      "video": "media/clips/remake-r6.mp4",
+      "poster": "media/posters/remake-r6.jpg",
+      "source": "remake/r6.mp4",
+      "size_mb": 0.49
+    },
+    {
+      "id": "remake-r5",
+      "name": "Sneaker drops into black water – splash",
+      "categories": [
+        "Products",
+        "Transitions/FX"
+      ],
+      "used_in": [
+        "The Remake"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:40:41",
+      "duration": 5.0,
+      "video": "media/clips/remake-r5.mp4",
+      "poster": "media/posters/remake-r5.jpg",
+      "source": "remake/r5.mp4",
+      "size_mb": 1.07
+    },
+    {
+      "id": "remake-r4",
+      "name": "Sneaker lights off & levitates – orange glow",
+      "categories": [
+        "Products",
+        "Transitions/FX"
+      ],
+      "used_in": [
+        "The Remake"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:40:39",
+      "duration": 5.0,
+      "video": "media/clips/remake-r4.mp4",
+      "poster": "media/posters/remake-r4.jpg",
+      "source": "remake/r4.mp4",
+      "size_mb": 0.59
+    },
+    {
+      "id": "pi-k1",
+      "name": "Hand holding phone – green screen",
+      "categories": [
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "PI Attorneys",
+        "Counselor"
+      ],
+      "note": "Green screen: key in your own screen content.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:37:08",
+      "duration": 5.0,
+      "video": "media/clips/pi-k1.mp4",
+      "poster": "media/posters/pi-k1.jpg",
+      "source": "pi/k1.mp4",
+      "size_mb": 0.33
+    },
+    {
+      "id": "remake-r3",
+      "name": "Bored couch scroller – yawns at ~3s",
+      "categories": [
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "The Remake",
+        "Counselor"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:36:52",
+      "duration": 5.0,
+      "video": "media/clips/remake-r3.mp4",
+      "poster": "media/posters/remake-r3.jpg",
+      "source": "remake/r3.mp4",
+      "size_mb": 0.33
+    },
+    {
+      "id": "remake-r2",
+      "name": "Boring sneaker – turntable, white wall",
+      "categories": [
+        "Products"
+      ],
+      "used_in": [
+        "The Remake"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:36:50",
+      "duration": 5.0,
+      "video": "media/clips/remake-r2.mp4",
+      "poster": "media/posters/remake-r2.jpg",
+      "source": "remake/r2.mp4",
+      "size_mb": 0.27
+    },
+    {
+      "id": "remake-r1",
+      "name": "POV hand – blank white phone screen",
+      "categories": [
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "The Remake",
+        "Counselor"
+      ],
+      "note": "Blank screen for compositing your own feed (quads in remake/r1_quads.npy).",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T09:36:49",
+      "duration": 5.0,
+      "video": "media/clips/remake-r1.mp4",
+      "poster": "media/posters/remake-r1.jpg",
+      "source": "remake/r1.mp4",
+      "size_mb": 0.33
+    },
+    {
+      "id": "grave-g6",
+      "name": "Thumb scrolling a feed – close-up",
+      "categories": [
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "Ad Graveyard v1/v2",
+        "PI Attorneys"
+      ],
+      "note": "Screen is already blurred (no fake UI text).",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T07:41:49",
+      "duration": 5.0,
+      "video": "media/clips/grave-g6.mp4",
+      "poster": "media/posters/grave-g6.jpg",
+      "source": "grave/g6.mp4",
+      "size_mb": 0.57
+    },
+    {
+      "id": "grave-g5",
+      "name": "Creator points at camera – pink neon",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "Ad Graveyard v1/v2"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T07:41:48",
+      "duration": 5.0,
+      "video": "media/clips/grave-g5.mp4",
+      "poster": "media/posters/grave-g5.jpg",
+      "source": "grave/g5.mp4",
+      "size_mb": 0.63
+    },
+    {
+      "id": "grave-g4",
+      "name": "Phone erupts in hearts – dark desk",
+      "categories": [
+        "Phones & Scrolling",
+        "Transitions/FX"
+      ],
+      "used_in": [
+        "Ad Graveyard v1/v2"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T07:41:45",
+      "duration": 5.0,
+      "video": "media/clips/grave-g4.mp4",
+      "poster": "media/posters/grave-g4.jpg",
+      "source": "grave/g4.mp4",
+      "size_mb": 0.82
+    },
+    {
+      "id": "grave-g3",
+      "name": "Grave bursts open – orange fire & dirt",
+      "categories": [
+        "Transitions/FX"
+      ],
+      "used_in": [
+        "Ad Graveyard v1/v2"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T07:41:44",
+      "duration": 5.0,
+      "video": "media/clips/grave-g3.mp4",
+      "poster": "media/posters/grave-g3.jpg",
+      "source": "grave/g3.mp4",
+      "size_mb": 0.76
+    },
+    {
+      "id": "grave-g2",
+      "name": "Media buyer on tombstone – big shrug",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "Ad Graveyard v1/v2"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T07:41:41",
+      "duration": 5.0,
+      "video": "media/clips/grave-g2.mp4",
+      "poster": "media/posters/grave-g2.jpg",
+      "source": "grave/g2.mp4",
+      "size_mb": 0.3
+    },
+    {
+      "id": "grave-g1",
+      "name": "Foggy graveyard – blank tombstones, night",
+      "categories": [
+        "Transitions/FX"
+      ],
+      "used_in": [
+        "Ad Graveyard v1/v2"
+      ],
+      "note": "Tombstones are blank; crisp names are added in post.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T07:41:39",
+      "duration": 5.0,
+      "video": "media/clips/grave-g1.mp4",
+      "poster": "media/posters/grave-g1.jpg",
+      "source": "grave/g1.mp4",
+      "size_mb": 0.97
+    },
+    {
+      "id": "chase-asset2",
+      "name": "Chase card – NEW ADS EVERY WEEK",
+      "categories": [
+        "Brand cards & Logo"
+      ],
+      "used_in": [
+        "Ad Graveyard v1/v2",
+        "The Remake",
+        "PI Attorneys",
+        "Counselor"
+      ],
+      "note": "CapCut watermark top-left: crop 689:1225:15:52. Don't stack extra text on it.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T07:41:09",
+      "duration": 4.1,
+      "video": "media/clips/chase-asset2.mp4",
+      "poster": "media/posters/chase-asset2.jpg",
+      "source": "chase-asset2.mp4",
+      "size_mb": 0.65
+    },
+    {
+      "id": "chase-asset1",
+      "name": "Chase card – print ad shatters to Revboo logo",
+      "categories": [
+        "Brand cards & Logo",
+        "Transitions/FX"
+      ],
+      "used_in": [
+        "Ad Graveyard v1/v2",
+        "The Remake",
+        "PI Attorneys",
+        "Counselor"
+      ],
+      "note": "CapCut watermark top-left: crop 689:1225:15:52 before use.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T07:40:19",
+      "duration": 4.1,
+      "video": "media/clips/chase-asset1.mp4",
+      "poster": "media/posters/chase-asset1.jpg",
+      "source": "chase-asset1.mp4",
+      "size_mb": 0.9
+    },
+    {
+      "id": "v2-c1",
+      "name": "Dusty car stalls – dim garage",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": [
+        "Revenue Engine v2/v3",
+        "Ad Graveyard v1/v2"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:04:08",
+      "duration": 5.0,
+      "video": "media/clips/v2-c1.mp4",
+      "poster": "media/posters/v2-c1.jpg",
+      "source": "v2/c1.mp4",
+      "size_mb": 0.33
+    },
+    {
+      "id": "v2-c2",
+      "name": "Dashboard warning light – night",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": [
+        "Revenue Engine v2/v3"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:04:08",
+      "duration": 5.0,
+      "video": "media/clips/v2-c2.mp4",
+      "poster": "media/posters/v2-c2.jpg",
+      "source": "v2/c2.mp4",
+      "size_mb": 0.27
+    },
+    {
+      "id": "v2-c3",
+      "name": "Stressed media buyer at laptop",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "Revenue Engine v2/v3"
+      ],
+      "note": "Blur the Apple logo on the laptop.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:04:08",
+      "duration": 5.0,
+      "video": "media/clips/v2-c3.mp4",
+      "poster": "media/posters/v2-c3.jpg",
+      "source": "v2/c3.mp4",
+      "size_mb": 0.6
+    },
+    {
+      "id": "v2-c4",
+      "name": "Ignition button press – orange sparks",
+      "categories": [
+        "Cars/Engine",
+        "Transitions/FX"
+      ],
+      "used_in": [
+        "Revenue Engine v2/v3",
+        "The Remake",
+        "Counselor"
+      ],
+      "note": "Garbled AI lettering on the panel labels: blur around the button (radial focus at 380,640).",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:04:08",
+      "duration": 5.0,
+      "video": "media/clips/v2-c4.mp4",
+      "poster": "media/posters/v2-c4.jpg",
+      "source": "v2/c4.mp4",
+      "size_mb": 0.58
+    },
+    {
+      "id": "v2-c5",
+      "name": "Engine pistons – orange fire",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": [
+        "Revenue Engine v2/v3"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:04:08",
+      "duration": 5.0,
+      "video": "media/clips/v2-c5.mp4",
+      "poster": "media/posters/v2-c5.jpg",
+      "source": "v2/c5.mp4",
+      "size_mb": 1.08
+    },
+    {
+      "id": "v2-c6",
+      "name": "Revboo supercar hood, then launch – sunset",
+      "categories": [
+        "Cars/Engine",
+        "Brand cards & Logo"
+      ],
+      "used_in": [
+        "Revenue Engine v2/v3",
+        "Ad Graveyard v1/v2"
+      ],
+      "note": "Keep the grade mild: the orange \"R\" disappears into the hood when saturation is pushed.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:04:08",
+      "duration": 5.0,
+      "video": "media/clips/v2-c6.mp4",
+      "poster": "media/posters/v2-c6.jpg",
+      "source": "v2/c6.mp4",
+      "size_mb": 0.92
+    },
+    {
+      "id": "v2-c7",
+      "name": "Supercar through tunnel – sparks to sunset",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": [
+        "Revenue Engine v2/v3"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:04:08",
+      "duration": 5.0,
+      "video": "media/clips/v2-c7.mp4",
+      "poster": "media/posters/v2-c7.jpg",
+      "source": "v2/c7.mp4",
+      "size_mb": 1.05
+    },
+    {
+      "id": "car",
+      "name": "Revboo supercar hood – sunset (still)",
+      "categories": [
+        "Cars/Engine",
+        "Brand cards & Logo"
+      ],
+      "used_in": [
+        "Revenue Engine v1"
+      ],
+      "note": "Still-image move from the v1 stills promo.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:56",
+      "duration": 3.0,
+      "video": "media/clips/car.mp4",
+      "poster": "media/posters/car.jpg",
+      "source": "car.mp4",
+      "size_mb": 0.26
+    },
+    {
+      "id": "rock",
+      "name": "Revboo rock logo – molten title card",
+      "categories": [
+        "Brand cards & Logo"
+      ],
+      "used_in": [
+        "Revenue Engine v1"
+      ],
+      "note": "Still-image move from the v1 stills promo. Small tagline text; check spelling before reuse.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:56",
+      "duration": 3.0,
+      "video": "media/clips/rock.mp4",
+      "poster": "media/posters/rock.jpg",
+      "source": "rock.mp4",
+      "size_mb": 0.27
+    },
+    {
+      "id": "s1",
+      "name": "Text card – \"YOUR ADS ARE TIRED.\"",
+      "categories": [
+        "Brand cards & Logo"
+      ],
+      "used_in": [
+        "Revenue Engine v1"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:56",
+      "duration": 2.4,
+      "video": "media/clips/s1.mp4",
+      "poster": "media/posters/s1.jpg",
+      "source": "s1.mp4",
+      "size_mb": 0.01
+    },
+    {
+      "id": "s2",
+      "name": "Text card – \"SAME CREATIVE. SAME RESULTS. EVERY WEEK.\"",
+      "categories": [
+        "Brand cards & Logo"
+      ],
+      "used_in": [
+        "Revenue Engine v1"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:56",
+      "duration": 2.2,
+      "video": "media/clips/s2.mp4",
+      "poster": "media/posters/s2.jpg",
+      "source": "s2.mp4",
+      "size_mb": 0.01
+    },
+    {
+      "id": "s5",
+      "name": "Text card – \"FRESH PERFORMANCE ADS. EVERY WEEK. DONE FOR YOU.\"",
+      "categories": [
+        "Brand cards & Logo"
+      ],
+      "used_in": [
+        "Revenue Engine v1"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:56",
+      "duration": 2.6,
+      "video": "media/clips/s5.mp4",
+      "poster": "media/posters/s5.jpg",
+      "source": "s5.mp4",
+      "size_mb": 0.02
+    },
+    {
+      "id": "s6",
+      "name": "End card – Revboo logo + \"OLD ADS IN. BANGERS OUT.\"",
+      "categories": [
+        "Brand cards & Logo"
+      ],
+      "used_in": [
+        "Revenue Engine v1"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:56",
+      "duration": 3.2,
+      "video": "media/clips/s6.mp4",
+      "poster": "media/posters/s6.jpg",
+      "source": "s6.mp4",
+      "size_mb": 0.03
+    },
+    {
+      "id": "v",
+      "name": "Stills promo v1 – silent picture cut",
+      "categories": [
+        "Brand cards & Logo"
+      ],
+      "used_in": [
+        "Revenue Engine v1"
+      ],
+      "note": "Archive: picture-only cut of the rejected v1 stills promo (rock, car and text cards).",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T03:03:56",
+      "duration": 16.4,
+      "video": "media/clips/v.mp4",
+      "poster": "media/posters/v.jpg",
+      "source": "v.mp4",
+      "size_mb": 0.57
+    }
+  ],
+  "brand_assets": [
+    "chase-asset1",
+    "chase-asset2"
+  ]
+}
