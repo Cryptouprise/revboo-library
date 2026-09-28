@@ -8,6 +8,7 @@
   "finals": [
     {
       "id": "counselor-v1",
+      "category": "Revboo ads",
       "group": "Your Move, Counselor",
       "title": "Your Move, Counselor",
       "version": "v1",
@@ -22,6 +23,7 @@
     },
     {
       "id": "pi-attorneys",
+      "category": "Revboo ads",
       "group": "PI Attorneys",
       "title": "PI Attorneys",
       "version": "v1",
@@ -36,6 +38,7 @@
     },
     {
       "id": "remake",
+      "category": "Revboo ads",
       "group": "The Remake",
       "title": "The Remake",
       "version": "v1",
@@ -50,6 +53,7 @@
     },
     {
       "id": "graveyard-v2",
+      "category": "Revboo ads",
       "group": "The Ad Graveyard",
       "title": "The Ad Graveyard",
       "version": "v2 (retimed)",
@@ -64,6 +68,7 @@
     },
     {
       "id": "graveyard-v1",
+      "category": "Revboo ads",
       "group": "The Ad Graveyard",
       "title": "The Ad Graveyard",
       "version": "v1",
@@ -78,6 +83,7 @@
     },
     {
       "id": "promo-v3",
+      "category": "Revboo ads",
       "group": "The Revenue Engine",
       "title": "The Revenue Engine",
       "version": "v3 (real engine SFX)",
@@ -91,7 +97,23 @@
       "size_mb": 3.8
     },
     {
+      "id": "clone-war-room",
+      "category": "Seedance originals (made by Chase)",
+      "group": "Clone War Room",
+      "title": "Clone War Room",
+      "version": "v1 · Seedance 2.5",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T07:24:50",
+      "duration": 15.1,
+      "video": "media/finals/clone-war-room.mp4",
+      "poster": "media/posters/clone-war-room.jpg",
+      "status": "final",
+      "note": "15s Seedance 2.5 generation with native voice and SFX.",
+      "size_mb": 3.4
+    },
+    {
       "id": "promo-v2",
+      "category": "Revboo ads",
       "group": "The Revenue Engine",
       "title": "The Revenue Engine",
       "version": "v2",
@@ -106,6 +128,7 @@
     },
     {
       "id": "promo-v1",
+      "category": "Revboo ads",
       "group": "The Revenue Engine",
       "title": "The Revenue Engine",
       "version": "v1 (stills)",
@@ -117,6 +140,21 @@
       "status": "rejected",
       "note": "Rejected: stills slideshow. Kept for the archive.",
       "size_mb": 1.7
+    },
+    {
+      "id": "blast-furnace-take1",
+      "category": "Seedance originals (made by Chase)",
+      "group": "Blast Furnace / Change the Creative",
+      "title": "Blast Furnace / Change the Creative",
+      "version": "take 1 · Seedance",
+      "date": "Sep 27, 2026",
+      "datetime": "2026-09-27T22:30:48",
+      "duration": 15.1,
+      "video": "media/finals/blast-furnace-take1.mp4",
+      "poster": "media/posters/blast-furnace-take1.jpg",
+      "status": "final",
+      "note": "Made about 10:30 PM MT on Sep 27.",
+      "size_mb": 3.4
     }
   ],
   "clips": [

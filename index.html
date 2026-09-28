@@ -26,6 +26,7 @@ section{padding-top:40px}section>h2{font-size:44px;margin:0 0 4px}section>h2 spa
 .chip.o{background:var(--o);color:#000}.chip.red{background:#4a1616;color:#ff9b9b}
 /* finals */
 .ads{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:28px}
+.cat{font-size:26px;color:var(--o);margin:26px 0 14px;border-bottom:1px solid var(--line);padding-bottom:6px}
 .ad{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px}
 .ad.latest{border-color:var(--o);box-shadow:0 0 0 1px var(--o),0 10px 40px rgba(255,75,10,.15)}
 .ad video{width:100%;aspect-ratio:9/16;background:#000;border-radius:12px;display:block}
@@ -74,7 +75,7 @@ footer{color:var(--mut);text-align:center;font-size:13px;padding:30px}
 <p>Every finished ad and every reusable clip in one place. Press play on any ad. Hover (or tap) a clip to preview it. Newest first.</p></div>
 
 <section id="ads"><h2>Finished <span>Ads</span></h2><p class="sub">The latest version of each ad is highlighted. Older versions are tucked under it.</p>
-<div class="ads" id="adsGrid"></div></section>
+<div id="adsGrid"></div></section>
 
 <section id="clips"><h2>Clip <span>Library</span></h2><p class="sub">Short source clips you can reuse in new ads. Orange notes = things to fix (blur, crop) before reuse.</p>
 <div class="tools" id="filters"></div>
@@ -93,9 +94,10 @@ const byNew=(a,b)=>(b.datetime||b.date||'').localeCompare(a.datetime||a.date||''
 fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(m=>{
   document.documentElement.style.setProperty('--o',m.brand?.color||'#FF4B0A');
   // ---- finals grouped by ad, newest version featured
-  const groups={};(m.finals||[]).forEach(f=>(groups[f.group||f.title]??=[]).push(f));
-  const gl=Object.values(groups).map(g=>g.sort(byNew)).sort((a,b)=>byNew(a[0],b[0]));
-  document.getElementById('adsGrid').innerHTML=gl.map(g=>{const f=g[0],old=g.slice(1);return `
+  const finals=(m.finals||[]);
+  const catOrder=[...new Set(finals.slice().sort(byNew).map(f=>f.category||'Revboo ads'))];
+  catOrder.sort((a,b)=>(a==='Revboo ads'?-1:b==='Revboo ads'?1:0));
+  const adCard=g=>{const f=g[0],old=g.slice(1);return `
    <div class="ad latest"><video controls playsinline preload="metadata" poster="${esc(f.poster)}" src="${esc(f.video)}"></video>
     <h3>${esc(f.title)}</h3>
     <div><span class="chip o">LATEST · ${esc(f.version)}</span>${f.status==='rejected'?'<span class="chip red">REJECTED</span>':''}</div>
@@ -105,7 +107,11 @@ fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(m=>{
     ${old.length?`<details><summary>Older versions (${old.length})</summary><div class="older">${old.map(o=>`
       <div class="o-item"><video controls playsinline preload="none" poster="${esc(o.poster)}" src="${esc(o.video)}"></video>
       <div><span class="chip${o.status==='rejected'?' red':''}">${esc(o.version)}</span>${o.status==='rejected'?'<span class="chip red">REJECTED</span>':''}<br>${esc(o.date)} · ${fmt(o.duration)}<br>${o.note?esc(o.note)+'<br>':''}<a class="dl" href="${esc(o.video)}" download>⬇ Download</a></div></div>`).join('')}</div></details>`:''}
-   </div>`}).join('');
+   </div>`};
+  document.getElementById('adsGrid').innerHTML=catOrder.map(cat=>{
+    const groups={};finals.filter(f=>(f.category||'Revboo ads')===cat).forEach(f=>(groups[f.group||f.title]??=[]).push(f));
+    const gl=Object.values(groups).map(g=>g.sort(byNew)).sort((a,b)=>byNew(a[0],b[0]));
+    return `<h3 class="cat">${esc(cat)}</h3><div class="ads">${gl.map(adCard).join('')}</div>`}).join('');
   // ---- clips
   const clips=(m.clips||[]).slice().sort(byNew);
   const cats=['All',...new Set(clips.flatMap(c=>c.categories||[]))];

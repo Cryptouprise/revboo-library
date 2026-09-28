@@ -15,14 +15,16 @@ def run(c): subprocess.run(c,check=True,stdout=subprocess.DEVNULL,stderr=subproc
 # group = one ad concept; newest version in a group is featured, older ones collapse under it.
 # web: an existing under-6MB chat copy (copied as is) or 'encode' (two-pass 1650k from src)
 FINALS=[
+ dict(id='clone-war-room',pt=9.0,group='Clone War Room',title='Clone War Room',version='v1 · Seedance 2.5',src='/workspace/refs/ref1.mp4',web='encode',category='Seedance originals (made by Chase)',date_override=('Sep 28, 2026','2026-09-28T07:24:50'),note='15s Seedance 2.5 generation with native voice and SFX.'),
+ dict(id='blast-furnace-take1',pt=5.0,group='Blast Furnace / Change the Creative',title='Blast Furnace / Change the Creative',version='take 1 · Seedance',src='/workspace/refs/hf/hf_20260928_043048_b9755242-d220-41de-8935-3936d2143bcb.mp4',web='encode',category='Seedance originals (made by Chase)',date_override=('Sep 27, 2026','2026-09-27T22:30:48'),note='Made about 10:30 PM MT on Sep 27.'),
  dict(id='counselor-v2',pt=20.2,group='Your Move, Counselor',title='Your Move, Counselor',version='v2 (slower)',src='Revboo-Counselor-v2.mp4',web='copy'),
  dict(id='counselor-v1',pt=20.2,group='Your Move, Counselor',title='Your Move, Counselor',version='v1',src='Revboo-Counselor.mp4',web='copy'),
  dict(id='pi-attorneys',pt=10.0,group='PI Attorneys',title='PI Attorneys',version='v1',src='Revboo-PI-Attorneys.mp4',web='copy'),
  dict(id='remake',pt=10.0,group='The Remake',title='The Remake',version='v1',src='Revboo-Remake.mp4',web='copy'),
- dict(id='graveyard-v2',pt=6.0,group='The Ad Graveyard',title='The Ad Graveyard',version='v2 (retimed)',src='Revboo-Graveyard-v2.mp4',web='copy'),
- dict(id='graveyard-v1',pt=4.0,group='The Ad Graveyard',title='The Ad Graveyard',version='v1',src='Revboo-Graveyard-small.mp4',datesrc='Revboo-Graveyard.mp4',web='copy'),
- dict(id='promo-v3',pt=6.0,group='The Revenue Engine',title='The Revenue Engine',version='v3 (real engine SFX)',src='revboo-promo-v3.mp4',datesrc='Revboo-Promo-v3.mp4',web='encode'),
- dict(id='promo-v2',pt=6.0,group='The Revenue Engine',title='The Revenue Engine',version='v2',src='revboo-promo-v2.mp4',datesrc='Revboo-Promo-v2.mp4',web='encode'),
+ dict(id='graveyard-v2',pt=4.6,group='The Ad Graveyard',title='The Ad Graveyard',version='v2 (retimed)',src='Revboo-Graveyard-v2.mp4',web='copy'),
+ dict(id='graveyard-v1',pt=2.6,group='The Ad Graveyard',title='The Ad Graveyard',version='v1',src='Revboo-Graveyard-small.mp4',datesrc='Revboo-Graveyard.mp4',web='copy'),
+ dict(id='promo-v3',pt=4.3,group='The Revenue Engine',title='The Revenue Engine',version='v3 (real engine SFX)',src='revboo-promo-v3.mp4',datesrc='Revboo-Promo-v3.mp4',web='encode'),
+ dict(id='promo-v2',pt=4.3,group='The Revenue Engine',title='The Revenue Engine',version='v2',src='revboo-promo-v2.mp4',datesrc='Revboo-Promo-v2.mp4',web='encode'),
  dict(id='promo-v1',pt=0.5,group='The Revenue Engine',title='The Revenue Engine',version='v1 (stills)',src='revboo-promo-v1.mp4',web='copy',status='rejected',note='Rejected: stills slideshow. Kept for the archive.'),
 ]
 C_CAR='Cars/Engine';C_PH='Phones & Scrolling';C_PPL='People/Reactions';C_LEG='Legal/PI';C_PROD='Products';C_BR='Brand cards & Logo';C_FX='Transitions/FX'
@@ -70,7 +72,7 @@ def poster(src,t,out,w=720):
 
 man=dict(site='Revboo Video Library',brand=dict(color='#FF4B0A',font='Anton',site='revboo.video'),finals=[],clips=[],brand_assets=[])
 for f in FINALS:
-    src=R+f['src']
+    src=f['src'] if f['src'].startswith('/') else R+f['src']
     if not os.path.exists(src): print('skip (missing):',f['src']); continue
     out=L+'media/finals/'+f['id']+'.mp4'
     if not os.path.exists(out):
@@ -79,8 +81,8 @@ for f in FINALS:
             for p in (1,2):
                 run(['ffmpeg','-y','-i',src,'-c:v','libx264','-preset','slow','-b:v','1650k','-maxrate','2500k','-bufsize','3300k','-profile:v','main','-pix_fmt','yuv420p','-pass',str(p),'-passlogfile','/tmp/revlib']+(['-an','-f','mp4','/dev/null'] if p==1 else ['-c:a','aac','-b:a','128k','-movflags','+faststart',out]))
     d=dur(out); pp=L+'media/posters/'+f['id']+'.jpg'; poster(out,min(f.get('pt',d*0.33),d-0.3),pp)
-    ds,iso=mdate(R+f.get('datesrc',f['src']))
-    man['finals'].append(dict(id=f['id'],group=f['group'],title=f['title'],version=f['version'],date=ds,datetime=iso,duration=round(d,1),
+    ds,iso=f['date_override'] if 'date_override' in f else mdate(R+f.get('datesrc',f['src']))
+    man['finals'].append(dict(id=f['id'],category=f.get('category','Revboo ads'),group=f['group'],title=f['title'],version=f['version'],date=ds,datetime=iso,duration=round(d,1),
         video='media/finals/'+f['id']+'.mp4',poster='media/posters/'+f['id']+'.jpg',status=f.get('status','final'),note=f.get('note',''),
         size_mb=round(os.path.getsize(out)/1e6,1)))
 for (s,name,cats,used,note,pt,brand) in CLIPS:

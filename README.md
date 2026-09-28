@@ -9,7 +9,7 @@ Everything on the page comes from `manifest.json`.
 2. Put a poster image (one frame as .jpg) in `media/posters/`.
 3. Add one entry to `manifest.json`:
    - Finished ad → `finals` list: `id, group, title, version, date, datetime, duration, video, poster, status, note`.
-     Use the same `group` as the older versions; the newest `datetime` in a group is shown as LATEST and the others collapse under it.
+     Use the same `group` as the older versions and set `category` ("Revboo ads" or "Seedance originals (made by Chase)" or a new name, which becomes a new heading); the newest `datetime` in a group is shown as LATEST and the others collapse under it.
    - Clip → `clips` list: `id, name, categories, used_in, note, date, datetime, duration, video, poster`.
 4. Commit and push. GitHub Pages updates in about a minute.
 
