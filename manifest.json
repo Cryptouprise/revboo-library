@@ -644,6 +644,57 @@
   ],
   "clips": [
     {
+      "id": "sedan-launches-out-of-smoke-clean",
+      "brand": "Revboo",
+      "name": "Sedan launches out of smoke – plate & badge removed",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": [],
+      "note": "FLUX Video Edit cleanup of the Tube Man launch clip: fake plate + grille badge removed, no drift. 704x1248. $0.15",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:43:50",
+      "duration": 5.0,
+      "video": "media/clips/sedan-launches-out-of-smoke-clean.mp4",
+      "poster": "media/posters/sedan-launches-out-of-smoke-clean.jpg",
+      "source": "/workspace/revboo/fve/t5_clean.mp4",
+      "size_mb": 0.61
+    },
+    {
+      "id": "showroom-handshake-clean",
+      "brand": "Revboo",
+      "name": "Showroom handshake – badges, plates & floor logos removed",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [],
+      "note": "FLUX Video Edit cleanup: star grille badges, plates and floor logo reflections removed; people unchanged. 704x1248. $0.15",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:43:50",
+      "duration": 5.0,
+      "video": "media/clips/showroom-handshake-clean.mp4",
+      "poster": "media/posters/showroom-handshake-clean.jpg",
+      "source": "/workspace/revboo/fve/t6_clean.mp4",
+      "size_mb": 0.72
+    },
+    {
+      "id": "sedan-dark-studio-clean",
+      "brand": "Revboo",
+      "name": "Sedan in dark studio – plate & badge removed (no headlight snap-on)",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": [],
+      "note": "FLUX Video Edit cleanup (3rd prompt): plate + badge removed, but the headlight snap-on at ~4 s is lost and the grille is slightly redrawn. 704x1248.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:43:50",
+      "duration": 5.0,
+      "video": "media/clips/sedan-dark-studio-clean.mp4",
+      "poster": "media/posters/sedan-dark-studio-clean.jpg",
+      "source": "/workspace/revboo/fve/t4_clean.mp4",
+      "size_mb": 0.4
+    },
+    {
       "id": "tube-man-deflates-and-collapses",
       "brand": "Revboo",
       "name": "Tube man deflates and collapses",
@@ -673,7 +724,7 @@
       "used_in": [
         "Tube Man"
       ],
-      "note": "⚠ fake plate + grille badge: blur before reuse; usable action 2.3–5 s",
+      "note": "⚠ fake plate + grille badge: blur before reuse; usable action 2.3–5 s · cleaned copy: sedan-launches-out-of-smoke-clean",
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T14:17:37",
       "duration": 5.0,
@@ -730,7 +781,7 @@
       "used_in": [
         "Tube Man"
       ],
-      "note": "⚠ Mercedes-like star badge on grille + floor logo projections and plate text: crop the floor and blur the badge",
+      "note": "⚠ Mercedes-like star badge on grille + floor logo projections and plate text: crop the floor and blur the badge · cleaned copy: showroom-handshake-clean",
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T14:11:45",
       "duration": 5.0,
@@ -768,7 +819,7 @@
       "used_in": [
         "Tube Man"
       ],
-      "note": "⚠ fake plate 'IS NOS' + grille badge: blur before reuse",
+      "note": "⚠ fake plate 'IS NOS' + grille badge: blur before reuse · cleaned copy: sedan-dark-studio-clean",
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T14:11:28",
       "duration": 5.0,

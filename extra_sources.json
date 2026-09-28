@@ -68,7 +68,7 @@
       "id": "sedan-in-dark-studio-orange-rim-light-headlights-on",
       "src": "/workspace/revboo/tube/t4.mp4",
       "brand": "Revboo",
-      "note": "⚠ fake plate 'IS NOS' + grille badge: blur before reuse",
+      "note": "⚠ fake plate 'IS NOS' + grille badge: blur before reuse · cleaned copy: sedan-dark-studio-clean",
       "name": "Sedan in dark studio – orange rim light, headlights on",
       "categories": [
         "Cars/Engine"
@@ -81,7 +81,7 @@
       "id": "sedan-launches-out-of-smoke-and-passes-camera",
       "src": "/workspace/revboo/tube/t5.mp4",
       "brand": "Revboo",
-      "note": "⚠ fake plate + grille badge: blur before reuse; usable action 2.3–5 s",
+      "note": "⚠ fake plate + grille badge: blur before reuse; usable action 2.3–5 s · cleaned copy: sedan-launches-out-of-smoke-clean",
       "name": "Sedan launches out of smoke and passes camera",
       "categories": [
         "Cars/Engine"
@@ -94,7 +94,7 @@
       "id": "showroom-handshake-and-key-handoff-night",
       "src": "/workspace/revboo/tube/t6.mp4",
       "brand": "Revboo",
-      "note": "⚠ Mercedes-like star badge on grille + floor logo projections and plate text: crop the floor and blur the badge",
+      "note": "⚠ Mercedes-like star badge on grille + floor logo projections and plate text: crop the floor and blur the badge · cleaned copy: showroom-handshake-clean",
       "name": "Showroom handshake and key handoff – night",
       "categories": [
         "People/Reactions"
@@ -115,6 +115,39 @@
       "used_in": [
         "Tube Man"
       ]
+    },
+    {
+      "id": "sedan-launches-out-of-smoke-clean",
+      "src": "/workspace/revboo/fve/t5_clean.mp4",
+      "brand": "Revboo",
+      "note": "FLUX Video Edit cleanup of the Tube Man launch clip: fake plate + grille badge removed, no drift. 704x1248. $0.15",
+      "name": "Sedan launches out of smoke – plate & badge removed",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "showroom-handshake-clean",
+      "src": "/workspace/revboo/fve/t6_clean.mp4",
+      "brand": "Revboo",
+      "note": "FLUX Video Edit cleanup: star grille badges, plates and floor logo reflections removed; people unchanged. 704x1248. $0.15",
+      "name": "Showroom handshake – badges, plates & floor logos removed",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "sedan-dark-studio-clean",
+      "src": "/workspace/revboo/fve/t4_clean.mp4",
+      "brand": "Revboo",
+      "note": "FLUX Video Edit cleanup (3rd prompt): plate + badge removed, but the headlight snap-on at ~4 s is lost and the grille is slightly redrawn. 704x1248.",
+      "name": "Sedan in dark studio – plate & badge removed (no headlight snap-on)",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": []
     }
   ]
 }
