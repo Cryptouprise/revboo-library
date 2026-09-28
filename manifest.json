@@ -695,6 +695,147 @@
       "size_mb": 0.4
     },
     {
+      "id": "media-buyer-cringes-behind-hands-then-grins",
+      "brand": "Revboo",
+      "name": "Media buyer cringes behind hands, then grins",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:33:10",
+      "duration": 5.0,
+      "video": "media/clips/media-buyer-cringes-behind-hands-then-grins.mp4",
+      "poster": "media/posters/media-buyer-cringes-behind-hands-then-grins.jpg",
+      "source": "/workspace/revboo/gym/g8.mp4",
+      "size_mb": 0.47
+    },
+    {
+      "id": "gym-owner-flexes-leans-on-exercise-ball-faceplants-out-of-frame",
+      "brand": "Revboo",
+      "name": "Gym owner flexes, leans on exercise ball, faceplants out of frame",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [],
+      "note": "Unused so far (gym concept shelved). Tiny exit sign top-center: blur if cropped wide.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:33:09",
+      "duration": 5.0,
+      "video": "media/clips/gym-owner-flexes-leans-on-exercise-ball-faceplants-out-of-frame.mp4",
+      "poster": "media/posters/gym-owner-flexes-leans-on-exercise-ball-faceplants-out-of-frame.jpg",
+      "source": "/workspace/revboo/gym/g1.mp4",
+      "size_mb": 0.55
+    },
+    {
+      "id": "coach-arms-crossed-confident-nod-dark-gym",
+      "brand": "Revboo",
+      "name": "Coach arms crossed, confident nod – dark gym",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:33:09",
+      "duration": 5.0,
+      "video": "media/clips/coach-arms-crossed-confident-nod-dark-gym.mp4",
+      "poster": "media/posters/coach-arms-crossed-confident-nod-dark-gym.jpg",
+      "source": "/workspace/revboo/gym/g7.mp4",
+      "size_mb": 0.27
+    },
+    {
+      "id": "athlete-slams-battle-ropes-orange-rim-light",
+      "brand": "Revboo",
+      "name": "Athlete slams battle ropes – orange rim light",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:33:08",
+      "duration": 5.0,
+      "video": "media/clips/athlete-slams-battle-ropes-orange-rim-light.mp4",
+      "poster": "media/posters/athlete-slams-battle-ropes-orange-rim-light.jpg",
+      "source": "/workspace/revboo/gym/g5.mp4",
+      "size_mb": 0.73
+    },
+    {
+      "id": "deadpan-woman-on-exercise-bike-stares-at-camera",
+      "brand": "Revboo",
+      "name": "Deadpan woman on exercise bike stares at camera",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:32:54",
+      "duration": 5.0,
+      "video": "media/clips/deadpan-woman-on-exercise-bike-stares-at-camera.mp4",
+      "poster": "media/posters/deadpan-woman-on-exercise-bike-stares-at-camera.jpg",
+      "source": "/workspace/revboo/gym/g3.mp4",
+      "size_mb": 0.29
+    },
+    {
+      "id": "gym-owner-flat-on-mat-gives-weak-thumbs-up",
+      "brand": "Revboo",
+      "name": "Gym owner flat on mat gives weak thumbs-up",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:32:54",
+      "duration": 5.0,
+      "video": "media/clips/gym-owner-flat-on-mat-gives-weak-thumbs-up.mp4",
+      "poster": "media/posters/gym-owner-flat-on-mat-gives-weak-thumbs-up.jpg",
+      "source": "/workspace/revboo/gym/g4.mp4",
+      "size_mb": 0.29
+    },
+    {
+      "id": "gym-owner-box-jump-fail-onto-mat",
+      "brand": "Revboo",
+      "name": "Gym owner box-jump fail onto mat",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:32:53",
+      "duration": 5.0,
+      "video": "media/clips/gym-owner-box-jump-fail-onto-mat.mp4",
+      "poster": "media/posters/gym-owner-box-jump-fail-onto-mat.jpg",
+      "source": "/workspace/revboo/gym/g2.mp4",
+      "size_mb": 0.38
+    },
+    {
+      "id": "chalk-hands-clap-dust-cloud-grip-barbell-macro",
+      "brand": "Revboo",
+      "name": "Chalk hands clap, dust cloud, grip barbell – macro",
+      "categories": [
+        "Products",
+        "Transitions/FX"
+      ],
+      "used_in": [],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:31:23",
+      "duration": 5.0,
+      "video": "media/clips/chalk-hands-clap-dust-cloud-grip-barbell-macro.mp4",
+      "poster": "media/posters/chalk-hands-clap-dust-cloud-grip-barbell-macro.jpg",
+      "source": "/workspace/revboo/gym/g6.mp4",
+      "size_mb": 1.44
+    },
+    {
       "id": "tube-man-deflates-and-collapses",
       "brand": "Revboo",
       "name": "Tube man deflates and collapses",

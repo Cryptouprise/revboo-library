@@ -148,6 +148,99 @@
         "Cars/Engine"
       ],
       "used_in": []
+    },
+    {
+      "id": "gym-owner-flexes-leans-on-exercise-ball-faceplants-out-of-frame",
+      "src": "/workspace/revboo/gym/g1.mp4",
+      "brand": "Revboo",
+      "note": "Unused so far (gym concept shelved). Tiny exit sign top-center: blur if cropped wide.",
+      "name": "Gym owner flexes, leans on exercise ball, faceplants out of frame",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "gym-owner-box-jump-fail-onto-mat",
+      "src": "/workspace/revboo/gym/g2.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "name": "Gym owner box-jump fail onto mat",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "deadpan-woman-on-exercise-bike-stares-at-camera",
+      "src": "/workspace/revboo/gym/g3.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "name": "Deadpan woman on exercise bike stares at camera",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ]
+    },
+    {
+      "id": "gym-owner-flat-on-mat-gives-weak-thumbs-up",
+      "src": "/workspace/revboo/gym/g4.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "name": "Gym owner flat on mat gives weak thumbs-up",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "athlete-slams-battle-ropes-orange-rim-light",
+      "src": "/workspace/revboo/gym/g5.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "name": "Athlete slams battle ropes – orange rim light",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "chalk-hands-clap-dust-cloud-grip-barbell-macro",
+      "src": "/workspace/revboo/gym/g6.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "name": "Chalk hands clap, dust cloud, grip barbell – macro",
+      "categories": [
+        "Products",
+        "Transitions/FX"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "coach-arms-crossed-confident-nod-dark-gym",
+      "src": "/workspace/revboo/gym/g7.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "name": "Coach arms crossed, confident nod – dark gym",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "media-buyer-cringes-behind-hands-then-grins",
+      "src": "/workspace/revboo/gym/g8.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "name": "Media buyer cringes behind hands, then grins",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ]
     }
   ]
 }
