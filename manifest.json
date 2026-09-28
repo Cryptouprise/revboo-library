@@ -625,6 +625,23 @@
   ],
   "clips": [
     {
+      "id": "or-kling-black-car-studio",
+      "brand": "Revboo",
+      "name": "Black sports car, orange rim light – dark studio (OpenRouter Kling test)",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": [],
+      "note": "⚠ Composition reads sideways/overhead (floor on the left edge of the 9:16 frame); rotate or crop before reuse. No text/watermark. First OpenRouter Kling 3.0 Pro test, $0.55.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T12:54:13",
+      "duration": 5.0,
+      "video": "media/clips/or-kling-black-car-studio.mp4",
+      "poster": "media/posters/or-kling-black-car-studio.jpg",
+      "source": "/workspace/revboo/or-test/kling-test.mp4",
+      "size_mb": 0.33
+    },
+    {
       "id": "pi-k5",
       "brand": "Legal/PI",
       "name": "Phone on desk – green screen",

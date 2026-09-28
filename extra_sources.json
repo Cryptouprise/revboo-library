@@ -1,0 +1,17 @@
+{
+  "finals": [],
+  "clips": [
+    {
+      "id": "or-kling-black-car-studio",
+      "src": "/workspace/revboo/or-test/kling-test.mp4",
+      "brand": "Revboo",
+      "note": "⚠ Composition reads sideways/overhead (floor on the left edge of the 9:16 frame); rotate or crop before reuse. No text/watermark. First OpenRouter Kling 3.0 Pro test, $0.55.",
+      "pt": 2.5,
+      "name": "Black sports car, orange rim light – dark studio (OpenRouter Kling test)",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": []
+    }
+  ]
+}
