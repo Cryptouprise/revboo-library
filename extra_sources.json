@@ -1,5 +1,16 @@
 {
-  "finals": [],
+  "finals": [
+    {
+      "id": "tube-man-v1",
+      "src": "/workspace/revboo/Revboo-TubeMan-small.mp4",
+      "brand": "Revboo",
+      "note": "Car-dealer before/after teardown; all-new Kling 3.0 Pro footage via OpenRouter",
+      "pt": 1.5,
+      "group": "Tube Man",
+      "title": "Tube Man",
+      "version": "v1"
+    }
+  ],
   "clips": [
     {
       "id": "or-kling-black-car-studio",
@@ -12,6 +23,98 @@
         "Cars/Engine"
       ],
       "used_in": []
+    },
+    {
+      "id": "inflatable-tube-man-used-car-lot",
+      "src": "/workspace/revboo/tube/t1.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "name": "Inflatable tube man – used car lot",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": [
+        "Tube Man"
+      ]
+    },
+    {
+      "id": "cheesy-car-salesman-shouting-fisheye",
+      "src": "/workspace/revboo/tube/t2.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "name": "Cheesy car salesman shouting – fisheye",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "Tube Man"
+      ]
+    },
+    {
+      "id": "tube-man-deflates-and-collapses",
+      "src": "/workspace/revboo/tube/t3.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "name": "Tube man deflates and collapses",
+      "categories": [
+        "Cars/Engine",
+        "Transitions/FX"
+      ],
+      "used_in": [
+        "Tube Man"
+      ]
+    },
+    {
+      "id": "sedan-in-dark-studio-orange-rim-light-headlights-on",
+      "src": "/workspace/revboo/tube/t4.mp4",
+      "brand": "Revboo",
+      "note": "⚠ fake plate 'IS NOS' + grille badge: blur before reuse",
+      "name": "Sedan in dark studio – orange rim light, headlights on",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": [
+        "Tube Man"
+      ]
+    },
+    {
+      "id": "sedan-launches-out-of-smoke-and-passes-camera",
+      "src": "/workspace/revboo/tube/t5.mp4",
+      "brand": "Revboo",
+      "note": "⚠ fake plate + grille badge: blur before reuse; usable action 2.3–5 s",
+      "name": "Sedan launches out of smoke and passes camera",
+      "categories": [
+        "Cars/Engine"
+      ],
+      "used_in": [
+        "Tube Man"
+      ]
+    },
+    {
+      "id": "showroom-handshake-and-key-handoff-night",
+      "src": "/workspace/revboo/tube/t6.mp4",
+      "brand": "Revboo",
+      "note": "⚠ Mercedes-like star badge on grille + floor logo projections and plate text: crop the floor and blur the badge",
+      "name": "Showroom handshake and key handoff – night",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "Tube Man"
+      ]
+    },
+    {
+      "id": "media-buyer-face-in-hands-then-grins",
+      "src": "/workspace/revboo/tube/t7.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "name": "Media buyer – face in hands, then grins",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "Tube Man"
+      ]
     }
   ]
 }
