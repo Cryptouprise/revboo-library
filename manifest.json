@@ -775,6 +775,26 @@
       "file": "media/finals/monday-morning-drop-v2-edit-test.mp4"
     },
     {
+      "id": "monday-morning-drop-v3-v3",
+      "brand": "Revboo",
+      "category": "Made by Chase (Higgsfield/CapCut)",
+      "group": "Monday Morning Drop",
+      "title": "Monday Morning Drop v3",
+      "version": "v3",
+      "width": 1080,
+      "height": 1920,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 20.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/monday-morning-drop-v3-v3.mp4",
+      "poster": "media/posters/monday-morning-drop-v3-v3.jpg",
+      "status": "final",
+      "note": "Client edit round 2: REVBOO.VIDEO blank card removed; Chase's new logo-explosion ending added (CapCut AI watermark cropped out) with a 0.5s logo match-dissolve + orange glow; bed fades into the clip's own audio, whoosh on the transition, -14 LUFS. Notes: edits/monday-drop/review-notes-round2.md",
+      "source": "/workspace/revboo/edits/monday-drop/Monday-Drop-v3.mp4",
+      "size_mb": 4.4,
+      "file": "media/finals/monday-morning-drop-v3-v3.mp4"
+    },
+    {
       "id": "blast-furnace-take1",
       "brand": "Revboo",
       "category": "Seedance originals (made by Chase)",
