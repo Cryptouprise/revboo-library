@@ -1,4 +1,19 @@
 {
+ "ad-autopsy-v1.mp4": {
+  "tag": "media-v1",
+  "size": 2703168,
+  "sha256": "ad12e5ce1227986c7f702a7424a647fc551b0fb37af747c601fef3677e866ad5"
+ },
+ "ad-autopsy-v2.mp4": {
+  "tag": "media-v1",
+  "size": 2407767,
+  "sha256": "61802e7eb5712605f36de608cc4f989c16c27c96f6d85bfedaaef5ac994232fb"
+ },
+ "ad-autopsy-v3.mp4": {
+  "tag": "media-v1",
+  "size": 3097811,
+  "sha256": "f61a149c5cf95a20690daafae3997725f32260f1577882976faed7c15f1cd9b6"
+ },
  "assist-01-dave-grok.mp4": {
   "tag": "media-v1",
   "size": 842686,
@@ -99,6 +114,11 @@
   "size": 3402389,
   "sha256": "945adbdf9854e45127bb63bab83b05f2a325e1638b90f31b6e197a04134695c0"
  },
+ "blast-furnace-take2.mp4": {
+  "tag": "media-v1",
+  "size": 3363492,
+  "sha256": "236da934d4ccf400d3c8407069dcf22c5e913bf3dcd7b7af86c587c05fa7087b"
+ },
  "calm-attorney-consultation-reassuring-smile.mp4": {
   "tag": "media-v1",
   "size": 292816,
@@ -123,6 +143,31 @@
   "tag": "media-v1",
   "size": 652537,
   "sha256": "e5c662ddb64f09bbe3d5f6a38f26a63ff0c766a02a2a66c2e7356fe99541c7bf"
+ },
+ "chase-card-exhaust-light-streaks.mp4": {
+  "tag": "media-v1",
+  "size": 1319745,
+  "sha256": "a026580421383274d2987fc433aabf4281645e123f0c9396161b4ba7ec01e2d8"
+ },
+ "chase-card-logo-explodes-lightning.mp4": {
+  "tag": "media-v1",
+  "size": 960833,
+  "sha256": "6571c069bc1d5fe8363929f4d5895fc73b6d257e0113cf10341d248c65cab5e7"
+ },
+ "chase-card-monolith-fire-to-supercar.mp4": {
+  "tag": "media-v1",
+  "size": 1174408,
+  "sha256": "058f4c50535ae1cf110148e6f0991ad0f66b5ed0ac4f48dc9641ef5a9ac16609"
+ },
+ "chase-card-monolith-play-button-burst.mp4": {
+  "tag": "media-v1",
+  "size": 1317509,
+  "sha256": "df0d29fd7107f7a66a30a67fc72cd380fb833fcf1d343cf86329de038ff4878b"
+ },
+ "chase-card-r-monolith-push-in.mp4": {
+  "tag": "media-v1",
+  "size": 753065,
+  "sha256": "05666c65f426c859b6216d681ddad2d2ed8a1a6dff991d05c2534299fbbb8281"
  },
  "cheesy-car-salesman-shouting-fisheye.mp4": {
   "tag": "media-v1",
@@ -249,6 +294,16 @@
   "size": 704914,
   "sha256": "a66ffb2e4d20776c46eba1d1568bd91ca7a03418ea798544ae38e5a1a0e15495"
  },
+ "kinetic-type-reel-take1.mp4": {
+  "tag": "media-v1",
+  "size": 3387032,
+  "sha256": "2d18143423f76fb02b209b9149660334e3e7ec0668c70a9094e337bf3ec40848"
+ },
+ "kinetic-type-reel-take2.mp4": {
+  "tag": "media-v1",
+  "size": 3385532,
+  "sha256": "f96131c67890e62a14aee38808905ce4b207918af19b9c2064edb7a670e10290"
+ },
  "lawyer-points-at-camera-trips-over-cone.mp4": {
   "tag": "media-v1",
   "size": 461997,
@@ -268,6 +323,21 @@
   "tag": "media-v1",
   "size": 653347,
   "sha256": "b6757f2942e9c62b2112f676a84d4ab457635f88cdd12bd613bcec4f85cb6f1b"
+ },
+ "monday-morning-drop-v1.mp4": {
+  "tag": "media-v1",
+  "size": 1864693,
+  "sha256": "8bd2f468464a8019b32030102b9a6ebcf1cb692f44d1ed11e8bdd2e20ff1c791"
+ },
+ "new-hat-therapy-v1.mp4": {
+  "tag": "media-v1",
+  "size": 4968495,
+  "sha256": "f43a1cd085e46f743a66f054fbea83f93a0f4d380128cc647c1a7a56568fdba0"
+ },
+ "old-busted-ads-supercar-v1.mp4": {
+  "tag": "media-v1",
+  "size": 5305448,
+  "sha256": "7de2cae25f2acd934cc55c340391228a508f1be59d396bece6650e032e5cbf26"
  },
  "or-kling-black-car-studio.mp4": {
   "tag": "media-v1",

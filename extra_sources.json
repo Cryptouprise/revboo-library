@@ -19,6 +19,125 @@
       "group": "PI Attorneys – Hammer Broke",
       "title": "PI Attorneys – Hammer Broke",
       "version": "v1"
+    },
+    {
+      "id": "kinetic-type-reel-take1",
+      "src": "/workspace/revboo/assets/Revboo/01_kinetic-typography-reel_take1.mp4",
+      "brand": "Revboo",
+      "note": "Chrome 3D words in an ember landscape: Done-for-you video ads / Delivered weekly / Your ad budget deserves better creative. Higgsfield hf_20260927_182114 (12:21 MT).",
+      "pt": 2.0,
+      "date_override": [
+        "Sep 27, 2026",
+        "2026-09-27T00:00:00"
+      ],
+      "group": "Kinetic Type Reel",
+      "title": "Kinetic Type Reel",
+      "version": "take 1",
+      "category": "Made by Chase (Higgsfield/CapCut)"
+    },
+    {
+      "id": "kinetic-type-reel-take2",
+      "src": "/workspace/revboo/assets/Revboo/02_kinetic-typography-reel_take2.mp4",
+      "brand": "Revboo",
+      "note": "Same script as take 1, different motion, cleaner end card.",
+      "pt": 2.0,
+      "group": "Kinetic Type Reel",
+      "title": "Kinetic Type Reel",
+      "version": "take 2",
+      "category": "Made by Chase (Higgsfield/CapCut)"
+    },
+    {
+      "id": "monday-morning-drop-v1",
+      "src": "/workspace/revboo/assets/Revboo/03_concept3_monday-morning-drop_final.mp4",
+      "brand": "Revboo",
+      "note": "⚠ End card URL misspelled REVBOOO.VIDEO; notification and thumbnail text is AI-garbled. Higgsfield hf_20260928_024940 (Sep 27 20:49 MT).",
+      "pt": 4.2,
+      "date_override": [
+        "Sep 27, 2026",
+        "2026-09-27T00:00:00"
+      ],
+      "group": "Monday Morning Drop",
+      "title": "Monday Morning Drop",
+      "version": "final",
+      "category": "Made by Chase (Higgsfield/CapCut)"
+    },
+    {
+      "id": "ad-autopsy-v1",
+      "src": "/workspace/revboo/assets/Revboo/04_concept2_ad-autopsy_v1.mp4",
+      "brand": "Revboo",
+      "note": "⚠ End card misspelled REVBOOO.VIDEO. ROAS 0.7x ad dissolves, media buyer picks a new ad on the Revboo dashboard. Higgsfield hf_20260928_030044.",
+      "pt": 0.5,
+      "date_override": [
+        "Sep 27, 2026",
+        "2026-09-27T00:00:00"
+      ],
+      "group": "Ad Autopsy",
+      "title": "Ad Autopsy",
+      "version": "v1",
+      "category": "Made by Chase (Higgsfield/CapCut)"
+    },
+    {
+      "id": "ad-autopsy-v2",
+      "src": "/workspace/revboo/assets/Revboo/05_concept2_ad-autopsy_v2.mp4",
+      "brand": "Revboo",
+      "note": "⚠ Middle text card garbled ('Donefor-youf video'). End card spelling fixed. Higgsfield hf_20260928_034319.",
+      "pt": 0.5,
+      "date_override": [
+        "Sep 27, 2026",
+        "2026-09-27T00:00:00"
+      ],
+      "group": "Ad Autopsy",
+      "title": "Ad Autopsy",
+      "version": "v2",
+      "category": "Made by Chase (Higgsfield/CapCut)"
+    },
+    {
+      "id": "ad-autopsy-v3",
+      "src": "/workspace/revboo/assets/Revboo/06_concept2_ad-autopsy_v3-final.mp4",
+      "brand": "Revboo",
+      "note": "Presenter: 'Your ads deserve better creative. We deliver fresh video creative ads every week.' Cleanest version.",
+      "pt": 0.8,
+      "group": "Ad Autopsy",
+      "title": "Ad Autopsy",
+      "version": "v3 final (presenter)",
+      "category": "Made by Chase (Higgsfield/CapCut)"
+    },
+    {
+      "id": "new-hat-therapy-v1",
+      "src": "/workspace/revboo/assets/Revboo/5ece505f-6b6b-4fc3-b61a-048aff2759dd_1_.mp4",
+      "brand": "Revboo",
+      "note": "Couples therapy with the cardboard BIG SALE mascot: 'You're negotiating with the same ad you've been running forever.' Uploaded as hook_A.",
+      "pt": 8.3,
+      "group": "A New Hat Isn't New Creative",
+      "title": "A New Hat Isn't New Creative",
+      "version": "v1 (hook_A)",
+      "category": "Made by Chase (Higgsfield/CapCut)"
+    },
+    {
+      "id": "blast-furnace-take2",
+      "src": "/workspace/revboo/assets/Revboo/furB_fixed.mp4",
+      "brand": "Revboo",
+      "note": "Shovels cash toward the furnace where the BIG SALE mascot burns, pulls the lever; end card 'Done-for-you video ads. Delivered weekly.'",
+      "pt": 5.6,
+      "group": "Blast Furnace / Change the Creative",
+      "title": "Blast Furnace / Change the Creative",
+      "version": "take 2 (furB fixed)",
+      "category": "Seedance originals (made by Chase)"
+    },
+    {
+      "id": "old-busted-ads-supercar-v1",
+      "src": "/workspace/revboo/assets/Revboo/lv_7642624748161092884_20260927185621.mp4",
+      "brand": "Revboo",
+      "note": "Hook 'OLD BUSTED ADS?' → rusty sedan in a barn transforms into the orange Revboo supercar on a vineyard road. CapCut watermark top-left: crop before use.",
+      "pt": 0.4,
+      "date_override": [
+        "Sep 27, 2026",
+        "2026-09-27T00:00:00"
+      ],
+      "group": "Old Busted Ads → Supercar",
+      "title": "Old Busted Ads → Supercar",
+      "version": "v1",
+      "category": "Made by Chase (Higgsfield/CapCut)"
     }
   ],
   "clips": [
@@ -349,6 +468,91 @@
       "used_in": [
         "PI Attorneys – Hammer Broke"
       ]
+    },
+    {
+      "id": "chase-card-monolith-fire-to-supercar",
+      "src": "/workspace/revboo/assets/Revboo/lv_7642619748840148245_20260927221806.mp4",
+      "brand": "Revboo",
+      "note": "CapCut watermark top-left: crop before use.",
+      "pt": 1.5,
+      "date_override": [
+        "Sep 27, 2026",
+        "2026-09-27T00:00:00"
+      ],
+      "name": "Chase card – monolith logo ignites → Revboo supercar in smoke studio",
+      "categories": [
+        "Brand cards & Logo",
+        "Cars/Engine",
+        "Transitions/FX"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "chase-card-logo-explodes-lightning",
+      "src": "/workspace/revboo/assets/Revboo/lv_7642619748840148245_20260928074425.mp4",
+      "brand": "Revboo",
+      "note": "Ends on a white flash. CapCut watermark top-left: crop before use.",
+      "pt": 0.3,
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Chase card – Revboo logo explodes into orange lightning",
+      "categories": [
+        "Brand cards & Logo",
+        "Transitions/FX"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "chase-card-exhaust-light-streaks",
+      "src": "/workspace/revboo/assets/Revboo/lv_7642619748840148245_20260928074447.mp4",
+      "brand": "Revboo",
+      "note": "No text. CapCut watermark top-left: crop before use.",
+      "pt": 0.5,
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Chase card – chrome exhaust flames → light-speed streaks",
+      "categories": [
+        "Cars/Engine",
+        "Transitions/FX"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "chase-card-r-monolith-push-in",
+      "src": "/workspace/revboo/assets/Revboo/lv_7642619748840148245_20260928074557.mp4",
+      "brand": "Revboo",
+      "note": "CapCut watermark top-left: crop before use.",
+      "pt": 0.8,
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Chase card – Revboo logo on R monolith, push-in",
+      "categories": [
+        "Brand cards & Logo"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "chase-card-monolith-play-button-burst",
+      "src": "/workspace/revboo/assets/Revboo/lv_7642619748840148245_20260928074628.mp4",
+      "brand": "Revboo",
+      "note": "CapCut watermark top-left: crop before use.",
+      "pt": 2.5,
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Chase card – monolith R shatters into play-button burst",
+      "categories": [
+        "Brand cards & Logo",
+        "Transitions/FX"
+      ],
+      "used_in": []
     }
   ]
 }
