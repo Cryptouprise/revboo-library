@@ -451,6 +451,36 @@
       "title": "Stephens Law – Injured in Fort Worth?",
       "version": "5s · color family design (Sep 7)",
       "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "leasestack-explainer-16x9",
+      "src": "/workspace/revboo/clients/leasestack/renders/explainer-rebrand/LeaseStack-Explainer-16x9.mp4",
+      "brand": "Generic/Other",
+      "note": "Free sample ad for LeaseStack (leasestack.co): Infinite Leads explainer girl + real LeaseStack site screenshots, captions + music bed (no VO).",
+      "pt": 10.5,
+      "date_override": [
+        "Sep 29, 2026",
+        "2026-09-29T00:00:00"
+      ],
+      "group": "LeaseStack Explainer (rebrand sample)",
+      "title": "LeaseStack Explainer (rebrand sample)",
+      "version": "v1 · 16:9",
+      "category": "Client samples: LeaseStack"
+    },
+    {
+      "id": "leasestack-explainer-9x16",
+      "src": "/workspace/revboo/clients/leasestack/renders/explainer-rebrand/LeaseStack-Explainer-9x16.mp4",
+      "brand": "Generic/Other",
+      "note": "Vertical 9:16 cut of the LeaseStack explainer rebrand sample.",
+      "pt": 20.5,
+      "date_override": [
+        "Sep 29, 2026",
+        "2026-09-29T00:00:00"
+      ],
+      "group": "LeaseStack Explainer (rebrand sample)",
+      "title": "LeaseStack Explainer (rebrand sample)",
+      "version": "v1 · 9:16",
+      "category": "Client samples: LeaseStack"
     }
   ],
   "clips": [

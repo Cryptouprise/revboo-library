@@ -424,6 +424,16 @@
   "size": 513519,
   "sha256": "29aa6f5f5be2442c5361fb2e59cd2a0eb2652a799aa5f4e540b29ed09f0fec1a"
  },
+ "leasestack-explainer-16x9.mp4": {
+  "tag": "media-v1",
+  "size": 5367608,
+  "sha256": "9a576854ed23bdd122242f7ea4f55ed980a9b5e43365aca17a7aa1b7cde867c5"
+ },
+ "leasestack-explainer-9x16.mp4": {
+  "tag": "media-v1",
+  "size": 5396218,
+  "sha256": "3b1e18bdbc83268aa4864fc49c2b6c9c3eab945c0bf70b092665abf28b45ffa6"
+ },
  "media-buyer-cringes-behind-hands-then-grins.mp4": {
   "tag": "media-v1",
   "size": 465859,
