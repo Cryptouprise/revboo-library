@@ -15,6 +15,25 @@
   },
   "finals": [
     {
+      "id": "pi-attorneys-hammer-broke-v1",
+      "brand": "Legal/PI",
+      "category": "Ads for attorneys",
+      "group": "PI Attorneys – Hammer Broke",
+      "title": "PI Attorneys – Hammer Broke",
+      "version": "v1",
+      "width": 1080,
+      "height": 1920,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T18:01:55",
+      "duration": 39.5,
+      "video": "media/finals/pi-attorneys-hammer-broke-v1.mp4",
+      "poster": "media/posters/pi-attorneys-hammer-broke-v1.jpg",
+      "status": "final",
+      "note": "Slapstick montage of bad PI ad tropes (screaming lawyer, broken mallet, neck-brace actor, cone trip, billboard pigeons) → calm premium after. All-new Kling 3.0 Pro via OpenRouter + library reuse.",
+      "source": "/workspace/revboo/Revboo-PI-HammerBroke-small.mp4",
+      "size_mb": 5.7
+    },
+    {
       "id": "tube-man-v1",
       "brand": "Revboo",
       "category": "Revboo ads",
@@ -643,6 +662,146 @@
     }
   ],
   "clips": [
+    {
+      "id": "overacting-actor-in-backwards-neck-brace-thumbs-up-and-wave",
+      "brand": "Legal/PI",
+      "name": "Overacting actor in backwards neck brace – thumbs-up and wave",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:50:52",
+      "duration": 5.0,
+      "video": "media/clips/overacting-actor-in-backwards-neck-brace-thumbs-up-and-wave.mp4",
+      "poster": "media/posters/overacting-actor-in-backwards-neck-brace-thumbs-up-and-wave.jpg",
+      "source": "/workspace/revboo/pi3/p3b.mp4",
+      "size_mb": 0.37
+    },
+    {
+      "id": "attorney-buttons-jacket-dark-premium-office",
+      "brand": "Legal/PI",
+      "name": "Attorney buttons jacket – dark premium office",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:46:21",
+      "duration": 5.0,
+      "video": "media/clips/attorney-buttons-jacket-dark-premium-office.mp4",
+      "poster": "media/posters/attorney-buttons-jacket-dark-premium-office.jpg",
+      "source": "/workspace/revboo/pi3/p8.mp4",
+      "size_mb": 0.44
+    },
+    {
+      "id": "lawyer-points-at-camera-trips-over-cone",
+      "brand": "Legal/PI",
+      "name": "Lawyer points at camera, trips over cone",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ],
+      "note": "Fall happens at 4.0–4.5 s (late in clip).",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:45:04",
+      "duration": 5.0,
+      "video": "media/clips/lawyer-points-at-camera-trips-over-cone.mp4",
+      "poster": "media/posters/lawyer-points-at-camera-trips-over-cone.jpg",
+      "source": "/workspace/revboo/pi3/p4.mp4",
+      "size_mb": 0.46
+    },
+    {
+      "id": "billboard-lawyer-covered-in-pigeons-blank-billboard",
+      "brand": "Legal/PI",
+      "name": "Billboard lawyer covered in pigeons – blank billboard",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:45:04",
+      "duration": 5.0,
+      "video": "media/clips/billboard-lawyer-covered-in-pigeons-blank-billboard.mp4",
+      "poster": "media/posters/billboard-lawyer-covered-in-pigeons-blank-billboard.jpg",
+      "source": "/workspace/revboo/pi3/p5.mp4",
+      "size_mb": 0.33
+    },
+    {
+      "id": "lawyer-s-mallet-head-flies-off-desk-folds",
+      "brand": "Legal/PI",
+      "name": "Lawyer's mallet head flies off, desk folds",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:44:50",
+      "duration": 5.0,
+      "video": "media/clips/lawyer-s-mallet-head-flies-off-desk-folds.mp4",
+      "poster": "media/posters/lawyer-s-mallet-head-flies-off-desk-folds.jpg",
+      "source": "/workspace/revboo/pi3/p2.mp4",
+      "size_mb": 0.51
+    },
+    {
+      "id": "screaming-tv-lawyer-bonks-the-fisheye-lens",
+      "brand": "Legal/PI",
+      "name": "Screaming TV lawyer bonks the fisheye lens",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:44:49",
+      "duration": 5.0,
+      "video": "media/clips/screaming-tv-lawyer-bonks-the-fisheye-lens.mp4",
+      "poster": "media/posters/screaming-tv-lawyer-bonks-the-fisheye-lens.jpg",
+      "source": "/workspace/revboo/pi3/p1.mp4",
+      "size_mb": 0.88
+    },
+    {
+      "id": "calm-attorney-consultation-reassuring-smile",
+      "brand": "Legal/PI",
+      "name": "Calm attorney consultation – reassuring smile",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T17:44:49",
+      "duration": 5.0,
+      "video": "media/clips/calm-attorney-consultation-reassuring-smile.mp4",
+      "poster": "media/posters/calm-attorney-consultation-reassuring-smile.jpg",
+      "source": "/workspace/revboo/pi3/p7.mp4",
+      "size_mb": 0.29
+    },
     {
       "id": "sedan-launches-out-of-smoke-clean",
       "brand": "Revboo",

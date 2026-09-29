@@ -9,6 +9,16 @@
       "group": "Tube Man",
       "title": "Tube Man",
       "version": "v1"
+    },
+    {
+      "id": "pi-attorneys-hammer-broke-v1",
+      "src": "/workspace/revboo/Revboo-PI-HammerBroke-small.mp4",
+      "brand": "Legal/PI",
+      "note": "Slapstick montage of bad PI ad tropes (screaming lawyer, broken mallet, neck-brace actor, cone trip, billboard pigeons) → calm premium after. All-new Kling 3.0 Pro via OpenRouter + library reuse.",
+      "pt": 8.3,
+      "group": "PI Attorneys – Hammer Broke",
+      "title": "PI Attorneys – Hammer Broke",
+      "version": "v1"
     }
   ],
   "clips": [
@@ -236,6 +246,104 @@
       "note": "",
       "name": "Media buyer cringes behind hands, then grins",
       "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ]
+    },
+    {
+      "id": "screaming-tv-lawyer-bonks-the-fisheye-lens",
+      "src": "/workspace/revboo/pi3/p1.mp4",
+      "brand": "Legal/PI",
+      "note": "",
+      "name": "Screaming TV lawyer bonks the fisheye lens",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ]
+    },
+    {
+      "id": "lawyer-s-mallet-head-flies-off-desk-folds",
+      "src": "/workspace/revboo/pi3/p2.mp4",
+      "brand": "Legal/PI",
+      "note": "",
+      "name": "Lawyer's mallet head flies off, desk folds",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ]
+    },
+    {
+      "id": "overacting-actor-in-backwards-neck-brace-thumbs-up-and-wave",
+      "src": "/workspace/revboo/pi3/p3b.mp4",
+      "brand": "Legal/PI",
+      "note": "",
+      "name": "Overacting actor in backwards neck brace – thumbs-up and wave",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ]
+    },
+    {
+      "id": "lawyer-points-at-camera-trips-over-cone",
+      "src": "/workspace/revboo/pi3/p4.mp4",
+      "brand": "Legal/PI",
+      "note": "Fall happens at 4.0–4.5 s (late in clip).",
+      "name": "Lawyer points at camera, trips over cone",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ]
+    },
+    {
+      "id": "billboard-lawyer-covered-in-pigeons-blank-billboard",
+      "src": "/workspace/revboo/pi3/p5.mp4",
+      "brand": "Legal/PI",
+      "note": "",
+      "name": "Billboard lawyer covered in pigeons – blank billboard",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ]
+    },
+    {
+      "id": "calm-attorney-consultation-reassuring-smile",
+      "src": "/workspace/revboo/pi3/p7.mp4",
+      "brand": "Legal/PI",
+      "note": "",
+      "name": "Calm attorney consultation – reassuring smile",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": [
+        "PI Attorneys – Hammer Broke"
+      ]
+    },
+    {
+      "id": "attorney-buttons-jacket-dark-premium-office",
+      "src": "/workspace/revboo/pi3/p8.mp4",
+      "brand": "Legal/PI",
+      "note": "",
+      "name": "Attorney buttons jacket – dark premium office",
+      "categories": [
+        "Legal/PI",
         "People/Reactions"
       ],
       "used_in": [
