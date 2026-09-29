@@ -104,6 +104,11 @@
   "size": 438935,
   "sha256": "3da240e07d23100110d280a0ceaaf6d585002a8c1de3b0df3f919ba81af092ef"
  },
+ "before-the-paperwork-v1.mp4": {
+  "tag": "media-v1",
+  "size": 4432796,
+  "sha256": "7cee503d51ecc89a3c87cb37ad7c103c5bb825e591aeaa153e9eaf60d901af05"
+ },
  "billboard-lawyer-covered-in-pigeons-blank-billboard.mp4": {
   "tag": "media-v1",
   "size": 325671,
@@ -174,6 +179,21 @@
   "size": 809369,
   "sha256": "3e0e08033185a0ecad7ca38f3e5fc92c90518eae1d22dfc1aa3202764adad05f"
  },
+ "clayton-jones-serious-experience-15s.mp4": {
+  "tag": "media-v1",
+  "size": 3220261,
+  "sha256": "68ab4c328f12900fba40e6a621ca3d7ad9d8affbdb4170d5230e3a5a6e427f29"
+ },
+ "clayton-jones-serious-experience-5s-office.mp4": {
+  "tag": "media-v1",
+  "size": 1159464,
+  "sha256": "1da83bff50dd45b47037074a880a649f45a7470e354d510a744f4d653045eac8"
+ },
+ "clayton-jones-serious-experience-5s.mp4": {
+  "tag": "media-v1",
+  "size": 1088750,
+  "sha256": "a55b70fc0359ebf614af245fcec9bb6098f08b0b49367c587c9c8c6b40fed1a5"
+ },
  "clone-war-room.mp4": {
   "tag": "media-v1",
   "size": 3356494,
@@ -193,6 +213,41 @@
   "tag": "media-v1",
   "size": 5541528,
   "sha256": "32b92cd8f07f47dc66889024234e4ee77fdf128326bd8695ef5a3f759f635363"
+ },
+ "crowson-alaska-15s-call-today.mp4": {
+  "tag": "media-v1",
+  "size": 4856782,
+  "sha256": "aa68450af3f8178da5fbb6f4ed17da249f48741206e9f7373d0f6f0acfdb43c1"
+ },
+ "crowson-alaska-15s-text-beats.mp4": {
+  "tag": "media-v1",
+  "size": 5569548,
+  "sha256": "027a42e5b0d1fc5ea39c613f00730873584366fee5bb4290b5fe9abd2dde4b61"
+ },
+ "crowson-alaska-5s-semi.mp4": {
+  "tag": "media-v1",
+  "size": 1557520,
+  "sha256": "051dcda5803b5c5ca150ce4287230ec065938fd0576d70cca9f812241a207055"
+ },
+ "crowson-alaska-5s.mp4": {
+  "tag": "media-v1",
+  "size": 1118152,
+  "sha256": "d3139fba2ed3174c37575f2ded28e0752897a5bedc1ed45d7af03684f10063da"
+ },
+ "davis-truck-accident-15s.mp4": {
+  "tag": "media-v1",
+  "size": 3332404,
+  "sha256": "627e92cb9260fcbdb2a69fb3f463c822c67d7bb9691a0c21dfb61ce28584bd16"
+ },
+ "davis-truck-accident-5s-chicago.mp4": {
+  "tag": "media-v1",
+  "size": 1251041,
+  "sha256": "52b577a93a50ce20ea963838bd5ad7a47fb811e50cbbfd41aeb79d64c202ff30"
+ },
+ "davis-truck-accident-5s.mp4": {
+  "tag": "media-v1",
+  "size": 1115547,
+  "sha256": "a310cc834645398aa91d0825f105d22b07285fcd971c600e84c3a7bb001f23ef"
  },
  "deadpan-woman-on-exercise-bike-stares-at-camera.mp4": {
   "tag": "media-v1",
@@ -263,6 +318,51 @@
   "tag": "media-v1",
   "size": 550181,
   "sha256": "e6a33c241ae144b49ccbb3d0b863afa773a04913fd45e6bcf02be59d930fa320"
+ },
+ "hf-car-night-hand-hold.mp4": {
+  "tag": "media-v1",
+  "size": 286033,
+  "sha256": "708a4a1ee2080e2ffc80816b65d61d7df955fa178b65e5aac6dd014eafef3ae9"
+ },
+ "hf-consult-before-the-paperwork.mp4": {
+  "tag": "media-v1",
+  "size": 580094,
+  "sha256": "554b139610e4ec9d0ae6d27bde9b5ab1191900a3bef1f385648c6a6f300e9813"
+ },
+ "hf-hands-close-folder-phone.mp4": {
+  "tag": "media-v1",
+  "size": 558597,
+  "sha256": "b963324c269a8bf8098cd0044dd7a92e0c4739f5af36f08e71555bf6674fcf84"
+ },
+ "hf-hands-sort-accident-paperwork.mp4": {
+  "tag": "media-v1",
+  "size": 587264,
+  "sha256": "7a4ba796923d4e594611db76f021c3cd562a899a367821e19368c8bf65dc8673"
+ },
+ "hf-hard-hat-gloves-workbench.mp4": {
+  "tag": "media-v1",
+  "size": 549300,
+  "sha256": "98320ff099108675902611202efdee4930bda3d1d382e88bd5a2fbb06798bc2a"
+ },
+ "hf-kitchen-wrist-brace.mp4": {
+  "tag": "media-v1",
+  "size": 198345,
+  "sha256": "e807b641cf6c077667fd325e91dd41c15ae3f9b77dd96f7ee54c80b222e5c261"
+ },
+ "hf-milwaukee-driver-bumper.mp4": {
+  "tag": "media-v1",
+  "size": 503720,
+  "sha256": "83a11ba8214cb816c98fcd1a0d5757215326f045c1d0bfc237423b45e7ca876f"
+ },
+ "hf-raindrops-brake-light-macro.mp4": {
+  "tag": "media-v1",
+  "size": 478686,
+  "sha256": "f532ce7f3300fddd1d2dd52509ec6beb11a3670b345f708f6c012da72c430c80"
+ },
+ "hf-woman-phone-damaged-sedan.mp4": {
+  "tag": "media-v1",
+  "size": 1009926,
+  "sha256": "4dad15b44c277941b7aa8c6c3ebfbaadacd6d9ee10eaa321bb2e8948a7dba1d1"
  },
  "infinite-control-tower-16x9.mp4": {
   "tag": "media-v1",
@@ -378,6 +478,11 @@
   "tag": "media-v1",
   "size": 5305448,
   "sha256": "7de2cae25f2acd934cc55c340391228a508f1be59d396bece6650e032e5cbf26"
+ },
+ "one-moment-v1.mp4": {
+  "tag": "media-v1",
+  "size": 3258381,
+  "sha256": "434ddc3100d95915c3e99340fee9318802888503ee4a924f0e7358ed9f6de357"
  },
  "or-kling-black-car-studio.mp4": {
   "tag": "media-v1",
@@ -558,6 +663,31 @@
   "tag": "media-v1",
   "size": 1264180,
   "sha256": "c59ea5ed68e3836c6996ebe9a7ffb83e6d0c191781892620e3c41763e5db4bb6"
+ },
+ "someone-in-your-corner-v1.mp4": {
+  "tag": "media-v1",
+  "size": 3232554,
+  "sha256": "76061f2f62bda086056b0e15d129b1bbb3142be485d34aea86a45cbf294fc55c"
+ },
+ "stephens-fort-worth-15s.mp4": {
+  "tag": "media-v1",
+  "size": 2811397,
+  "sha256": "4164a6aa303bb920fc1c81b0b3a489d509183dd6bc1cb34d1bee3c19a8a7eeaf"
+ },
+ "stephens-fort-worth-5s-color.mp4": {
+  "tag": "media-v1",
+  "size": 1275329,
+  "sha256": "5a85cec688091f1a7bf94f80a05b7374cbc42eabed9b7d0fd12a2b12cf86fbac"
+ },
+ "stephens-fort-worth-5s.mp4": {
+  "tag": "media-v1",
+  "size": 1114669,
+  "sha256": "094b49716de5dc0d555193eb1afd453d31205d27854b2451db3c4cd5838c4917"
+ },
+ "stephens-insurance-lawyers-15s.mp4": {
+  "tag": "media-v1",
+  "size": 3319197,
+  "sha256": "1ce0b5d831cc619b3869f767ef6a4c075ad9539a360aff883f4c7f773299ea0a"
  },
  "surgeon-in-tears-looks-up-red-alarm-light.mp4": {
   "tag": "media-v1",

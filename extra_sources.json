@@ -196,6 +196,261 @@
       "title": "PI Attorneys – Scroll Past",
       "version": "v1",
       "category": "Ads for attorneys"
+    },
+    {
+      "id": "before-the-paperwork-v1",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_223649_dad34fb1-b39a-4dea-94c3-0df53fe21d91.mp4",
+      "brand": "Legal/PI",
+      "note": "Premium 5-shot PI spot: rainy car at night (\"Hey. I'm here.\"), kitchen with wrist brace, empathetic female attorney (\"Before the paperwork... how are you both doing?\"), end card \"FOWLER AND MUSK / For everything that comes after\" + dramatization disclaimer. Fix before use: fictional firm name on end card; legal-page insert at ~15s has garbled fake text; brace reads as a long black sleeve; hands in the car shot look odd. Rating 8/10.",
+      "pt": 11.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T16:36:49"
+      ],
+      "group": "Before the Paperwork",
+      "title": "Before the Paperwork",
+      "version": "v1 · 20s Seedance 2.5 (native dialogue)",
+      "category": "Live-action PI spots (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "someone-in-your-corner-v1",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_230157_f433044b-2f96-4fed-95cb-58111ce4c8e5.mp4",
+      "brand": "Legal/PI",
+      "note": "Rain-wet road/blanket, kitchen table with wrist brace and bills, female attorney listening, hopeful walk-out. Female VO: \"The accident was a moment... Start with a conversation.\" Watch: toy-looking teal brace, slight mouth movement on the last shot. No text or logos. Rating 7/10.",
+      "pt": 10.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T17:01:57"
+      ],
+      "group": "Someone in Your Corner",
+      "title": "Someone in Your Corner",
+      "version": "v1 · 15s Kling 3.0 (VO)",
+      "category": "Live-action PI spots (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "one-moment-v1",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_222716_4d2b9531-3531-49c6-ac34-d44a282c39be.mp4",
+      "brand": "Legal/PI",
+      "note": "Broken headlamp on wet highway, woman at breakfast, male attorney over-shoulder, relief close-up. Male VO. Flatter, stock-looking grade compared with Before the Paperwork. No text. Rating 6/10.",
+      "pt": 9.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T16:27:16"
+      ],
+      "group": "One Moment Can Change Everything",
+      "title": "One Moment Can Change Everything",
+      "version": "v1 · 15s Kling 3.0 (VO)",
+      "category": "Live-action PI spots (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "clayton-jones-serious-experience-15s",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_230432_3d12b548-f43f-4526-be7b-4dcd780b3575.mp4",
+      "brand": "Legal/PI",
+      "note": "Animated static ad: courtroom attorney portrait + navy panel, gold call button, \"FREE CASE REVIEW\" fades in at 11s, male VO. Spec ad: verify \"Former prosecutor, 20+ years\" claim and the (816) number before use. Rating 6/10.",
+      "pt": 13.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T17:04:32"
+      ],
+      "group": "Clayton A. Jones – Serious Injuries Require Serious Experience",
+      "title": "Clayton A. Jones – Serious Injuries Require Serious Experience",
+      "version": "15s · Seedance 2.5 (VO)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "clayton-jones-serious-experience-5s",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_225715_5157e118-f606-4a9f-a9c8-9a44aa9c6714.mp4",
+      "brand": "Legal/PI",
+      "note": "Short loop of the same static (courtroom portrait). Clean text. Rating 6/10.",
+      "pt": 2.5,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T16:57:15"
+      ],
+      "group": "Clayton A. Jones – Serious Injuries Require Serious Experience",
+      "title": "Clayton A. Jones – Serious Injuries Require Serious Experience",
+      "version": "5s · Seedance 2.5 (1440 square)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "clayton-jones-serious-experience-5s-office",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260908_010114_b7a5ea33-fa16-4808-b7c7-f148c306d51e.mp4",
+      "brand": "Legal/PI",
+      "note": "Earlier design: arms-crossed attorney in office, subtle push-in. Clean text. Rating 6/10.",
+      "pt": 2.5,
+      "date_override": [
+        "Sep 7, 2026",
+        "2026-09-07T19:01:14"
+      ],
+      "group": "Clayton A. Jones – Serious Injuries Require Serious Experience",
+      "title": "Clayton A. Jones – Serious Injuries Require Serious Experience",
+      "version": "5s · office-portrait design (Sep 7)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "crowson-alaska-15s-call-today",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_230436_40972827-183e-4050-88cc-8e0b576a3cb5.mp4",
+      "brand": "Legal/PI",
+      "note": "Snowy aerial highway static with added \"CALL TODAY\" line and VO. Spec ad: \"Offered $25,000. We won $175,000.\" result claim and 907-777-7777 are placeholders; verify before use. Rating 5/10.",
+      "pt": 13.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T17:04:36"
+      ],
+      "group": "Crowson Law Group – Injured in Alaska?",
+      "title": "Crowson Law Group – Injured in Alaska?",
+      "version": "15s · \"CALL TODAY\" beat (VO)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "crowson-alaska-15s-text-beats",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_232715_24bdeb1e-257f-41d4-9bb9-1ed82d8bc279.mp4",
+      "brand": "Legal/PI",
+      "note": "Adds three text beats over the sky. Garbled AI text: \"THE INSURANC OFFERED\" and \"CROWEIK WON $175,000\" (should be Crowson). Do not use without replacing the text in post. Rating 4/10.",
+      "pt": 12.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T17:27:15"
+      ],
+      "group": "Crowson Law Group – Injured in Alaska?",
+      "title": "Crowson Law Group – Injured in Alaska?",
+      "version": "15s · text beats (VO)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "crowson-alaska-5s",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_225346_b3548246-f1a4-42a2-9b89-4c73a5e10e31.mp4",
+      "brand": "Legal/PI",
+      "note": "Short loop of the snowy-highway static. Result claim/phone are placeholders. Rating 5/10.",
+      "pt": 2.5,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T16:53:46"
+      ],
+      "group": "Crowson Law Group – Injured in Alaska?",
+      "title": "Crowson Law Group – Injured in Alaska?",
+      "version": "5s · Seedance 2.5 (1440 square)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "crowson-alaska-5s-semi",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260908_010118_5f96d30e-13de-4c59-97d7-d8fc8dbc4237.mp4",
+      "brand": "Legal/PI",
+      "note": "Earlier design: semi-truck on mountain highway, gold consultation button. Tiny header text is soft. Rating 5/10.",
+      "pt": 2.5,
+      "date_override": [
+        "Sep 7, 2026",
+        "2026-09-07T19:01:18"
+      ],
+      "group": "Crowson Law Group – Injured in Alaska?",
+      "title": "Crowson Law Group – Injured in Alaska?",
+      "version": "5s · semi-truck design (Sep 7)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "davis-truck-accident-15s",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_230438_c88acba3-8243-4fed-9ebe-ede9a0483ca4.mp4",
+      "brand": "Legal/PI",
+      "note": "City light-trails static, \"CALL 24/7\" added late. Placeholder firm. Rating 5/10.",
+      "pt": 13.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T17:04:38"
+      ],
+      "group": "Davis Law Firm – Injured in a Truck Accident?",
+      "title": "Davis Law Firm – Injured in a Truck Accident?",
+      "version": "15s · light-trails (VO)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "davis-truck-accident-5s",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_225348_f368692d-9169-41d3-88dc-f729eefd7a95.mp4",
+      "brand": "Legal/PI",
+      "note": "Short loop of the light-trails static. Rating 5/10.",
+      "pt": 2.5,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T16:53:48"
+      ],
+      "group": "Davis Law Firm – Injured in a Truck Accident?",
+      "title": "Davis Law Firm – Injured in a Truck Accident?",
+      "version": "5s · light-trails (1440 square)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "davis-truck-accident-5s-chicago",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260908_010120_21ca6058-f713-45dc-b9e4-b7f22a52be6f.mp4",
+      "brand": "Legal/PI",
+      "note": "Earlier design: semi + car at a Chicago interchange, button glow. Rating 5/10.",
+      "pt": 2.5,
+      "date_override": [
+        "Sep 7, 2026",
+        "2026-09-07T19:01:20"
+      ],
+      "group": "Davis Law Firm – Injured in a Truck Accident?",
+      "title": "Davis Law Firm – Injured in a Truck Accident?",
+      "version": "5s · Chicago semi design (Sep 7)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "stephens-fort-worth-15s",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_230434_5c3617b8-1544-4bc0-83af-8aff83a5c0aa.mp4",
+      "brand": "Legal/PI",
+      "note": "Ken Burns on a black-and-white family photo, \"FREE CASE REVIEW\" fades in, female VO. Rating 5/10.",
+      "pt": 13.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T17:04:34"
+      ],
+      "group": "Stephens Law – Injured in Fort Worth?",
+      "title": "Stephens Law – Injured in Fort Worth?",
+      "version": "15s · B&W family photo (VO)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "stephens-insurance-lawyers-15s",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_232713_2a733e18-11ac-4962-b713-258009715c75.mp4",
+      "brand": "Legal/PI",
+      "note": "\"Insurance companies have lawyers. You deserve one too.\" Late \"FREE CASE REVIEW\" text collides with the headline (stacked, cramped). Rating 4/10.",
+      "pt": 13.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T17:27:13"
+      ],
+      "group": "Stephens Law – Insurance Companies Have Lawyers",
+      "title": "Stephens Law – Insurance Companies Have Lawyers",
+      "version": "15s · sepia family photo (VO)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "stephens-fort-worth-5s",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_225716_c4945cd4-1aec-4cc5-a338-1e8b662c5749.mp4",
+      "brand": "Legal/PI",
+      "note": "Short loop of the B&W family static. Rating 5/10.",
+      "pt": 2.5,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T16:57:16"
+      ],
+      "group": "Stephens Law – Injured in Fort Worth?",
+      "title": "Stephens Law – Injured in Fort Worth?",
+      "version": "5s · B&W family photo (1440 square)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
+    },
+    {
+      "id": "stephens-fort-worth-5s-color",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260908_010116_9a6c91eb-caba-440b-9e0a-d65321e74873.mp4",
+      "brand": "Legal/PI",
+      "note": "Earlier design: color family-on-couch photo. Rating 5/10.",
+      "pt": 2.5,
+      "date_override": [
+        "Sep 7, 2026",
+        "2026-09-07T19:01:16"
+      ],
+      "group": "Stephens Law – Injured in Fort Worth?",
+      "title": "Stephens Law – Injured in Fort Worth?",
+      "version": "5s · color family design (Sep 7)",
+      "category": "Law-firm spec ads (Higgsfield, made by Chase)"
     }
   ],
   "clips": [
@@ -848,6 +1103,162 @@
       "used_in": [
         "PI Attorneys – Scroll Past"
       ]
+    },
+    {
+      "id": "hf-consult-before-the-paperwork",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_232504_402dfdb4-bc19-4847-845b-9dcc3c4ee46a.mp4",
+      "brand": "Legal/PI",
+      "note": "Couple (man in wrist brace) with empathetic female attorney, wood-panel conference room, native dialogue + cello/piano. 8.1s Seedance 2.5. Folder stays blurred. Rating 8/10.",
+      "pt": 4.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T17:25:04"
+      ],
+      "name": "Attorney consult – \"Before the paperwork… how are you both doing?\"",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "hf-raindrops-brake-light-macro",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_212742_fad2f202-af64-4d0b-94f0-5bbdc78f3ca8.mp4",
+      "brand": "Legal/PI",
+      "note": "Macro raindrops, coral brake-light reflection, scuffed mirror. No people, no text. Great premium opener. Rating 8/10.",
+      "pt": 3.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T15:27:42"
+      ],
+      "name": "Rain on car window – brake-light macro, blue hour",
+      "categories": [
+        "Legal/PI",
+        "Cars/Engine",
+        "Transitions/FX"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "hf-hard-hat-gloves-workbench",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260910_192204_0339c63a-e891-4a33-a5e7-a426e293ad6a.mp4",
+      "brand": "Legal/PI",
+      "note": "Workplace-injury B-roll, 15s vertical, three shots, empty top half for titles. No text. Rating 8/10.",
+      "pt": 7.0,
+      "date_override": [
+        "Sep 10, 2026",
+        "2026-09-10T13:22:04"
+      ],
+      "name": "Hard hat & work gloves – workbench, copper light (vertical)",
+      "categories": [
+        "Legal/PI"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "hf-kitchen-wrist-brace",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_232503_8f1726ad-aa2d-460c-82eb-5b64d8a671bd.mp4",
+      "brand": "Legal/PI",
+      "note": "\"We were just going home.\" Native dialogue. Phone buzz on table. Rating 7/10.",
+      "pt": 2.5,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T17:25:03"
+      ],
+      "name": "Kitchen morning – partner buttons cuff over wrist brace",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "hf-car-night-hand-hold",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_232503_0d2d9349-0958-45ae-987f-99754667c1d7.mp4",
+      "brand": "Legal/PI",
+      "note": "4s, turn-signal click, hands clasp. Hands get an odd orange glow in the insert. Rating 7/10.",
+      "pt": 1.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T17:25:03"
+      ],
+      "name": "Stopped car in rain at night – \"Hey. I'm here.\"",
+      "categories": [
+        "Legal/PI",
+        "Cars/Engine",
+        "People/Reactions"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "hf-hands-sort-accident-paperwork",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_212742_85d629ff-48d3-4356-9ef6-384b0f7d4189.mp4",
+      "brand": "Legal/PI",
+      "note": "Faceless insert, papers show soft fake form lines (no readable words). Rating 7/10.",
+      "pt": 3.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T15:27:42"
+      ],
+      "name": "Hands sort accident paperwork – oak table, morning",
+      "categories": [
+        "Legal/PI"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "hf-hands-close-folder-phone",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260911_212742_b21079d0-6af6-4c70-a266-7d50cc26fee5.mp4",
+      "brand": "Legal/PI",
+      "note": "Faceless resolution insert, sunlight widens on table. Rating 7/10.",
+      "pt": 3.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T15:27:42"
+      ],
+      "name": "Hands close folder, pick up phone – resolution",
+      "categories": [
+        "Legal/PI",
+        "Phones & Scrolling"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "hf-woman-phone-damaged-sedan",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260909_231133_3dc56d03-6133-4048-8598-21d891f7e0cc.mp4",
+      "brand": "Legal/PI",
+      "note": "10s, 1284x716 (soft). Phone insert shows fake app UI: blur or key it. Rating 6/10.",
+      "pt": 1.5,
+      "date_override": [
+        "Sep 9, 2026",
+        "2026-09-09T17:11:33"
+      ],
+      "name": "Woman on phone beside damaged sedan – rainy city",
+      "categories": [
+        "Legal/PI",
+        "Cars/Engine",
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "hf-milwaukee-driver-bumper",
+      "src": "/workspace/revboo/inbox/higgsfield/hf_20260817_225530_7de099e7-f0ad-40d1-8602-115e5d5df846.mp4",
+      "brand": "Legal/PI",
+      "note": "4s Kling turbo. Mercedes-style grille and a partial plate (\"IC...\") visible: blur. Bumper shows no real damage. Rating 5/10.",
+      "pt": 2.0,
+      "date_override": [
+        "Aug 17, 2026",
+        "2026-08-17T16:55:30"
+      ],
+      "name": "Driver checks bumper – rainy downtown intersection (vertical)",
+      "categories": [
+        "Legal/PI",
+        "Cars/Engine",
+        "People/Reactions"
+      ],
+      "used_in": []
     }
   ]
 }
