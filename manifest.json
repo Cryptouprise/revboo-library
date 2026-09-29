@@ -795,6 +795,26 @@
       "file": "media/finals/monday-morning-drop-v3-v3.mp4"
     },
     {
+      "id": "the-ad-doctor-flatlining-ads-v1",
+      "brand": "Revboo",
+      "category": "Revboo ads",
+      "group": "The Ad Doctor",
+      "title": "The Ad Doctor (Flatlining Ads)",
+      "version": "v1",
+      "width": 1080,
+      "height": 1920,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 30.9,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/the-ad-doctor-flatlining-ads-v1.mp4",
+      "poster": "media/posters/the-ad-doctor-flatlining-ads-v1.jpg",
+      "status": "final",
+      "note": "Meta/TikTok media buyers. ER hook -> CLEAR! defib (Revboo logo on paddles) -> trap-beat product montage -> Chase's fire-logo ending. Uses Chase's FREE offer caption verbatim (approved by Chase).",
+      "source": "/workspace/revboo/addoctor/Revboo-AdDoctor.mp4",
+      "size_mb": 5.5,
+      "file": "media/finals/the-ad-doctor-flatlining-ads-v1.mp4"
+    },
+    {
       "id": "blast-furnace-take1",
       "brand": "Revboo",
       "category": "Seedance originals (made by Chase)",
@@ -2267,6 +2287,153 @@
       "source": "/workspace/revboo/assets/Revboo/lv_7642619748840148245_20260928074628.mp4",
       "size_mb": 1.32,
       "file": "media/clips/chase-card-monolith-play-button-burst.mp4"
+    },
+    {
+      "id": "er-operating-room-phone-on-the-table-push-in",
+      "brand": "Revboo",
+      "name": "ER operating room – phone on the table, push-in",
+      "categories": [
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ],
+      "note": "⚠ Background monitor screens show AI gibberish UI; blur them (keyframed boxes in addoctor/work/render_ad.py).",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/er-operating-room-phone-on-the-table-push-in.mp4",
+      "poster": "media/posters/er-operating-room-phone-on-the-table-push-in.jpg",
+      "source": "/workspace/revboo/addoctor/work/a1.mp4",
+      "size_mb": 0.8,
+      "file": "media/clips/er-operating-room-phone-on-the-table-push-in.mp4"
+    },
+    {
+      "id": "surgeon-in-tears-looks-up-red-alarm-light",
+      "brand": "Revboo",
+      "name": "Surgeon in tears looks up – red alarm light",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/surgeon-in-tears-looks-up-red-alarm-light.mp4",
+      "poster": "media/posters/surgeon-in-tears-looks-up-red-alarm-light.jpg",
+      "source": "/workspace/revboo/addoctor/work/a2.mp4",
+      "size_mb": 0.75,
+      "file": "media/clips/surgeon-in-tears-looks-up-red-alarm-light.mp4"
+    },
+    {
+      "id": "phone-standing-on-steel-table-blank-white-screen-composite-plate",
+      "brand": "Revboo",
+      "name": "Phone standing on steel table – blank white screen (composite plate)",
+      "categories": [
+        "Phones & Scrolling",
+        "Products"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ],
+      "note": "Blank white screen for compositing; box track in addoctor/work/a3quad.json.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/phone-standing-on-steel-table-blank-white-screen-composite-plate.mp4",
+      "poster": "media/posters/phone-standing-on-steel-table-blank-white-screen-composite-plate.jpg",
+      "source": "/workspace/revboo/addoctor/work/a3.mp4",
+      "size_mb": 0.33,
+      "file": "media/clips/phone-standing-on-steel-table-blank-white-screen-composite-plate.mp4"
+    },
+    {
+      "id": "surgeon-slams-orange-defibrillator-paddles-on-phone-sparks",
+      "brand": "Revboo",
+      "name": "Surgeon slams orange defibrillator paddles on phone – sparks",
+      "categories": [
+        "People/Reactions",
+        "Transitions/FX"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ],
+      "note": "Paddles are plain orange; Revboo logo was added in post from ~2.9s.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/surgeon-slams-orange-defibrillator-paddles-on-phone-sparks.mp4",
+      "poster": "media/posters/surgeon-slams-orange-defibrillator-paddles-on-phone-sparks.jpg",
+      "source": "/workspace/revboo/addoctor/work/a4.mp4",
+      "size_mb": 0.92,
+      "file": "media/clips/surgeon-slams-orange-defibrillator-paddles-on-phone-sparks.mp4"
+    },
+    {
+      "id": "surgical-team-celebrates-phone-revived-glowing-orange",
+      "brand": "Revboo",
+      "name": "Surgical team celebrates – phone revived glowing orange",
+      "categories": [
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/surgical-team-celebrates-phone-revived-glowing-orange.mp4",
+      "poster": "media/posters/surgical-team-celebrates-phone-revived-glowing-orange.jpg",
+      "source": "/workspace/revboo/addoctor/work/a6.mp4",
+      "size_mb": 0.76,
+      "file": "media/clips/surgical-team-celebrates-phone-revived-glowing-orange.mp4"
+    },
+    {
+      "id": "revboo-supercar-launches-down-vineyard-road-golden-hour",
+      "brand": "Revboo",
+      "name": "Revboo supercar launches down vineyard road – golden hour",
+      "categories": [
+        "Cars/Engine",
+        "Brand cards & Logo"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ],
+      "note": "Image-to-video from Chase's car still (hood logo kept); small shield emblem on the nose.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/revboo-supercar-launches-down-vineyard-road-golden-hour.mp4",
+      "poster": "media/posters/revboo-supercar-launches-down-vineyard-road-golden-hour.jpg",
+      "source": "/workspace/revboo/addoctor/work/b1.mp4",
+      "size_mb": 1.04,
+      "file": "media/clips/revboo-supercar-launches-down-vineyard-road-golden-hour.mp4"
+    },
+    {
+      "id": "smartphone-spinning-in-orange-light-trails-3d-product",
+      "brand": "Revboo",
+      "name": "Smartphone spinning in orange light trails – 3D product",
+      "categories": [
+        "Phones & Scrolling",
+        "Products",
+        "Transitions/FX"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/smartphone-spinning-in-orange-light-trails-3d-product.mp4",
+      "poster": "media/posters/smartphone-spinning-in-orange-light-trails-3d-product.jpg",
+      "source": "/workspace/revboo/addoctor/work/b2.mp4",
+      "size_mb": 1.26,
+      "file": "media/clips/smartphone-spinning-in-orange-light-trails-3d-product.mp4"
     },
     {
       "id": "chase-card-monolith-fire-to-supercar",

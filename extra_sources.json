@@ -168,6 +168,20 @@
       "title": "Monday Morning Drop v3",
       "version": "v3",
       "category": "Made by Chase (Higgsfield/CapCut)"
+    },
+    {
+      "id": "the-ad-doctor-flatlining-ads-v1",
+      "src": "/workspace/revboo/addoctor/Revboo-AdDoctor.mp4",
+      "brand": "Revboo",
+      "note": "Meta/TikTok media buyers. ER hook -> CLEAR! defib (Revboo logo on paddles) -> trap-beat product montage -> Chase's fire-logo ending. Uses Chase's FREE offer caption verbatim (approved by Chase).",
+      "pt": 11.6,
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "group": "The Ad Doctor",
+      "title": "The Ad Doctor (Flatlining Ads)",
+      "version": "v1"
     }
   ],
   "clips": [
@@ -583,6 +597,132 @@
         "Transitions/FX"
       ],
       "used_in": []
+    },
+    {
+      "id": "er-operating-room-phone-on-the-table-push-in",
+      "src": "/workspace/revboo/addoctor/work/a1.mp4",
+      "brand": "Revboo",
+      "note": "⚠ Background monitor screens show AI gibberish UI; blur them (keyframed boxes in addoctor/work/render_ad.py).",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "ER operating room – phone on the table, push-in",
+      "categories": [
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ]
+    },
+    {
+      "id": "surgeon-in-tears-looks-up-red-alarm-light",
+      "src": "/workspace/revboo/addoctor/work/a2.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Surgeon in tears looks up – red alarm light",
+      "categories": [
+        "People/Reactions"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ]
+    },
+    {
+      "id": "phone-standing-on-steel-table-blank-white-screen-composite-plate",
+      "src": "/workspace/revboo/addoctor/work/a3.mp4",
+      "brand": "Revboo",
+      "note": "Blank white screen for compositing; box track in addoctor/work/a3quad.json.",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Phone standing on steel table – blank white screen (composite plate)",
+      "categories": [
+        "Phones & Scrolling",
+        "Products"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ]
+    },
+    {
+      "id": "surgeon-slams-orange-defibrillator-paddles-on-phone-sparks",
+      "src": "/workspace/revboo/addoctor/work/a4.mp4",
+      "brand": "Revboo",
+      "note": "Paddles are plain orange; Revboo logo was added in post from ~2.9s.",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Surgeon slams orange defibrillator paddles on phone – sparks",
+      "categories": [
+        "People/Reactions",
+        "Transitions/FX"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ]
+    },
+    {
+      "id": "surgical-team-celebrates-phone-revived-glowing-orange",
+      "src": "/workspace/revboo/addoctor/work/a6.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Surgical team celebrates – phone revived glowing orange",
+      "categories": [
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ]
+    },
+    {
+      "id": "revboo-supercar-launches-down-vineyard-road-golden-hour",
+      "src": "/workspace/revboo/addoctor/work/b1.mp4",
+      "brand": "Revboo",
+      "note": "Image-to-video from Chase's car still (hood logo kept); small shield emblem on the nose.",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Revboo supercar launches down vineyard road – golden hour",
+      "categories": [
+        "Cars/Engine",
+        "Brand cards & Logo"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ]
+    },
+    {
+      "id": "smartphone-spinning-in-orange-light-trails-3d-product",
+      "src": "/workspace/revboo/addoctor/work/b2.mp4",
+      "brand": "Revboo",
+      "note": "",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Smartphone spinning in orange light trails – 3D product",
+      "categories": [
+        "Phones & Scrolling",
+        "Products",
+        "Transitions/FX"
+      ],
+      "used_in": [
+        "The Ad Doctor"
+      ]
     }
   ]
 }
