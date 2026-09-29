@@ -26,12 +26,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T18:01:55",
       "duration": 39.5,
-      "video": "media/finals/pi-attorneys-hammer-broke-v1.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-hammer-broke-v1.mp4",
       "poster": "media/posters/pi-attorneys-hammer-broke-v1.jpg",
       "status": "final",
       "note": "Slapstick montage of bad PI ad tropes (screaming lawyer, broken mallet, neck-brace actor, cone trip, billboard pigeons) → calm premium after. All-new Kling 3.0 Pro via OpenRouter + library reuse.",
       "source": "/workspace/revboo/Revboo-PI-HammerBroke-small.mp4",
-      "size_mb": 5.7
+      "size_mb": 5.7,
+      "file": "media/finals/pi-attorneys-hammer-broke-v1.mp4"
     },
     {
       "id": "tube-man-v1",
@@ -45,12 +46,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T14:34:19",
       "duration": 36.0,
-      "video": "media/finals/tube-man-v1.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/tube-man-v1.mp4",
       "poster": "media/posters/tube-man-v1.jpg",
       "status": "final",
       "note": "Car-dealer before/after teardown; all-new Kling 3.0 Pro footage via OpenRouter",
       "source": "/workspace/revboo/Revboo-TubeMan-small.mp4",
-      "size_mb": 5.6
+      "size_mb": 5.6,
+      "file": "media/finals/tube-man-v1.mp4"
     },
     {
       "id": "counselor-v2",
@@ -64,12 +66,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T12:33:09",
       "duration": 36.4,
-      "video": "media/finals/counselor-v2.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/counselor-v2.mp4",
       "poster": "media/posters/counselor-v2.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/revboo/Revboo-Counselor-v2.mp4",
-      "size_mb": 5.5
+      "size_mb": 5.5,
+      "file": "media/finals/counselor-v2.mp4"
     },
     {
       "id": "counselor-v1",
@@ -83,12 +86,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T11:43:54",
       "duration": 24.0,
-      "video": "media/finals/counselor-v1.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/counselor-v1.mp4",
       "poster": "media/posters/counselor-v1.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/revboo/Revboo-Counselor.mp4",
-      "size_mb": 5.4
+      "size_mb": 5.4,
+      "file": "media/finals/counselor-v1.mp4"
     },
     {
       "id": "pi-attorneys",
@@ -102,12 +106,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T10:04:45",
       "duration": 24.0,
-      "video": "media/finals/pi-attorneys.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys.mp4",
       "poster": "media/posters/pi-attorneys.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/revboo/Revboo-PI-Attorneys.mp4",
-      "size_mb": 5.4
+      "size_mb": 5.4,
+      "file": "media/finals/pi-attorneys.mp4"
     },
     {
       "id": "remake",
@@ -121,12 +126,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:56:47",
       "duration": 23.9,
-      "video": "media/finals/remake.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake.mp4",
       "poster": "media/posters/remake.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/revboo/Revboo-Remake.mp4",
-      "size_mb": 5.4
+      "size_mb": 5.4,
+      "file": "media/finals/remake.mp4"
     },
     {
       "id": "graveyard-v2",
@@ -140,12 +146,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:02:09",
       "duration": 23.5,
-      "video": "media/finals/graveyard-v2.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/graveyard-v2.mp4",
       "poster": "media/posters/graveyard-v2.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/revboo/Revboo-Graveyard-v2.mp4",
-      "size_mb": 5.6
+      "size_mb": 5.6,
+      "file": "media/finals/graveyard-v2.mp4"
     },
     {
       "id": "graveyard-v1",
@@ -159,12 +166,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:56:23",
       "duration": 19.0,
-      "video": "media/finals/graveyard-v1.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/graveyard-v1.mp4",
       "poster": "media/posters/graveyard-v1.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/revboo/Revboo-Graveyard-small.mp4",
-      "size_mb": 5.1
+      "size_mb": 5.1,
+      "file": "media/finals/graveyard-v1.mp4"
     },
     {
       "id": "promo-v3",
@@ -178,12 +186,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:29:43",
       "duration": 17.5,
-      "video": "media/finals/promo-v3.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/promo-v3.mp4",
       "poster": "media/posters/promo-v3.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/revboo/revboo-promo-v3.mp4",
-      "size_mb": 3.8
+      "size_mb": 3.8,
+      "file": "media/finals/promo-v3.mp4"
     },
     {
       "id": "clone-war-room",
@@ -197,12 +206,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:24:50",
       "duration": 15.1,
-      "video": "media/finals/clone-war-room.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/clone-war-room.mp4",
       "poster": "media/posters/clone-war-room.jpg",
       "status": "final",
       "note": "15s Seedance 2.5 generation with native voice and SFX.",
       "source": "/workspace/refs/ref1.mp4",
-      "size_mb": 3.4
+      "size_mb": 3.4,
+      "file": "media/finals/clone-war-room.mp4"
     },
     {
       "id": "promo-v2",
@@ -216,12 +226,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:04:08",
       "duration": 17.5,
-      "video": "media/finals/promo-v2.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/promo-v2.mp4",
       "poster": "media/posters/promo-v2.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/revboo/revboo-promo-v2.mp4",
-      "size_mb": 3.9
+      "size_mb": 3.9,
+      "file": "media/finals/promo-v2.mp4"
     },
     {
       "id": "promo-v1",
@@ -235,12 +246,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:56",
       "duration": 16.4,
-      "video": "media/finals/promo-v1.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/promo-v1.mp4",
       "poster": "media/posters/promo-v1.jpg",
       "status": "rejected",
       "note": "Rejected: stills slideshow. Kept for the archive.",
       "source": "/workspace/revboo/revboo-promo-v1.mp4",
-      "size_mb": 1.7
+      "size_mb": 1.7,
+      "file": "media/finals/promo-v1.mp4"
     },
     {
       "id": "assist-dave-official-gmsd",
@@ -254,12 +266,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:45",
       "duration": 15.0,
-      "video": "media/finals/assist-dave-official-gmsd.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-dave-official-gmsd.mp4",
       "poster": "media/posters/assist-dave-official-gmsd.jpg",
       "status": "final",
       "note": "7 caption variants of the same take; no winner picked yet.",
       "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-official-gmsd.mp4",
-      "size_mb": 2.0
+      "size_mb": 2.0,
+      "file": "media/finals/assist-dave-official-gmsd.mp4"
     },
     {
       "id": "assist-dave-official-unfair",
@@ -273,12 +286,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:44",
       "duration": 15.0,
-      "video": "media/finals/assist-dave-official-unfair.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-dave-official-unfair.mp4",
       "poster": "media/posters/assist-dave-official-unfair.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-official-unfair.mp4",
-      "size_mb": 1.9
+      "size_mb": 1.9,
+      "file": "media/finals/assist-dave-official-unfair.mp4"
     },
     {
       "id": "assist-dave-official-days",
@@ -292,12 +306,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:44",
       "duration": 15.0,
-      "video": "media/finals/assist-dave-official-days.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-dave-official-days.mp4",
       "poster": "media/posters/assist-dave-official-days.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-official-days.mp4",
-      "size_mb": 2.0
+      "size_mb": 2.0,
+      "file": "media/finals/assist-dave-official-days.mp4"
     },
     {
       "id": "assist-dave-official-301697",
@@ -311,12 +326,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:44",
       "duration": 15.0,
-      "video": "media/finals/assist-dave-official-301697.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-dave-official-301697.mp4",
       "poster": "media/posters/assist-dave-official-301697.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-official-301697.mp4",
-      "size_mb": 2.0
+      "size_mb": 2.0,
+      "file": "media/finals/assist-dave-official-301697.mp4"
     },
     {
       "id": "assist-dave-overlay-301k",
@@ -330,12 +346,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:44",
       "duration": 15.0,
-      "video": "media/finals/assist-dave-overlay-301k.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-dave-overlay-301k.mp4",
       "poster": "media/posters/assist-dave-overlay-301k.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-overlay-301k.mp4",
-      "size_mb": 2.0
+      "size_mb": 2.0,
+      "file": "media/finals/assist-dave-overlay-301k.mp4"
     },
     {
       "id": "assist-dave-overlay-hepeat",
@@ -349,12 +366,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:44",
       "duration": 15.0,
-      "video": "media/finals/assist-dave-overlay-hepeat.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-dave-overlay-hepeat.mp4",
       "poster": "media/posters/assist-dave-overlay-hepeat.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-overlay-hepeat.mp4",
-      "size_mb": 1.9
+      "size_mb": 1.9,
+      "file": "media/finals/assist-dave-overlay-hepeat.mp4"
     },
     {
       "id": "assist-dave-overlay-their-line",
@@ -368,12 +386,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:44",
       "duration": 15.0,
-      "video": "media/finals/assist-dave-overlay-their-line.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-dave-overlay-their-line.mp4",
       "poster": "media/posters/assist-dave-overlay-their-line.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-overlay-their-line.mp4",
-      "size_mb": 1.9
+      "size_mb": 1.9,
+      "file": "media/finals/assist-dave-overlay-their-line.mp4"
     },
     {
       "id": "assist-01-dave",
@@ -387,12 +406,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:42",
       "duration": 26.7,
-      "video": "media/finals/assist-01-dave.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-01-dave.mp4",
       "poster": "media/posters/assist-01-dave.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/outreach/andy-board/site/assist/remakes/01-dave.mp4",
-      "size_mb": 1.7
+      "size_mb": 1.7,
+      "file": "media/finals/assist-01-dave.mp4"
     },
     {
       "id": "assist-02-sayno",
@@ -406,12 +426,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:42",
       "duration": 22.6,
-      "video": "media/finals/assist-02-sayno.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-02-sayno.mp4",
       "poster": "media/posters/assist-02-sayno.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/outreach/andy-board/site/assist/remakes/02-sayno.mp4",
-      "size_mb": 1.5
+      "size_mb": 1.5,
+      "file": "media/finals/assist-02-sayno.mp4"
     },
     {
       "id": "assist-03-oneone",
@@ -425,12 +446,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:42",
       "duration": 25.2,
-      "video": "media/finals/assist-03-oneone.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-03-oneone.mp4",
       "poster": "media/posters/assist-03-oneone.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/outreach/andy-board/site/assist/remakes/03-oneone.mp4",
-      "size_mb": 1.7
+      "size_mb": 1.7,
+      "file": "media/finals/assist-03-oneone.mp4"
     },
     {
       "id": "assist-04-ai",
@@ -444,12 +466,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:42",
       "duration": 25.0,
-      "video": "media/finals/assist-04-ai.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-04-ai.mp4",
       "poster": "media/posters/assist-04-ai.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/outreach/andy-board/site/assist/remakes/04-ai.mp4",
-      "size_mb": 1.3
+      "size_mb": 1.3,
+      "file": "media/finals/assist-04-ai.mp4"
     },
     {
       "id": "assist-05-matched",
@@ -463,12 +486,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:42",
       "duration": 26.8,
-      "video": "media/finals/assist-05-matched.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-05-matched.mp4",
       "poster": "media/posters/assist-05-matched.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/outreach/andy-board/site/assist/remakes/05-matched.mp4",
-      "size_mb": 1.7
+      "size_mb": 1.7,
+      "file": "media/finals/assist-05-matched.mp4"
     },
     {
       "id": "infinite-hero-vsl-repaired",
@@ -482,12 +506,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:32",
       "duration": 48.0,
-      "video": "media/finals/infinite-hero-vsl-repaired.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/infinite-hero-vsl-repaired.mp4",
       "poster": "media/posters/infinite-hero-vsl-repaired.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/infinite-media/infinite-ai-final-same-presenter-hero-vsl-repaired_006e0a68.mp4",
-      "size_mb": 5.4
+      "size_mb": 5.4,
+      "file": "media/finals/infinite-hero-vsl-repaired.mp4"
     },
     {
       "id": "infinite-hero-vsl",
@@ -501,12 +526,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:31",
       "duration": 48.0,
-      "video": "media/finals/infinite-hero-vsl.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/infinite-hero-vsl.mp4",
       "poster": "media/posters/infinite-hero-vsl.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/infinite-media/infinite-ai-final-same-presenter-hero-vsl_307b4875.mp4",
-      "size_mb": 5.4
+      "size_mb": 5.4,
+      "file": "media/finals/infinite-hero-vsl.mp4"
     },
     {
       "id": "infinite-hero-vsl-source",
@@ -520,12 +546,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:30",
       "duration": 47.0,
-      "video": "media/finals/infinite-hero-vsl-source.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/infinite-hero-vsl-source.mp4",
       "poster": "media/posters/infinite-hero-vsl-source.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/infinite-media/infinite-ai-source-locked-hero-vsl_37a8cafc.mp4",
-      "size_mb": 5.4
+      "size_mb": 5.4,
+      "file": "media/finals/infinite-hero-vsl-source.mp4"
     },
     {
       "id": "trovy-yellow-card",
@@ -539,12 +566,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:27",
       "duration": 18.0,
-      "video": "media/finals/trovy-yellow-card.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/trovy-yellow-card.mp4",
       "poster": "media/posters/trovy-yellow-card.jpg",
       "status": "final",
       "note": "Trovy HELOC ad made for Andy's board (draft, 16:9-ish source).",
       "source": "/workspace/ads/trovy/chase-ugc/video-b.mp4",
-      "size_mb": 3.3
+      "size_mb": 3.3,
+      "file": "media/finals/trovy-yellow-card.mp4"
     },
     {
       "id": "infinite-control-tower-16x9",
@@ -558,12 +586,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:21",
       "duration": 15.0,
-      "video": "media/finals/infinite-control-tower-16x9.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/infinite-control-tower-16x9.mp4",
       "poster": "media/posters/infinite-control-tower-16x9.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/uploads/ai-department-control-tower-16x9.mp4",
-      "size_mb": 2.3
+      "size_mb": 2.3,
+      "file": "media/finals/infinite-control-tower-16x9.mp4"
     },
     {
       "id": "infinite-lead-response-teaser",
@@ -577,12 +606,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:21",
       "duration": 8.0,
-      "video": "media/finals/infinite-lead-response-teaser.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/infinite-lead-response-teaser.mp4",
       "poster": "media/posters/infinite-lead-response-teaser.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/infinite-media/infinite-ai-ugc-lead-response-teaser_e3ca2454.mp4",
-      "size_mb": 1.9
+      "size_mb": 1.9,
+      "file": "media/finals/infinite-lead-response-teaser.mp4"
     },
     {
       "id": "trovy-cardcut",
@@ -596,12 +626,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:18",
       "duration": 17.0,
-      "video": "media/finals/trovy-cardcut.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/trovy-cardcut.mp4",
       "poster": "media/posters/trovy-cardcut.jpg",
       "status": "final",
       "note": "Trovy HELOC ad made for Andy's board. Filed under The Assist because it is Andy work.",
       "source": "/workspace/ads/trovy/chase-ugc/video-a-cardcut.mp4",
-      "size_mb": 3.5
+      "size_mb": 3.5,
+      "file": "media/finals/trovy-cardcut.mp4"
     },
     {
       "id": "infinite-speed-to-lead",
@@ -615,12 +646,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:18",
       "duration": 8.0,
-      "video": "media/finals/infinite-speed-to-lead.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/infinite-speed-to-lead.mp4",
       "poster": "media/posters/infinite-speed-to-lead.jpg",
       "status": "final",
       "note": "",
       "source": "/workspace/infinite-media/infinite-ai-ugc-speed-to-lead-demo_a4bf59c6.mp4",
-      "size_mb": 1.9
+      "size_mb": 1.9,
+      "file": "media/finals/infinite-speed-to-lead.mp4"
     },
     {
       "id": "infinite-control-tower",
@@ -634,12 +666,13 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:16",
       "duration": 15.0,
-      "video": "media/finals/infinite-control-tower.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/infinite-control-tower.mp4",
       "poster": "media/posters/infinite-control-tower.jpg",
       "status": "final",
       "note": "imagine-sales.mp4 in uploads is the exact same file.",
       "source": "/workspace/uploads/ai-department-control-tower.mp4",
-      "size_mb": 3.4
+      "size_mb": 3.4,
+      "file": "media/finals/infinite-control-tower.mp4"
     },
     {
       "id": "blast-furnace-take1",
@@ -653,12 +686,13 @@
       "date": "Sep 27, 2026",
       "datetime": "2026-09-27T22:30:48",
       "duration": 15.1,
-      "video": "media/finals/blast-furnace-take1.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/blast-furnace-take1.mp4",
       "poster": "media/posters/blast-furnace-take1.jpg",
       "status": "final",
       "note": "Made about 10:30 PM MT on Sep 27.",
       "source": "/workspace/refs/hf/hf_20260928_043048_b9755242-d220-41de-8935-3936d2143bcb.mp4",
-      "size_mb": 3.4
+      "size_mb": 3.4,
+      "file": "media/finals/blast-furnace-take1.mp4"
     }
   ],
   "clips": [
@@ -677,10 +711,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:50:52",
       "duration": 5.0,
-      "video": "media/clips/overacting-actor-in-backwards-neck-brace-thumbs-up-and-wave.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/overacting-actor-in-backwards-neck-brace-thumbs-up-and-wave.mp4",
       "poster": "media/posters/overacting-actor-in-backwards-neck-brace-thumbs-up-and-wave.jpg",
       "source": "/workspace/revboo/pi3/p3b.mp4",
-      "size_mb": 0.37
+      "size_mb": 0.37,
+      "file": "media/clips/overacting-actor-in-backwards-neck-brace-thumbs-up-and-wave.mp4"
     },
     {
       "id": "attorney-buttons-jacket-dark-premium-office",
@@ -697,10 +732,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:46:21",
       "duration": 5.0,
-      "video": "media/clips/attorney-buttons-jacket-dark-premium-office.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/attorney-buttons-jacket-dark-premium-office.mp4",
       "poster": "media/posters/attorney-buttons-jacket-dark-premium-office.jpg",
       "source": "/workspace/revboo/pi3/p8.mp4",
-      "size_mb": 0.44
+      "size_mb": 0.44,
+      "file": "media/clips/attorney-buttons-jacket-dark-premium-office.mp4"
     },
     {
       "id": "lawyer-points-at-camera-trips-over-cone",
@@ -717,10 +753,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:45:04",
       "duration": 5.0,
-      "video": "media/clips/lawyer-points-at-camera-trips-over-cone.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/lawyer-points-at-camera-trips-over-cone.mp4",
       "poster": "media/posters/lawyer-points-at-camera-trips-over-cone.jpg",
       "source": "/workspace/revboo/pi3/p4.mp4",
-      "size_mb": 0.46
+      "size_mb": 0.46,
+      "file": "media/clips/lawyer-points-at-camera-trips-over-cone.mp4"
     },
     {
       "id": "billboard-lawyer-covered-in-pigeons-blank-billboard",
@@ -737,10 +774,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:45:04",
       "duration": 5.0,
-      "video": "media/clips/billboard-lawyer-covered-in-pigeons-blank-billboard.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/billboard-lawyer-covered-in-pigeons-blank-billboard.mp4",
       "poster": "media/posters/billboard-lawyer-covered-in-pigeons-blank-billboard.jpg",
       "source": "/workspace/revboo/pi3/p5.mp4",
-      "size_mb": 0.33
+      "size_mb": 0.33,
+      "file": "media/clips/billboard-lawyer-covered-in-pigeons-blank-billboard.mp4"
     },
     {
       "id": "lawyer-s-mallet-head-flies-off-desk-folds",
@@ -757,10 +795,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:44:50",
       "duration": 5.0,
-      "video": "media/clips/lawyer-s-mallet-head-flies-off-desk-folds.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/lawyer-s-mallet-head-flies-off-desk-folds.mp4",
       "poster": "media/posters/lawyer-s-mallet-head-flies-off-desk-folds.jpg",
       "source": "/workspace/revboo/pi3/p2.mp4",
-      "size_mb": 0.51
+      "size_mb": 0.51,
+      "file": "media/clips/lawyer-s-mallet-head-flies-off-desk-folds.mp4"
     },
     {
       "id": "screaming-tv-lawyer-bonks-the-fisheye-lens",
@@ -777,10 +816,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:44:49",
       "duration": 5.0,
-      "video": "media/clips/screaming-tv-lawyer-bonks-the-fisheye-lens.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/screaming-tv-lawyer-bonks-the-fisheye-lens.mp4",
       "poster": "media/posters/screaming-tv-lawyer-bonks-the-fisheye-lens.jpg",
       "source": "/workspace/revboo/pi3/p1.mp4",
-      "size_mb": 0.88
+      "size_mb": 0.88,
+      "file": "media/clips/screaming-tv-lawyer-bonks-the-fisheye-lens.mp4"
     },
     {
       "id": "calm-attorney-consultation-reassuring-smile",
@@ -797,10 +837,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:44:49",
       "duration": 5.0,
-      "video": "media/clips/calm-attorney-consultation-reassuring-smile.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/calm-attorney-consultation-reassuring-smile.mp4",
       "poster": "media/posters/calm-attorney-consultation-reassuring-smile.jpg",
       "source": "/workspace/revboo/pi3/p7.mp4",
-      "size_mb": 0.29
+      "size_mb": 0.29,
+      "file": "media/clips/calm-attorney-consultation-reassuring-smile.mp4"
     },
     {
       "id": "sedan-launches-out-of-smoke-clean",
@@ -814,10 +855,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:43:50",
       "duration": 5.0,
-      "video": "media/clips/sedan-launches-out-of-smoke-clean.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sedan-launches-out-of-smoke-clean.mp4",
       "poster": "media/posters/sedan-launches-out-of-smoke-clean.jpg",
       "source": "/workspace/revboo/fve/t5_clean.mp4",
-      "size_mb": 0.61
+      "size_mb": 0.61,
+      "file": "media/clips/sedan-launches-out-of-smoke-clean.mp4"
     },
     {
       "id": "showroom-handshake-clean",
@@ -831,10 +873,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:43:50",
       "duration": 5.0,
-      "video": "media/clips/showroom-handshake-clean.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/showroom-handshake-clean.mp4",
       "poster": "media/posters/showroom-handshake-clean.jpg",
       "source": "/workspace/revboo/fve/t6_clean.mp4",
-      "size_mb": 0.72
+      "size_mb": 0.72,
+      "file": "media/clips/showroom-handshake-clean.mp4"
     },
     {
       "id": "sedan-dark-studio-clean",
@@ -848,10 +891,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:43:50",
       "duration": 5.0,
-      "video": "media/clips/sedan-dark-studio-clean.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sedan-dark-studio-clean.mp4",
       "poster": "media/posters/sedan-dark-studio-clean.jpg",
       "source": "/workspace/revboo/fve/t4_clean.mp4",
-      "size_mb": 0.4
+      "size_mb": 0.4,
+      "file": "media/clips/sedan-dark-studio-clean.mp4"
     },
     {
       "id": "media-buyer-cringes-behind-hands-then-grins",
@@ -867,10 +911,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:33:10",
       "duration": 5.0,
-      "video": "media/clips/media-buyer-cringes-behind-hands-then-grins.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/media-buyer-cringes-behind-hands-then-grins.mp4",
       "poster": "media/posters/media-buyer-cringes-behind-hands-then-grins.jpg",
       "source": "/workspace/revboo/gym/g8.mp4",
-      "size_mb": 0.47
+      "size_mb": 0.47,
+      "file": "media/clips/media-buyer-cringes-behind-hands-then-grins.mp4"
     },
     {
       "id": "gym-owner-flexes-leans-on-exercise-ball-faceplants-out-of-frame",
@@ -884,10 +929,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:33:09",
       "duration": 5.0,
-      "video": "media/clips/gym-owner-flexes-leans-on-exercise-ball-faceplants-out-of-frame.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/gym-owner-flexes-leans-on-exercise-ball-faceplants-out-of-frame.mp4",
       "poster": "media/posters/gym-owner-flexes-leans-on-exercise-ball-faceplants-out-of-frame.jpg",
       "source": "/workspace/revboo/gym/g1.mp4",
-      "size_mb": 0.55
+      "size_mb": 0.55,
+      "file": "media/clips/gym-owner-flexes-leans-on-exercise-ball-faceplants-out-of-frame.mp4"
     },
     {
       "id": "coach-arms-crossed-confident-nod-dark-gym",
@@ -901,10 +947,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:33:09",
       "duration": 5.0,
-      "video": "media/clips/coach-arms-crossed-confident-nod-dark-gym.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/coach-arms-crossed-confident-nod-dark-gym.mp4",
       "poster": "media/posters/coach-arms-crossed-confident-nod-dark-gym.jpg",
       "source": "/workspace/revboo/gym/g7.mp4",
-      "size_mb": 0.27
+      "size_mb": 0.27,
+      "file": "media/clips/coach-arms-crossed-confident-nod-dark-gym.mp4"
     },
     {
       "id": "athlete-slams-battle-ropes-orange-rim-light",
@@ -918,10 +965,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:33:08",
       "duration": 5.0,
-      "video": "media/clips/athlete-slams-battle-ropes-orange-rim-light.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/athlete-slams-battle-ropes-orange-rim-light.mp4",
       "poster": "media/posters/athlete-slams-battle-ropes-orange-rim-light.jpg",
       "source": "/workspace/revboo/gym/g5.mp4",
-      "size_mb": 0.73
+      "size_mb": 0.73,
+      "file": "media/clips/athlete-slams-battle-ropes-orange-rim-light.mp4"
     },
     {
       "id": "deadpan-woman-on-exercise-bike-stares-at-camera",
@@ -937,10 +985,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:32:54",
       "duration": 5.0,
-      "video": "media/clips/deadpan-woman-on-exercise-bike-stares-at-camera.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/deadpan-woman-on-exercise-bike-stares-at-camera.mp4",
       "poster": "media/posters/deadpan-woman-on-exercise-bike-stares-at-camera.jpg",
       "source": "/workspace/revboo/gym/g3.mp4",
-      "size_mb": 0.29
+      "size_mb": 0.29,
+      "file": "media/clips/deadpan-woman-on-exercise-bike-stares-at-camera.mp4"
     },
     {
       "id": "gym-owner-flat-on-mat-gives-weak-thumbs-up",
@@ -954,10 +1003,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:32:54",
       "duration": 5.0,
-      "video": "media/clips/gym-owner-flat-on-mat-gives-weak-thumbs-up.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/gym-owner-flat-on-mat-gives-weak-thumbs-up.mp4",
       "poster": "media/posters/gym-owner-flat-on-mat-gives-weak-thumbs-up.jpg",
       "source": "/workspace/revboo/gym/g4.mp4",
-      "size_mb": 0.29
+      "size_mb": 0.29,
+      "file": "media/clips/gym-owner-flat-on-mat-gives-weak-thumbs-up.mp4"
     },
     {
       "id": "gym-owner-box-jump-fail-onto-mat",
@@ -971,10 +1021,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:32:53",
       "duration": 5.0,
-      "video": "media/clips/gym-owner-box-jump-fail-onto-mat.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/gym-owner-box-jump-fail-onto-mat.mp4",
       "poster": "media/posters/gym-owner-box-jump-fail-onto-mat.jpg",
       "source": "/workspace/revboo/gym/g2.mp4",
-      "size_mb": 0.38
+      "size_mb": 0.38,
+      "file": "media/clips/gym-owner-box-jump-fail-onto-mat.mp4"
     },
     {
       "id": "chalk-hands-clap-dust-cloud-grip-barbell-macro",
@@ -989,10 +1040,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T17:31:23",
       "duration": 5.0,
-      "video": "media/clips/chalk-hands-clap-dust-cloud-grip-barbell-macro.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/chalk-hands-clap-dust-cloud-grip-barbell-macro.mp4",
       "poster": "media/posters/chalk-hands-clap-dust-cloud-grip-barbell-macro.jpg",
       "source": "/workspace/revboo/gym/g6.mp4",
-      "size_mb": 1.44
+      "size_mb": 1.44,
+      "file": "media/clips/chalk-hands-clap-dust-cloud-grip-barbell-macro.mp4"
     },
     {
       "id": "tube-man-deflates-and-collapses",
@@ -1009,10 +1061,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T14:17:38",
       "duration": 5.0,
-      "video": "media/clips/tube-man-deflates-and-collapses.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/tube-man-deflates-and-collapses.mp4",
       "poster": "media/posters/tube-man-deflates-and-collapses.jpg",
       "source": "/workspace/revboo/tube/t3.mp4",
-      "size_mb": 0.52
+      "size_mb": 0.52,
+      "file": "media/clips/tube-man-deflates-and-collapses.mp4"
     },
     {
       "id": "sedan-launches-out-of-smoke-and-passes-camera",
@@ -1028,10 +1081,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T14:17:37",
       "duration": 5.0,
-      "video": "media/clips/sedan-launches-out-of-smoke-and-passes-camera.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sedan-launches-out-of-smoke-and-passes-camera.mp4",
       "poster": "media/posters/sedan-launches-out-of-smoke-and-passes-camera.jpg",
       "source": "/workspace/revboo/tube/t5.mp4",
-      "size_mb": 0.74
+      "size_mb": 0.74,
+      "file": "media/clips/sedan-launches-out-of-smoke-and-passes-camera.mp4"
     },
     {
       "id": "inflatable-tube-man-used-car-lot",
@@ -1047,10 +1101,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T14:11:58",
       "duration": 5.0,
-      "video": "media/clips/inflatable-tube-man-used-car-lot.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/inflatable-tube-man-used-car-lot.mp4",
       "poster": "media/posters/inflatable-tube-man-used-car-lot.jpg",
       "source": "/workspace/revboo/tube/t1.mp4",
-      "size_mb": 0.7
+      "size_mb": 0.7,
+      "file": "media/clips/inflatable-tube-man-used-car-lot.mp4"
     },
     {
       "id": "cheesy-car-salesman-shouting-fisheye",
@@ -1066,10 +1121,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T14:11:45",
       "duration": 5.0,
-      "video": "media/clips/cheesy-car-salesman-shouting-fisheye.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/cheesy-car-salesman-shouting-fisheye.mp4",
       "poster": "media/posters/cheesy-car-salesman-shouting-fisheye.jpg",
       "source": "/workspace/revboo/tube/t2.mp4",
-      "size_mb": 0.81
+      "size_mb": 0.81,
+      "file": "media/clips/cheesy-car-salesman-shouting-fisheye.mp4"
     },
     {
       "id": "showroom-handshake-and-key-handoff-night",
@@ -1085,10 +1141,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T14:11:45",
       "duration": 5.0,
-      "video": "media/clips/showroom-handshake-and-key-handoff-night.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/showroom-handshake-and-key-handoff-night.mp4",
       "poster": "media/posters/showroom-handshake-and-key-handoff-night.jpg",
       "source": "/workspace/revboo/tube/t6.mp4",
-      "size_mb": 0.71
+      "size_mb": 0.71,
+      "file": "media/clips/showroom-handshake-and-key-handoff-night.mp4"
     },
     {
       "id": "media-buyer-face-in-hands-then-grins",
@@ -1104,10 +1161,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T14:11:45",
       "duration": 5.0,
-      "video": "media/clips/media-buyer-face-in-hands-then-grins.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/media-buyer-face-in-hands-then-grins.mp4",
       "poster": "media/posters/media-buyer-face-in-hands-then-grins.jpg",
       "source": "/workspace/revboo/tube/t7.mp4",
-      "size_mb": 0.65
+      "size_mb": 0.65,
+      "file": "media/clips/media-buyer-face-in-hands-then-grins.mp4"
     },
     {
       "id": "sedan-in-dark-studio-orange-rim-light-headlights-on",
@@ -1123,10 +1181,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T14:11:28",
       "duration": 5.0,
-      "video": "media/clips/sedan-in-dark-studio-orange-rim-light-headlights-on.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sedan-in-dark-studio-orange-rim-light-headlights-on.mp4",
       "poster": "media/posters/sedan-in-dark-studio-orange-rim-light-headlights-on.jpg",
       "source": "/workspace/revboo/tube/t4.mp4",
-      "size_mb": 0.48
+      "size_mb": 0.48,
+      "file": "media/clips/sedan-in-dark-studio-orange-rim-light-headlights-on.mp4"
     },
     {
       "id": "or-kling-black-car-studio",
@@ -1140,10 +1199,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T12:54:13",
       "duration": 5.0,
-      "video": "media/clips/or-kling-black-car-studio.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/or-kling-black-car-studio.mp4",
       "poster": "media/posters/or-kling-black-car-studio.jpg",
       "source": "/workspace/revboo/or-test/kling-test.mp4",
-      "size_mb": 0.33
+      "size_mb": 0.33,
+      "file": "media/clips/or-kling-black-car-studio.mp4"
     },
     {
       "id": "pi-k5",
@@ -1161,10 +1221,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:42:31",
       "duration": 5.0,
-      "video": "media/clips/pi-k5.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-k5.mp4",
       "poster": "media/posters/pi-k5.jpg",
       "source": "/workspace/revboo/pi/k5.mp4",
-      "size_mb": 0.27
+      "size_mb": 0.27,
+      "file": "media/clips/pi-k5.mp4"
     },
     {
       "id": "pi-k4",
@@ -1182,10 +1243,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:42:29",
       "duration": 5.0,
-      "video": "media/clips/pi-k4.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-k4.mp4",
       "poster": "media/posters/pi-k4.jpg",
       "source": "/workspace/revboo/pi/k4.mp4",
-      "size_mb": 0.71
+      "size_mb": 0.71,
+      "file": "media/clips/pi-k4.mp4"
     },
     {
       "id": "pi-k3",
@@ -1203,10 +1265,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:42:27",
       "duration": 5.0,
-      "video": "media/clips/pi-k3.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-k3.mp4",
       "poster": "media/posters/pi-k3.jpg",
       "source": "/workspace/revboo/pi/k3.mp4",
-      "size_mb": 0.56
+      "size_mb": 0.56,
+      "file": "media/clips/pi-k3.mp4"
     },
     {
       "id": "pi-k2",
@@ -1224,10 +1287,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:42:26",
       "duration": 5.0,
-      "video": "media/clips/pi-k2.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-k2.mp4",
       "poster": "media/posters/pi-k2.jpg",
       "source": "/workspace/revboo/pi/k2.mp4",
-      "size_mb": 1.11
+      "size_mb": 1.11,
+      "file": "media/clips/pi-k2.mp4"
     },
     {
       "id": "remake-r6",
@@ -1245,10 +1309,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:40:42",
       "duration": 5.0,
-      "video": "media/clips/remake-r6.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake-r6.mp4",
       "poster": "media/posters/remake-r6.jpg",
       "source": "/workspace/revboo/remake/r6.mp4",
-      "size_mb": 0.49
+      "size_mb": 0.49,
+      "file": "media/clips/remake-r6.mp4"
     },
     {
       "id": "remake-r5",
@@ -1265,10 +1330,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:40:41",
       "duration": 5.0,
-      "video": "media/clips/remake-r5.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake-r5.mp4",
       "poster": "media/posters/remake-r5.jpg",
       "source": "/workspace/revboo/remake/r5.mp4",
-      "size_mb": 1.07
+      "size_mb": 1.07,
+      "file": "media/clips/remake-r5.mp4"
     },
     {
       "id": "remake-r4",
@@ -1285,10 +1351,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:40:39",
       "duration": 5.0,
-      "video": "media/clips/remake-r4.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake-r4.mp4",
       "poster": "media/posters/remake-r4.jpg",
       "source": "/workspace/revboo/remake/r4.mp4",
-      "size_mb": 0.59
+      "size_mb": 0.59,
+      "file": "media/clips/remake-r4.mp4"
     },
     {
       "id": "pi-k1",
@@ -1305,10 +1372,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:37:08",
       "duration": 5.0,
-      "video": "media/clips/pi-k1.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-k1.mp4",
       "poster": "media/posters/pi-k1.jpg",
       "source": "/workspace/revboo/pi/k1.mp4",
-      "size_mb": 0.33
+      "size_mb": 0.33,
+      "file": "media/clips/pi-k1.mp4"
     },
     {
       "id": "remake-r3",
@@ -1326,10 +1394,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:36:52",
       "duration": 5.0,
-      "video": "media/clips/remake-r3.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake-r3.mp4",
       "poster": "media/posters/remake-r3.jpg",
       "source": "/workspace/revboo/remake/r3.mp4",
-      "size_mb": 0.33
+      "size_mb": 0.33,
+      "file": "media/clips/remake-r3.mp4"
     },
     {
       "id": "remake-r2",
@@ -1345,10 +1414,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:36:50",
       "duration": 5.0,
-      "video": "media/clips/remake-r2.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake-r2.mp4",
       "poster": "media/posters/remake-r2.jpg",
       "source": "/workspace/revboo/remake/r2.mp4",
-      "size_mb": 0.27
+      "size_mb": 0.27,
+      "file": "media/clips/remake-r2.mp4"
     },
     {
       "id": "remake-r1",
@@ -1365,10 +1435,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T09:36:49",
       "duration": 5.0,
-      "video": "media/clips/remake-r1.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake-r1.mp4",
       "poster": "media/posters/remake-r1.jpg",
       "source": "/workspace/revboo/remake/r1.mp4",
-      "size_mb": 0.33
+      "size_mb": 0.33,
+      "file": "media/clips/remake-r1.mp4"
     },
     {
       "id": "grave-g6",
@@ -1385,10 +1456,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:41:49",
       "duration": 5.0,
-      "video": "media/clips/grave-g6.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/grave-g6.mp4",
       "poster": "media/posters/grave-g6.jpg",
       "source": "/workspace/revboo/grave/g6.mp4",
-      "size_mb": 0.57
+      "size_mb": 0.57,
+      "file": "media/clips/grave-g6.mp4"
     },
     {
       "id": "grave-g5",
@@ -1404,10 +1476,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:41:48",
       "duration": 5.0,
-      "video": "media/clips/grave-g5.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/grave-g5.mp4",
       "poster": "media/posters/grave-g5.jpg",
       "source": "/workspace/revboo/grave/g5.mp4",
-      "size_mb": 0.63
+      "size_mb": 0.63,
+      "file": "media/clips/grave-g5.mp4"
     },
     {
       "id": "grave-g4",
@@ -1424,10 +1497,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:41:45",
       "duration": 5.0,
-      "video": "media/clips/grave-g4.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/grave-g4.mp4",
       "poster": "media/posters/grave-g4.jpg",
       "source": "/workspace/revboo/grave/g4.mp4",
-      "size_mb": 0.82
+      "size_mb": 0.82,
+      "file": "media/clips/grave-g4.mp4"
     },
     {
       "id": "grave-g3",
@@ -1443,10 +1517,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:41:44",
       "duration": 5.0,
-      "video": "media/clips/grave-g3.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/grave-g3.mp4",
       "poster": "media/posters/grave-g3.jpg",
       "source": "/workspace/revboo/grave/g3.mp4",
-      "size_mb": 0.76
+      "size_mb": 0.76,
+      "file": "media/clips/grave-g3.mp4"
     },
     {
       "id": "grave-g2",
@@ -1462,10 +1537,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:41:41",
       "duration": 5.0,
-      "video": "media/clips/grave-g2.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/grave-g2.mp4",
       "poster": "media/posters/grave-g2.jpg",
       "source": "/workspace/revboo/grave/g2.mp4",
-      "size_mb": 0.3
+      "size_mb": 0.3,
+      "file": "media/clips/grave-g2.mp4"
     },
     {
       "id": "grave-g1",
@@ -1481,10 +1557,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:41:39",
       "duration": 5.0,
-      "video": "media/clips/grave-g1.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/grave-g1.mp4",
       "poster": "media/posters/grave-g1.jpg",
       "source": "/workspace/revboo/grave/g1.mp4",
-      "size_mb": 0.97
+      "size_mb": 0.97,
+      "file": "media/clips/grave-g1.mp4"
     },
     {
       "id": "chase-asset2",
@@ -1503,10 +1580,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:41:09",
       "duration": 4.1,
-      "video": "media/clips/chase-asset2.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/chase-asset2.mp4",
       "poster": "media/posters/chase-asset2.jpg",
       "source": "/workspace/revboo/chase-asset2.mp4",
-      "size_mb": 0.65
+      "size_mb": 0.65,
+      "file": "media/clips/chase-asset2.mp4"
     },
     {
       "id": "chase-asset1",
@@ -1526,10 +1604,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T07:40:19",
       "duration": 4.1,
-      "video": "media/clips/chase-asset1.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/chase-asset1.mp4",
       "poster": "media/posters/chase-asset1.jpg",
       "source": "/workspace/revboo/chase-asset1.mp4",
-      "size_mb": 0.9
+      "size_mb": 0.9,
+      "file": "media/clips/chase-asset1.mp4"
     },
     {
       "id": "v2-c1",
@@ -1546,10 +1625,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:04:08",
       "duration": 5.0,
-      "video": "media/clips/v2-c1.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/v2-c1.mp4",
       "poster": "media/posters/v2-c1.jpg",
       "source": "/workspace/revboo/v2/c1.mp4",
-      "size_mb": 0.33
+      "size_mb": 0.33,
+      "file": "media/clips/v2-c1.mp4"
     },
     {
       "id": "v2-c2",
@@ -1565,10 +1645,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:04:08",
       "duration": 5.0,
-      "video": "media/clips/v2-c2.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/v2-c2.mp4",
       "poster": "media/posters/v2-c2.jpg",
       "source": "/workspace/revboo/v2/c2.mp4",
-      "size_mb": 0.27
+      "size_mb": 0.27,
+      "file": "media/clips/v2-c2.mp4"
     },
     {
       "id": "v2-c3",
@@ -1584,10 +1665,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:04:08",
       "duration": 5.0,
-      "video": "media/clips/v2-c3.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/v2-c3.mp4",
       "poster": "media/posters/v2-c3.jpg",
       "source": "/workspace/revboo/v2/c3.mp4",
-      "size_mb": 0.6
+      "size_mb": 0.6,
+      "file": "media/clips/v2-c3.mp4"
     },
     {
       "id": "v2-c4",
@@ -1606,10 +1688,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:04:08",
       "duration": 5.0,
-      "video": "media/clips/v2-c4.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/v2-c4.mp4",
       "poster": "media/posters/v2-c4.jpg",
       "source": "/workspace/revboo/v2/c4.mp4",
-      "size_mb": 0.58
+      "size_mb": 0.58,
+      "file": "media/clips/v2-c4.mp4"
     },
     {
       "id": "v2-c5",
@@ -1625,10 +1708,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:04:08",
       "duration": 5.0,
-      "video": "media/clips/v2-c5.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/v2-c5.mp4",
       "poster": "media/posters/v2-c5.jpg",
       "source": "/workspace/revboo/v2/c5.mp4",
-      "size_mb": 1.08
+      "size_mb": 1.08,
+      "file": "media/clips/v2-c5.mp4"
     },
     {
       "id": "v2-c6",
@@ -1646,10 +1730,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:04:08",
       "duration": 5.0,
-      "video": "media/clips/v2-c6.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/v2-c6.mp4",
       "poster": "media/posters/v2-c6.jpg",
       "source": "/workspace/revboo/v2/c6.mp4",
-      "size_mb": 0.92
+      "size_mb": 0.92,
+      "file": "media/clips/v2-c6.mp4"
     },
     {
       "id": "v2-c7",
@@ -1665,10 +1750,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:04:08",
       "duration": 5.0,
-      "video": "media/clips/v2-c7.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/v2-c7.mp4",
       "poster": "media/posters/v2-c7.jpg",
       "source": "/workspace/revboo/v2/c7.mp4",
-      "size_mb": 1.05
+      "size_mb": 1.05,
+      "file": "media/clips/v2-c7.mp4"
     },
     {
       "id": "car",
@@ -1685,10 +1771,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:56",
       "duration": 3.0,
-      "video": "media/clips/car.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/car.mp4",
       "poster": "media/posters/car.jpg",
       "source": "/workspace/revboo/car.mp4",
-      "size_mb": 0.26
+      "size_mb": 0.26,
+      "file": "media/clips/car.mp4"
     },
     {
       "id": "rock",
@@ -1704,10 +1791,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:56",
       "duration": 3.0,
-      "video": "media/clips/rock.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rock.mp4",
       "poster": "media/posters/rock.jpg",
       "source": "/workspace/revboo/rock.mp4",
-      "size_mb": 0.27
+      "size_mb": 0.27,
+      "file": "media/clips/rock.mp4"
     },
     {
       "id": "s1",
@@ -1723,10 +1811,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:56",
       "duration": 2.4,
-      "video": "media/clips/s1.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/s1.mp4",
       "poster": "media/posters/s1.jpg",
       "source": "/workspace/revboo/s1.mp4",
-      "size_mb": 0.01
+      "size_mb": 0.01,
+      "file": "media/clips/s1.mp4"
     },
     {
       "id": "s2",
@@ -1742,10 +1831,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:56",
       "duration": 2.2,
-      "video": "media/clips/s2.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/s2.mp4",
       "poster": "media/posters/s2.jpg",
       "source": "/workspace/revboo/s2.mp4",
-      "size_mb": 0.01
+      "size_mb": 0.01,
+      "file": "media/clips/s2.mp4"
     },
     {
       "id": "s5",
@@ -1761,10 +1851,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:56",
       "duration": 2.6,
-      "video": "media/clips/s5.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/s5.mp4",
       "poster": "media/posters/s5.jpg",
       "source": "/workspace/revboo/s5.mp4",
-      "size_mb": 0.02
+      "size_mb": 0.02,
+      "file": "media/clips/s5.mp4"
     },
     {
       "id": "s6",
@@ -1780,10 +1871,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:56",
       "duration": 3.2,
-      "video": "media/clips/s6.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/s6.mp4",
       "poster": "media/posters/s6.jpg",
       "source": "/workspace/revboo/s6.mp4",
-      "size_mb": 0.03
+      "size_mb": 0.03,
+      "file": "media/clips/s6.mp4"
     },
     {
       "id": "v",
@@ -1799,10 +1891,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:56",
       "duration": 16.4,
-      "video": "media/clips/v.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/v.mp4",
       "poster": "media/posters/v.jpg",
       "source": "/workspace/revboo/v.mp4",
-      "size_mb": 0.57
+      "size_mb": 0.57,
+      "file": "media/clips/v.mp4"
     },
     {
       "id": "assist-03-office-mom-grok",
@@ -1816,10 +1909,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:45",
       "duration": 15.0,
-      "video": "media/clips/assist-03-office-mom-grok.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-03-office-mom-grok.mp4",
       "poster": "media/posters/assist-03-office-mom-grok.jpg",
       "source": "/workspace/outreach/andy-board/awesome/v2/videos/03-office-mom-grok.mp4",
-      "size_mb": 0.94
+      "size_mb": 0.94,
+      "file": "media/clips/assist-03-office-mom-grok.mp4"
     },
     {
       "id": "assist-01-dave-vertical",
@@ -1835,10 +1929,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:44",
       "duration": 15.0,
-      "video": "media/clips/assist-01-dave-vertical.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-01-dave-vertical.mp4",
       "poster": "media/posters/assist-01-dave-vertical.jpg",
       "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-vertical.mp4",
-      "size_mb": 1.38
+      "size_mb": 1.38,
+      "file": "media/clips/assist-01-dave-vertical.mp4"
     },
     {
       "id": "assist-02-mug-their-line-grok",
@@ -1852,10 +1947,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:44",
       "duration": 15.0,
-      "video": "media/clips/assist-02-mug-their-line-grok.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-02-mug-their-line-grok.mp4",
       "poster": "media/posters/assist-02-mug-their-line-grok.jpg",
       "source": "/workspace/outreach/andy-board/awesome/v2/videos/02-mug-their-line-grok.mp4",
-      "size_mb": 1.04
+      "size_mb": 1.04,
+      "file": "media/clips/assist-02-mug-their-line-grok.mp4"
     },
     {
       "id": "assist-01-dave-grok",
@@ -1871,10 +1967,11 @@
       "date": "Sep 28, 2026",
       "datetime": "2026-09-28T03:03:43",
       "duration": 15.0,
-      "video": "media/clips/assist-01-dave-grok.mp4",
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/assist-01-dave-grok.mp4",
       "poster": "media/posters/assist-01-dave-grok.jpg",
       "source": "/workspace/outreach/andy-board/awesome/v2/videos/01-dave-grok.mp4",
-      "size_mb": 0.84
+      "size_mb": 0.84,
+      "file": "media/clips/assist-01-dave-grok.mp4"
     }
   ],
   "brand_assets": [

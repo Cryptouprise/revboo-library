@@ -92,7 +92,7 @@ footer{color:var(--mut);text-align:center;font-size:13px;padding:30px}
 <section id="brand"><h2>Revboo Brand <span>Assets</span></h2><p class="sub">Chase's own cards, the font and the color.</p>
 <div class="brand" id="brandGrid"></div></section>
 
-<div class="howto"><b>Adding a video:</b> drop the mp4 (and a poster jpg) into <code>media/</code>, then add one entry to <code>manifest.json</code> with its <code>brand</code>. The page files it under that brand tab automatically. See README "Filing rules".</div>
+<div class="howto"><b>Adding a video:</b> run <code>python3 build.py add FILE.mp4 --title "…"</code>. It uploads the mp4 to the repo's GitHub Release (<code>media-v1</code>, …) and adds an entry to <code>manifest.json</code>. Posters stay in <code>media/posters/</code>. See README "Filing rules".</div>
 </main>
 <footer>revboo.video · built from manifest.json</footer>
 <script>

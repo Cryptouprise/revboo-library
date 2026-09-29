@@ -5,6 +5,15 @@
   python3 build.py add FILE.mp4 --title "My Ad"      # add a finished ad; brand guessed from path/filename
   python3 build.py add FILE.mp4 --type clip --title "Rain street – night" --brand "Legal/PI" --categories "Legal/PI,Cars/Engine"
   python3 build.py guess FILE.mp4                    # just print the brand it would be filed under
+  python3 build.py sync                              # upload any web copies not yet on the GitHub Release, rewrite manifest
+  (add --no-upload to any command to skip the release upload)
+
+Video storage: the mp4 web copies are NOT committed to git. They are uploaded as assets on a GitHub Release
+of this repo (tags media-v1, media-v2, ...; a new tag is started when one reaches MAX_ASSETS assets), and
+manifest.json points `video` at https://github.com/Cryptouprise/revboo-library/releases/download/<tag>/<id>.mp4.
+media_release.json (committed) records which tag holds each file plus its size and sha256.
+Local copies stay in media/finals and media/clips (gitignored). Posters stay in git (media/posters).
+Needs the `gh` CLI logged in with repo scope.
 
 Brands (the only allowed values): Revboo, Legal/PI, The Assist, Infinite AI, Solar Freedom, Generic/Other.
 Dates = the source file's modification time unless an entry sets date_override.
@@ -13,6 +22,9 @@ Entries added with `add` are saved in extra_sources.json so later rebuilds keep 
 import os, re, sys, json, subprocess, datetime, argparse
 R='/workspace/revboo/'; L=os.path.dirname(os.path.abspath(__file__))+'/'
 EXTRA=L+'extra_sources.json'
+REPO='Cryptouprise/revboo-library'
+RELEASE_INDEX=L+'media_release.json'   # {"<id>.mp4": {"tag": "media-v1", "size": ..., "sha256": ...}}
+RELEASE_PREFIX='media-v'; MAX_ASSETS=900   # GitHub allows 1000 assets per release; roll over before that
 BRANDS=['Revboo','Legal/PI','The Assist','Infinite AI','Solar Freedom','Generic/Other']
 
 # ---------- brand guessing: first matching rule wins (order matters) ----------
@@ -171,7 +183,55 @@ def web_clip(src,out,keep_audio=False):
 def load_extra():
     return json.load(open(EXTRA)) if os.path.exists(EXTRA) else {'finals':[],'clips':[]}
 
-def build():
+# ---------------- video storage (GitHub Release assets) ----------------
+def rel_url(tag,name): return f'https://github.com/{REPO}/releases/download/{tag}/{name}'
+def load_rel(): return json.load(open(RELEASE_INDEX)) if os.path.exists(RELEASE_INDEX) else {}
+def save_rel(idx): json.dump(dict(sorted(idx.items())),open(RELEASE_INDEX,'w'),indent=1)
+def sha256(p):
+    import hashlib; h=hashlib.sha256()
+    with open(p,'rb') as f:
+        for b in iter(lambda:f.read(1<<20),b''): h.update(b)
+    return h.hexdigest()
+def gh(*a,capture=True):
+    return subprocess.run(['gh',*a],check=True,capture_output=capture,text=True).stdout
+def release_assets(tag):
+    """{name: (size, 'sha256:...')} for a release tag."""
+    out=gh('api','--paginate',f'repos/{REPO}/releases/tags/{tag}','--jq','.assets[]|[.name,.size,.digest]|@tsv')
+    return {l.split('\t')[0]:(int(l.split('\t')[1]),l.split('\t')[2]) for l in out.splitlines() if l.strip()}
+def current_tag():
+    """Newest media-vN release with room left; creates the next one when full (or when none exists)."""
+    tags=json.loads(gh('release','list','-R',REPO,'--limit','200','--json','tagName'))
+    ns=sorted(int(t['tagName'][len(RELEASE_PREFIX):]) for t in tags
+              if t['tagName'].startswith(RELEASE_PREFIX) and t['tagName'][len(RELEASE_PREFIX):].isdigit())
+    if ns and len(release_assets(RELEASE_PREFIX+str(ns[-1])))<MAX_ASSETS: return RELEASE_PREFIX+str(ns[-1])
+    tag=RELEASE_PREFIX+str((ns[-1] if ns else 0)+1)
+    gh('release','create',tag,'-R',REPO,'--title',f'Media {tag[len(RELEASE_PREFIX)-1:]} (video storage)','--latest=false',
+       '--notes','Video files for the Revboo library page (https://cryptouprise.github.io/revboo-library/). '
+                 'Do not delete or rename these assets: the live page streams from their URLs.')
+    print('created release',tag); return tag
+def sync_release(paths):
+    """Upload local web copies that are not on a release yet. Never overwrites an existing asset."""
+    idx=load_rel(); todo=[]
+    for p in paths:
+        n=os.path.basename(p); h=sha256(p); e=idx.get(n)
+        if e and e['sha256']==h: continue
+        if e: print(f'WARNING: {n} changed locally but {e["tag"]} already has a different {n}; not overwriting. '
+                    f'Give the new version a new --id (or --version) instead.'); continue
+        todo.append((p,n,h))
+    if not todo: return idx
+    tag=current_tag(); have=release_assets(tag)
+    for p,n,h in todo:
+        if n in have and have[n][1]!='sha256:'+h:
+            print(f'WARNING: {tag} already has a different {n}; not overwriting. Use a new id.'); continue
+        if n not in have:
+            print(f'uploading {n} -> release {tag} ({os.path.getsize(p)/1e6:.1f} MB)')
+            gh('release','upload',tag,p,'-R',REPO)
+        have=release_assets(tag)
+        if have.get(n)!=(os.path.getsize(p),'sha256:'+h): raise SystemExit(f'upload check failed for {n}: {have.get(n)}')
+        idx[n]=dict(tag=tag,size=os.path.getsize(p),sha256=h); save_rel(idx)
+    return idx
+
+def build(upload=True):
     for d in ('media/finals','media/clips','media/posters'): os.makedirs(L+d,exist_ok=True)
     ex=load_extra()
     man=dict(site='Revboo Video Library',brands=BRANDS,brand=dict(color='#FF4B0A',font='Anton',site='revboo.video'),finals=[],clips=[],brand_assets=[])
@@ -202,6 +262,23 @@ def build():
         man['clips'].append(dict(id=cid,brand=brand,name=c['name'],categories=c.get('categories',[]),used_in=c.get('used_in',[]),note=c.get('note',''),date=ds,datetime=iso,
             duration=round(d,1),video='media/clips/'+cid+'.mp4',poster='media/posters/'+cid+'.jpg',source=src,size_mb=round(os.path.getsize(out)/1e6,2)))
         if c.get('brand_asset'): man['brand_assets'].append(cid)
+    ids=[e['id'] for e in man['finals']+man['clips']]
+    dupes={i for i in ids if ids.count(i)>1}
+    assert not dupes, f'ids must be unique across finals and clips (release asset names): {dupes}'
+    # point videos at the GitHub Release copies
+    entries=man['finals']+man['clips']
+    idx=load_rel()
+    if upload:
+        try: idx=sync_release([L+e['video'] for e in entries])
+        except (subprocess.CalledProcessError,FileNotFoundError) as err:
+            print('WARNING: release upload failed (is `gh` installed and logged in?):',err)
+    missing=[]
+    for e in entries:
+        n=os.path.basename(e['video']); e['file']=e['video']
+        if n in idx: e['video']=rel_url(idx[n]['tag'],n)
+        else: missing.append(n)
+    if missing: print(f'WARNING: {len(missing)} video(s) are not on a release yet and will NOT play on the live page '
+                      f'(media/ is not committed). Run `python3 build.py sync`: {missing[:5]}')
     man['finals'].sort(key=lambda x:x['datetime'],reverse=True)
     man['clips'].sort(key=lambda x:x['datetime'],reverse=True)
     json.dump(man,open(L+'manifest.json','w'),indent=2,ensure_ascii=False)
@@ -211,7 +288,7 @@ def build():
 
 def main():
     ap=argparse.ArgumentParser(description='Revboo video library builder')
-    ap.add_argument('cmd',nargs='?',default='build',choices=['build','add','guess'])
+    ap.add_argument('cmd',nargs='?',default='build',choices=['build','add','guess','sync'])
     ap.add_argument('file',nargs='?')
     ap.add_argument('--brand',choices=BRANDS,help='file under this brand (default: guessed from path/filename)')
     ap.add_argument('--type',choices=['final','clip'],default='final')
@@ -220,6 +297,7 @@ def main():
     ap.add_argument('--used-in',default=''); ap.add_argument('--note',default=''); ap.add_argument('--poster-time',type=float)
     ap.add_argument('--date',help='override date, e.g. "Sep 27, 2026" (default: file mtime)')
     ap.add_argument('--id')
+    ap.add_argument('--no-upload',action='store_true',help='do not upload new videos to the GitHub Release')
     a=ap.parse_args()
     if a.cmd=='guess':
         print(guess_brand(os.path.abspath(a.file))); return
@@ -228,6 +306,7 @@ def main():
         title=a.title or re.sub(r'[-_]+',' ',os.path.splitext(os.path.basename(src))[0]).strip().title()
         brand=a.brand or guess_brand(src,title)
         eid=a.id or re.sub(r'[^a-z0-9]+','-',(title+'-'+a.version if a.type=='final' else title).lower()).strip('-')
+        assert re.fullmatch(r'[a-z0-9][a-z0-9-]*',eid), f'--id must be lowercase letters, digits and dashes: {eid}'
         e=dict(id=eid,src=src,brand=brand,note=a.note)
         if a.poster_time is not None: e['pt']=a.poster_time
         if a.date:
@@ -242,6 +321,6 @@ def main():
             ex['clips']=[x for x in ex['clips'] if x['id']!=eid]+[e]
         json.dump(ex,open(EXTRA,'w'),indent=2,ensure_ascii=False)
         print(f'added {a.type} "{title}" -> brand {brand}')
-    build()
+    build(upload=not a.no_upload)
 
 if __name__=='__main__': main()

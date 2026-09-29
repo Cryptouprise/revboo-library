@@ -1,0 +1,487 @@
+{
+ "assist-01-dave-grok.mp4": {
+  "tag": "media-v1",
+  "size": 842686,
+  "sha256": "e316e137d518d8a7bab267069c8fad4159b216121287801eca37a5455f06498b"
+ },
+ "assist-01-dave-vertical.mp4": {
+  "tag": "media-v1",
+  "size": 1382699,
+  "sha256": "0969a747e9d6b6cb8e70b63c0a944d8d1e68ecf73d27227c980c6b77e208c9fb"
+ },
+ "assist-01-dave.mp4": {
+  "tag": "media-v1",
+  "size": 1676814,
+  "sha256": "36f87570746ff899a98b0cd921c7593a5f6182c904067e78cf99644a7f2b955c"
+ },
+ "assist-02-mug-their-line-grok.mp4": {
+  "tag": "media-v1",
+  "size": 1041862,
+  "sha256": "c7ec60a308551e8c6da7084ff01992a939468c82c8a4df169ec83cbd4d19f359"
+ },
+ "assist-02-sayno.mp4": {
+  "tag": "media-v1",
+  "size": 1517069,
+  "sha256": "18ea109db5ed9a7f72896839165fb4ee7c823f5eff2fed9f8c12f016c4c5fec2"
+ },
+ "assist-03-office-mom-grok.mp4": {
+  "tag": "media-v1",
+  "size": 940136,
+  "sha256": "27c67bed3a3688eb7d71d5c2182711e868ab37e0e4e7e1a8cb16949c06888b5e"
+ },
+ "assist-03-oneone.mp4": {
+  "tag": "media-v1",
+  "size": 1717143,
+  "sha256": "97345ebb1b7c59d34a235abf22b592ba95f20f1a70e6f8a5cac8e765fe4a6b76"
+ },
+ "assist-04-ai.mp4": {
+  "tag": "media-v1",
+  "size": 1286486,
+  "sha256": "8efbd4204516be9e8cd20e56cf515c24357541dfba7ad16070b20445cb3068cf"
+ },
+ "assist-05-matched.mp4": {
+  "tag": "media-v1",
+  "size": 1692995,
+  "sha256": "f21d0017e85701245bfb905c544b24c449c0a805aaad898fa935ff23b6e9bbf3"
+ },
+ "assist-dave-official-301697.mp4": {
+  "tag": "media-v1",
+  "size": 1950319,
+  "sha256": "16e401e6227d1b3c01099b0ee8a2994ccd5f208039d323ed20d6821601814827"
+ },
+ "assist-dave-official-days.mp4": {
+  "tag": "media-v1",
+  "size": 1952553,
+  "sha256": "0076234de95291d39ff36386940838efd008eef1f2e870486f9816989f6162f3"
+ },
+ "assist-dave-official-gmsd.mp4": {
+  "tag": "media-v1",
+  "size": 1956304,
+  "sha256": "b37269323261081c1266deacde5032163b90a6dc1b54cd5bcbb30008e3c6d0c9"
+ },
+ "assist-dave-official-unfair.mp4": {
+  "tag": "media-v1",
+  "size": 1944952,
+  "sha256": "b78d38a4acde0fa01e86e523298bb9d2e3a77a89eb8deedf3f003baf61139b36"
+ },
+ "assist-dave-overlay-301k.mp4": {
+  "tag": "media-v1",
+  "size": 1951985,
+  "sha256": "dbac5c0c0c9677bda5c9f4048b224cef8fccadd0521533b0fd141232663f440f"
+ },
+ "assist-dave-overlay-hepeat.mp4": {
+  "tag": "media-v1",
+  "size": 1946587,
+  "sha256": "d0721113735c45de0dd9c47a05504ae094097cb786cc7dc440ce546292a6b3e2"
+ },
+ "assist-dave-overlay-their-line.mp4": {
+  "tag": "media-v1",
+  "size": 1948001,
+  "sha256": "a0e140fa047fbaa4f681247e2e4cd20c1916faef0c2c815d6af20d1a0cc51c72"
+ },
+ "athlete-slams-battle-ropes-orange-rim-light.mp4": {
+  "tag": "media-v1",
+  "size": 733040,
+  "sha256": "4c76cfa18f8b9b52606d4084f12fb7cb4fecfc7aca1d8b7baa343d98b3adec92"
+ },
+ "attorney-buttons-jacket-dark-premium-office.mp4": {
+  "tag": "media-v1",
+  "size": 438935,
+  "sha256": "3da240e07d23100110d280a0ceaaf6d585002a8c1de3b0df3f919ba81af092ef"
+ },
+ "billboard-lawyer-covered-in-pigeons-blank-billboard.mp4": {
+  "tag": "media-v1",
+  "size": 325671,
+  "sha256": "dd939892cd6d957666dff5ac65091cf93d888acf2cb7d2100b60711ed7cf9b23"
+ },
+ "blast-furnace-take1.mp4": {
+  "tag": "media-v1",
+  "size": 3402389,
+  "sha256": "945adbdf9854e45127bb63bab83b05f2a325e1638b90f31b6e197a04134695c0"
+ },
+ "calm-attorney-consultation-reassuring-smile.mp4": {
+  "tag": "media-v1",
+  "size": 292816,
+  "sha256": "a0df6bf5471a56ad9a3cab88e7797405482905f74cf6eddb779eeb1474cd35d4"
+ },
+ "car.mp4": {
+  "tag": "media-v1",
+  "size": 256888,
+  "sha256": "ad26d8e0ef94de1061a01b1b9bddd8c5aed0acbeb6986e156774230afe50c303"
+ },
+ "chalk-hands-clap-dust-cloud-grip-barbell-macro.mp4": {
+  "tag": "media-v1",
+  "size": 1440770,
+  "sha256": "921eacac55bc5a42dcd6ccad24ac1d9ae130e93f925f591635e5053d54f8d23b"
+ },
+ "chase-asset1.mp4": {
+  "tag": "media-v1",
+  "size": 896940,
+  "sha256": "97cf06faea2ae280249a483fb7ce2387922857b606b6d10e5de6f50a87a9b542"
+ },
+ "chase-asset2.mp4": {
+  "tag": "media-v1",
+  "size": 652537,
+  "sha256": "e5c662ddb64f09bbe3d5f6a38f26a63ff0c766a02a2a66c2e7356fe99541c7bf"
+ },
+ "cheesy-car-salesman-shouting-fisheye.mp4": {
+  "tag": "media-v1",
+  "size": 809369,
+  "sha256": "3e0e08033185a0ecad7ca38f3e5fc92c90518eae1d22dfc1aa3202764adad05f"
+ },
+ "clone-war-room.mp4": {
+  "tag": "media-v1",
+  "size": 3356494,
+  "sha256": "ca5b56a43f9696533f03a12b0f1f915ceda083a5af5358874c2f9d7c2c093c75"
+ },
+ "coach-arms-crossed-confident-nod-dark-gym.mp4": {
+  "tag": "media-v1",
+  "size": 273769,
+  "sha256": "395e1666f69613194045b8d91a59bf03e9ad278ca40876dbb7f8d76aad46d349"
+ },
+ "counselor-v1.mp4": {
+  "tag": "media-v1",
+  "size": 5388045,
+  "sha256": "5811806ef9ea10d535385984e3e38d456bf129b944e197426dcff0f0b41ba641"
+ },
+ "counselor-v2.mp4": {
+  "tag": "media-v1",
+  "size": 5541528,
+  "sha256": "32b92cd8f07f47dc66889024234e4ee77fdf128326bd8695ef5a3f759f635363"
+ },
+ "deadpan-woman-on-exercise-bike-stares-at-camera.mp4": {
+  "tag": "media-v1",
+  "size": 293754,
+  "sha256": "4a6128c395cae0008fe63846afef003d0c47f259e6a1001631ab78e82b60ccbb"
+ },
+ "grave-g1.mp4": {
+  "tag": "media-v1",
+  "size": 971113,
+  "sha256": "300dfedc394c1e7d540fca4c68b4ca7f5e620d833d99d50d239cf4f74121a106"
+ },
+ "grave-g2.mp4": {
+  "tag": "media-v1",
+  "size": 296857,
+  "sha256": "423fd62bedee0aef9ccbc9bc11ae82812cd3d4755fd65032cd9a57e4809b5fa6"
+ },
+ "grave-g3.mp4": {
+  "tag": "media-v1",
+  "size": 762824,
+  "sha256": "9c7df75f0a8fced1e9b6fac4eb9c5b2c057351af01da458228ed72ef1bd55d01"
+ },
+ "grave-g4.mp4": {
+  "tag": "media-v1",
+  "size": 815940,
+  "sha256": "9e8ae543d1ac0bf9f967b6587502f2c4e405185f720e2d57caff7ff2156d2fc1"
+ },
+ "grave-g5.mp4": {
+  "tag": "media-v1",
+  "size": 633763,
+  "sha256": "c77bd8f3b4acef3bbffdba8e8488b783d33bab6d98e50e33144345aa937a32ac"
+ },
+ "grave-g6.mp4": {
+  "tag": "media-v1",
+  "size": 569932,
+  "sha256": "ee94b76d4c41d11b2c6904012a1f3e70020390d17b78c1e40aa1b7c4d2877d5a"
+ },
+ "graveyard-v1.mp4": {
+  "tag": "media-v1",
+  "size": 5149404,
+  "sha256": "432de94eb910429d6c1db157d6f3ed782b1353b7f9c0c3f176e1b80cf7303f9e"
+ },
+ "graveyard-v2.mp4": {
+  "tag": "media-v1",
+  "size": 5554315,
+  "sha256": "5c4773903e1c0bda753741386d839e3696a4a0ebab7d877579c383d743abc107"
+ },
+ "gym-owner-box-jump-fail-onto-mat.mp4": {
+  "tag": "media-v1",
+  "size": 382011,
+  "sha256": "a6035253789a648779cb6eaf0a7e0940f98a0da9c3f60d648073fc17865c0eec"
+ },
+ "gym-owner-flat-on-mat-gives-weak-thumbs-up.mp4": {
+  "tag": "media-v1",
+  "size": 288823,
+  "sha256": "7c90b01dd50b4bbff2acd4809ace5e988458f33d6fe4c78e38f89dd29b121922"
+ },
+ "gym-owner-flexes-leans-on-exercise-ball-faceplants-out-of-frame.mp4": {
+  "tag": "media-v1",
+  "size": 550181,
+  "sha256": "e6a33c241ae144b49ccbb3d0b863afa773a04913fd45e6bcf02be59d930fa320"
+ },
+ "infinite-control-tower-16x9.mp4": {
+  "tag": "media-v1",
+  "size": 2345901,
+  "sha256": "4f4c5ca0df11db4d46ebb90d21e674da4feff6592a1feeb1a485d0cee285c5f2"
+ },
+ "infinite-control-tower.mp4": {
+  "tag": "media-v1",
+  "size": 3367542,
+  "sha256": "93427c33facd5be7e798e039c3c2bf03785c42596c3a0b272af0765c4e537777"
+ },
+ "infinite-hero-vsl-repaired.mp4": {
+  "tag": "media-v1",
+  "size": 5404623,
+  "sha256": "2d1bf72f45900fb30749129f5c57a9096fafdb248337357bdd00b089302dd7c0"
+ },
+ "infinite-hero-vsl-source.mp4": {
+  "tag": "media-v1",
+  "size": 5394605,
+  "sha256": "ab335c7be93dc1474fbef1d273e93e31ddcad6f65076e7689a16906af053140c"
+ },
+ "infinite-hero-vsl.mp4": {
+  "tag": "media-v1",
+  "size": 5410156,
+  "sha256": "8382becc94d818c506c4a326ccf9ce688ecd483c9ae7fdbb07b82be8fd70b4cc"
+ },
+ "infinite-lead-response-teaser.mp4": {
+  "tag": "media-v1",
+  "size": 1863102,
+  "sha256": "c2d64afbe322eb7f560296f72715ed5c890186f05992356172c3a0c8eb10d503"
+ },
+ "infinite-speed-to-lead.mp4": {
+  "tag": "media-v1",
+  "size": 1884478,
+  "sha256": "283286fb51524208c5dc2a10d9e5454a796d2905a8669415bf0538cdf4186895"
+ },
+ "inflatable-tube-man-used-car-lot.mp4": {
+  "tag": "media-v1",
+  "size": 704914,
+  "sha256": "a66ffb2e4d20776c46eba1d1568bd91ca7a03418ea798544ae38e5a1a0e15495"
+ },
+ "lawyer-points-at-camera-trips-over-cone.mp4": {
+  "tag": "media-v1",
+  "size": 461997,
+  "sha256": "2bdae950166d8d96eef48ff0730edda7e50eb65127703efc6c64147f3e22b84b"
+ },
+ "lawyer-s-mallet-head-flies-off-desk-folds.mp4": {
+  "tag": "media-v1",
+  "size": 513519,
+  "sha256": "29aa6f5f5be2442c5361fb2e59cd2a0eb2652a799aa5f4e540b29ed09f0fec1a"
+ },
+ "media-buyer-cringes-behind-hands-then-grins.mp4": {
+  "tag": "media-v1",
+  "size": 465859,
+  "sha256": "ffd5ba62f2531e018ca3e6d5bf234936ca994cd609ea8832688f68e10471855c"
+ },
+ "media-buyer-face-in-hands-then-grins.mp4": {
+  "tag": "media-v1",
+  "size": 653347,
+  "sha256": "b6757f2942e9c62b2112f676a84d4ab457635f88cdd12bd613bcec4f85cb6f1b"
+ },
+ "or-kling-black-car-studio.mp4": {
+  "tag": "media-v1",
+  "size": 327152,
+  "sha256": "7d16509b1d42101d294363226fd1f0ac0f0d08f43b7a1ac570e8d312deae3307"
+ },
+ "overacting-actor-in-backwards-neck-brace-thumbs-up-and-wave.mp4": {
+  "tag": "media-v1",
+  "size": 366223,
+  "sha256": "eb2398cde6ff73bca5ff7a47718c603535d74525332159b9ec2e9003c895300b"
+ },
+ "pi-attorneys-hammer-broke-v1.mp4": {
+  "tag": "media-v1",
+  "size": 5672875,
+  "sha256": "e8df349c0535db5f9449671e28bd096c281c8bbb072622213c075eea69b76b0f"
+ },
+ "pi-attorneys.mp4": {
+  "tag": "media-v1",
+  "size": 5396536,
+  "sha256": "d84a59041b6375489b7b18715a132c9ab34d2573ce1c862909c60a9fa15fc219"
+ },
+ "pi-k1.mp4": {
+  "tag": "media-v1",
+  "size": 325232,
+  "sha256": "5bfa6bd841759529fd93274e41e0309e1ada7c8d5141a6f57672bbea56dcc380"
+ },
+ "pi-k2.mp4": {
+  "tag": "media-v1",
+  "size": 1111598,
+  "sha256": "ba6d7aa96781ff8a97d8fb998f21f95f8b67b9c2fb5aa0b44857ec530795ae86"
+ },
+ "pi-k3.mp4": {
+  "tag": "media-v1",
+  "size": 564076,
+  "sha256": "cc1fd08e83611650f06cbff69ea87f4f81b14e8c4643b8a2c4e2346002edf666"
+ },
+ "pi-k4.mp4": {
+  "tag": "media-v1",
+  "size": 707962,
+  "sha256": "fec2930bf0f0a06a5a7c1c23a5abf1fd7b1167260162d2314ef03e3a909c9642"
+ },
+ "pi-k5.mp4": {
+  "tag": "media-v1",
+  "size": 272519,
+  "sha256": "d0d6d7bb01618133161c9c53892982f488b5f7c04d9c49bfeb04076d47fb8f3a"
+ },
+ "promo-v1.mp4": {
+  "tag": "media-v1",
+  "size": 1735137,
+  "sha256": "1511e5de2acdc14843d4a7eaacbb9c997a90aec83584a46b5552ba71ddeff452"
+ },
+ "promo-v2.mp4": {
+  "tag": "media-v1",
+  "size": 3854122,
+  "sha256": "bfc2f088d02cfb56546c662fca72e6fb66f44facc47be561b922cec6be321be2"
+ },
+ "promo-v3.mp4": {
+  "tag": "media-v1",
+  "size": 3845360,
+  "sha256": "c48dd2a600282386769f6d99f801005cfe28019c6b6f7e3f9c5f281eeb2d7b8c"
+ },
+ "remake-r1.mp4": {
+  "tag": "media-v1",
+  "size": 329961,
+  "sha256": "9f4c3f363897ea1750382ff98583c2c85383db427f3dcaedbbcfbcc31a2f5798"
+ },
+ "remake-r2.mp4": {
+  "tag": "media-v1",
+  "size": 270101,
+  "sha256": "acdb6c333355599cea091d64e300101da01f9d11ac8413d5b91f903e4df7834a"
+ },
+ "remake-r3.mp4": {
+  "tag": "media-v1",
+  "size": 331847,
+  "sha256": "0c116621c97e54b422b3e14971179e468696a8cc323047f50ee5a6493718c211"
+ },
+ "remake-r4.mp4": {
+  "tag": "media-v1",
+  "size": 594442,
+  "sha256": "bb40425005d3ef3684048c5e1ea03de700521677368c7241a252bf2bf31af2bd"
+ },
+ "remake-r5.mp4": {
+  "tag": "media-v1",
+  "size": 1068626,
+  "sha256": "86da0bfdb7cd35194b3c4ad75c40b0f3de4bc8445bf93eef9f39c330a8b00683"
+ },
+ "remake-r6.mp4": {
+  "tag": "media-v1",
+  "size": 491600,
+  "sha256": "28baf726ee783ea39d47ecad21fa1cce1addcd3e93758fe97257c1dbd2c8611c"
+ },
+ "remake.mp4": {
+  "tag": "media-v1",
+  "size": 5434069,
+  "sha256": "2bb3a90c0ce9cb4c5d792fa812ab1d12f1ad2a63fdfe8db9c45a042c235127b6"
+ },
+ "rock.mp4": {
+  "tag": "media-v1",
+  "size": 272708,
+  "sha256": "170188a1795d5835d0044e5768d491b91671924da2e4070b858692c0d8c99387"
+ },
+ "s1.mp4": {
+  "tag": "media-v1",
+  "size": 12956,
+  "sha256": "974ec0350d786aef6af2a2dd41034d3bde9e255c26417908f0d4a746fb36249f"
+ },
+ "s2.mp4": {
+  "tag": "media-v1",
+  "size": 13224,
+  "sha256": "26f14ff94f2857a6cc6b2ef4ac9e42b2a2db013e921f09cd1318841713b901f2"
+ },
+ "s5.mp4": {
+  "tag": "media-v1",
+  "size": 20613,
+  "sha256": "0232b2ba25c05f90d4c575e0d1b2b3e62550e64a8adbbf54bc48807bb1bb0608"
+ },
+ "s6.mp4": {
+  "tag": "media-v1",
+  "size": 25857,
+  "sha256": "f23aa8554c2f5901f0b30b4a7732b1e3511422deb230755ee91dc5d250138cdb"
+ },
+ "screaming-tv-lawyer-bonks-the-fisheye-lens.mp4": {
+  "tag": "media-v1",
+  "size": 878349,
+  "sha256": "47473e2fa7a19891c7f7d8e959deb048339fb9f33f7f7602479a6f17ccf5fab0"
+ },
+ "sedan-dark-studio-clean.mp4": {
+  "tag": "media-v1",
+  "size": 403265,
+  "sha256": "a4cf2df4353c50e625fcedd2faae84fda169a9d13df798be8ffe46b093cbaa89"
+ },
+ "sedan-in-dark-studio-orange-rim-light-headlights-on.mp4": {
+  "tag": "media-v1",
+  "size": 482177,
+  "sha256": "48df80c4bd217e372ac76cf92971a5bc597c9249b19653baaeb8ff3bf2f94084"
+ },
+ "sedan-launches-out-of-smoke-and-passes-camera.mp4": {
+  "tag": "media-v1",
+  "size": 740349,
+  "sha256": "0e995108dd5ca41650e27531def994deacea04fb6515161b2da31db11857298d"
+ },
+ "sedan-launches-out-of-smoke-clean.mp4": {
+  "tag": "media-v1",
+  "size": 614554,
+  "sha256": "f21926929683ba1e7f98446e515b5c93d350d29973716067569ea3d47087254d"
+ },
+ "showroom-handshake-and-key-handoff-night.mp4": {
+  "tag": "media-v1",
+  "size": 710834,
+  "sha256": "473d3aa24972fa2e261b1f251b15c8a943c7c9c098e15f9ee6f51a21844a7bd0"
+ },
+ "showroom-handshake-clean.mp4": {
+  "tag": "media-v1",
+  "size": 717390,
+  "sha256": "6194c9690a84f17c26142d01329cda5a62338703467590df06eed21c863d3012"
+ },
+ "trovy-cardcut.mp4": {
+  "tag": "media-v1",
+  "size": 3503207,
+  "sha256": "9e0fd422215ec9ec7b70bcae15793a57cf1dcc52d6358ed6445f2937372bb761"
+ },
+ "trovy-yellow-card.mp4": {
+  "tag": "media-v1",
+  "size": 3279285,
+  "sha256": "f35458337ac9b191e7420f47461a9c76c17acce56a54a0f9b7692803752d5830"
+ },
+ "tube-man-deflates-and-collapses.mp4": {
+  "tag": "media-v1",
+  "size": 521065,
+  "sha256": "154aff301f63063400a9d94e448f6dfbfe420c80c28e606656e9c68ba553fa53"
+ },
+ "tube-man-v1.mp4": {
+  "tag": "media-v1",
+  "size": 5605230,
+  "sha256": "6ffadbc7ccdcf89f1f8e0439b11cb26de6f837a2697b20163438abecf3dc232f"
+ },
+ "v.mp4": {
+  "tag": "media-v1",
+  "size": 566463,
+  "sha256": "fa4bce9932e595ca40726e2744e511c06563d02548146705cef139dfaf07769d"
+ },
+ "v2-c1.mp4": {
+  "tag": "media-v1",
+  "size": 332373,
+  "sha256": "1134db6e071b5a886ba521165806299578ccb112f4fdc4e41692743c05c8a3a6"
+ },
+ "v2-c2.mp4": {
+  "tag": "media-v1",
+  "size": 270402,
+  "sha256": "0f4edf9f8bf45da0f5390b7d8ba73b82b71a063d81b8cf8f2f1991c7c726bab1"
+ },
+ "v2-c3.mp4": {
+  "tag": "media-v1",
+  "size": 597023,
+  "sha256": "31d00e9d52f3d5b2986c05bf1d63e83cec1503537cac54d33c65bee54f658a5c"
+ },
+ "v2-c4.mp4": {
+  "tag": "media-v1",
+  "size": 575377,
+  "sha256": "6a77ce6bd24369f8b95ed606cb62e667d4c38c64580c1cced94eaac2af1514d7"
+ },
+ "v2-c5.mp4": {
+  "tag": "media-v1",
+  "size": 1077311,
+  "sha256": "dc32870545e151a674475934521e88d71dcffcd4f34cfed23cb3ddbae60e08ba"
+ },
+ "v2-c6.mp4": {
+  "tag": "media-v1",
+  "size": 918726,
+  "sha256": "5ed713391968f4ef2fb7fd2e4a684a787d7e58aee098413d25a4f74187533fe2"
+ },
+ "v2-c7.mp4": {
+  "tag": "media-v1",
+  "size": 1048622,
+  "sha256": "fb37174ffdd84878266857be3df852545142842b0e1af3a006032fcc5619afab"
+ }
+}
