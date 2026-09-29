@@ -1,0 +1,5 @@
+# Videos live on GitHub Release assets (media-v*), not in git. Local copies stay on disk.
+# See README "Where files go" and media_release.json.
+media/finals/
+media/clips/
+*.mp4

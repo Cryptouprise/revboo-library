@@ -2,7 +2,7 @@
 
 Live page: https://cryptouprise.github.io/revboo-library/
 
-Chase's finished ads and reusable clips, filed by brand (Revboo, Legal/PI, The Assist, Infinite AI, Solar Freedom, Generic/Other). Everything on the page comes from `manifest.json`. Each brand gets a tab (link straight to one with `#brand=The%20Assist`), with its own Finished Ads and Clips. "All" shows everything newest first.
+Chase's finished ads and reusable clips, filed by brand (Revboo, Legal/PI, The Assist, Infinite AI, Solar Freedom, Generic/Other). Everything on the page comes from `manifest.json`. Videos are stored as assets on this repo's GitHub Releases (`media-v1`, …), not in git; posters are in `media/posters/`. See "Where files go" below. Each brand gets a tab (link straight to one with `#brand=The%20Assist`), with its own Finished Ads and Clips. "All" shows everything newest first.
 
 ## Filing rules (video library): read this first
 
@@ -36,9 +36,13 @@ Check a guess with `python3 build.py guess FILE`. Pass `--brand` to override it.
 - **Skip** intermediate renders, previews, audio files, test outputs, broken segments, contact sheets, and exact duplicates (check with `md5sum`).
 
 ### 3. Where files go
-- Web copies go in `library/media/finals/<id>.mp4` (**under 6 MB**; existing chat copies are copied as-is, otherwise a two-pass H.264 re-encode sized to fit) or `library/media/clips/<id>.mp4` (720p-ish H.264, faststart, **under ~1.5 MB**). Posters go in `library/media/posters/<id>.jpg`.
+- Web copies are made in `library/media/finals/<id>.mp4` (**under 6 MB**; existing chat copies are copied as-is, otherwise a two-pass H.264 re-encode sized to fit) or `library/media/clips/<id>.mp4` (720p-ish H.264, faststart, **under ~1.5 MB**). Posters go in `library/media/posters/<id>.jpg`.
+- **Video storage = GitHub Release assets, not git.** `build.py` uploads each new web copy to a release on `Cryptouprise/revboo-library` (tag `media-v1`; when a release reaches 900 assets it starts `media-v2`, and so on) and points the manifest's `video` at `https://github.com/Cryptouprise/revboo-library/releases/download/<tag>/<id>.mp4`. The page plays these inline with no login. `media_release.json` (committed) records the tag, size and sha256 of every uploaded file. It needs `gh` logged in as Cryptouprise.
+- `media/finals/` and `media/clips/` are **gitignored**. The local copies stay on the box; never `git add` mp4s. Posters (small jpgs) are still committed and served by Pages.
+- Asset names are `<id>.mp4`, so ids must be unique across finals and clips (lowercase, digits, dashes). A release asset is never overwritten: to replace a video, add it under a new id or `--version`.
+- Never delete or rename release assets or the `media-v*` releases. The live page streams from them.
 - Originals stay where they are. `source` in the manifest records the original path.
-- Keep the repo under ~150 MB. Use smaller targets (`max_mb`) for batches of near-identical variants.
+- Size targets still apply (fast loading), but the repo no longer grows with videos. GitHub's only limit is 2 GB per file.
 
 ### 4. Dates
 - `date` = the source file's modification time, formatted like "Sep 28, 2026". `datetime` = full ISO time, used for newest-first sorting.
@@ -52,7 +56,8 @@ Check a guess with `python3 build.py guess FILE`. Pass `--brand` to override it.
    This makes the web copy and poster, files the video under its brand (guessed if `--brand` is omitted), saves it in `extra_sources.json`, and rewrites `manifest.json`.
    For permanent or curated entries you can instead add a line to `FINALS`/`CLIPS` in `build.py` and run `python3 build.py`.
 3. Glance at the poster. If it lands on a flash frame, re-add with `--poster-time`, delete the old jpg, and rebuild.
-4. `git add -A && git commit -m "Add <name>" && git push`. GitHub Pages updates in about a minute.
-5. Verify: `curl -sI https://cryptouprise.github.io/revboo-library/media/finals/<id>.mp4` returns 200, and the video appears under the right brand tab.
+4. `git add -A && git commit -m "Add <name>" && git push` (this commits `manifest.json`, `media_release.json`, `extra_sources.json` and the poster; mp4s are gitignored). GitHub Pages updates in about a minute.
+   `add` (and a plain `python3 build.py`) uploads any new web copy to the release before writing `manifest.json`. If the upload fails it prints a WARNING and the video will not play on the site; fix `gh` and run `python3 build.py sync`. Use `--no-upload` only for offline tests.
+5. Verify: `curl -sIL https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/<id>.mp4` ends in `200` (after a 302 redirect; content-type `application/octet-stream` is expected and plays fine), and the video appears and plays under the right brand tab.
 
-Without the box: drop the mp4 and a poster jpg into `media/`, add one entry to `manifest.json` with `brand`, `date`, `datetime`, `duration`, `video` and `poster`, then commit.
+Without the box: upload the mp4 to the latest `media-v*` release on GitHub (Releases → edit → attach), commit a poster jpg to `media/posters/`, and add one entry to `manifest.json` with `brand`, `date`, `datetime`, `duration`, `video` (the release download URL) and `poster`, then commit. Also add the file to `media_release.json` so `build.py` knows it is uploaded.
