@@ -815,6 +815,26 @@
       "file": "media/finals/the-ad-doctor-flatlining-ads-v1.mp4"
     },
     {
+      "id": "pi-attorneys-scroll-past-v1",
+      "brand": "Legal/PI",
+      "category": "Ads for attorneys",
+      "group": "PI Attorneys – Scroll Past",
+      "title": "PI Attorneys – Scroll Past",
+      "version": "v1",
+      "width": 1080,
+      "height": 1920,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 37.1,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-scroll-past-v1.mp4",
+      "poster": "media/posters/pi-attorneys-scroll-past-v1.jpg",
+      "status": "final",
+      "note": "Neck-brace guy at a tow yard flicks past a stiff stock-gavel lawyer ad in 0.4 s; then 'your competitor's viewers, using Revboo' stop dead, crank the volume, show the tow driver, tap. Ends on Chase's fire-logo clip (Monday Drop v3 ending). 8 Kling 3.0 Pro clips via OpenRouter.",
+      "source": "/workspace/revboo/pi-scrollpast/Revboo-PI-ScrollPast-small.mp4",
+      "size_mb": 5.5,
+      "file": "media/finals/pi-attorneys-scroll-past-v1.mp4"
+    },
+    {
       "id": "blast-furnace-take1",
       "brand": "Revboo",
       "category": "Seedance originals (made by Chase)",
@@ -2434,6 +2454,135 @@
       "source": "/workspace/revboo/addoctor/work/b2.mp4",
       "size_mb": 1.26,
       "file": "media/clips/smartphone-spinning-in-orange-light-trails-3d-product.mp4"
+    },
+    {
+      "id": "neck-brace-guy-at-tow-yard-bored-scrolling",
+      "brand": "Legal/PI",
+      "name": "Neck-brace guy at tow yard – bored scrolling",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "PI Attorneys – Scroll Past"
+      ],
+      "note": "",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/neck-brace-guy-at-tow-yard-bored-scrolling.mp4",
+      "poster": "media/posters/neck-brace-guy-at-tow-yard-bored-scrolling.jpg",
+      "source": "/workspace/revboo/pi-scrollpast/s1.mp4",
+      "size_mb": 0.52,
+      "file": "media/clips/neck-brace-guy-at-tow-yard-bored-scrolling.mp4"
+    },
+    {
+      "id": "over-shoulder-phone-blank-white-screen-thumb-flick",
+      "brand": "Legal/PI",
+      "name": "Over-shoulder phone – blank white screen, thumb flick",
+      "categories": [
+        "Phones & Scrolling",
+        "Legal/PI"
+      ],
+      "used_in": [
+        "PI Attorneys – Scroll Past"
+      ],
+      "note": "White screen for compositing; tracked quads in pi-scrollpast/s2_quads.npy (flick at ~1.15 s).",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/over-shoulder-phone-blank-white-screen-thumb-flick.mp4",
+      "poster": "media/posters/over-shoulder-phone-blank-white-screen-thumb-flick.jpg",
+      "source": "/workspace/revboo/pi-scrollpast/s2.mp4",
+      "size_mb": 0.28,
+      "file": "media/clips/over-shoulder-phone-blank-white-screen-thumb-flick.mp4"
+    },
+    {
+      "id": "neck-brace-guy-stops-scrolling-jaw-drop",
+      "brand": "Legal/PI",
+      "name": "Neck-brace guy stops scrolling – jaw drop",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "PI Attorneys – Scroll Past"
+      ],
+      "note": "⚠ Apple-style logo on the phone back from ~2 s: paint out before reuse (tracked in pi-scrollpast/logo_track.json).",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/neck-brace-guy-stops-scrolling-jaw-drop.mp4",
+      "poster": "media/posters/neck-brace-guy-stops-scrolling-jaw-drop.jpg",
+      "source": "/workspace/revboo/pi-scrollpast/s3.mp4",
+      "size_mb": 0.49,
+      "file": "media/clips/neck-brace-guy-stops-scrolling-jaw-drop.mp4"
+    },
+    {
+      "id": "neck-brace-guy-jabs-volume-button-phone-to-ear",
+      "brand": "Legal/PI",
+      "name": "Neck-brace guy jabs volume button, phone to ear",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "PI Attorneys – Scroll Past"
+      ],
+      "note": "⚠ Faint logo on the phone back in the first ~0.5 s; button jabs ~2.2–3.2 s, phone to ear from ~3.4 s.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/neck-brace-guy-jabs-volume-button-phone-to-ear.mp4",
+      "poster": "media/posters/neck-brace-guy-jabs-volume-button-phone-to-ear.jpg",
+      "source": "/workspace/revboo/pi-scrollpast/s4b.mp4",
+      "size_mb": 0.7,
+      "file": "media/clips/neck-brace-guy-jabs-volume-button-phone-to-ear.mp4"
+    },
+    {
+      "id": "neck-brace-guy-and-tow-truck-driver-stare-at-phone-nod",
+      "brand": "Legal/PI",
+      "name": "Neck-brace guy and tow truck driver stare at phone, nod",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "PI Attorneys – Scroll Past"
+      ],
+      "note": "⚠ Cap patch has gibberish lettering: paint out (tracked in pi-scrollpast/s5b_patch.json). Nods ~3.0–4.5 s.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/neck-brace-guy-and-tow-truck-driver-stare-at-phone-nod.mp4",
+      "poster": "media/posters/neck-brace-guy-and-tow-truck-driver-stare-at-phone-nod.jpg",
+      "source": "/workspace/revboo/pi-scrollpast/s5b.mp4",
+      "size_mb": 0.33,
+      "file": "media/clips/neck-brace-guy-and-tow-truck-driver-stare-at-phone-nod.mp4"
+    },
+    {
+      "id": "finger-taps-blank-white-phone-screen",
+      "brand": "Legal/PI",
+      "name": "Finger taps blank white phone screen",
+      "categories": [
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "PI Attorneys – Scroll Past"
+      ],
+      "note": "White screen for compositing; quads in pi-scrollpast/s6_quads.npy; tap lands ~2.65 s.",
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 5.0,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/finger-taps-blank-white-phone-screen.mp4",
+      "poster": "media/posters/finger-taps-blank-white-phone-screen.jpg",
+      "source": "/workspace/revboo/pi-scrollpast/s6.mp4",
+      "size_mb": 0.33,
+      "file": "media/clips/finger-taps-blank-white-phone-screen.mp4"
     },
     {
       "id": "chase-card-monolith-fire-to-supercar",

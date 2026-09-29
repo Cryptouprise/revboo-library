@@ -182,6 +182,20 @@
       "group": "The Ad Doctor",
       "title": "The Ad Doctor (Flatlining Ads)",
       "version": "v1"
+    },
+    {
+      "id": "pi-attorneys-scroll-past-v1",
+      "src": "/workspace/revboo/pi-scrollpast/Revboo-PI-ScrollPast-small.mp4",
+      "brand": "Legal/PI",
+      "note": "Neck-brace guy at a tow yard flicks past a stiff stock-gavel lawyer ad in 0.4 s; then 'your competitor's viewers, using Revboo' stop dead, crank the volume, show the tow driver, tap. Ends on Chase's fire-logo clip (Monday Drop v3 ending). 8 Kling 3.0 Pro clips via OpenRouter.",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "group": "PI Attorneys – Scroll Past",
+      "title": "PI Attorneys – Scroll Past",
+      "version": "v1",
+      "category": "Ads for attorneys"
     }
   ],
   "clips": [
@@ -722,6 +736,117 @@
       ],
       "used_in": [
         "The Ad Doctor"
+      ]
+    },
+    {
+      "id": "neck-brace-guy-at-tow-yard-bored-scrolling",
+      "src": "/workspace/revboo/pi-scrollpast/s1.mp4",
+      "brand": "Legal/PI",
+      "note": "",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Neck-brace guy at tow yard – bored scrolling",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "PI Attorneys – Scroll Past"
+      ]
+    },
+    {
+      "id": "over-shoulder-phone-blank-white-screen-thumb-flick",
+      "src": "/workspace/revboo/pi-scrollpast/s2.mp4",
+      "brand": "Legal/PI",
+      "note": "White screen for compositing; tracked quads in pi-scrollpast/s2_quads.npy (flick at ~1.15 s).",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Over-shoulder phone – blank white screen, thumb flick",
+      "categories": [
+        "Phones & Scrolling",
+        "Legal/PI"
+      ],
+      "used_in": [
+        "PI Attorneys – Scroll Past"
+      ]
+    },
+    {
+      "id": "neck-brace-guy-stops-scrolling-jaw-drop",
+      "src": "/workspace/revboo/pi-scrollpast/s3.mp4",
+      "brand": "Legal/PI",
+      "note": "⚠ Apple-style logo on the phone back from ~2 s: paint out before reuse (tracked in pi-scrollpast/logo_track.json).",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Neck-brace guy stops scrolling – jaw drop",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "PI Attorneys – Scroll Past"
+      ]
+    },
+    {
+      "id": "neck-brace-guy-jabs-volume-button-phone-to-ear",
+      "src": "/workspace/revboo/pi-scrollpast/s4b.mp4",
+      "brand": "Legal/PI",
+      "note": "⚠ Faint logo on the phone back in the first ~0.5 s; button jabs ~2.2–3.2 s, phone to ear from ~3.4 s.",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Neck-brace guy jabs volume button, phone to ear",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "PI Attorneys – Scroll Past"
+      ]
+    },
+    {
+      "id": "neck-brace-guy-and-tow-truck-driver-stare-at-phone-nod",
+      "src": "/workspace/revboo/pi-scrollpast/s5b.mp4",
+      "brand": "Legal/PI",
+      "note": "⚠ Cap patch has gibberish lettering: paint out (tracked in pi-scrollpast/s5b_patch.json). Nods ~3.0–4.5 s.",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Neck-brace guy and tow truck driver stare at phone, nod",
+      "categories": [
+        "Legal/PI",
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "PI Attorneys – Scroll Past"
+      ]
+    },
+    {
+      "id": "finger-taps-blank-white-phone-screen",
+      "src": "/workspace/revboo/pi-scrollpast/s6.mp4",
+      "brand": "Legal/PI",
+      "note": "White screen for compositing; quads in pi-scrollpast/s6_quads.npy; tap lands ~2.65 s.",
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "name": "Finger taps blank white phone screen",
+      "categories": [
+        "Phones & Scrolling"
+      ],
+      "used_in": [
+        "PI Attorneys – Scroll Past"
       ]
     }
   ]
