@@ -3,3 +3,4 @@
 media/finals/
 media/clips/
 *.mp4
+__pycache__/
