@@ -755,6 +755,26 @@
       "file": "media/finals/infinite-control-tower.mp4"
     },
     {
+      "id": "monday-morning-drop-v2-edit-test",
+      "brand": "Revboo",
+      "category": "Made by Chase (Higgsfield/CapCut)",
+      "group": "Monday Morning Drop",
+      "title": "Monday Morning Drop v2 (edit test)",
+      "version": "v2",
+      "width": 1080,
+      "height": 1920,
+      "date": "Sep 28, 2026",
+      "datetime": "2026-09-28T00:00:00",
+      "duration": 19.4,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/monday-morning-drop-v2-edit-test.mp4",
+      "poster": "media/posters/monday-morning-drop-v2-edit-test.jpg",
+      "status": "final",
+      "note": "Client edit round 1 test: fixed REVBOO.VIDEO end card, garbled notification/thumbnail text covered, hook added, text pacing ≥2.2s, new Pixabay ding + music at -14 LUFS. Notes: edits/monday-drop/review-notes-round1.md",
+      "source": "/workspace/revboo/edits/monday-drop/Monday-Drop-v2.mp4",
+      "size_mb": 4.3,
+      "file": "media/finals/monday-morning-drop-v2-edit-test.mp4"
+    },
+    {
       "id": "blast-furnace-take1",
       "brand": "Revboo",
       "category": "Seedance originals (made by Chase)",

@@ -329,6 +329,11 @@
   "size": 1864693,
   "sha256": "8bd2f468464a8019b32030102b9a6ebcf1cb692f44d1ed11e8bdd2e20ff1c791"
  },
+ "monday-morning-drop-v2-edit-test.mp4": {
+  "tag": "media-v1",
+  "size": 4262738,
+  "sha256": "decd93224b0ffe27330111ed77bc0f07717eb6c2dc89b06b6b78f7828cb1300f"
+ },
  "new-hat-therapy-v1.mp4": {
   "tag": "media-v1",
   "size": 4968495,

@@ -138,6 +138,21 @@
       "title": "Old Busted Ads → Supercar",
       "version": "v1",
       "category": "Made by Chase (Higgsfield/CapCut)"
+    },
+    {
+      "id": "monday-morning-drop-v2-edit-test",
+      "src": "/workspace/revboo/edits/monday-drop/Monday-Drop-v2.mp4",
+      "brand": "Revboo",
+      "note": "Client edit round 1 test: fixed REVBOO.VIDEO end card, garbled notification/thumbnail text covered, hook added, text pacing ≥2.2s, new Pixabay ding + music at -14 LUFS. Notes: edits/monday-drop/review-notes-round1.md",
+      "pt": 1.5,
+      "date_override": [
+        "Sep 28, 2026",
+        "2026-09-28T00:00:00"
+      ],
+      "group": "Monday Morning Drop",
+      "title": "Monday Morning Drop v2 (edit test)",
+      "version": "v2",
+      "category": "Made by Chase (Higgsfield/CapCut)"
     }
   ],
   "clips": [
