@@ -106,7 +106,7 @@
         "blast-furnace-take2",
         "blast-furnace-take1"
       ],
-      "approved_asset_id": null,
+      "approved_asset_id": "furnace-captioned-9x16-v1",
       "created_by": "Unknown",
       "last_edited_by": "Grok",
       "agent_tags": [
@@ -118,6 +118,12 @@
           "agent": "Grok",
           "action": "Rejected take1/take2 (VO says \"abs\"); added captioned 9:16 + 4:5 + hook-cover test built from take2 with the last word patched to \"ads\". Listed in FINALS.md. approved_asset_id left null pending Chase ear check.",
           "parent_asset_id": "blast-furnace-take2"
+        },
+        {
+          "at": "2026-10-04T12:50:00-06:00",
+          "agent": "Grok",
+          "action": "Chase approved the captioned Furnace cuts + covers on Oct 4, 2026 ('perfect'). approved_asset_id -> furnace-captioned-9x16-v1 (4:5 and hook-cover test also Approved). Style is now the Revboo house caption standard.",
+          "parent_asset_id": "furnace-captioned-9x16-v1"
         }
       ]
     },
@@ -129,16 +135,33 @@
       "category": "Made by Chase (Higgsfield/CapCut)",
       "aliases": [
         "5ece505f-6b6b-4fc3-b61a-048aff2759dd_1_.mp4",
-        "new-hat-therapy-v1"
+        "new-hat-therapy-v1",
+        "A New Hat – Captioned Paid Ad",
+        "Revboo-NewHat-Captioned-9x16.mp4",
+        "Revboo-NewHat-Captioned-4x5.mp4",
+        "hook_A (1).mp4",
+        "hf_20260928_033156_2eda1c9a-1cf2-4f54-bec5-a47574d4f66f.mp4",
+        "hf_20260928_032417_ad6a97d8-be27-4c10-83d8-f28657067eda.mp4"
       ],
       "assets": [
+        "new-hat-captioned-4x5-v1",
+        "new-hat-captioned-9x16-v1",
         "new-hat-therapy-v1"
       ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
-      "agent_tags": [],
-      "history": []
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T12:50:00-06:00",
+          "agent": "Grok",
+          "action": "Added captioned 9:16 + 4:5 cuts (house caption standard) built from the clean take hf_20260928_033156 (the latest take; also the one under Chase's hook_A). Older take hf_20260928_032417 not used (earlier version).",
+          "parent_asset_id": "new-hat-therapy-v1"
+        }
+      ]
     },
     {
       "concept_id": "PI-007",
@@ -3200,21 +3223,26 @@
       "source_asset_ids": [
         "blast-furnace-take2"
       ],
-      "status": "Review",
+      "status": "Approved",
       "qa": {
         "technical": "PASS: 1080 wide H.264/AAC, -14 LUFS, TP -1.3 dBFS; web preview <6 MB",
-        "speech": "PASS (machine): Whisper large-v3/medium.en/small.en hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). Human listen by Chase pending.",
+        "speech": "PASS (machine): Whisper large-v3/medium.en/small.en hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). Chase approved by ear Oct 4, 2026.",
         "lip_sync_motion": "N/A for the patched word (spoken over the logo end card); picture unchanged from take 2.",
         "branding_cta": "End card \"Done-for-you video ads. Delivered weekly.\" correct (from furB_fixed).",
         "full_playback": "Contact sheets at 4 fps reviewed; automated caption/face/torso/text/fire overlap check: 0 overlaps.",
         "mobile_readability": "Style C captions 60-64 px at 1080 wide.",
         "remaining": [
-          "Chase to confirm patched last word by ear (slight background-texture change at the splice)",
           "Faint ghost face visible in end-card background (from source)",
           "Rotated \"CHANGE THE CREATIVE\" panel label at left is from source"
         ]
       },
-      "approval": null,
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04",
+        "sha256": "b6cfde6c74286864256e7c9b0166b7cc59541f375636ec9146485806f51b4554",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-v1-MASTER.mp4",
+        "evidence": "Chase approved the captioned Furnace cut as 'perfect' on Oct 4, 2026 (relayed by Grok Bot), including the patched last word 'ads'."
+      },
       "rights_reuse": "Revboo own brand",
       "costs": {
         "video": null,
@@ -3233,9 +3261,15 @@
           "agent": "Grok",
           "action": "Created main captioned 9:16 cut",
           "parent_asset_id": "blast-furnace-take2"
+        },
+        {
+          "at": "2026-10-04T12:50:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (Oct 4, 2026; 'perfect', patched 'ads' included)",
+          "parent_asset_id": "blast-furnace-take2"
         }
       ],
-      "finals_md": "Listed in FINALS.md per Chase's Oct 4 request; formal approval pointer pending his ear check."
+      "finals_md": "APPROVED by Chase Oct 4, 2026. Listed in FINALS.md."
     },
     "furnace-captioned-4x5-v1": {
       "concept_id": "RB-005",
@@ -3278,21 +3312,26 @@
       "source_asset_ids": [
         "blast-furnace-take2"
       ],
-      "status": "Review",
+      "status": "Approved",
       "qa": {
         "technical": "PASS: 1080 wide H.264/AAC, -14 LUFS, TP -1.3 dBFS; web preview <6 MB",
-        "speech": "PASS (machine): Whisper large-v3/medium.en/small.en hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). Human listen by Chase pending.",
+        "speech": "PASS (machine): Whisper large-v3/medium.en/small.en hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). Chase approved by ear Oct 4, 2026.",
         "lip_sync_motion": "N/A for the patched word (spoken over the logo end card); picture unchanged from take 2.",
         "branding_cta": "End card \"Done-for-you video ads. Delivered weekly.\" correct (from furB_fixed).",
         "full_playback": "Contact sheets at 4 fps reviewed; automated caption/face/torso/text/fire overlap check: 0 overlaps.",
         "mobile_readability": "Style C captions 60-64 px at 1080 wide.",
         "remaining": [
-          "Chase to confirm patched last word by ear (slight background-texture change at the splice)",
           "Faint ghost face visible in end-card background (from source)",
           "Rotated \"CHANGE THE CREATIVE\" panel label at left is from source"
         ]
       },
-      "approval": null,
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04",
+        "sha256": "998df66d6010502fc31e55c937a62982858833cb77d765e13754ae169c40af80",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-4x5-v1-MASTER.mp4",
+        "evidence": "Chase approved the captioned Furnace cut as 'perfect' on Oct 4, 2026 (relayed by Grok Bot), including the patched last word 'ads'."
+      },
       "rights_reuse": "Revboo own brand",
       "costs": {
         "video": null,
@@ -3311,9 +3350,15 @@
           "agent": "Grok",
           "action": "Created 4:5 reframe of the main cut",
           "parent_asset_id": "blast-furnace-take2"
+        },
+        {
+          "at": "2026-10-04T12:50:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (Oct 4, 2026; 'perfect', patched 'ads' included)",
+          "parent_asset_id": "blast-furnace-take2"
         }
       ],
-      "finals_md": "Listed in FINALS.md per Chase's Oct 4 request; formal approval pointer pending his ear check."
+      "finals_md": "APPROVED by Chase Oct 4, 2026. Listed in FINALS.md."
     },
     "furnace-captioned-9x16-hookcover-v1": {
       "concept_id": "RB-005",
@@ -3356,21 +3401,26 @@
       "source_asset_ids": [
         "blast-furnace-take2"
       ],
-      "status": "Review",
+      "status": "Approved",
       "qa": {
         "technical": "PASS: 1080 wide H.264/AAC, -14 LUFS, TP -1.3 dBFS; web preview <6 MB",
-        "speech": "PASS (machine): Whisper large-v3/medium.en/small.en hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). Human listen by Chase pending.",
+        "speech": "PASS (machine): Whisper large-v3/medium.en/small.en hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). Chase approved by ear Oct 4, 2026.",
         "lip_sync_motion": "N/A for the patched word (spoken over the logo end card); picture unchanged from take 2.",
         "branding_cta": "End card \"Done-for-you video ads. Delivered weekly.\" correct (from furB_fixed).",
         "full_playback": "Contact sheets at 4 fps reviewed; automated caption/face/torso/text/fire overlap check: 0 overlaps.",
         "mobile_readability": "Style C captions 60-64 px at 1080 wide.",
         "remaining": [
-          "Chase to confirm patched last word by ear (slight background-texture change at the splice)",
           "Faint ghost face visible in end-card background (from source)",
           "Rotated \"CHANGE THE CREATIVE\" panel label at left is from source"
         ]
       },
-      "approval": null,
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04",
+        "sha256": "b5a1660045541a5255d66bde3491646eff609b1dcd31e83249585d5a0aa860e3",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-hookcover-v1-MASTER.mp4",
+        "evidence": "Chase approved the captioned Furnace cut as 'perfect' on Oct 4, 2026 (relayed by Grok Bot), including the patched last word 'ads'."
+      },
       "rights_reuse": "Revboo own brand",
       "costs": {
         "video": null,
@@ -3389,9 +3439,15 @@
           "agent": "Grok",
           "action": "Created hook-cover test branch (A/B vs branch A)",
           "parent_asset_id": "blast-furnace-take2"
+        },
+        {
+          "at": "2026-10-04T12:50:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (Oct 4, 2026; 'perfect', patched 'ads' included)",
+          "parent_asset_id": "blast-furnace-take2"
         }
       ],
-      "finals_md": "Listed in FINALS.md per Chase's Oct 4 request; formal approval pointer pending his ear check."
+      "finals_md": "APPROVED by Chase Oct 4, 2026. Listed in FINALS.md."
     },
     "blast-furnace-take1": {
       "concept_id": "RB-005",
@@ -3462,6 +3518,165 @@
           "parent_asset_id": null
         }
       ]
+    },
+    "new-hat-captioned-9x16-v1": {
+      "concept_id": "RB-004",
+      "asset_id": "new-hat-captioned-9x16-v1",
+      "title": "A New Hat Isn't New Creative – Captioned Paid Ad",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Media buyers / brands running paid social",
+      "category": "Comedy/skit",
+      "aliases": [
+        "new-hat-captioned-9x16-v1.mp4",
+        "Revboo-NewHat-Captioned-9x16.mp4",
+        "hf_20260928_033156_2eda1c9a-1cf2-4f54-bec5-a47574d4f66f.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "new-hat-therapy-v1",
+      "request": "Chase (Oct 4, 2026): re-caption the most recent version of every cardboard-cutout ad in the house caption standard (Style C, as the approved Furnace cut).",
+      "change_log": [
+        "Rebuilt from the clean Higgsfield take hf_20260928_033156 (the picture under Chase's hook_A upload, without its burned-in all-caps hook text)",
+        "House Style C captions from the verified VO, clean zones only (no captions on shots the cutout/people fill)",
+        "Light vignette + grain on scene shots (not on title/end cards)",
+        "Mastered -14 LUFS"
+      ],
+      "created_by": "Grok",
+      "created_at": "2026-10-04T12:50:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1-MASTER.mp4",
+      "sha256": "353a491e894c1c4a88d8efdacf757b7fb53ccd03fe26ed9f837b42adaf61dcf8",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 22.0,
+      "script": "Your ad wants more. You give it. Again. What's missing from this relationship? More budget. Have you tried being interesting? Don't fire your media buyer. Give them better ads. What about now? Revboo. The revenue boost your ads can't afford to miss.",
+      "verified_transcript": "Your ad wants more. You give it. Again. What's missing from this relationship? More budget. Have you tried being interesting? Don't fire your media buyer. Give them better ads. What about now? Revboo. The revenue boost your ads can't afford to miss. (machine-verified: faster-whisper small.en and large-v3 agree word for word)",
+      "hook": "Your ad wants more.",
+      "offer": "Fresh video ads. Delivered weekly.",
+      "cta": "revboo.video (end card)",
+      "voice_model": "Seedance 2.5 (Higgsfield) generated VO",
+      "source_asset_ids": [
+        "new-hat-therapy-v1"
+      ],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080 wide, -14 LUFS, TP about -1.4 dBFS; web preview <6 MB",
+        "speech": "PASS (machine): small.en + large-v3 transcripts match the script; 'Revboo' heard as 'Revboo' (p 0.57-0.78, normal for the brand name). No mispronunciations found. Chase listen pending.",
+        "lip_sync_motion": "Picture unchanged from the source take.",
+        "branding_cta": "Title card 'A NEW HAT ISN'T NEW CREATIVE.' and end card 'Revboo .video / Fresh video ads. Delivered weekly.' from source.",
+        "full_playback": "4 fps contact + QA sheets reviewed; automated face/torso/person/text overlap check 0 overlaps (9:16 and 4:5); RapidOCR read-back of all captions OK.",
+        "mobile_readability": "Style C 54-62 px at 1080 wide.",
+        "remaining": [
+          "Chase to listen/approve",
+          "Captions only on 4 of the 9 shots: the other shots are filled by him (the cutout), the therapist or the title card, so per the house rule they have none",
+          "Lines 'Don't fire your media buyer.' / 'Give them better ads.' are ~1.5 s each (VO pace); 54 px to fit beside his head"
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T12:50:00-06:00",
+          "agent": "Grok",
+          "action": "Created captioned 9x16 cut (house caption standard)",
+          "parent_asset_id": "new-hat-therapy-v1"
+        }
+      ],
+      "finals_md": "Listed in FINALS.md as approved-pending-Chase-listen."
+    },
+    "new-hat-captioned-4x5-v1": {
+      "concept_id": "RB-004",
+      "asset_id": "new-hat-captioned-4x5-v1",
+      "title": "A New Hat Isn't New Creative – Captioned Paid Ad",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Media buyers / brands running paid social",
+      "category": "Comedy/skit",
+      "aliases": [
+        "new-hat-captioned-4x5-v1.mp4",
+        "Revboo-NewHat-Captioned-4x5.mp4",
+        "hf_20260928_033156_2eda1c9a-1cf2-4f54-bec5-a47574d4f66f.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "4x5",
+      "parent_asset_id": "new-hat-therapy-v1",
+      "request": "Chase (Oct 4, 2026): re-caption the most recent version of every cardboard-cutout ad in the house caption standard (Style C, as the approved Furnace cut).",
+      "change_log": [
+        "Rebuilt from the clean Higgsfield take hf_20260928_033156 (the picture under Chase's hook_A upload, without its burned-in all-caps hook text)",
+        "House Style C captions from the verified VO, clean zones only (no captions on shots the cutout/people fill)",
+        "Light vignette + grain on scene shots (not on title/end cards)",
+        "Mastered -14 LUFS",
+        "Per-shot 4:5 reframe; captions re-placed"
+      ],
+      "created_by": "Grok",
+      "created_at": "2026-10-04T12:50:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1-MASTER.mp4",
+      "sha256": "45e219a6668a46a241fe48f7c0014675845739b29e9dd17266dca9faa2f0c400",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1350",
+      "duration_seconds": 22.0,
+      "script": "Your ad wants more. You give it. Again. What's missing from this relationship? More budget. Have you tried being interesting? Don't fire your media buyer. Give them better ads. What about now? Revboo. The revenue boost your ads can't afford to miss.",
+      "verified_transcript": "Your ad wants more. You give it. Again. What's missing from this relationship? More budget. Have you tried being interesting? Don't fire your media buyer. Give them better ads. What about now? Revboo. The revenue boost your ads can't afford to miss. (machine-verified: faster-whisper small.en and large-v3 agree word for word)",
+      "hook": "Your ad wants more.",
+      "offer": "Fresh video ads. Delivered weekly.",
+      "cta": "revboo.video (end card)",
+      "voice_model": "Seedance 2.5 (Higgsfield) generated VO",
+      "source_asset_ids": [
+        "new-hat-therapy-v1"
+      ],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080 wide, -14 LUFS, TP about -1.4 dBFS; web preview <6 MB",
+        "speech": "PASS (machine): small.en + large-v3 transcripts match the script; 'Revboo' heard as 'Revboo' (p 0.57-0.78, normal for the brand name). No mispronunciations found. Chase listen pending.",
+        "lip_sync_motion": "Picture unchanged from the source take.",
+        "branding_cta": "Title card 'A NEW HAT ISN'T NEW CREATIVE.' and end card 'Revboo .video / Fresh video ads. Delivered weekly.' from source.",
+        "full_playback": "4 fps contact + QA sheets reviewed; automated face/torso/person/text overlap check 0 overlaps (9:16 and 4:5); RapidOCR read-back of all captions OK.",
+        "mobile_readability": "Style C 54-62 px at 1080 wide.",
+        "remaining": [
+          "Chase to listen/approve",
+          "Captions only on 4 of the 9 shots: the other shots are filled by him (the cutout), the therapist or the title card, so per the house rule they have none",
+          "Lines 'Don't fire your media buyer.' / 'Give them better ads.' are ~1.5 s each (VO pace); 54 px to fit beside his head"
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T12:50:00-06:00",
+          "agent": "Grok",
+          "action": "Created captioned 4x5 cut (house caption standard)",
+          "parent_asset_id": "new-hat-therapy-v1"
+        }
+      ],
+      "finals_md": "Listed in FINALS.md as approved-pending-Chase-listen."
     }
   },
   "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber."

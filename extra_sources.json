@@ -515,6 +515,36 @@
       "title": "Furnace – Captioned Paid Ad",
       "version": "v1 · 9:16 captioned (APPROVED)",
       "category": "Paid ad cuts (captioned)"
+    },
+    {
+      "id": "new-hat-captioned-9x16-v1",
+      "src": "/workspace/revboo/edits/new-hat-captioned/Revboo-NewHat-Captioned-9x16.mp4",
+      "brand": "Revboo",
+      "note": "Captioned paid-ad cut (house caption standard, Style C). Base: Higgsfield take hf_20260928_033156 = the clean picture under Chase's hook_A upload (no burned-in all-caps hook). Captions transcribed from the VO (Whisper small.en + large-v3 agree word for word); placed only in clean zones, so shots where he/people fill the frame have none. Light vignette/grain on scene shots only, -14 LUFS. Approved-pending-Chase-listen.",
+      "pt": 1.5,
+      "date_override": [
+        "Oct 4, 2026",
+        "2026-10-04T00:00:00"
+      ],
+      "group": "A New Hat Isn't New Creative",
+      "title": "A New Hat Isn't New Creative – Captioned Paid Ad",
+      "version": "v1 · 9:16 captioned (review)",
+      "category": "Paid ad cuts (captioned)"
+    },
+    {
+      "id": "new-hat-captioned-4x5-v1",
+      "src": "/workspace/revboo/edits/new-hat-captioned/Revboo-NewHat-Captioned-4x5.mp4",
+      "brand": "Revboo",
+      "note": "4:5 (1080x1350) feed cut of the captioned New Hat ad: per-shot crop, captions re-placed off faces/people/the cutout/on-screen text. -14 LUFS. Approved-pending-Chase-listen.",
+      "pt": 1.5,
+      "date_override": [
+        "Oct 4, 2026",
+        "2026-10-04T00:00:00"
+      ],
+      "group": "A New Hat Isn't New Creative",
+      "title": "A New Hat Isn't New Creative – Captioned Paid Ad",
+      "version": "v1 · 4:5 captioned (review)",
+      "category": "Paid ad cuts (captioned)"
     }
   ],
   "clips": [

@@ -17,7 +17,7 @@
    "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-v1.mp4",
    "local_master": "/workspace/revboo/edits/fire-money-captioned/Revboo-Furnace-Captioned-9x16.mp4",
    "poster": "https://cryptouprise.github.io/revboo-library/media/posters/furnace-captioned-9x16-v1.jpg",
-   "note": "Correct final ends with \"...your ads can't afford to miss.\" The original Seedance VO said \"abs\"; the last word was audio-patched to \"ads\" (same voice, taken from 0:02). Whisper large-v3/medium.en/small.en now hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). Chase should confirm by ear. Style C captions (Inter Tight ExtraBold, white + one orange #FF4B0A word), placed off his face/torso. +2.5 s end-card hold with sound-off line \"Get more out of your ad budget.\" -14 LUFS."
+   "note": "Correct final ends with \"...your ads can't afford to miss.\" The original Seedance VO said \"abs\"; the last word was audio-patched to \"ads\" (same voice, taken from 0:02). Whisper large-v3/medium.en/small.en now hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). APPROVED by Chase on Oct 4, 2026 (\"perfect\"), including the patched \"ads\" word. Style C captions (Inter Tight ExtraBold, white + one orange #FF4B0A word), placed off his face/torso. +2.5 s end-card hold with sound-off line \"Get more out of your ad budget.\" -14 LUFS."
   },
   {
    "id": "furnace-captioned-4x5-v1",
@@ -34,7 +34,7 @@
    "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-4x5-v1.mp4",
    "local_master": "/workspace/revboo/edits/fire-money-captioned/Revboo-Furnace-Captioned-4x5.mp4",
    "poster": "https://cryptouprise.github.io/revboo-library/media/posters/furnace-captioned-4x5-v1.jpg",
-   "note": "Correct final ends with \"...your ads can't afford to miss.\" The original Seedance VO said \"abs\"; the last word was audio-patched to \"ads\" (same voice, taken from 0:02). Whisper large-v3/medium.en/small.en now hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). Chase should confirm by ear. Per-shot reframe of the main cut; captions re-placed for 4:5."
+   "note": "Correct final ends with \"...your ads can't afford to miss.\" The original Seedance VO said \"abs\"; the last word was audio-patched to \"ads\" (same voice, taken from 0:02). Whisper large-v3/medium.en/small.en now hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). APPROVED by Chase on Oct 4, 2026 (\"perfect\"), including the patched \"ads\" word. Per-shot reframe of the main cut; captions re-placed for 4:5."
   },
   {
    "id": "furnace-captioned-9x16-hookcover-v1",
@@ -51,7 +51,7 @@
    "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-hookcover-v1.mp4",
    "local_master": "/workspace/revboo/edits/fire-money-captioned/Revboo-Furnace-Captioned-9x16-hookcover.mp4",
    "poster": "https://cryptouprise.github.io/revboo-library/media/posters/furnace-captioned-9x16-hookcover-v1.jpg",
-   "note": "Correct final ends with \"...your ads can't afford to miss.\" The original Seedance VO said \"abs\"; the last word was audio-patched to \"ads\" (same voice, taken from 0:02). Whisper large-v3/medium.en/small.en now hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). Chase should confirm by ear. 1.25 s opening cover \"Your ads are dying. Not the offer. The creative.\" (Muse thumbnail 01 line), then the main cut. Not a replacement."
+   "note": "Correct final ends with \"...your ads can't afford to miss.\" The original Seedance VO said \"abs\"; the last word was audio-patched to \"ads\" (same voice, taken from 0:02). Whisper large-v3/medium.en/small.en now hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). APPROVED by Chase on Oct 4, 2026 (\"perfect\"), including the patched \"ads\" word. 1.25 s opening cover \"Your ads are dying. Not the offer. The creative.\" (Muse thumbnail 01 line), then the main cut. Not a replacement."
   }
  ],
  "approved_covers": [
@@ -65,7 +65,9 @@
    "line": "Stop feeding the furnace.",
    "status": "approved",
    "date": "Oct 4, 2026",
-   "note": "Cover for the 9:16 Furnace cut. Frame: Chase shoveling cash toward the furnace.",
+   "note": "Cover for the 9:16 Furnace cut. Frame: Chase shoveling cash toward the furnace. APPROVED by Chase on Oct 4, 2026.",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04",
    "url": "https://cryptouprise.github.io/revboo-library/covers/furnace-cover-9x16.png"
   },
   {
@@ -78,7 +80,9 @@
    "line": "Stop feeding the furnace.",
    "status": "approved",
    "date": "Oct 4, 2026",
-   "note": "Cover for the 4:5 Furnace cut.",
+   "note": "Cover for the 4:5 Furnace cut. APPROVED by Chase on Oct 4, 2026.",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04",
    "url": "https://cryptouprise.github.io/revboo-library/covers/furnace-cover-4x5.png"
   },
   {
@@ -164,6 +168,72 @@
    "id": "(unfiled) hf_20260928_043047_01aeba6a",
    "where": "box: /workspace/revboo/inbox/higgsfield/_scan/vid/hf_20260928_043047_01aeba6a-4ac6-49d8-8537-322592a7d7c0.mp4",
    "why": "Sibling Furnace generation. Also says \"abs\" (Whisper medium.en p0.82-0.94) and the end card is garbled (\"Donefor-youf\"). Not in the library; do not use."
+  }
+ ],
+ "pending_videos": [
+  {
+   "id": "new-hat-captioned-9x16-v1",
+   "title": "A New Hat Isn't New Creative – Captioned Paid Ad",
+   "brand": "Revboo",
+   "version": "v1 · 9:16 captioned (review)",
+   "role": "MAIN cut: Reels/TikTok/Shorts/Stories",
+   "aspect": "9:16",
+   "status": "approved-pending-chase-listen",
+   "width": 1080,
+   "height": 1920,
+   "duration": 22.0,
+   "date": "Oct 4, 2026",
+   "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1-MASTER.mp4",
+   "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1.mp4",
+   "local_master": "/workspace/revboo/edits/new-hat-captioned/Revboo-NewHat-Captioned-9x16.mp4",
+   "poster": "https://cryptouprise.github.io/revboo-library/media/posters/new-hat-captioned-9x16-v1.jpg",
+   "note": "Built from the clean Higgsfield take hf_20260928_033156 (the latest take, and the picture under Chase's hook_A upload, without hook_A's burned-in all-caps hook). VO verified with Whisper small.en + large-v3 (word for word, no mispronunciations; 'Revboo' heard correctly). House caption standard (see BRAND.md); captions only where there is a clean zone. Shots that the cutout, the therapist or the title card fill have no caption. Light vignette/grain on scene shots only. -14 LUFS. PENDING: Chase to listen and OK. Captions: \"Your ad wants more.\" (wide shot, top band) / \"Don't fire your media buyer.\" + \"Give them better ads.\" (upper-left beside his head, 54 px) / end card \"The revenue boost your ads can't afford to miss.\""
+  },
+  {
+   "id": "new-hat-captioned-4x5-v1",
+   "title": "A New Hat Isn't New Creative – Captioned Paid Ad",
+   "brand": "Revboo",
+   "version": "v1 · 4:5 captioned (review)",
+   "role": "Feed cut (FB/IG feed)",
+   "aspect": "4:5",
+   "status": "approved-pending-chase-listen",
+   "width": 1080,
+   "height": 1350,
+   "duration": 22.0,
+   "date": "Oct 4, 2026",
+   "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1-MASTER.mp4",
+   "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1.mp4",
+   "local_master": "/workspace/revboo/edits/new-hat-captioned/Revboo-NewHat-Captioned-4x5.mp4",
+   "poster": "https://cryptouprise.github.io/revboo-library/media/posters/new-hat-captioned-4x5-v1.jpg",
+   "note": "Built from the clean Higgsfield take hf_20260928_033156 (the latest take, and the picture under Chase's hook_A upload, without hook_A's burned-in all-caps hook). VO verified with Whisper small.en + large-v3 (word for word, no mispronunciations; 'Revboo' heard correctly). House caption standard (see BRAND.md); captions only where there is a clean zone. Shots that the cutout, the therapist or the title card fill have no caption. Light vignette/grain on scene shots only. -14 LUFS. PENDING: Chase to listen and OK. Per-shot reframe of the main cut; captions re-placed for 4:5."
+  }
+ ],
+ "pending_covers": [
+  {
+   "id": "new-hat-cover-9x16",
+   "file": "covers/new-hat-cover-9x16.png",
+   "for": "A New Hat Isn't New Creative – Captioned Paid Ad",
+   "made_by": "Grok Bot (from ad frame 0:02.0, pushed in 1.2x)",
+   "size": "1080x1920",
+   "aspect": "9:16",
+   "line": "A new hat isn't new creative.",
+   "status": "pending",
+   "date": "Oct 4, 2026",
+   "note": "Cover for the 9:16 New Hat cut. Frame: the therapy room with Chase's BIG SALE cutout in the patient chair; text on the empty ceiling (not over anyone). Line is the ad's own title card. Pending Chase's OK.",
+   "url": "https://cryptouprise.github.io/revboo-library/covers/new-hat-cover-9x16.png"
+  },
+  {
+   "id": "new-hat-cover-4x5",
+   "file": "covers/new-hat-cover-4x5.png",
+   "for": "A New Hat Isn't New Creative – Captioned Paid Ad",
+   "made_by": "Grok Bot (from ad frame 0:02.0, pushed in 1.2x)",
+   "size": "1080x1350",
+   "aspect": "4:5",
+   "line": "A new hat isn't new creative.",
+   "status": "pending",
+   "date": "Oct 4, 2026",
+   "note": "Cover for the 4:5 New Hat cut. Pending Chase's OK.",
+   "url": "https://cryptouprise.github.io/revboo-library/covers/new-hat-cover-4x5.png"
   }
  ]
 }

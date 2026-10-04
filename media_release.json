@@ -264,15 +264,33 @@
   "size": 328852,
   "sha256": "d6d7df7a9ea0230bd016fdd5a495f927956f4570824a0d3997dc7ed4a0c502cd"
  },
+ "furnace-captioned-4x5-v1-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 12845551,
+  "sha256": "998df66d6010502fc31e55c937a62982858833cb77d765e13754ae169c40af80",
+  "master": true
+ },
  "furnace-captioned-4x5-v1.mp4": {
   "tag": "media-v1",
   "size": 3848732,
   "sha256": "9fb04b50510443daa4509ab7be9038376f28ac0c5e7d6b1dc56f5b14455e9601"
  },
+ "furnace-captioned-9x16-hookcover-v1-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 14201955,
+  "sha256": "b5a1660045541a5255d66bde3491646eff609b1dcd31e83249585d5a0aa860e3",
+  "master": true
+ },
  "furnace-captioned-9x16-hookcover-v1.mp4": {
   "tag": "media-v1",
   "size": 4147728,
   "sha256": "24b08294717d0437e777a04e94000dabb60a17a73c76ccfe0068941958699922"
+ },
+ "furnace-captioned-9x16-v1-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 15036451,
+  "sha256": "b6cfde6c74286864256e7c9b0166b7cc59541f375636ec9146485806f51b4554",
+  "master": true
  },
  "furnace-captioned-9x16-v1.mp4": {
   "tag": "media-v1",
@@ -493,6 +511,28 @@
   "tag": "media-v1",
   "size": 492128,
   "sha256": "473116f9085a6c5dbff9d30092e0c1d106a8eca7efdfa1da505ce8f0b0803e04"
+ },
+ "new-hat-captioned-4x5-v1-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 55876969,
+  "sha256": "45e219a6668a46a241fe48f7c0014675845739b29e9dd17266dca9faa2f0c400",
+  "master": true
+ },
+ "new-hat-captioned-4x5-v1.mp4": {
+  "tag": "media-v1",
+  "size": 4823882,
+  "sha256": "f1597951cc90b2e2b5898e9a4697cd32465984e72cf4950c88eafabea079c292"
+ },
+ "new-hat-captioned-9x16-v1-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 78529669,
+  "sha256": "353a491e894c1c4a88d8efdacf757b7fb53ccd03fe26ed9f837b42adaf61dcf8",
+  "master": true
+ },
+ "new-hat-captioned-9x16-v1.mp4": {
+  "tag": "media-v1",
+  "size": 4594534,
+  "sha256": "bc62f49509fd207dae57627656782bcaf17ba780aceac2d9df344882a149280f"
  },
  "new-hat-therapy-v1.mp4": {
   "tag": "media-v1",
@@ -793,23 +833,5 @@
   "tag": "media-v1",
   "size": 1048622,
   "sha256": "fb37174ffdd84878266857be3df852545142842b0e1af3a006032fcc5619afab"
- },
- "furnace-captioned-4x5-v1-MASTER.mp4": {
-  "tag": "media-v1",
-  "size": 12845551,
-  "sha256": "998df66d6010502fc31e55c937a62982858833cb77d765e13754ae169c40af80",
-  "master": true
- },
- "furnace-captioned-9x16-hookcover-v1-MASTER.mp4": {
-  "tag": "media-v1",
-  "size": 14201955,
-  "sha256": "b5a1660045541a5255d66bde3491646eff609b1dcd31e83249585d5a0aa860e3",
-  "master": true
- },
- "furnace-captioned-9x16-v1-MASTER.mp4": {
-  "tag": "media-v1",
-  "size": 15036451,
-  "sha256": "b6cfde6c74286864256e7c9b0166b7cc59541f375636ec9146485806f51b4554",
-  "master": true
  }
 }
