@@ -1247,7 +1247,12 @@
       "note": "15s Seedance 2.5 generation with native voice and SFX.",
       "source": "/workspace/refs/ref1.mp4",
       "size_mb": 3.4,
-      "file": "media/finals/clone-war-room.mp4"
+      "file": "media/finals/clone-war-room.mp4",
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "id": "monday-morning-drop-v2-edit-test",

@@ -1,6 +1,6 @@
 {
  "generated": "Oct 4, 2026",
- "rule": "Only files listed here are approved. Everything else: ask Chase. approved_ranking (★ 1-10) is the source of truth for what runs.",
+ "rule": "Only files listed here are approved. Everything else: ask Chase. approved_ranking (★ ranked list) is the source of truth for what runs.",
  "approved_ranking": [
   {
    "rank": 1,
@@ -413,6 +413,30 @@
      "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5.mp4",
      "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5-MASTER.mp4",
      "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-009-a-v02-4x5.jpg"
+    }
+   ],
+   "covers": []
+  },
+  {
+   "rank": 11,
+   "star": "★",
+   "title": "Clone War Room",
+   "concept_id": "RB-006",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04T15:37:00-06:00",
+   "fix_in_progress": true,
+   "note": "Chase is running this (approved Oct 4, 3:37 PM MT). House-caption fix version in progress, will replace as the approved pick when done.",
+   "files": [
+    {
+     "id": "clone-war-room",
+     "aspect": "9:16",
+     "width": 1080,
+     "height": 1920,
+     "duration": 15.1,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/clone-war-room.mp4",
+     "master_url": null,
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/clone-war-room.jpg"
     }
    ],
    "covers": []
