@@ -793,30 +793,44 @@
       "category": "Ads for attorneys",
       "aliases": [
         "pi-attorneys-scroll-past-v1",
-        "Revboo-PI-ScrollPast-small.mp4"
+        "Revboo-PI-ScrollPast-small.mp4",
+        "PI-008__scroll-past__A__v02__9x16.mp4",
+        "PI-008__scroll-past__A__v02__9x16__720p-small.mp4",
+        "PI-008__scroll-past__A__v02__4x5.mp4"
       ],
       "assets": [
+        "pi-008-a-v02-4x5",
+        "pi-008-a-v02-9x16",
         "pi-attorneys-scroll-past-v1"
       ],
-      "approved_asset_id": "pi-attorneys-scroll-past-v1",
+      "approved_asset_id": "pi-008-a-v02-9x16",
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
-      "agent_tags": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
       "history": [
         {
           "at": "2026-10-04T13:33:00-06:00",
           "agent": "Grok",
           "action": "★ Chase approved (Top 10 #6, Oct 4, 2026 1:33 PM MT). approved_asset_id -> pi-attorneys-scroll-past-v1. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
           "parent_asset_id": null
+        },
+        {
+          "at": "2026-10-04T14:27:00-06:00",
+          "agent": "Grok",
+          "action": "Added pi-008-a-v02-9x16, pi-008-a-v02-4x5 (house-caption fix v02) and made it the approved pick (★ Top 10 #6); old pi-attorneys-scroll-past-v1 kept.",
+          "parent_asset_id": "pi-attorneys-scroll-past-v1"
         }
       ],
       "approved_asset_ids": [
-        "pi-attorneys-scroll-past-v1"
+        "pi-008-a-v02-9x16",
+        "pi-008-a-v02-4x5"
       ],
       "approved_rank": 6,
       "approved_star": "★",
-      "approval_status": "★ Approved – Ready to Run (fix version in progress)",
-      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      "approval_status": "★ Approved – Ready to Run",
+      "approved_note": "Fix version v02 (house captions, approved tagline + FREE offer on the logo card, 37.1 s -> 26.4 s, 9:16 + 4:5) is the approved pick; old v1 kept. Chase to confirm the '0.4 seconds' line (kept as a dramatization)."
     },
     {
       "concept_id": "RB-007",
@@ -4663,6 +4677,167 @@
       ],
       "approved_rank": 5,
       "approved_star": "★"
+    },
+    "pi-008-a-v02-9x16": {
+      "concept_id": "PI-008",
+      "asset_id": "pi-008-a-v02-9x16",
+      "title": "PI Attorneys – Scroll Past – house captions",
+      "kind": "ad",
+      "collection": "Legal/PI",
+      "advertiser": "RevBoo (attorney-targeted)",
+      "audience": "PI law-firm owners and their marketing staff",
+      "category": "Ads for attorneys",
+      "aliases": [
+        "PI-008__scroll-past__A__v02__9x16.mp4",
+        "PI-008__scroll-past__A__v02__9x16__720p-small.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "pi-attorneys-scroll-past-v1",
+      "request": "Chase (Oct 4, 2026, Top 10 #6): re-caption house style; tagline to approved wording; trim 37 s to ~25 s; 4:5 cut; target PI firm owners/marketing. '0.4 seconds' line: Chase to decide. Then filed as the approved pick (Chase approved all 10 at 1:33 PM MT).",
+      "change_log": [
+        "Rebuilt from a text-free render of v1's own build (text layer off).",
+        "Kept: thumb flick, neck-brace 'it lost', competitor card, jaw-drop, tap, the media guy's smile; cut the volume + tow-driver beats (7 beats) and the facepalm (5 beats): 3 whole bars, beat phase kept. The logo card keeps v1's full length (logo push-in slowed 1.87x) so tagline and offer each get ~2.8 s. 37.1 s -> 26.37 s.",
+        "House captions: Your ad had 0.4 seconds. / It lost. / Your competitor’s viewers, using Revboo: / Don’t fire your media buyer. Give them better ads. / First 2 ads free. Delivered in 24 hours.",
+        "Tagline moved from the media-guy close-ups (no clean caption zone: his face/torso fill the frame) to the logo card. v1's card line 'The revenue boost your ads can’t afford to miss.' gave its slot to the FREE offer.",
+        "The jaw-drop and tap shots carry no caption (face/phone text fill the frame). 'Your ad had 0.4 seconds.' shows 1.55 s (the phone shot after it is covered by a full-frame person box).",
+        "Mastered -14 LUFS integrated; fire-logo end clip unchanged."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T14:27:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-9x16-MASTER.mp4",
+      "sha256": "c65def0b849e6c726acca80b68789d1ac9850169a0f77ddadbf393672735e566",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 26.4,
+      "script": "(music + on-screen text, no VO) Your ad had 0.4 seconds. / It lost. / Your competitor’s viewers, using Revboo: / Don’t fire your media buyer. Give them better ads. / First 2 ads free. Delivered in 24 hours. / fire-logo end clip",
+      "hook": "Thumb flicks past a stiff stock-gavel lawyer ad: 'Your ad had 0.4 seconds.'",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "Revboo logo card (tagline, then offer) + fire-logo end clip",
+      "source_asset_ids": [
+        "pi-attorneys-scroll-past-v1"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1920 30 fps, 26.37 s, -14.03 LUFS, TP -1.72 dBTP; 720p small copy 5.5 MB",
+        "captions": "PASS: overlap QA 0 hits; OCR read-back of every caption OK",
+        "branding_cta": "Logo card with tagline then offer; fire-logo end clip",
+        "full_playback": "Contact sheets reviewed; Chase approved the concept Oct 4, 2026 (★ Top 10 #6). Open item: '0.4 seconds' is an on-screen number (dramatization) — Chase to confirm."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "c65def0b849e6c726acca80b68789d1ac9850169a0f77ddadbf393672735e566",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-9x16-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #6 PI Attorneys – Scroll Past; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+      },
+      "rights_reuse": "Revboo own brand (Kling 3.0 Pro footage via OpenRouter)",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T14:27:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (9x16) from pi-attorneys-scroll-past-v1: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "pi-attorneys-scroll-past-v1"
+        },
+        {
+          "at": "2026-10-04T14:27:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #6), replacing pi-attorneys-scroll-past-v1 as the approved pick.",
+          "parent_asset_id": "pi-attorneys-scroll-past-v1"
+        }
+      ],
+      "approved_rank": 6,
+      "approved_star": "★"
+    },
+    "pi-008-a-v02-4x5": {
+      "concept_id": "PI-008",
+      "asset_id": "pi-008-a-v02-4x5",
+      "title": "PI Attorneys – Scroll Past – house captions",
+      "kind": "ad",
+      "collection": "Legal/PI",
+      "advertiser": "RevBoo (attorney-targeted)",
+      "audience": "PI law-firm owners and their marketing staff",
+      "category": "Ads for attorneys",
+      "aliases": [
+        "PI-008__scroll-past__A__v02__4x5.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "4x5",
+      "parent_asset_id": "pi-attorneys-scroll-past-v1",
+      "request": "Chase (Oct 4, 2026, Top 10 #6): re-caption house style; tagline to approved wording; trim 37 s to ~25 s; 4:5 cut; target PI firm owners/marketing. '0.4 seconds' line: Chase to decide. Then filed as the approved pick (Chase approved all 10 at 1:33 PM MT).",
+      "change_log": [
+        "4:5 (1080x1350) per-shot reframe of pi-008-a-v02-9x16; captions re-placed by the overlap checker (5% margins)."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T14:27:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-4x5-MASTER.mp4",
+      "sha256": "fe85275a17481cd0e8042ce6292e286aae3acd4da57073360d5c690aa7be5a4d",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-4x5.mp4",
+      "native_dimensions": "1080x1350",
+      "export_dimensions": "1080x1350",
+      "duration_seconds": 26.4,
+      "script": "(music + on-screen text, no VO) Your ad had 0.4 seconds. / It lost. / Your competitor’s viewers, using Revboo: / Don’t fire your media buyer. Give them better ads. / First 2 ads free. Delivered in 24 hours. / fire-logo end clip",
+      "hook": "Thumb flicks past a stiff stock-gavel lawyer ad: 'Your ad had 0.4 seconds.'",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "Revboo logo card (tagline, then offer) + fire-logo end clip",
+      "source_asset_ids": [
+        "pi-attorneys-scroll-past-v1"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1350 30 fps, 26.37 s, -14.03 LUFS",
+        "captions": "PASS: overlap QA 0 hits; OCR read-back OK",
+        "full_playback": "Contact sheet reviewed."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "fe85275a17481cd0e8042ce6292e286aae3acd4da57073360d5c690aa7be5a4d",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-4x5-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #6 PI Attorneys – Scroll Past; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+      },
+      "rights_reuse": "Revboo own brand (Kling 3.0 Pro footage via OpenRouter)",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T14:27:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (4x5) from pi-attorneys-scroll-past-v1: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "pi-attorneys-scroll-past-v1"
+        },
+        {
+          "at": "2026-10-04T14:27:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #6), replacing pi-attorneys-scroll-past-v1 as the approved pick.",
+          "parent_asset_id": "pi-attorneys-scroll-past-v1"
+        }
+      ],
+      "approved_rank": 6,
+      "approved_star": "★"
     }
   },
   "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber.",
@@ -4770,14 +4945,15 @@
       "concept_id": "PI-008",
       "title": "PI Attorneys – Scroll Past",
       "asset_ids": [
-        "pi-attorneys-scroll-past-v1"
+        "pi-008-a-v02-9x16",
+        "pi-008-a-v02-4x5"
       ],
       "cover_ids": [],
       "approved_by": "Chase Fowler",
       "approved_at": "2026-10-04T13:33:00-06:00",
       "status": "★ Approved – Ready to Run",
-      "fix_in_progress": true,
-      "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      "fix_in_progress": false,
+      "note": "Fix version v02 (house captions, approved tagline + FREE offer on the logo card, 37.1 s -> 26.4 s, 9:16 + 4:5) is the approved pick; old v1 kept. Chase to confirm the '0.4 seconds' line (kept as a dramatization)."
     },
     {
       "rank": 7,

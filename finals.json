@@ -265,18 +265,28 @@
    "status": "approved",
    "approved_by": "Chase Fowler",
    "approved_at": "2026-10-04T13:33:00-06:00",
-   "fix_in_progress": true,
-   "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+   "fix_in_progress": false,
+   "note": "Fix version v02 (house captions, approved tagline + FREE offer on the logo card, 37.1 s -> 26.4 s, 9:16 + 4:5) is the approved pick; old v1 kept. Chase to confirm the '0.4 seconds' line (kept as a dramatization).",
    "files": [
     {
-     "id": "pi-attorneys-scroll-past-v1",
+     "id": "pi-008-a-v02-9x16",
      "aspect": "9:16",
      "width": 1080,
      "height": 1920,
-     "duration": 37.1,
-     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-scroll-past-v1.mp4",
-     "master_url": null,
-     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/pi-attorneys-scroll-past-v1.jpg"
+     "duration": 26.4,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-9x16.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-9x16-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/pi-008-a-v02-9x16.jpg"
+    },
+    {
+     "id": "pi-008-a-v02-4x5",
+     "aspect": "4:5",
+     "width": 1080,
+     "height": 1350,
+     "duration": 26.4,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-4x5.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-4x5-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/pi-008-a-v02-4x5.jpg"
     }
    ],
    "covers": []

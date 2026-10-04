@@ -647,6 +647,36 @@
       "title": "Tube Man",
       "version": "v2 · house captions (4:5) (★ APPROVED)",
       "category": "Revboo ads"
+    },
+    {
+      "id": "pi-008-a-v02-9x16",
+      "src": "/workspace/revboo/edits/top10-fixes/pi-scroll-past/PI-008__scroll-past__A__v02__9x16.mp4",
+      "brand": "Legal/PI",
+      "note": "★ APPROVED by Chase Oct 4, 2026 (Top 10 #6); replaces v1 as the approved pick. Fix of v1: house captions replace the all-caps Anton text; 37.1 s -> 26.4 s (cut the volume/tow-driver beats, the media-guy facepalm and one beat; whole-bar music cuts); tagline now 'Don’t fire your media buyer. Give them better ads.' + offer 'First 2 ads free. Delivered in 24 hours.' on the logo card, then the fire-logo end clip. '0.4 seconds' line kept (Chase to confirm). -14 LUFS.",
+      "pt": 8.5,
+      "date_override": [
+        "Oct 4, 2026",
+        "2026-10-04T00:00:00"
+      ],
+      "group": "PI Attorneys – Scroll Past",
+      "title": "PI Attorneys – Scroll Past",
+      "version": "v2 · house captions (9:16) (★ APPROVED)",
+      "category": "Ads for attorneys"
+    },
+    {
+      "id": "pi-008-a-v02-4x5",
+      "src": "/workspace/revboo/edits/top10-fixes/pi-scroll-past/PI-008__scroll-past__A__v02__4x5.mp4",
+      "brand": "Legal/PI",
+      "note": "★ APPROVED by Chase Oct 4, 2026 (Top 10 #6). 4:5 (1080x1350) feed cut of v2: per-shot reframe, captions re-placed for 4:5. -14 LUFS.",
+      "pt": 8.5,
+      "date_override": [
+        "Oct 4, 2026",
+        "2026-10-04T00:00:00"
+      ],
+      "group": "PI Attorneys – Scroll Past",
+      "title": "PI Attorneys – Scroll Past",
+      "version": "v2 · house captions (4:5) (★ APPROVED)",
+      "category": "Ads for attorneys"
     }
   ],
   "clips": [

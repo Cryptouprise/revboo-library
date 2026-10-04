@@ -36,9 +36,8 @@
 
 ## ★ 6. PI Attorneys – Scroll Past (PI-008)
 
-🛠 Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
-
-- **9:16** `pi-attorneys-scroll-past-v1` (37.1 s): [web copy](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-scroll-past-v1.mp4) · [poster](https://cryptouprise.github.io/revboo-library/media/posters/pi-attorneys-scroll-past-v1.jpg)
+- **9:16** `pi-008-a-v02-9x16` (26.4 s): [web copy](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-9x16.mp4) · [full-quality master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-9x16-MASTER.mp4) · [poster](https://cryptouprise.github.io/revboo-library/media/posters/pi-008-a-v02-9x16.jpg)
+- **4:5** `pi-008-a-v02-4x5` (26.4 s): [web copy](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-4x5.mp4) · [full-quality master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-4x5-MASTER.mp4) · [poster](https://cryptouprise.github.io/revboo-library/media/posters/pi-008-a-v02-4x5.jpg)
 - Cover: video poster frame (no custom cover yet)
 
 ## ★ 7. Ad Autopsy v4 – tighter transition (RB-001)

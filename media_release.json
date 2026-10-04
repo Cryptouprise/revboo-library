@@ -569,6 +569,22 @@
   "size": 333170,
   "sha256": "7e755c09cf70133f76507398db05c04ecf2a044b0373bdb92fcb588bf87c2815"
  },
+ "pi-008-a-v02-4x5.mp4": {
+  "tag": "media-v1",
+  "size": 5442265,
+  "sha256": "0602fd0d6ca621530a35828798d26ce7de24f93d854eba968a30f7917c1daf07"
+ },
+ "pi-008-a-v02-9x16-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 79161745,
+  "sha256": "c65def0b849e6c726acca80b68789d1ac9850169a0f77ddadbf393672735e566",
+  "master": true
+ },
+ "pi-008-a-v02-9x16.mp4": {
+  "tag": "media-v1",
+  "size": 5344042,
+  "sha256": "44fa969b789ef49584db80f2305b49092ab8e2bb03644ccd6125dd44f0d52546"
+ },
  "pi-attorneys-hammer-broke-v1.mp4": {
   "tag": "media-v1",
   "size": 5672875,
@@ -656,6 +672,12 @@
   "tag": "media-v1",
   "size": 5062479,
   "sha256": "0b4948805c8860a39fa0c5d53f8a0e98bf979597869860561251ffac8b8fc529"
+ },
+ "rb-012-a-v02-4x5-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 66340976,
+  "sha256": "1416e09b6b40eaf8ede04e3bbb6ca71be95484b165c34dc9106d64856af4726a",
+  "master": true
  },
  "rb-012-a-v02-4x5.mp4": {
   "tag": "media-v1",
@@ -905,10 +927,10 @@
   "size": 1048622,
   "sha256": "fb37174ffdd84878266857be3df852545142842b0e1af3a006032fcc5619afab"
  },
- "rb-012-a-v02-4x5-MASTER.mp4": {
+ "pi-008-a-v02-4x5-MASTER.mp4": {
   "tag": "media-v1",
-  "size": 66340976,
-  "sha256": "1416e09b6b40eaf8ede04e3bbb6ca71be95484b165c34dc9106d64856af4726a",
+  "size": 58781099,
+  "sha256": "fe85275a17481cd0e8042ce6292e286aae3acd4da57073360d5c690aa7be5a4d",
   "master": true
  }
 }
