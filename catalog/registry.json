@@ -727,30 +727,49 @@
       "category": "Revboo ads",
       "aliases": [
         "the-ad-doctor-flatlining-ads-v1",
-        "Revboo-AdDoctor.mp4"
+        "Revboo-AdDoctor.mp4",
+        "RB-008__ad-doctor__A__v02__9x16.mp4",
+        "RB-008__ad-doctor__A__v02__9x16__720p-small.mp4",
+        "RB-008__ad-doctor__A__v02__4x5.mp4"
       ],
       "assets": [
+        "rb-008-a-v02-4x5",
+        "rb-008-a-v02-9x16",
         "the-ad-doctor-flatlining-ads-v1"
       ],
-      "approved_asset_id": "the-ad-doctor-flatlining-ads-v1",
+      "approved_asset_id": "rb-008-a-v02-9x16",
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
-      "agent_tags": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
       "history": [
         {
           "at": "2026-10-04T13:33:00-06:00",
           "agent": "Grok",
           "action": "★ Chase approved (Top 10 #4, Oct 4, 2026 1:33 PM MT). approved_asset_id -> the-ad-doctor-flatlining-ads-v1. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
           "parent_asset_id": null
+        },
+        {
+          "at": "2026-10-04T14:06:00-06:00",
+          "agent": "Grok",
+          "action": "Added rb-008-a-v02-9x16, rb-008-a-v02-4x5 (house-caption fix v02) and made it the approved pick (★ Top 10 #4); old the-ad-doctor-flatlining-ads-v1 kept.",
+          "parent_asset_id": "the-ad-doctor-flatlining-ads-v1"
         }
       ],
       "approved_asset_ids": [
-        "the-ad-doctor-flatlining-ads-v1"
+        "rb-008-a-v02-9x16",
+        "rb-008-a-v02-4x5"
       ],
       "approved_rank": 4,
       "approved_star": "★",
-      "approval_status": "★ Approved – Ready to Run (fix version in progress)",
-      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      "approval_status": "★ Approved – Ready to Run",
+      "approved_note": "Fix version v02 (house captions, opens on the surgeon's eyes, 30.9 s -> 22.6 s, 9:16 + 4:5) is the approved pick; old v1 kept.",
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "concept_id": "PI-008",
@@ -4310,6 +4329,166 @@
       "approved_rank": 10,
       "approved_star": "★",
       "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+    },
+    "rb-008-a-v02-9x16": {
+      "concept_id": "RB-008",
+      "asset_id": "rb-008-a-v02-9x16",
+      "title": "The Ad Doctor – house captions",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Meta/TikTok media buyers, agencies, brands running paid social",
+      "category": "Revboo ads",
+      "aliases": [
+        "RB-008__ad-doctor__A__v02__9x16.mp4",
+        "RB-008__ad-doctor__A__v02__9x16__720p-small.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "the-ad-doctor-flatlining-ads-v1",
+      "request": "Chase (Oct 4, 2026, Top 10 #4): re-caption in house style (replace all-caps Anton; keep copy, one orange word), start on the surgeon's eyes instead of the dim wide OR shot, trim to ~22 s, 4:5 cut. Then filed as the approved pick (Chase approved all 10 at 1:33 PM MT).",
+      "change_log": [
+        "Rebuilt from a text-free render of v1's own build (addoctor/work/render_ad.py with the text layer off), so no old captions are left under the new ones.",
+        "Cut v1 frames 0-83 (dim wide OR shot), 131-150 and 626-771 (one product-montage pass + the 'Like them? We deliver fresh ads weekly.' beat); 30.9 s -> 22.63 s. Audio cut with the same frame ranges, 12 ms equal-power crossfades, whole-bar skips.",
+        "House captions (tools/house_captions.py): “We’re losing the ROAS!” / Stop running ads that flatline. / Clear! / Done-for-you video ads. / First 2 ads free. Delivered in 24 hours. Placed by the overlap checker: no caption over faces, people, on-screen text or fire. The surgeon close-up and the revival shot have no clean zone, so they carry no caption.",
+        "Dropped the 'Like them? We deliver fresh ads weekly.' line: its only time slot (logo card) now carries the FREE offer; the montage shot before it has no clean zone.",
+        "Mastered -14 LUFS integrated, true peak about -1.9 dBTP. Fire-logo end clip unchanged."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T14:06:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-9x16-MASTER.mp4",
+      "sha256": "ff4380e2a8e39e1d1ac0cd46331ea84743cd2c10e42b74b75c6a4103ba8b7fbc",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 22.6,
+      "script": "(music + on-screen text, no VO) “We’re losing the ROAS!” / Stop running ads that flatline. / Clear! / Done-for-you video ads. / First 2 ads free. Delivered in 24 hours. / fire-logo end clip",
+      "hook": "Surgeon's eyes, then “We’re losing the ROAS!” over the flatlining phone",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "revboo.video logo card + fire-logo end clip",
+      "source_asset_ids": [
+        "the-ad-doctor-flatlining-ads-v1"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1920 30 fps, 22.63 s, -14.06 LUFS; 720p small copy 5.6 MB",
+        "captions": "PASS: overlap QA (4 fps contact sheet) no caption over face/person/text/fire; OCR read-back of every caption OK (C1 needed a padded crop for the OCR detector, text reads correctly)",
+        "branding_cta": "Offer on logo card; fire-logo end clip",
+        "full_playback": "Contact sheets reviewed; Chase approved the concept Oct 4, 2026 (★ Top 10 #4)."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "ff4380e2a8e39e1d1ac0cd46331ea84743cd2c10e42b74b75c6a4103ba8b7fbc",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-9x16-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #4 The Ad Doctor; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+      },
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T14:06:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (9x16) from the-ad-doctor-flatlining-ads-v1: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "the-ad-doctor-flatlining-ads-v1"
+        },
+        {
+          "at": "2026-10-04T14:06:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #4), replacing the-ad-doctor-flatlining-ads-v1 as the approved pick.",
+          "parent_asset_id": "the-ad-doctor-flatlining-ads-v1"
+        }
+      ],
+      "approved_rank": 4,
+      "approved_star": "★"
+    },
+    "rb-008-a-v02-4x5": {
+      "concept_id": "RB-008",
+      "asset_id": "rb-008-a-v02-4x5",
+      "title": "The Ad Doctor – house captions",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Meta/TikTok media buyers, agencies, brands running paid social",
+      "category": "Revboo ads",
+      "aliases": [
+        "RB-008__ad-doctor__A__v02__4x5.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "4x5",
+      "parent_asset_id": "the-ad-doctor-flatlining-ads-v1",
+      "request": "Chase (Oct 4, 2026, Top 10 #4): re-caption in house style (replace all-caps Anton; keep copy, one orange word), start on the surgeon's eyes instead of the dim wide OR shot, trim to ~22 s, 4:5 cut. Then filed as the approved pick (Chase approved all 10 at 1:33 PM MT).",
+      "change_log": [
+        "4:5 (1080x1350) per-shot reframe of rb-008-a-v02-9x16; captions re-placed for 4:5 by the overlap checker (5% margins)."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T14:06:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-4x5-MASTER.mp4",
+      "sha256": "81db65dd35d8f6a6fdcc3c6c434b4e6d7b4628b41d880aaeb16bde92ad5a79a9",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-4x5.mp4",
+      "native_dimensions": "1080x1350",
+      "export_dimensions": "1080x1350",
+      "duration_seconds": 22.6,
+      "script": "(music + on-screen text, no VO) “We’re losing the ROAS!” / Stop running ads that flatline. / Clear! / Done-for-you video ads. / First 2 ads free. Delivered in 24 hours. / fire-logo end clip",
+      "hook": "Surgeon's eyes, then “We’re losing the ROAS!” over the flatlining phone",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "revboo.video logo card + fire-logo end clip",
+      "source_asset_ids": [
+        "the-ad-doctor-flatlining-ads-v1"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1350 30 fps, 22.63 s, -14.06 LUFS",
+        "captions": "PASS: overlap QA no hits; OCR read-back OK",
+        "full_playback": "Contact sheet reviewed."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "81db65dd35d8f6a6fdcc3c6c434b4e6d7b4628b41d880aaeb16bde92ad5a79a9",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-4x5-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #4 The Ad Doctor; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+      },
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T14:06:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (4x5) from the-ad-doctor-flatlining-ads-v1: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "the-ad-doctor-flatlining-ads-v1"
+        },
+        {
+          "at": "2026-10-04T14:06:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #4), replacing the-ad-doctor-flatlining-ads-v1 as the approved pick.",
+          "parent_asset_id": "the-ad-doctor-flatlining-ads-v1"
+        }
+      ],
+      "approved_rank": 4,
+      "approved_star": "★"
     }
   },
   "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber.",
@@ -4385,14 +4564,15 @@
       "concept_id": "RB-008",
       "title": "The Ad Doctor",
       "asset_ids": [
-        "the-ad-doctor-flatlining-ads-v1"
+        "rb-008-a-v02-9x16",
+        "rb-008-a-v02-4x5"
       ],
       "cover_ids": [],
       "approved_by": "Chase Fowler",
       "approved_at": "2026-10-04T13:33:00-06:00",
       "status": "★ Approved – Ready to Run",
-      "fix_in_progress": true,
-      "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      "fix_in_progress": false,
+      "note": "Fix version v02 (house captions, opens on the surgeon's eyes, 30.9 s -> 22.6 s, 9:16 + 4:5) is the approved pick; old v1 kept."
     },
     {
       "rank": 5,

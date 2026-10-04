@@ -587,6 +587,36 @@
       "title": "Have You Tried Being Interesting? (Best-of)",
       "version": "v1 · 4:5 (★ APPROVED)",
       "category": "Paid ad cuts (captioned)"
+    },
+    {
+      "id": "rb-008-a-v02-9x16",
+      "src": "/workspace/revboo/edits/top10-fixes/ad-doctor/RB-008__ad-doctor__A__v02__9x16.mp4",
+      "brand": "Revboo",
+      "note": "★ APPROVED by Chase Oct 4, 2026 (Top 10 #4); replaces v1 as the approved pick. Fix of v1: all-caps Anton captions replaced with house captions (Inter Tight ExtraBold, one orange word, clean zones only); opens on the surgeon's eyes (dim wide OR shot cut); 30.9 s -> 22.6 s (cut the slow OR intro and one product-montage pass, music cut on whole bars). Offer “First 2 ads free. Delivered in 24 hours.” on the revboo.video logo card. -14 LUFS.",
+      "pt": 2.6,
+      "date_override": [
+        "Oct 4, 2026",
+        "2026-10-04T00:00:00"
+      ],
+      "group": "The Ad Doctor",
+      "title": "The Ad Doctor (Flatlining Ads)",
+      "version": "v2 · house captions (9:16) (★ APPROVED)",
+      "category": "Revboo ads"
+    },
+    {
+      "id": "rb-008-a-v02-4x5",
+      "src": "/workspace/revboo/edits/top10-fixes/ad-doctor/RB-008__ad-doctor__A__v02__4x5.mp4",
+      "brand": "Revboo",
+      "note": "★ APPROVED by Chase Oct 4, 2026 (Top 10 #4). 4:5 (1080x1350) feed cut of v2: per-shot reframe, captions re-placed for 4:5 (5% margins, off faces/people/text/fire). -14 LUFS.",
+      "pt": 2.6,
+      "date_override": [
+        "Oct 4, 2026",
+        "2026-10-04T00:00:00"
+      ],
+      "group": "The Ad Doctor",
+      "title": "The Ad Doctor (Flatlining Ads)",
+      "version": "v2 · house captions (4:5) (★ APPROVED)",
+      "category": "Revboo ads"
     }
   ],
   "clips": [

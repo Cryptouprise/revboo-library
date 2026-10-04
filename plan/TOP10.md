@@ -7,7 +7,7 @@ Chase approved all 10. Run in this order. Source of truth: `approved_ranking` in
 - [x] ★ **1. Furnace – Captioned (RB-005)**: `furnace-captioned-9x16-v1`, `furnace-captioned-4x5-v1`, `furnace-captioned-9x16-hookcover-v1` (A/B test). Covers approved.
 - [x] ★ **2. A New Hat Isn't New Creative – Captioned (RB-004)**: `new-hat-captioned-9x16-v1`, `new-hat-captioned-4x5-v1`. Covers approved.
 - [x] ★ **3. Have You Tried Being Interesting? (Best-of) (RB-015)**: `revboo-bestof-9x16-v1`, `revboo-bestof-4x5-v1`; 4 A/B covers `covers/bestof-cover-*`. Now filed in the library.
-- [x] ★ **4. The Ad Doctor (RB-008)**: `the-ad-doctor-flatlining-ads-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
+- [x] ★ **4. The Ad Doctor (RB-008)**: `rb-008-a-v02-9x16` + `rb-008-a-v02-4x5` (house-caption fix v02, 22.6 s; replaces `the-ad-doctor-flatlining-ads-v1` as the approved pick, old file kept).
 - [x] ★ **5. Tube Man (RB-012)**: `tube-man-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
 - [x] ★ **6. PI Attorneys – Scroll Past (PI-008)**: `pi-attorneys-scroll-past-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
 - [x] ★ **7. Ad Autopsy v4 – tighter transition (RB-001)**: `rb-001-a-v04-9x16`.
@@ -30,7 +30,7 @@ Common fix across the older teardowns: their captions are the **banned all-caps 
 | ★ 1 | Furnace – Captioned (RB-005) | [9:16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-v1-MASTER.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-4x5-v1-MASTER.mp4) · [hook-cover test](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-hookcover-v1-MASTER.mp4) | 17.5 s (18.8 s test) | 9:16, 4:5 | **★ Approved** ✅ |
 | ★ 2 | A New Hat Isn't New Creative – Captioned (RB-004) | [9:16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1-MASTER.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1-MASTER.mp4) | 22.0 s | 9:16, 4:5 | **★ Approved** ✅ |
 | ★ 3 | Revboo Best-of (original, new) | box: `/workspace/revboo/edits/best-of/Revboo-BestOf-9x16.mp4`, `-4x5.mp4` (not in library yet) | ~25 s | 9:16, 4:5 | **★ Approved** ✅ (now filed: `revboo-bestof-9x16-v1`, `-4x5-v1`) |
-| ★ 4 | The Ad Doctor (RB-008) | [the-ad-doctor-flatlining-ads-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/the-ad-doctor-flatlining-ads-v1.mp4) | 30.9 s | 9:16 | **★ Approved** (fix version in progress) |
+| ★ 4 | The Ad Doctor (RB-008) | [rb-008-a-v02-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-9x16.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-4x5.mp4) | 22.6 s | 9:16 + 4:5 | **★ Approved** (fix v02, was v1 30.9 s) |
 | ★ 5 | Tube Man (RB-012) | [tube-man-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/tube-man-v1.mp4) | 36.0 s | 9:16 | **★ Approved** (fix version in progress) |
 | ★ 6 | PI Attorneys – Scroll Past (PI-008) | [pi-attorneys-scroll-past-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-scroll-past-v1.mp4) | 37.1 s | 9:16 | **★ Approved** (fix version in progress) |
 | ★ 7 | Ad Autopsy v4 – tighter transition (RB-001) | [rb-001-a-v04-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-001-a-v04-9x16.mp4) | 12.0 s | 9:16 | **★ Approved** (was: talking-girl teardown RB-013/014, now bench) |
@@ -62,9 +62,9 @@ Bench (next in line): Monday Morning Drop v3 (RB-003, 20 s, calm, good for retar
 
 ## 4. The Ad Doctor (RB-008): Needs fix
 **Why:** Strongest teardown concept for media buyers (ER hook, "We're losing the ROAS!", defib CLEAR!), already carries the approved FREE offer card. Music + text only, so it is fully sound-off.
-- [ ] Re-caption in house style (replace all-caps Anton; keep copy, one orange word)
-- [ ] Start on the surgeon's eyes (0:01.5) instead of the dim wide OR shot; trim to ~22 s
-- [ ] Make a 4:5 cut; add cover
+- [x] Re-caption in house style (replace all-caps Anton; keep copy, one orange word) → `rb-008-a-v02-9x16` (Oct 4). "Like them? We deliver fresh ads weekly." dropped: its slot now carries the FREE offer.
+- [x] Start on the surgeon's eyes (0:01.5) instead of the dim wide OR shot; trim to ~22 s → 30.9 s → 22.6 s
+- [x] Make a 4:5 cut → `rb-008-a-v02-4x5`; [ ] add cover (still poster frame)
 
 ## 5. Tube Man (RB-012): Needs fix
 **Why:** The clearest before/after in the library: collapsing tube man → "Same cars. Same budget. Completely different ad." Works for auto dealers and anyone who "shouts" in ads.

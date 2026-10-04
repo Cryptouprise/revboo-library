@@ -197,18 +197,28 @@
    "status": "approved",
    "approved_by": "Chase Fowler",
    "approved_at": "2026-10-04T13:33:00-06:00",
-   "fix_in_progress": true,
-   "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+   "fix_in_progress": false,
+   "note": "Fix version v02 (house captions, opens on the surgeon's eyes, 30.9 s -> 22.6 s, 9:16 + 4:5) is the approved pick; old v1 kept.",
    "files": [
     {
-     "id": "the-ad-doctor-flatlining-ads-v1",
+     "id": "rb-008-a-v02-9x16",
      "aspect": "9:16",
      "width": 1080,
      "height": 1920,
-     "duration": 30.9,
-     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/the-ad-doctor-flatlining-ads-v1.mp4",
-     "master_url": null,
-     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/the-ad-doctor-flatlining-ads-v1.jpg"
+     "duration": 22.6,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-9x16.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-9x16-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-008-a-v02-9x16.jpg"
+    },
+    {
+     "id": "rb-008-a-v02-4x5",
+     "aspect": "4:5",
+     "width": 1080,
+     "height": 1350,
+     "duration": 22.6,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-4x5.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-4x5-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-008-a-v02-4x5.jpg"
     }
    ],
    "covers": []
@@ -414,7 +424,7 @@
    "id": "new-hat-captioned-9x16-v1",
    "title": "A New Hat Isn't New Creative – Captioned Paid Ad",
    "brand": "Revboo",
-   "version": "v1 · 9:16 captioned (★ APPROVED)",
+   "version": "v1 · 9:16 captioned (review)",
    "role": "MAIN cut: Reels/TikTok/Shorts/Stories",
    "aspect": "9:16",
    "status": "approved",
@@ -432,7 +442,7 @@
    "id": "new-hat-captioned-4x5-v1",
    "title": "A New Hat Isn't New Creative – Captioned Paid Ad",
    "brand": "Revboo",
-   "version": "v1 · 4:5 captioned (★ APPROVED)",
+   "version": "v1 · 4:5 captioned (review)",
    "role": "Feed cut (FB/IG feed)",
    "aspect": "4:5",
    "status": "approved",

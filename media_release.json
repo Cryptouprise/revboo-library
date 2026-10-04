@@ -635,6 +635,22 @@
   "size": 2620245,
   "sha256": "b9d5dc08e376547550ff8ce622a375f053687a24c8c6a27e1b852259dbdb1b9f"
  },
+ "rb-008-a-v02-4x5.mp4": {
+  "tag": "media-v1",
+  "size": 5163581,
+  "sha256": "c5d99b036ea42db01ec36bae3db91d0159bb12201e8effc74cb1af51426497ae"
+ },
+ "rb-008-a-v02-9x16-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 86444210,
+  "sha256": "ff4380e2a8e39e1d1ac0cd46331ea84743cd2c10e42b74b75c6a4103ba8b7fbc",
+  "master": true
+ },
+ "rb-008-a-v02-9x16.mp4": {
+  "tag": "media-v1",
+  "size": 5062479,
+  "sha256": "0b4948805c8860a39fa0c5d53f8a0e98bf979597869860561251ffac8b8fc529"
+ },
  "remake-r1.mp4": {
   "tag": "media-v1",
   "size": 329961,
@@ -670,10 +686,22 @@
   "size": 5434069,
   "sha256": "2bb3a90c0ce9cb4c5d792fa812ab1d12f1ad2a63fdfe8db9c45a042c235127b6"
  },
+ "revboo-bestof-4x5-v1-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 134551102,
+  "sha256": "975d118fbf6a8b405d74070e78546fbfb51ad6b4ac3042bf3cafa064817b2cea",
+  "master": true
+ },
  "revboo-bestof-4x5-v1.mp4": {
   "tag": "media-v1",
   "size": 5395082,
   "sha256": "c1578f4a8eb495fc26c0b9015db14b02e857bfb8f6729d8cc7147ee40a74e787"
+ },
+ "revboo-bestof-9x16-v1-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 179362728,
+  "sha256": "246d59d8a310ad2c8511c930dc393df9fbed4c377d2c92ec1421837360eeb05d",
+  "master": true
  },
  "revboo-bestof-9x16-v1.mp4": {
   "tag": "media-v1",
@@ -855,16 +883,10 @@
   "size": 1048622,
   "sha256": "fb37174ffdd84878266857be3df852545142842b0e1af3a006032fcc5619afab"
  },
- "revboo-bestof-9x16-v1-MASTER.mp4": {
+ "rb-008-a-v02-4x5-MASTER.mp4": {
   "tag": "media-v1",
-  "size": 179362728,
-  "sha256": "246d59d8a310ad2c8511c930dc393df9fbed4c377d2c92ec1421837360eeb05d",
-  "master": true
- },
- "revboo-bestof-4x5-v1-MASTER.mp4": {
-  "tag": "media-v1",
-  "size": 134551102,
-  "sha256": "975d118fbf6a8b405d74070e78546fbfb51ad6b4ac3042bf3cafa064817b2cea",
+  "size": 65693781,
+  "sha256": "81db65dd35d8f6a6fdcc3c6c434b4e6d7b4628b41d880aaeb16bde92ad5a79a9",
   "master": true
  }
 }
