@@ -1,6 +1,363 @@
 {
  "generated": "Oct 4, 2026",
- "rule": "Only files listed here are approved. Everything else: ask Chase.",
+ "rule": "Only files listed here are approved. Everything else: ask Chase. approved_ranking (★ 1-10) is the source of truth for what runs.",
+ "approved_ranking": [
+  {
+   "rank": 1,
+   "star": "★",
+   "title": "Furnace – Captioned",
+   "concept_id": "RB-005",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04T13:33:00-06:00",
+   "fix_in_progress": false,
+   "note": "",
+   "files": [
+    {
+     "id": "furnace-captioned-9x16-v1",
+     "aspect": "9:16",
+     "width": 1080,
+     "height": 1920,
+     "duration": 17.5,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-v1.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-v1-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/furnace-captioned-9x16-v1.jpg"
+    },
+    {
+     "id": "furnace-captioned-4x5-v1",
+     "aspect": "4:5",
+     "width": 1080,
+     "height": 1350,
+     "duration": 17.5,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-4x5-v1.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-4x5-v1-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/furnace-captioned-4x5-v1.jpg"
+    },
+    {
+     "id": "furnace-captioned-9x16-hookcover-v1",
+     "aspect": "9:16",
+     "width": 1080,
+     "height": 1920,
+     "duration": 18.8,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-hookcover-v1.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-hookcover-v1-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/furnace-captioned-9x16-hookcover-v1.jpg"
+    }
+   ],
+   "covers": [
+    {
+     "id": "furnace-cover-9x16",
+     "url": "https://cryptouprise.github.io/revboo-library/covers/furnace-cover-9x16.png",
+     "aspect": "9:16",
+     "status": "approved"
+    },
+    {
+     "id": "furnace-cover-4x5",
+     "url": "https://cryptouprise.github.io/revboo-library/covers/furnace-cover-4x5.png",
+     "aspect": "4:5",
+     "status": "approved"
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "star": "★",
+   "title": "A New Hat Isn't New Creative – Captioned",
+   "concept_id": "RB-004",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04T13:33:00-06:00",
+   "fix_in_progress": false,
+   "note": "",
+   "files": [
+    {
+     "id": "new-hat-captioned-9x16-v1",
+     "aspect": "9:16",
+     "width": 1080,
+     "height": 1920,
+     "duration": 22.0,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/new-hat-captioned-9x16-v1.jpg"
+    },
+    {
+     "id": "new-hat-captioned-4x5-v1",
+     "aspect": "4:5",
+     "width": 1080,
+     "height": 1350,
+     "duration": 22.0,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/new-hat-captioned-4x5-v1.jpg"
+    }
+   ],
+   "covers": [
+    {
+     "id": "new-hat-cover-9x16",
+     "url": "https://cryptouprise.github.io/revboo-library/covers/new-hat-cover-9x16.png",
+     "aspect": "9:16",
+     "status": "pending"
+    },
+    {
+     "id": "new-hat-cover-4x5",
+     "url": "https://cryptouprise.github.io/revboo-library/covers/new-hat-cover-4x5.png",
+     "aspect": "4:5",
+     "status": "pending"
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "star": "★",
+   "title": "Have You Tried Being Interesting? (Best-of)",
+   "concept_id": "RB-015",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04T13:33:00-06:00",
+   "fix_in_progress": false,
+   "note": "",
+   "files": [
+    {
+     "id": "revboo-bestof-9x16-v1",
+     "aspect": "9:16",
+     "width": 1080,
+     "height": 1920,
+     "duration": 29.9,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/revboo-bestof-9x16-v1.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/revboo-bestof-9x16-v1-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/revboo-bestof-9x16-v1.jpg"
+    },
+    {
+     "id": "revboo-bestof-4x5-v1",
+     "aspect": "4:5",
+     "width": 1080,
+     "height": 1350,
+     "duration": 29.9,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/revboo-bestof-4x5-v1.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/revboo-bestof-4x5-v1-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/revboo-bestof-4x5-v1.jpg"
+    }
+   ],
+   "covers": [
+    {
+     "id": "bestof-cover-1-still-paying-9x16",
+     "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-1-still-paying-9x16.png",
+     "aspect": "9:16",
+     "status": "approved"
+    },
+    {
+     "id": "bestof-cover-1-still-paying-4x5",
+     "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-1-still-paying-4x5.png",
+     "aspect": "4:5",
+     "status": "approved"
+    },
+    {
+     "id": "bestof-cover-2-interesting-9x16",
+     "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-2-interesting-9x16.png",
+     "aspect": "9:16",
+     "status": "approved"
+    },
+    {
+     "id": "bestof-cover-2-interesting-4x5",
+     "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-2-interesting-4x5.png",
+     "aspect": "4:5",
+     "status": "approved"
+    },
+    {
+     "id": "bestof-cover-3-media-buyer-9x16",
+     "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-3-media-buyer-9x16.png",
+     "aspect": "9:16",
+     "status": "approved"
+    },
+    {
+     "id": "bestof-cover-3-media-buyer-4x5",
+     "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-3-media-buyer-4x5.png",
+     "aspect": "4:5",
+     "status": "approved"
+    },
+    {
+     "id": "bestof-cover-4-yawning-9x16",
+     "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-4-yawning-9x16.png",
+     "aspect": "9:16",
+     "status": "approved"
+    },
+    {
+     "id": "bestof-cover-4-yawning-4x5",
+     "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-4-yawning-4x5.png",
+     "aspect": "4:5",
+     "status": "approved"
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "star": "★",
+   "title": "The Ad Doctor",
+   "concept_id": "RB-008",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04T13:33:00-06:00",
+   "fix_in_progress": true,
+   "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+   "files": [
+    {
+     "id": "the-ad-doctor-flatlining-ads-v1",
+     "aspect": "9:16",
+     "width": 1080,
+     "height": 1920,
+     "duration": 30.9,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/the-ad-doctor-flatlining-ads-v1.mp4",
+     "master_url": null,
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/the-ad-doctor-flatlining-ads-v1.jpg"
+    }
+   ],
+   "covers": []
+  },
+  {
+   "rank": 5,
+   "star": "★",
+   "title": "Tube Man",
+   "concept_id": "RB-012",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04T13:33:00-06:00",
+   "fix_in_progress": true,
+   "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+   "files": [
+    {
+     "id": "tube-man-v1",
+     "aspect": "9:16",
+     "width": 1080,
+     "height": 1920,
+     "duration": 36.0,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/tube-man-v1.mp4",
+     "master_url": null,
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/tube-man-v1.jpg"
+    }
+   ],
+   "covers": []
+  },
+  {
+   "rank": 6,
+   "star": "★",
+   "title": "PI Attorneys – Scroll Past",
+   "concept_id": "PI-008",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04T13:33:00-06:00",
+   "fix_in_progress": true,
+   "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+   "files": [
+    {
+     "id": "pi-attorneys-scroll-past-v1",
+     "aspect": "9:16",
+     "width": 1080,
+     "height": 1920,
+     "duration": 37.1,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-scroll-past-v1.mp4",
+     "master_url": null,
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/pi-attorneys-scroll-past-v1.jpg"
+    }
+   ],
+   "covers": []
+  },
+  {
+   "rank": 7,
+   "star": "★",
+   "title": "Ad Autopsy v4 – tighter transition",
+   "concept_id": "RB-001",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04T13:33:00-06:00",
+   "fix_in_progress": false,
+   "note": "",
+   "files": [
+    {
+     "id": "rb-001-a-v04-9x16",
+     "aspect": "9:16",
+     "width": 720,
+     "height": 1280,
+     "duration": 12.0,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-001-a-v04-9x16.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-001-a-v04-9x16-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-001-a-v04-9x16.jpg"
+    }
+   ],
+   "covers": []
+  },
+  {
+   "rank": 8,
+   "star": "★",
+   "title": "The Remake",
+   "concept_id": "RB-010",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04T13:33:00-06:00",
+   "fix_in_progress": true,
+   "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+   "files": [
+    {
+     "id": "remake",
+     "aspect": "9:16",
+     "width": 1080,
+     "height": 1920,
+     "duration": 23.9,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake.mp4",
+     "master_url": null,
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/remake.jpg"
+    }
+   ],
+   "covers": []
+  },
+  {
+   "rank": 9,
+   "star": "★",
+   "title": "PI Attorneys – Hammer Broke",
+   "concept_id": "PI-007",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04T13:33:00-06:00",
+   "fix_in_progress": true,
+   "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+   "files": [
+    {
+     "id": "pi-attorneys-hammer-broke-v1",
+     "aspect": "9:16",
+     "width": 1080,
+     "height": 1920,
+     "duration": 39.5,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-hammer-broke-v1.mp4",
+     "master_url": null,
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/pi-attorneys-hammer-broke-v1.jpg"
+    }
+   ],
+   "covers": []
+  },
+  {
+   "rank": 10,
+   "star": "★",
+   "title": "The Ad Graveyard v2",
+   "concept_id": "RB-009",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04T13:33:00-06:00",
+   "fix_in_progress": true,
+   "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+   "files": [
+    {
+     "id": "graveyard-v2",
+     "aspect": "9:16",
+     "width": 1080,
+     "height": 1920,
+     "duration": 23.5,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/graveyard-v2.mp4",
+     "master_url": null,
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/graveyard-v2.jpg"
+    }
+   ],
+   "covers": []
+  }
+ ],
  "approved_videos": [
   {
    "id": "furnace-captioned-9x16-v1",
@@ -52,6 +409,42 @@
    "local_master": "/workspace/revboo/edits/fire-money-captioned/Revboo-Furnace-Captioned-9x16-hookcover.mp4",
    "poster": "https://cryptouprise.github.io/revboo-library/media/posters/furnace-captioned-9x16-hookcover-v1.jpg",
    "note": "Correct final ends with \"...your ads can't afford to miss.\" The original Seedance VO said \"abs\"; the last word was audio-patched to \"ads\" (same voice, taken from 0:02). Whisper large-v3/medium.en/small.en now hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). APPROVED by Chase on Oct 4, 2026 (\"perfect\"), including the patched \"ads\" word. 1.25 s opening cover \"Your ads are dying. Not the offer. The creative.\" (Muse thumbnail 01 line), then the main cut. Not a replacement."
+  },
+  {
+   "id": "new-hat-captioned-9x16-v1",
+   "title": "A New Hat Isn't New Creative – Captioned Paid Ad",
+   "brand": "Revboo",
+   "version": "v1 · 9:16 captioned (★ APPROVED)",
+   "role": "MAIN cut: Reels/TikTok/Shorts/Stories",
+   "aspect": "9:16",
+   "status": "approved",
+   "width": 1080,
+   "height": 1920,
+   "duration": 22.0,
+   "date": "Oct 4, 2026",
+   "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1-MASTER.mp4",
+   "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1.mp4",
+   "local_master": "/workspace/revboo/edits/new-hat-captioned/Revboo-NewHat-Captioned-9x16.mp4",
+   "poster": "https://cryptouprise.github.io/revboo-library/media/posters/new-hat-captioned-9x16-v1.jpg",
+   "note": "Built from the clean Higgsfield take hf_20260928_033156 (the latest take, and the picture under Chase's hook_A upload, without hook_A's burned-in all-caps hook). VO verified with Whisper small.en + large-v3 (word for word, no mispronunciations; 'Revboo' heard correctly). House caption standard (see BRAND.md); captions only where there is a clean zone. Shots that the cutout, the therapist or the title card fill have no caption. Light vignette/grain on scene shots only. -14 LUFS. APPROVED by Chase on Oct 4, 2026, 1:33 PM MT (★ Top 10 #2). Covers still pending Chase's OK. Captions: \"Your ad wants more.\" (wide shot, top band) / \"Don't fire your media buyer.\" + \"Give them better ads.\" (upper-left beside his head, 54 px) / end card \"The revenue boost your ads can't afford to miss.\""
+  },
+  {
+   "id": "new-hat-captioned-4x5-v1",
+   "title": "A New Hat Isn't New Creative – Captioned Paid Ad",
+   "brand": "Revboo",
+   "version": "v1 · 4:5 captioned (★ APPROVED)",
+   "role": "Feed cut (FB/IG feed)",
+   "aspect": "4:5",
+   "status": "approved",
+   "width": 1080,
+   "height": 1350,
+   "duration": 22.0,
+   "date": "Oct 4, 2026",
+   "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1-MASTER.mp4",
+   "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1.mp4",
+   "local_master": "/workspace/revboo/edits/new-hat-captioned/Revboo-NewHat-Captioned-4x5.mp4",
+   "poster": "https://cryptouprise.github.io/revboo-library/media/posters/new-hat-captioned-4x5-v1.jpg",
+   "note": "Built from the clean Higgsfield take hf_20260928_033156 (the latest take, and the picture under Chase's hook_A upload, without hook_A's burned-in all-caps hook). VO verified with Whisper small.en + large-v3 (word for word, no mispronunciations; 'Revboo' heard correctly). House caption standard (see BRAND.md); captions only where there is a clean zone. Shots that the cutout, the therapist or the title card fill have no caption. Light vignette/grain on scene shots only. -14 LUFS. APPROVED by Chase on Oct 4, 2026, 1:33 PM MT (★ Top 10 #2). Covers still pending Chase's OK. Per-shot reframe of the main cut; captions re-placed for 4:5."
   }
  ],
  "approved_covers": [
@@ -137,6 +530,134 @@
    "date": "Oct 4, 2026",
    "note": "Wall of phones.",
    "url": "https://cryptouprise.github.io/revboo-library/covers/muse-04_stop-boosting.webp"
+  },
+  {
+   "id": "bestof-cover-1-still-paying-9x16",
+   "file": "covers/bestof-cover-1-still-paying-9x16.png",
+   "for": "Have You Tried Being Interesting? (Best-of)",
+   "made_by": "Grok Bot (best-of edit, thumb 1)",
+   "size": "1080x1920",
+   "aspect": "9:16",
+   "line": "Still paying for this guy?",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Best-of cover A/B option 1 of 4 (9:16). BIG SALE mascot in the furnace (also the ad's first frame); sub-line \"Same tired ad. Same burned budget.\". Approved with the Best-of ad by Chase on Oct 4, 2026 (Top 10 #3); A/B the 4 covers (see plan/UPCOMING.md).",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04",
+   "approved_rank": 3,
+   "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-1-still-paying-9x16.png"
+  },
+  {
+   "id": "bestof-cover-1-still-paying-4x5",
+   "file": "covers/bestof-cover-1-still-paying-4x5.png",
+   "for": "Have You Tried Being Interesting? (Best-of)",
+   "made_by": "Grok Bot (best-of edit, thumb 1)",
+   "size": "1080x1350",
+   "aspect": "4:5",
+   "line": "Still paying for this guy?",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Best-of cover A/B option 1 of 4 (4:5). BIG SALE mascot in the furnace (also the ad's first frame); sub-line \"Same tired ad. Same burned budget.\". Approved with the Best-of ad by Chase on Oct 4, 2026 (Top 10 #3); A/B the 4 covers (see plan/UPCOMING.md).",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04",
+   "approved_rank": 3,
+   "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-1-still-paying-4x5.png"
+  },
+  {
+   "id": "bestof-cover-2-interesting-9x16",
+   "file": "covers/bestof-cover-2-interesting-9x16.png",
+   "for": "Have You Tried Being Interesting? (Best-of)",
+   "made_by": "Grok Bot (best-of edit, thumb 2)",
+   "size": "1080x1920",
+   "aspect": "9:16",
+   "line": "Have you tried being interesting?",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Best-of cover A/B option 2 of 4 (9:16). Therapist lowering her glasses; sub-line \"A note for your ads.\". Approved with the Best-of ad by Chase on Oct 4, 2026 (Top 10 #3); A/B the 4 covers (see plan/UPCOMING.md).",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04",
+   "approved_rank": 3,
+   "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-2-interesting-9x16.png"
+  },
+  {
+   "id": "bestof-cover-2-interesting-4x5",
+   "file": "covers/bestof-cover-2-interesting-4x5.png",
+   "for": "Have You Tried Being Interesting? (Best-of)",
+   "made_by": "Grok Bot (best-of edit, thumb 2)",
+   "size": "1080x1350",
+   "aspect": "4:5",
+   "line": "Have you tried being interesting?",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Best-of cover A/B option 2 of 4 (4:5). Therapist lowering her glasses; sub-line \"A note for your ads.\". Approved with the Best-of ad by Chase on Oct 4, 2026 (Top 10 #3); A/B the 4 covers (see plan/UPCOMING.md).",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04",
+   "approved_rank": 3,
+   "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-2-interesting-4x5.png"
+  },
+  {
+   "id": "bestof-cover-3-media-buyer-9x16",
+   "file": "covers/bestof-cover-3-media-buyer-9x16.png",
+   "for": "Have You Tried Being Interesting? (Best-of)",
+   "made_by": "Grok Bot (best-of edit, thumb 3)",
+   "size": "1080x1920",
+   "aspect": "9:16",
+   "line": "Don't fire your media buyer.",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Best-of cover A/B option 3 of 4 (9:16). Media buyer, face in hands; sub-line \"Give them better ads.\". Approved with the Best-of ad by Chase on Oct 4, 2026 (Top 10 #3); A/B the 4 covers (see plan/UPCOMING.md).",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04",
+   "approved_rank": 3,
+   "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-3-media-buyer-9x16.png"
+  },
+  {
+   "id": "bestof-cover-3-media-buyer-4x5",
+   "file": "covers/bestof-cover-3-media-buyer-4x5.png",
+   "for": "Have You Tried Being Interesting? (Best-of)",
+   "made_by": "Grok Bot (best-of edit, thumb 3)",
+   "size": "1080x1350",
+   "aspect": "4:5",
+   "line": "Don't fire your media buyer.",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Best-of cover A/B option 3 of 4 (4:5). Media buyer, face in hands; sub-line \"Give them better ads.\". Approved with the Best-of ad by Chase on Oct 4, 2026 (Top 10 #3); A/B the 4 covers (see plan/UPCOMING.md).",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04",
+   "approved_rank": 3,
+   "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-3-media-buyer-4x5.png"
+  },
+  {
+   "id": "bestof-cover-4-yawning-9x16",
+   "file": "covers/bestof-cover-4-yawning-9x16.png",
+   "for": "Have You Tried Being Interesting? (Best-of)",
+   "made_by": "Grok Bot (best-of edit, thumb 4)",
+   "size": "1080x1920",
+   "aspect": "9:16",
+   "line": "Your audience is yawning.",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Best-of cover A/B option 4 of 4 (9:16). Scroller mid-yawn on his phone; sub-line \"New ads. Every week.\". Approved with the Best-of ad by Chase on Oct 4, 2026 (Top 10 #3); A/B the 4 covers (see plan/UPCOMING.md).",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04",
+   "approved_rank": 3,
+   "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-4-yawning-9x16.png"
+  },
+  {
+   "id": "bestof-cover-4-yawning-4x5",
+   "file": "covers/bestof-cover-4-yawning-4x5.png",
+   "for": "Have You Tried Being Interesting? (Best-of)",
+   "made_by": "Grok Bot (best-of edit, thumb 4)",
+   "size": "1080x1350",
+   "aspect": "4:5",
+   "line": "Your audience is yawning.",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Best-of cover A/B option 4 of 4 (4:5). Scroller mid-yawn on his phone; sub-line \"New ads. Every week.\". Approved with the Best-of ad by Chase on Oct 4, 2026 (Top 10 #3); A/B the 4 covers (see plan/UPCOMING.md).",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04",
+   "approved_rank": 3,
+   "url": "https://cryptouprise.github.io/revboo-library/covers/bestof-cover-4-yawning-4x5.png"
   }
  ],
  "rejected": [
@@ -170,44 +691,7 @@
    "why": "Sibling Furnace generation. Also says \"abs\" (Whisper medium.en p0.82-0.94) and the end card is garbled (\"Donefor-youf\"). Not in the library; do not use."
   }
  ],
- "pending_videos": [
-  {
-   "id": "new-hat-captioned-9x16-v1",
-   "title": "A New Hat Isn't New Creative – Captioned Paid Ad",
-   "brand": "Revboo",
-   "version": "v1 · 9:16 captioned (review)",
-   "role": "MAIN cut: Reels/TikTok/Shorts/Stories",
-   "aspect": "9:16",
-   "status": "approved-pending-chase-listen",
-   "width": 1080,
-   "height": 1920,
-   "duration": 22.0,
-   "date": "Oct 4, 2026",
-   "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1-MASTER.mp4",
-   "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1.mp4",
-   "local_master": "/workspace/revboo/edits/new-hat-captioned/Revboo-NewHat-Captioned-9x16.mp4",
-   "poster": "https://cryptouprise.github.io/revboo-library/media/posters/new-hat-captioned-9x16-v1.jpg",
-   "note": "Built from the clean Higgsfield take hf_20260928_033156 (the latest take, and the picture under Chase's hook_A upload, without hook_A's burned-in all-caps hook). VO verified with Whisper small.en + large-v3 (word for word, no mispronunciations; 'Revboo' heard correctly). House caption standard (see BRAND.md); captions only where there is a clean zone. Shots that the cutout, the therapist or the title card fill have no caption. Light vignette/grain on scene shots only. -14 LUFS. PENDING: Chase to listen and OK. Captions: \"Your ad wants more.\" (wide shot, top band) / \"Don't fire your media buyer.\" + \"Give them better ads.\" (upper-left beside his head, 54 px) / end card \"The revenue boost your ads can't afford to miss.\""
-  },
-  {
-   "id": "new-hat-captioned-4x5-v1",
-   "title": "A New Hat Isn't New Creative – Captioned Paid Ad",
-   "brand": "Revboo",
-   "version": "v1 · 4:5 captioned (review)",
-   "role": "Feed cut (FB/IG feed)",
-   "aspect": "4:5",
-   "status": "approved-pending-chase-listen",
-   "width": 1080,
-   "height": 1350,
-   "duration": 22.0,
-   "date": "Oct 4, 2026",
-   "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1-MASTER.mp4",
-   "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1.mp4",
-   "local_master": "/workspace/revboo/edits/new-hat-captioned/Revboo-NewHat-Captioned-4x5.mp4",
-   "poster": "https://cryptouprise.github.io/revboo-library/media/posters/new-hat-captioned-4x5-v1.jpg",
-   "note": "Built from the clean Higgsfield take hf_20260928_033156 (the latest take, and the picture under Chase's hook_A upload, without hook_A's burned-in all-caps hook). VO verified with Whisper small.en + large-v3 (word for word, no mispronunciations; 'Revboo' heard correctly). House caption standard (see BRAND.md); captions only where there is a clean zone. Shots that the cutout, the therapist or the title card fill have no caption. Light vignette/grain on scene shots only. -14 LUFS. PENDING: Chase to listen and OK. Per-shot reframe of the main cut; captions re-placed for 4:5."
-  }
- ],
+ "pending_videos": [],
  "pending_covers": [
   {
    "id": "new-hat-cover-9x16",

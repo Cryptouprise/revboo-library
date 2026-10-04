@@ -74,16 +74,34 @@ summary{cursor:pointer;font-weight:700;color:#ddd}
 .finals{background:#13240f;border:1px solid #2f5a22;border-radius:12px;padding:10px 14px;margin-top:12px;font-size:14px}.finals a{color:var(--o)}
 .covers{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px}.covers img{width:100%;border-radius:10px;display:block;background:#000}.covers .w{color:#ffb38f;font-weight:700}
 .howto{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:16px 20px;color:#ccc;margin-top:40px;font-size:14px}
+/* approved */
+#approved{padding-top:28px}
+.apv{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px}
+.apc{background:linear-gradient(180deg,#22160f,#16161a 40%);border:2px solid var(--o);border-radius:18px;padding:14px;position:relative;box-shadow:0 10px 40px rgba(255,75,10,.18)}
+.apc .rk{position:absolute;top:-14px;left:14px;background:var(--o);color:#000;font-family:Anton;font-size:22px;padding:2px 14px;border-radius:99px;z-index:2}
+.apc video{width:100%;background:#000;border-radius:12px;display:block;margin-top:8px;max-height:560px}
+.apc h3{font-size:26px;margin:10px 0 6px}
+.apc .files{display:flex;flex-direction:column;gap:6px;margin:8px 0;font-size:14px}
+.apc .files div{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.apc .files button{background:#24242a;color:#fff;border:1px solid var(--line);border-radius:99px;padding:3px 10px;cursor:pointer;font-weight:700;font-size:12px}
+.apc .files button.on{background:var(--o);color:#000;border-color:var(--o)}
+.apc .cv{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}.apc .cv a{display:block}.apc .cv img{height:84px;border-radius:6px;display:block;background:#000}
+.apc .fix{font-size:13px;color:#ffd08f;background:#2a1f0e;border:1px solid #5a3f12;border-radius:8px;padding:6px 8px;margin:6px 0}
+.chip.star{background:#ffcf33;color:#000}
+.ad.approvedcard{border-color:#ffcf33;box-shadow:0 0 0 1px #ffcf33,0 10px 40px rgba(255,207,51,.15)}
 footer{color:var(--mut);text-align:center;font-size:13px;padding:30px}
 </style>
 </head>
 <body>
 <header><div class="bar"><div class="logo">REV<b>BOO</b> LIBRARY</div>
-<nav><a href="#ads">Finished Ads</a><a href="#clips">Clip Library</a><a href="#covers">Covers</a><a href="#brand" id="navBrand">Brand Assets</a><a href="https://github.com/Cryptouprise/revboo-library/blob/main/FINALS.md">FINALS ✓</a><a href="https://github.com/Cryptouprise/revboo-library/blob/main/BRAND.md">BRAND guide</a><a href="https://github.com/Cryptouprise/revboo-library/blob/main/plan/README.md">PLAN / Top 10</a></nav></div><div class="tabs" id="tabs"></div></header>
+<nav><a href="#approved" style="color:#ffcf33">★ Approved</a><a href="#ads">Finished Ads</a><a href="#clips">Clip Library</a><a href="#covers">Covers</a><a href="#brand" id="navBrand">Brand Assets</a><a href="https://github.com/Cryptouprise/revboo-library/blob/main/FINALS.md">FINALS ✓</a><a href="https://github.com/Cryptouprise/revboo-library/blob/main/BRAND.md">BRAND guide</a><a href="https://github.com/Cryptouprise/revboo-library/blob/main/plan/README.md">PLAN / Top 10</a></nav></div><div class="tabs" id="tabs"></div></header>
 <main>
 <div class="hero"><h1>Revboo <span>Video Library</span></h1>
 <p>Every finished ad and reusable clip, filed by brand. Pick a brand above, or stay on All. Press play on any ad. Hover (or tap) a clip to preview it. Newest first.</p>
-<p class="finals">✅ <b>Approved files only:</b> see <a href="https://github.com/Cryptouprise/revboo-library/blob/main/FINALS.md">FINALS.md</a> (<a href="finals.json">finals.json</a>). Everything else here is unreviewed; ask Chase before using it. Making a Revboo ad? Follow <a href="https://github.com/Cryptouprise/revboo-library/blob/main/BRAND.md">BRAND.md</a>.</p></div>
+<p class="finals">★ <b>What runs:</b> the <a href="#approved">★ Approved – Ready to Run</a> section right below (10 ads, ranked). ✅ <b>Approved files only:</b> see <a href="https://github.com/Cryptouprise/revboo-library/blob/main/FINALS.md">FINALS.md</a> (<a href="finals.json">finals.json</a>). Everything else here is unreviewed; ask Chase before using it. Making a Revboo ad? Follow <a href="https://github.com/Cryptouprise/revboo-library/blob/main/BRAND.md">BRAND.md</a>.</p></div>
+
+<section id="approved"><h2>★ Approved – <span>Ready to Run</span></h2><p class="sub">Chase approved these 10 on Oct 4, 2026 (1:33 PM MT). Run them in rank order. This list is the source of truth for what runs (<code>approved_ranking</code> in <a href="https://github.com/Cryptouprise/revboo-library/blob/main/catalog/registry.json">catalog/registry.json</a>; also <a href="https://github.com/Cryptouprise/revboo-library/blob/main/FINALS.md">FINALS.md</a>). Everything below is the full library.</p>
+<div class="apv" id="approvedGrid"></div></section>
 
 <section id="ads"><h2 id="adsTitle">Finished <span>Ads</span></h2><p class="sub">The latest version of each ad is highlighted. Older versions are tucked under it.</p>
 <div id="adsGrid"></div></section>
@@ -109,7 +127,15 @@ const BRAND_NOTES={'Revboo':'Promos for Revboo itself.','Legal/PI':'Ads aimed at
  'The Assist':'Andy / LeadRoller / The Assist newsletter ads (plus the Trovy UGC made for Andy).','Infinite AI':'myinfinite.ai AI sales employee videos.',
  'Solar Freedom':'breakyoursolarcontract.com ads.','Generic/Other':'Anything that doesn\u2019t belong to a brand above.'};
 const touch=matchMedia('(hover:none)').matches;
-fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(m=>{
+Promise.all([fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()),
+  fetch('catalog/registry.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>({})),
+  fetch('covers.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>({covers:[]}))]).then(([m,reg,cvj])=>{
+  // ---- ★ approved (catalog/registry.json approved_ranking = source of truth)
+  const RANKS=(reg.approved_ranking||[]).slice().sort((a,b)=>a.rank-b.rank);
+  const APR={};RANKS.forEach(x=>(x.asset_ids||[]).forEach(id=>APR[id]=x.rank));
+  const REC=reg.revision_records||{};
+  const CRK={};RANKS.forEach(x=>(x.cover_ids||[]).forEach(id=>CRK[id]=x.rank));
+  const starChip=id=>APR[id]?`<span class="chip star">★ APPROVED #${APR[id]}</span>`:'';
   document.documentElement.style.setProperty('--o',m.brand?.color||'#FF4B0A');
   const brands=m.brands||['Revboo','Legal/PI','The Assist','Infinite AI','Solar Freedom','Generic/Other'];
   const finals=(m.finals||[]).map(f=>({...f,brand:f.brand||'Generic/Other'}));
@@ -119,15 +145,15 @@ fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(m=>{
   const cur=()=>{const h=decodeURIComponent((location.hash.match(/brand=([^&]+)/)||[])[1]||'All');return h==='All'||brands.includes(h)?h:'All'};
   function drawTabs(b){tabsEl.innerHTML=['All',...brands].map(x=>`<a href="#brand=${encodeURIComponent(x)}" class="${x===b?'on':''} ${count(x)?'':'zero'}">${esc(x)}<small>${count(x)}</small></a>`).join('')}
   const adCard=(g,showBrand)=>{const f=g[0],old=g.slice(1);return `
-   <div class="ad latest"><video style="${f.width?`aspect-ratio:${f.width}/${f.height}`:''}" controls playsinline preload="metadata" poster="${esc(f.poster)}" src="${esc(f.video)}"></video>
+   <div class="ad latest${APR[f.id]?' approvedcard':''}"><video style="${f.width?`aspect-ratio:${f.width}/${f.height}`:''}" controls playsinline preload="metadata" poster="${esc(f.poster)}" src="${esc(f.video)}"></video>
     <h3>${esc(f.title)}</h3>
-    <div>${showBrand?`<span class="chip bchip">${esc(f.brand)}</span>`:''}<span class="chip o">LATEST · ${esc(f.version)}</span>${f.status==='rejected'?'<span class="chip red">REJECTED</span>':''}</div>
+    <div>${starChip(f.id)}${showBrand?`<span class="chip bchip">${esc(f.brand)}</span>`:''}<span class="chip o">LATEST · ${esc(f.version)}</span>${f.status==='rejected'?'<span class="chip red">REJECTED</span>':''}</div>
     <div class="meta">${esc(f.date)} · ${fmt(f.duration)} long</div>
     ${f.note?`<div class="note">${esc(f.note)}</div>`:''}
     <a class="dl" href="${esc(f.video)}" download>⬇ Download</a>
     ${old.length?`<details><summary>Older versions (${old.length})</summary><div class="older">${old.map(o=>`
       <div class="o-item"><video style="${o.width?`aspect-ratio:${o.width}/${o.height}`:''}" controls playsinline preload="none" poster="${esc(o.poster)}" src="${esc(o.video)}"></video>
-      <div><span class="chip${o.status==='rejected'?' red':''}">${esc(o.version)}</span>${o.status==='rejected'?'<span class="chip red">REJECTED</span>':''}<br>${esc(o.date)} · ${fmt(o.duration)}<br>${o.note?esc(o.note)+'<br>':''}<a class="dl" href="${esc(o.video)}" download>⬇ Download</a></div></div>`).join('')}</div></details>`:''}
+      <div>${starChip(o.id)}<span class="chip${o.status==='rejected'?' red':''}">${esc(o.version)}</span>${o.status==='rejected'?'<span class="chip red">REJECTED</span>':''}<br>${esc(o.date)} · ${fmt(o.duration)}<br>${o.note?esc(o.note)+'<br>':''}<a class="dl" href="${esc(o.video)}" download>⬇ Download</a></div></div>`).join('')}</div></details>`:''}
    </div>`};
   const groupsOf=list=>{const g={};list.forEach(f=>(g[f.brand+'|'+(f.group||f.title)]??=[]).push(f));return Object.values(g).map(x=>x.sort(byNew)).sort((a,b)=>byNew(a[0],b[0]))};
   function drawAds(b){
@@ -139,6 +165,21 @@ fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(m=>{
     const cats=[...new Set(list.slice().sort(byNew).map(f=>f.category||'Ads'))];
     el.innerHTML=`<p class="brandnote">${esc(BRAND_NOTES[b]||'')}</p>`+cats.map(c=>`<h3 class="cat">${esc(c)}</h3><div class="ads">${groupsOf(list.filter(f=>(f.category||'Ads')===c)).map(g=>adCard(g,false)).join('')}</div>`).join('');
   }
+  // ---- ★ approved section
+  {const FM={};finals.forEach(f=>FM[f.id]=f);const CV={};(cvj.covers||[]).forEach(c=>CV[c.id]=c);
+   const ar=f=>f.width&&f.height?({'1080x1920':'9:16','720x1280':'9:16','1080x1350':'4:5'}[f.width+'x'+f.height]||f.width+'x'+f.height):'';
+   const master=id=>{const u=(REC[id]||{}).master_reference||'';return /-MASTER\.mp4$/.test(u)?u:''};
+   const ag=document.getElementById('approvedGrid');
+   ag.innerHTML=RANKS.length?RANKS.map(x=>{const fs=(x.asset_ids||[]).map(id=>FM[id]).filter(Boolean);const f=fs[0];if(!f)return '';
+    return `<div class="apc" id="approved-${x.rank}"><span class="rk">★ #${x.rank}</span>
+     <video data-r="${x.rank}" controls playsinline preload="metadata" style="aspect-ratio:${f.width}/${f.height}" poster="${esc(f.poster)}" src="${esc(f.video)}"></video>
+     <h3>${esc(x.title)}</h3><div><span class="chip star">★ APPROVED</span><span class="chip bchip">${esc(f.brand)}</span><span class="chip">${esc(x.concept_id)}</span></div>
+     ${x.fix_in_progress?`<div class="fix">🛠 ${esc(x.note)}</div>`:''}
+     <div class="files">${fs.map((g,i)=>`<div><button class="${i?'':'on'}" data-r="${x.rank}" data-v="${esc(g.video)}" data-p="${esc(g.poster)}" data-a="${g.width}/${g.height}">▶ ${esc(ar(g))}${g.id.includes('hookcover')?' hook-cover test':''}</button><code style="font-size:12px">${esc(g.id)}</code> · ${fmt(g.duration)} · <a class="dl" href="${esc(g.video)}" download>⬇ Web</a>${master(g.id)?` · <a class="dl" href="${esc(master(g.id))}" download>⬇ Master</a>`:''}</div>`).join('')}</div>
+     ${(x.cover_ids||[]).length?`<div class="meta" style="margin:6px 0 0">Covers${(x.cover_ids||[]).some(c=>CV[c]&&CV[c].status!=='approved')?' (pending Chase OK)':''}:</div><div class="cv">${x.cover_ids.map(c=>CV[c]).filter(Boolean).map(c=>`<a href="${esc(c.file)}" target="_blank" rel="noopener" title="${esc(c.line)} · ${esc(c.aspect)}"><img loading="lazy" src="${esc(c.file)}" alt="${esc(c.line)}"></a>`).join('')}</div>`:`<div class="meta" style="margin-top:6px">Cover: video poster (no custom cover yet). <a href="${esc(f.poster)}" target="_blank" rel="noopener">poster</a></div>`}
+    </div>`}).join(''):'<p class="empty">No approved list found.</p>';
+   ag.querySelectorAll('.files button').forEach(b=>b.onclick=()=>{const v=ag.querySelector(`video[data-r="${b.dataset.r}"]`);v.poster=b.dataset.p;v.src=b.dataset.v;v.style.aspectRatio=b.dataset.a;
+     b.closest('.files').querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));v.play().catch(()=>{})});}
   // ---- clips
   let cat='All',q='',brandNow='All';
   const order=['All','Cars/Engine','Phones & Scrolling','People/Reactions','Legal/PI','Products','Brand cards & Logo','Transitions/FX'];
@@ -174,8 +215,8 @@ fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(m=>{
    `<div class="bcard"><div class="swatch"></div><h3>Revboo Orange</h3><div class="anton" style="font-size:32px;color:var(--o)">${esc(m.brand?.color||'#FF4B0A')}</div><p class="meta">Use for the punchline word and highlights. Everything else: white on black.</p></div>
     <div class="bcard"><div class="fontdemo">SEND US YOUR <span style="color:var(--o)">WORST AD.</span></div><h3>Font: Anton</h3><p class="meta">Free on Google Fonts. All caps, white line + orange punchline, black outline.</p><a class="dl" href="https://fonts.google.com/specimen/Anton" target="_blank" rel="noopener">Get Anton ↗</a></div>
     <div class="bcard"><div class="fontdemo" style="font-size:44px">REVBOO<span style="color:var(--o)">.VIDEO</span></div><h3>Brand name</h3><p class="meta">Always exactly "Revboo" and "revboo.video".</p></div>`;
-  fetch('covers.json',{cache:'no-cache'}).then(r=>r.json()).then(c=>{document.getElementById('coverGrid').innerHTML=(c.covers||[]).filter(x=>x.status==='approved').map(x=>`<div class="bcard"><a href="${esc(x.file)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(x.file)}" alt="${esc(x.line)}"></a>
-     <h3>${esc(x.line)}</h3><div class="meta">${esc(x.aspect)} · ${esc(x.size)} · ${esc(x.made_by)} · for ${esc(x.for)}</div><div class="${x.warning?'w':'note'}">${x.warning?'⚠ ':''}${esc(x.note)}</div><a class="dl" href="${esc(x.file)}" download>⬇ Download</a></div>`).join('')}).catch(()=>{});
+  Promise.resolve(cvj).then(c=>{document.getElementById('coverGrid').innerHTML=(c.covers||[]).filter(x=>x.status==='approved').map(x=>`<div class="bcard"><a href="${esc(x.file)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(x.file)}" alt="${esc(x.line)}"></a>
+     ${CRK[x.id]?`<span class="chip star">★ APPROVED #${CRK[x.id]}</span>`:''}<h3>${esc(x.line)}</h3><div class="meta">${esc(x.aspect)} · ${esc(x.size)} · ${esc(x.made_by)} · for ${esc(x.for)}</div><div class="${x.warning?'w':'note'}">${x.warning?'⚠ ':''}${esc(x.note)}</div><a class="dl" href="${esc(x.file)}" download>⬇ Download</a></div>`).join('')}).catch(()=>{});
   function route(){const b=cur();brandNow=b;drawTabs(b);drawAds(b);drawFilters();drawClips();
     const show=b==='All'||b==='Revboo';document.getElementById('brand').hidden=!show;document.getElementById('covers').hidden=!show;document.getElementById('navBrand').hidden=!show;
     document.title=(b==='All'?'':b+' · ')+'Revboo Video Library'}

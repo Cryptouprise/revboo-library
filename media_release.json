@@ -624,6 +624,12 @@
   "size": 3845360,
   "sha256": "c48dd2a600282386769f6d99f801005cfe28019c6b6f7e3f9c5f281eeb2d7b8c"
  },
+ "rb-001-a-v04-9x16-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 6447109,
+  "sha256": "8b04d7e951f3b489d4b38c8fe11cbc79a3ccef3ba3e94835380edef617b74657",
+  "master": true
+ },
  "rb-001-a-v04-9x16.mp4": {
   "tag": "media-v1",
   "size": 2620245,
@@ -663,6 +669,16 @@
   "tag": "media-v1",
   "size": 5434069,
   "sha256": "2bb3a90c0ce9cb4c5d792fa812ab1d12f1ad2a63fdfe8db9c45a042c235127b6"
+ },
+ "revboo-bestof-4x5-v1.mp4": {
+  "tag": "media-v1",
+  "size": 5395082,
+  "sha256": "c1578f4a8eb495fc26c0b9015db14b02e857bfb8f6729d8cc7147ee40a74e787"
+ },
+ "revboo-bestof-9x16-v1.mp4": {
+  "tag": "media-v1",
+  "size": 5475503,
+  "sha256": "3aa953dea0d0ea0f4fdf7beca81b27039726f0e43d57392161b861b7ebf2397d"
  },
  "revboo-supercar-launches-down-vineyard-road-golden-hour.mp4": {
   "tag": "media-v1",
@@ -839,10 +855,16 @@
   "size": 1048622,
   "sha256": "fb37174ffdd84878266857be3df852545142842b0e1af3a006032fcc5619afab"
  },
- "rb-001-a-v04-9x16-MASTER.mp4": {
+ "revboo-bestof-9x16-v1-MASTER.mp4": {
   "tag": "media-v1",
-  "size": 6447109,
-  "sha256": "8b04d7e951f3b489d4b38c8fe11cbc79a3ccef3ba3e94835380edef617b74657",
+  "size": 179362728,
+  "sha256": "246d59d8a310ad2c8511c930dc393df9fbed4c377d2c92ec1421837360eeb05d",
+  "master": true
+ },
+ "revboo-bestof-4x5-v1-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 134551102,
+  "sha256": "975d118fbf6a8b405d74070e78546fbfb51ad6b4ac3042bf3cafa064817b2cea",
   "master": true
  }
 }

@@ -46,7 +46,7 @@
         "ad-autopsy-v1",
         "ad-autopsy-v2"
       ],
-      "approved_asset_id": null,
+      "approved_asset_id": "rb-001-a-v04-9x16",
       "created_by": "Unknown",
       "last_edited_by": "Grok",
       "agent_tags": [
@@ -63,13 +63,25 @@
           "agent": "Grok",
           "action": "Added v04 9:16: tightened the presenter-to-computer-screen transition (cut 1.08 s of silent black-card dead space from v3). Nothing else changed. v3 kept.",
           "parent_asset_id": "ad-autopsy-v3"
+        },
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "★ Chase approved (Top 10 #7, Oct 4, 2026 1:33 PM MT). approved_asset_id -> rb-001-a-v04-9x16.",
+          "parent_asset_id": null
         }
       ],
       "collection_tag": "RevBoo Ads",
       "usage_tags": [
         "Ads",
         "Content"
-      ]
+      ],
+      "approved_asset_ids": [
+        "rb-001-a-v04-9x16"
+      ],
+      "approved_rank": 7,
+      "approved_star": "★",
+      "approval_status": "★ Approved – Ready to Run"
     },
     {
       "concept_id": "RB-002",
@@ -136,8 +148,22 @@
           "agent": "Grok",
           "action": "Chase approved the captioned Furnace cuts + covers on Oct 4, 2026 ('perfect'). approved_asset_id -> furnace-captioned-9x16-v1 (4:5 and hook-cover test also Approved). Style is now the Revboo house caption standard.",
           "parent_asset_id": "furnace-captioned-9x16-v1"
+        },
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "★ Chase approved (Top 10 #1, Oct 4, 2026 1:33 PM MT). approved_asset_id -> furnace-captioned-9x16-v1.",
+          "parent_asset_id": null
         }
-      ]
+      ],
+      "approved_asset_ids": [
+        "furnace-captioned-9x16-v1",
+        "furnace-captioned-4x5-v1",
+        "furnace-captioned-9x16-hookcover-v1"
+      ],
+      "approved_rank": 1,
+      "approved_star": "★",
+      "approval_status": "★ Approved – Ready to Run"
     },
     {
       "concept_id": "RB-004",
@@ -160,7 +186,7 @@
         "new-hat-captioned-9x16-v1",
         "new-hat-therapy-v1"
       ],
-      "approved_asset_id": null,
+      "approved_asset_id": "new-hat-captioned-9x16-v1",
       "created_by": "Unknown",
       "last_edited_by": "Grok",
       "agent_tags": [
@@ -172,8 +198,21 @@
           "agent": "Grok",
           "action": "Added captioned 9:16 + 4:5 cuts (house caption standard) built from the clean take hf_20260928_033156 (the latest take; also the one under Chase's hook_A). Older take hf_20260928_032417 not used (earlier version).",
           "parent_asset_id": "new-hat-therapy-v1"
+        },
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "★ Chase approved (Top 10 #2, Oct 4, 2026 1:33 PM MT). approved_asset_id -> new-hat-captioned-9x16-v1.",
+          "parent_asset_id": null
         }
-      ]
+      ],
+      "approved_asset_ids": [
+        "new-hat-captioned-9x16-v1",
+        "new-hat-captioned-4x5-v1"
+      ],
+      "approved_rank": 2,
+      "approved_star": "★",
+      "approval_status": "★ Approved – Ready to Run"
     },
     {
       "concept_id": "PI-007",
@@ -188,11 +227,25 @@
       "assets": [
         "pi-attorneys-hammer-broke-v1"
       ],
-      "approved_asset_id": null,
+      "approved_asset_id": "pi-attorneys-hammer-broke-v1",
       "created_by": "Unknown",
       "last_edited_by": "Unknown",
       "agent_tags": [],
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "★ Chase approved (Top 10 #9, Oct 4, 2026 1:33 PM MT). approved_asset_id -> pi-attorneys-hammer-broke-v1. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_asset_ids": [
+        "pi-attorneys-hammer-broke-v1"
+      ],
+      "approved_rank": 9,
+      "approved_star": "★",
+      "approval_status": "★ Approved – Ready to Run (fix version in progress)",
+      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
     },
     {
       "concept_id": "RB-012",
@@ -207,16 +260,30 @@
       "assets": [
         "tube-man-v1"
       ],
-      "approved_asset_id": null,
+      "approved_asset_id": "tube-man-v1",
       "created_by": "Unknown",
       "last_edited_by": "Unknown",
       "agent_tags": [],
-      "history": [],
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "★ Chase approved (Top 10 #5, Oct 4, 2026 1:33 PM MT). approved_asset_id -> tube-man-v1. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+          "parent_asset_id": null
+        }
+      ],
       "collection_tag": "RevBoo Ads",
       "usage_tags": [
         "Ads",
         "Content"
-      ]
+      ],
+      "approved_asset_ids": [
+        "tube-man-v1"
+      ],
+      "approved_rank": 5,
+      "approved_star": "★",
+      "approval_status": "★ Approved – Ready to Run (fix version in progress)",
+      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
     },
     {
       "concept_id": "PI-012",
@@ -272,11 +339,25 @@
       "assets": [
         "remake"
       ],
-      "approved_asset_id": null,
+      "approved_asset_id": "remake",
       "created_by": "Unknown",
       "last_edited_by": "Unknown",
       "agent_tags": [],
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "★ Chase approved (Top 10 #8, Oct 4, 2026 1:33 PM MT). approved_asset_id -> remake. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_asset_ids": [
+        "remake"
+      ],
+      "approved_rank": 8,
+      "approved_star": "★",
+      "approval_status": "★ Approved – Ready to Run (fix version in progress)",
+      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
     },
     {
       "concept_id": "RB-009",
@@ -294,11 +375,25 @@
         "graveyard-v2",
         "graveyard-v1"
       ],
-      "approved_asset_id": null,
+      "approved_asset_id": "graveyard-v2",
       "created_by": "Unknown",
       "last_edited_by": "Unknown",
       "agent_tags": [],
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "★ Chase approved (Top 10 #10, Oct 4, 2026 1:33 PM MT). approved_asset_id -> graveyard-v2. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_asset_ids": [
+        "graveyard-v2"
+      ],
+      "approved_rank": 10,
+      "approved_star": "★",
+      "approval_status": "★ Approved – Ready to Run (fix version in progress)",
+      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
     },
     {
       "concept_id": "RB-011",
@@ -637,11 +732,25 @@
       "assets": [
         "the-ad-doctor-flatlining-ads-v1"
       ],
-      "approved_asset_id": null,
+      "approved_asset_id": "the-ad-doctor-flatlining-ads-v1",
       "created_by": "Unknown",
       "last_edited_by": "Unknown",
       "agent_tags": [],
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "★ Chase approved (Top 10 #4, Oct 4, 2026 1:33 PM MT). approved_asset_id -> the-ad-doctor-flatlining-ads-v1. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_asset_ids": [
+        "the-ad-doctor-flatlining-ads-v1"
+      ],
+      "approved_rank": 4,
+      "approved_star": "★",
+      "approval_status": "★ Approved – Ready to Run (fix version in progress)",
+      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
     },
     {
       "concept_id": "PI-008",
@@ -656,11 +765,25 @@
       "assets": [
         "pi-attorneys-scroll-past-v1"
       ],
-      "approved_asset_id": null,
+      "approved_asset_id": "pi-attorneys-scroll-past-v1",
       "created_by": "Unknown",
       "last_edited_by": "Unknown",
       "agent_tags": [],
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "★ Chase approved (Top 10 #6, Oct 4, 2026 1:33 PM MT). approved_asset_id -> pi-attorneys-scroll-past-v1. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_asset_ids": [
+        "pi-attorneys-scroll-past-v1"
+      ],
+      "approved_rank": 6,
+      "approved_star": "★",
+      "approval_status": "★ Approved – Ready to Run (fix version in progress)",
+      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
     },
     {
       "concept_id": "RB-007",
@@ -3192,6 +3315,50 @@
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
         }
       ]
+    },
+    {
+      "concept_id": "RB-015",
+      "title": "Have You Tried Being Interesting? (Best-of)",
+      "kind": "ad",
+      "collection": "Revboo",
+      "category": "Paid ad cuts (captioned)",
+      "aliases": [
+        "Revboo-BestOf-9x16.mp4",
+        "Revboo-BestOf-4x5.mp4",
+        "revboo-bestof",
+        "best-of"
+      ],
+      "assets": [
+        "revboo-bestof-9x16-v1",
+        "revboo-bestof-4x5-v1"
+      ],
+      "approved_asset_id": "revboo-bestof-9x16-v1",
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T13:40:00-06:00",
+          "agent": "Grok",
+          "action": "Filed the original Revboo best-of (9:16 + 4:5, edits/best-of/) in the library with its 4 A/B covers.",
+          "parent_asset_id": null
+        },
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "★ Chase approved (Top 10 #3, Oct 4, 2026 1:33 PM MT). approved_asset_id -> revboo-bestof-9x16-v1.",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_asset_ids": [
+        "revboo-bestof-9x16-v1",
+        "revboo-bestof-4x5-v1"
+      ],
+      "approved_rank": 3,
+      "approved_star": "★",
+      "approval_status": "★ Approved – Ready to Run"
     }
   ],
   "revision_records": {
@@ -3281,7 +3448,9 @@
           "parent_asset_id": "blast-furnace-take2"
         }
       ],
-      "finals_md": "APPROVED by Chase Oct 4, 2026. Listed in FINALS.md."
+      "finals_md": "APPROVED by Chase Oct 4, 2026. Listed in FINALS.md.",
+      "approved_rank": 1,
+      "approved_star": "★"
     },
     "furnace-captioned-4x5-v1": {
       "concept_id": "RB-005",
@@ -3370,7 +3539,9 @@
           "parent_asset_id": "blast-furnace-take2"
         }
       ],
-      "finals_md": "APPROVED by Chase Oct 4, 2026. Listed in FINALS.md."
+      "finals_md": "APPROVED by Chase Oct 4, 2026. Listed in FINALS.md.",
+      "approved_rank": 1,
+      "approved_star": "★"
     },
     "furnace-captioned-9x16-hookcover-v1": {
       "concept_id": "RB-005",
@@ -3459,7 +3630,9 @@
           "parent_asset_id": "blast-furnace-take2"
         }
       ],
-      "finals_md": "APPROVED by Chase Oct 4, 2026. Listed in FINALS.md."
+      "finals_md": "APPROVED by Chase Oct 4, 2026. Listed in FINALS.md.",
+      "approved_rank": 1,
+      "approved_star": "★"
     },
     "blast-furnace-take1": {
       "concept_id": "RB-005",
@@ -3573,7 +3746,7 @@
       "source_asset_ids": [
         "new-hat-therapy-v1"
       ],
-      "status": "Review",
+      "status": "Approved",
       "qa": {
         "technical": "PASS: H.264/AAC 1080 wide, -14 LUFS, TP about -1.4 dBFS; web preview <6 MB",
         "speech": "PASS (machine): small.en + large-v3 transcripts match the script; 'Revboo' heard as 'Revboo' (p 0.57-0.78, normal for the brand name). No mispronunciations found. Chase listen pending.",
@@ -3587,7 +3760,13 @@
           "Lines 'Don't fire your media buyer.' / 'Give them better ads.' are ~1.5 s each (VO pace); 54 px to fit beside his head"
         ]
       },
-      "approval": null,
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "353a491e894c1c4a88d8efdacf757b7fb53ccd03fe26ed9f837b42adaf61dcf8",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot). Top 10 rank #2."
+      },
       "rights_reuse": "Revboo own brand",
       "costs": {
         "video": null,
@@ -3606,9 +3785,17 @@
           "agent": "Grok",
           "action": "Created captioned 9x16 cut (house caption standard)",
           "parent_asset_id": "new-hat-therapy-v1"
+        },
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (★ Top 10 #2, Oct 4, 2026 1:33 PM MT).",
+          "parent_asset_id": "new-hat-therapy-v1"
         }
       ],
-      "finals_md": "Listed in FINALS.md as approved-pending-Chase-listen."
+      "finals_md": "Listed in FINALS.md as approved-pending-Chase-listen.",
+      "approved_rank": 2,
+      "approved_star": "★"
     },
     "new-hat-captioned-4x5-v1": {
       "concept_id": "RB-004",
@@ -3653,7 +3840,7 @@
       "source_asset_ids": [
         "new-hat-therapy-v1"
       ],
-      "status": "Review",
+      "status": "Approved",
       "qa": {
         "technical": "PASS: H.264/AAC 1080 wide, -14 LUFS, TP about -1.4 dBFS; web preview <6 MB",
         "speech": "PASS (machine): small.en + large-v3 transcripts match the script; 'Revboo' heard as 'Revboo' (p 0.57-0.78, normal for the brand name). No mispronunciations found. Chase listen pending.",
@@ -3667,7 +3854,13 @@
           "Lines 'Don't fire your media buyer.' / 'Give them better ads.' are ~1.5 s each (VO pace); 54 px to fit beside his head"
         ]
       },
-      "approval": null,
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "45e219a6668a46a241fe48f7c0014675845739b29e9dd17266dca9faa2f0c400",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot). Top 10 rank #2."
+      },
       "rights_reuse": "Revboo own brand",
       "costs": {
         "video": null,
@@ -3686,9 +3879,17 @@
           "agent": "Grok",
           "action": "Created captioned 4x5 cut (house caption standard)",
           "parent_asset_id": "new-hat-therapy-v1"
+        },
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (★ Top 10 #2, Oct 4, 2026 1:33 PM MT).",
+          "parent_asset_id": "new-hat-therapy-v1"
         }
       ],
-      "finals_md": "Listed in FINALS.md as approved-pending-Chase-listen."
+      "finals_md": "Listed in FINALS.md as approved-pending-Chase-listen.",
+      "approved_rank": 2,
+      "approved_star": "★"
     },
     "rb-001-a-v04-9x16": {
       "concept_id": "RB-001",
@@ -3733,7 +3934,7 @@
       "source_asset_ids": [
         "ad-autopsy-v3"
       ],
-      "status": "Review",
+      "status": "Approved",
       "qa": {
         "technical": "PASS: H.264/AAC 720x1280 24 fps, 11.958 s, -14.0 LUFS, peak -2.0 dBFS; web preview 2.6 MB",
         "speech": "PASS (machine): all words present; post-cut audio identical to source shifted by the cut.",
@@ -3741,7 +3942,13 @@
         "branding_cta": "Black card \"Revboo.video / Done-for-your video creative delivered weekly.\" still visible ~0.67 s (note: source typo \"Done-for-your\" unchanged).",
         "full_playback": "Frames around the cut and RMS envelope reviewed; Chase eye/ear check pending."
       },
-      "approval": null,
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "8b04d7e951f3b489d4b38c8fe11cbc79a3ccef3ba3e94835380edef617b74657",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-001-a-v04-9x16-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot). Top 10 rank #7."
+      },
       "rights_reuse": "Revboo own brand",
       "costs": {
         "video": 0,
@@ -3759,9 +3966,523 @@
           "agent": "Grok",
           "action": "Created v04 from ad-autopsy-v3 (tightened transition).",
           "parent_asset_id": "ad-autopsy-v3"
+        },
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (★ Top 10 #7, Oct 4, 2026 1:33 PM MT).",
+          "parent_asset_id": "ad-autopsy-v3"
         }
-      ]
+      ],
+      "approved_rank": 7,
+      "approved_star": "★"
+    },
+    "revboo-bestof-9x16-v1": {
+      "concept_id": "RB-015",
+      "asset_id": "revboo-bestof-9x16-v1",
+      "title": "Have You Tried Being Interesting? (Best-of)",
+      "kind": "ad",
+      "collection": "Revboo",
+      "category": "Paid ad cuts (captioned)",
+      "branch": "A",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "created_by": "Grok",
+      "created_at": "2026-10-04T00:00:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/revboo-bestof-9x16-v1-MASTER.mp4",
+      "sha256": "246d59d8a310ad2c8511c930dc393df9fbed4c377d2c92ec1421837360eeb05d",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/revboo-bestof-9x16-v1.mp4",
+      "duration_seconds": 29.9,
+      "status": "Approved",
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "246d59d8a310ad2c8511c930dc393df9fbed4c377d2c92ec1421837360eeb05d",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/revboo-bestof-9x16-v1-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot). Top 10 rank #3."
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (★ Top 10 #3, Oct 4, 2026 1:33 PM MT).",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_rank": 3,
+      "approved_star": "★"
+    },
+    "revboo-bestof-4x5-v1": {
+      "concept_id": "RB-015",
+      "asset_id": "revboo-bestof-4x5-v1",
+      "title": "Have You Tried Being Interesting? (Best-of)",
+      "kind": "ad",
+      "collection": "Revboo",
+      "category": "Paid ad cuts (captioned)",
+      "branch": "A",
+      "revision": 1,
+      "format": "4x5",
+      "parent_asset_id": null,
+      "created_by": "Grok",
+      "created_at": "2026-10-04T00:00:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/revboo-bestof-4x5-v1-MASTER.mp4",
+      "sha256": "975d118fbf6a8b405d74070e78546fbfb51ad6b4ac3042bf3cafa064817b2cea",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/revboo-bestof-4x5-v1.mp4",
+      "duration_seconds": 29.9,
+      "status": "Approved",
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "975d118fbf6a8b405d74070e78546fbfb51ad6b4ac3042bf3cafa064817b2cea",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/revboo-bestof-4x5-v1-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot). Top 10 rank #3."
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (★ Top 10 #3, Oct 4, 2026 1:33 PM MT).",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_rank": 3,
+      "approved_star": "★"
+    },
+    "the-ad-doctor-flatlining-ads-v1": {
+      "concept_id": "RB-008",
+      "asset_id": "the-ad-doctor-flatlining-ads-v1",
+      "title": "The Ad Doctor (Flatlining Ads)",
+      "kind": "ad",
+      "collection": "Revboo",
+      "category": "Revboo ads",
+      "branch": "A",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "created_by": "Unknown",
+      "created_at": "2026-09-28T00:00:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/the-ad-doctor-flatlining-ads-v1.mp4",
+      "sha256": "76b0c304c9df70ae772942ea8ce2c2f69497126ae9f31738128241126b2b99fa",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/the-ad-doctor-flatlining-ads-v1.mp4",
+      "duration_seconds": 30.9,
+      "status": "Approved",
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "76b0c304c9df70ae772942ea8ce2c2f69497126ae9f31738128241126b2b99fa",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/the-ad-doctor-flatlining-ads-v1.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot). Top 10 rank #4. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (★ Top 10 #4, Oct 4, 2026 1:33 PM MT). Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_rank": 4,
+      "approved_star": "★",
+      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+    },
+    "tube-man-v1": {
+      "concept_id": "RB-012",
+      "asset_id": "tube-man-v1",
+      "title": "Tube Man",
+      "kind": "ad",
+      "collection": "Revboo",
+      "category": "Revboo ads",
+      "branch": "A",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "created_by": "Unknown",
+      "created_at": "2026-10-01T22:37:41-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/tube-man-v1.mp4",
+      "sha256": "6ffadbc7ccdcf89f1f8e0439b11cb26de6f837a2697b20163438abecf3dc232f",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/tube-man-v1.mp4",
+      "duration_seconds": 36.0,
+      "status": "Approved",
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "6ffadbc7ccdcf89f1f8e0439b11cb26de6f837a2697b20163438abecf3dc232f",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/tube-man-v1.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot). Top 10 rank #5. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (★ Top 10 #5, Oct 4, 2026 1:33 PM MT). Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_rank": 5,
+      "approved_star": "★",
+      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+    },
+    "pi-attorneys-scroll-past-v1": {
+      "concept_id": "PI-008",
+      "asset_id": "pi-attorneys-scroll-past-v1",
+      "title": "PI Attorneys – Scroll Past",
+      "kind": "ad",
+      "collection": "Legal/PI",
+      "category": "Ads for attorneys",
+      "branch": "A",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "created_by": "Unknown",
+      "created_at": "2026-09-28T00:00:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-scroll-past-v1.mp4",
+      "sha256": "6bad55b1ae302f76f7ffa3b1a77a82de43dca87e81b14942258d488babcd9e14",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-scroll-past-v1.mp4",
+      "duration_seconds": 37.1,
+      "status": "Approved",
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "6bad55b1ae302f76f7ffa3b1a77a82de43dca87e81b14942258d488babcd9e14",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-scroll-past-v1.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot). Top 10 rank #6. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (★ Top 10 #6, Oct 4, 2026 1:33 PM MT). Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_rank": 6,
+      "approved_star": "★",
+      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+    },
+    "remake": {
+      "concept_id": "RB-010",
+      "asset_id": "remake",
+      "title": "The Remake",
+      "kind": "ad",
+      "collection": "Revboo",
+      "category": "Revboo ads",
+      "branch": "A",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "created_by": "Unknown",
+      "created_at": "2026-10-01T22:38:53-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake.mp4",
+      "sha256": "2bb3a90c0ce9cb4c5d792fa812ab1d12f1ad2a63fdfe8db9c45a042c235127b6",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake.mp4",
+      "duration_seconds": 23.9,
+      "status": "Approved",
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "2bb3a90c0ce9cb4c5d792fa812ab1d12f1ad2a63fdfe8db9c45a042c235127b6",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot). Top 10 rank #8. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (★ Top 10 #8, Oct 4, 2026 1:33 PM MT). Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_rank": 8,
+      "approved_star": "★",
+      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+    },
+    "pi-attorneys-hammer-broke-v1": {
+      "concept_id": "PI-007",
+      "asset_id": "pi-attorneys-hammer-broke-v1",
+      "title": "PI Attorneys – Hammer Broke",
+      "kind": "ad",
+      "collection": "Legal/PI",
+      "category": "Ads for attorneys",
+      "branch": "A",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "created_by": "Unknown",
+      "created_at": "2026-10-01T22:37:20-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-hammer-broke-v1.mp4",
+      "sha256": "e8df349c0535db5f9449671e28bd096c281c8bbb072622213c075eea69b76b0f",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-hammer-broke-v1.mp4",
+      "duration_seconds": 39.5,
+      "status": "Approved",
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "e8df349c0535db5f9449671e28bd096c281c8bbb072622213c075eea69b76b0f",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-hammer-broke-v1.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot). Top 10 rank #9. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (★ Top 10 #9, Oct 4, 2026 1:33 PM MT). Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_rank": 9,
+      "approved_star": "★",
+      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+    },
+    "graveyard-v2": {
+      "concept_id": "RB-009",
+      "asset_id": "graveyard-v2",
+      "title": "The Ad Graveyard",
+      "kind": "ad",
+      "collection": "Revboo",
+      "category": "Revboo ads",
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "created_by": "Unknown",
+      "created_at": "2026-10-01T22:38:15-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/graveyard-v2.mp4",
+      "sha256": "5c4773903e1c0bda753741386d839e3696a4a0ebab7d877579c383d743abc107",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/graveyard-v2.mp4",
+      "duration_seconds": 23.5,
+      "status": "Approved",
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "5c4773903e1c0bda753741386d839e3696a4a0ebab7d877579c383d743abc107",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/graveyard-v2.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot). Top 10 rank #10. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T13:33:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval (★ Top 10 #10, Oct 4, 2026 1:33 PM MT). Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+          "parent_asset_id": null
+        }
+      ],
+      "approved_rank": 10,
+      "approved_star": "★",
+      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
     }
   },
-  "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber."
+  "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber.",
+  "approved_ranking_note": "★ Approved – Ready to Run: the source of truth for what runs. Ordered by rank (1 = run first). To replace an approved pick (e.g. a fixed version), add the new asset to the concept, give it an Approved revision record, then update that rank's asset_ids here and the concept's approved_asset_id/approved_asset_ids; keep the old asset. Pages, FINALS.md (make_finals.py) and catalog/shortlist.json read this list.",
+  "approved_ranking": [
+    {
+      "rank": 1,
+      "star": "★",
+      "concept_id": "RB-005",
+      "title": "Furnace – Captioned",
+      "asset_ids": [
+        "furnace-captioned-9x16-v1",
+        "furnace-captioned-4x5-v1",
+        "furnace-captioned-9x16-hookcover-v1"
+      ],
+      "cover_ids": [
+        "furnace-cover-9x16",
+        "furnace-cover-4x5"
+      ],
+      "approved_by": "Chase Fowler",
+      "approved_at": "2026-10-04T13:33:00-06:00",
+      "status": "★ Approved – Ready to Run",
+      "fix_in_progress": false,
+      "note": ""
+    },
+    {
+      "rank": 2,
+      "star": "★",
+      "concept_id": "RB-004",
+      "title": "A New Hat Isn't New Creative – Captioned",
+      "asset_ids": [
+        "new-hat-captioned-9x16-v1",
+        "new-hat-captioned-4x5-v1"
+      ],
+      "cover_ids": [
+        "new-hat-cover-9x16",
+        "new-hat-cover-4x5"
+      ],
+      "approved_by": "Chase Fowler",
+      "approved_at": "2026-10-04T13:33:00-06:00",
+      "status": "★ Approved – Ready to Run",
+      "fix_in_progress": false,
+      "note": ""
+    },
+    {
+      "rank": 3,
+      "star": "★",
+      "concept_id": "RB-015",
+      "title": "Have You Tried Being Interesting? (Best-of)",
+      "asset_ids": [
+        "revboo-bestof-9x16-v1",
+        "revboo-bestof-4x5-v1"
+      ],
+      "cover_ids": [
+        "bestof-cover-1-still-paying-9x16",
+        "bestof-cover-1-still-paying-4x5",
+        "bestof-cover-2-interesting-9x16",
+        "bestof-cover-2-interesting-4x5",
+        "bestof-cover-3-media-buyer-9x16",
+        "bestof-cover-3-media-buyer-4x5",
+        "bestof-cover-4-yawning-9x16",
+        "bestof-cover-4-yawning-4x5"
+      ],
+      "approved_by": "Chase Fowler",
+      "approved_at": "2026-10-04T13:33:00-06:00",
+      "status": "★ Approved – Ready to Run",
+      "fix_in_progress": false,
+      "note": ""
+    },
+    {
+      "rank": 4,
+      "star": "★",
+      "concept_id": "RB-008",
+      "title": "The Ad Doctor",
+      "asset_ids": [
+        "the-ad-doctor-flatlining-ads-v1"
+      ],
+      "cover_ids": [],
+      "approved_by": "Chase Fowler",
+      "approved_at": "2026-10-04T13:33:00-06:00",
+      "status": "★ Approved – Ready to Run",
+      "fix_in_progress": true,
+      "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+    },
+    {
+      "rank": 5,
+      "star": "★",
+      "concept_id": "RB-012",
+      "title": "Tube Man",
+      "asset_ids": [
+        "tube-man-v1"
+      ],
+      "cover_ids": [],
+      "approved_by": "Chase Fowler",
+      "approved_at": "2026-10-04T13:33:00-06:00",
+      "status": "★ Approved – Ready to Run",
+      "fix_in_progress": true,
+      "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+    },
+    {
+      "rank": 6,
+      "star": "★",
+      "concept_id": "PI-008",
+      "title": "PI Attorneys – Scroll Past",
+      "asset_ids": [
+        "pi-attorneys-scroll-past-v1"
+      ],
+      "cover_ids": [],
+      "approved_by": "Chase Fowler",
+      "approved_at": "2026-10-04T13:33:00-06:00",
+      "status": "★ Approved – Ready to Run",
+      "fix_in_progress": true,
+      "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+    },
+    {
+      "rank": 7,
+      "star": "★",
+      "concept_id": "RB-001",
+      "title": "Ad Autopsy v4 – tighter transition",
+      "asset_ids": [
+        "rb-001-a-v04-9x16"
+      ],
+      "cover_ids": [],
+      "approved_by": "Chase Fowler",
+      "approved_at": "2026-10-04T13:33:00-06:00",
+      "status": "★ Approved – Ready to Run",
+      "fix_in_progress": false,
+      "note": ""
+    },
+    {
+      "rank": 8,
+      "star": "★",
+      "concept_id": "RB-010",
+      "title": "The Remake",
+      "asset_ids": [
+        "remake"
+      ],
+      "cover_ids": [],
+      "approved_by": "Chase Fowler",
+      "approved_at": "2026-10-04T13:33:00-06:00",
+      "status": "★ Approved – Ready to Run",
+      "fix_in_progress": true,
+      "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+    },
+    {
+      "rank": 9,
+      "star": "★",
+      "concept_id": "PI-007",
+      "title": "PI Attorneys – Hammer Broke",
+      "asset_ids": [
+        "pi-attorneys-hammer-broke-v1"
+      ],
+      "cover_ids": [],
+      "approved_by": "Chase Fowler",
+      "approved_at": "2026-10-04T13:33:00-06:00",
+      "status": "★ Approved – Ready to Run",
+      "fix_in_progress": true,
+      "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+    },
+    {
+      "rank": 10,
+      "star": "★",
+      "concept_id": "RB-009",
+      "title": "The Ad Graveyard v2",
+      "asset_ids": [
+        "graveyard-v2"
+      ],
+      "cover_ids": [],
+      "approved_by": "Chase Fowler",
+      "approved_at": "2026-10-04T13:33:00-06:00",
+      "status": "★ Approved – Ready to Run",
+      "fix_in_progress": true,
+      "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+    }
+  ]
 }

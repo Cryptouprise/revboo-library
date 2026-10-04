@@ -2,6 +2,11 @@
 
 Live page: https://cryptouprise.github.io/revboo-library/
 
+> ## ★ Approved – Ready to Run = the source of truth for what runs
+> Chase approved 10 ads on Oct 4, 2026 (1:33 PM MT). The **★ Approved section is the source of truth for what runs**: top of the [live page](https://cryptouprise.github.io/revboo-library/#approved), top of [FINALS.md](FINALS.md), checklist in [plan/TOP10.md](plan/TOP10.md).
+> Stored in `catalog/registry.json` → `approved_ranking` (ordered list: `rank` 1-10, `star`, `concept_id`, `asset_ids`, `cover_ids`, `fix_in_progress`, `note`). Each ranked concept also has `approved_rank`, `approved_star: "★"`, `approval_status`, `approved_asset_ids` and `approved_asset_id`; each approved file has an `Approved` revision record with `approval` {by, at, sha256}. `catalog/shortlist.json` mirrors the ranks (starred) for Creative Command.
+> **Keep it sorted by `rank`.** To replace an approved pick (e.g. a fixed version of 4, 5, 6, 8, 9 or 10): add the new file (`build.py add`), register it under the same concept with an `Approved` revision record (Chase's approval), swap it into that rank's `asset_ids` plus the concept's `approved_asset_id`/`approved_asset_ids` and the shortlist entry, keep the old file, then run `python3 tools/validate_catalog.py` and `python3 make_finals.py`. Never add a rank without Chase's approval.
+
 > **Strategy & execution: start in [plan/](plan/README.md)** (Top 10 to run on Meta, teardown review, edit pipeline, upcoming concepts, Meta launch checklist + copy).
 >
 > **Other AIs: follow [BRAND.md](BRAND.md) for all Revboo ads** (colors, fonts, the house caption standard, covers, end card, audio, banned styles; caption helper `tools/house_captions.py`).

@@ -1,5 +1,24 @@
 # TOP 10: run these Revboo ads on Meta next
 
+## ★ Approved – Ready to Run (Chase, Oct 4, 2026, 1:33 PM MT)
+
+Chase approved all 10. Run in this order. Source of truth: `approved_ranking` in [catalog/registry.json](../catalog/registry.json) (also [FINALS.md](../FINALS.md) and the top of the [library page](https://cryptouprise.github.io/revboo-library/#approved)).
+
+- [x] ★ **1. Furnace – Captioned (RB-005)**: `furnace-captioned-9x16-v1`, `furnace-captioned-4x5-v1`, `furnace-captioned-9x16-hookcover-v1` (A/B test). Covers approved.
+- [x] ★ **2. A New Hat Isn't New Creative – Captioned (RB-004)**: `new-hat-captioned-9x16-v1`, `new-hat-captioned-4x5-v1`. Covers still need Chase's OK.
+- [x] ★ **3. Have You Tried Being Interesting? (Best-of) (RB-015)**: `revboo-bestof-9x16-v1`, `revboo-bestof-4x5-v1`; 4 A/B covers `covers/bestof-cover-*`. Now filed in the library.
+- [x] ★ **4. The Ad Doctor (RB-008)**: `the-ad-doctor-flatlining-ads-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
+- [x] ★ **5. Tube Man (RB-012)**: `tube-man-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
+- [x] ★ **6. PI Attorneys – Scroll Past (PI-008)**: `pi-attorneys-scroll-past-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
+- [x] ★ **7. Ad Autopsy v4 – tighter transition (RB-001)**: `rb-001-a-v04-9x16`.
+- [x] ★ **8. The Remake (RB-010)**: `remake`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
+- [x] ★ **9. PI Attorneys – Hammer Broke (PI-007)**: `pi-attorneys-hammer-broke-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
+- [x] ★ **10. The Ad Graveyard v2 (RB-009)**: `graveyard-v2`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
+
+Chase's approved #7 is **Ad Autopsy v4**; the talking-girl "two free ads" teardown (RB-013/014) that was #7 in the original ranking below moves to the bench. The ranking notes below are the original Oct 4 analysis; the fix checklists for 4, 5, 6, 8, 9, 10 still apply to the fix versions in progress.
+
+---
+
 Ranked Oct 4, 2026 for Revboo's audience (business owners, media buyers, agencies, PI law firms). Latest version of each ad only. Readiness: **Run now** = approved, upload today. **Small fix** = one short task or Chase's OK. **Needs fix** = re-caption/trim pass first.
 
 House standard for every fix: [BRAND.md](../BRAND.md) (white Inter Tight ExtraBold, one orange #FF4B0A word, clean zones only, never over faces/text, sound-off readable, -14 LUFS, **no all-caps Anton meme captions**, no fake stats). Re-caption with `tools/house_captions.py` per [PIPELINE.md](PIPELINE.md).
@@ -8,16 +27,16 @@ Common fix across the older teardowns: their captions are the **banned all-caps 
 
 | # | Ad (concept) | Latest file | Length | Aspects | Readiness |
 |---|---|---|---|---|---|
-| 1 | Furnace – Captioned (RB-005) | [9:16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-v1-MASTER.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-4x5-v1-MASTER.mp4) · [hook-cover test](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-hookcover-v1-MASTER.mp4) | 17.5 s (18.8 s test) | 9:16, 4:5 | **Run now** ✅ |
-| 2 | A New Hat Isn't New Creative – Captioned (RB-004) | [9:16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1-MASTER.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1-MASTER.mp4) | 22.0 s | 9:16, 4:5 | **Small fix** (Chase listen + OK) |
-| 3 | Revboo Best-of (original, new) | box: `/workspace/revboo/edits/best-of/Revboo-BestOf-9x16.mp4`, `-4x5.mp4` (not in library yet) | ~25 s | 9:16, 4:5 | **Small fix** (finish, file, Chase OK) |
-| 4 | The Ad Doctor (RB-008) | [the-ad-doctor-flatlining-ads-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/the-ad-doctor-flatlining-ads-v1.mp4) | 30.9 s | 9:16 | **Needs fix** |
-| 5 | Tube Man (RB-012) | [tube-man-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/tube-man-v1.mp4) | 36.0 s | 9:16 | **Needs fix** |
-| 6 | PI Attorneys – Scroll Past (PI-008) | [pi-attorneys-scroll-past-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-scroll-past-v1.mp4) | 37.1 s | 9:16 | **Needs fix** |
-| 7 | Talking-girl HVAC teardown, "I'll take my two free ads" (RB-013/014) | source `inbox/higgsfield/furnace/hf_20261001_033210_8df99f29….mp4` (not in library yet) | ~TBD | TBD | **Needs fix** (trim in progress by another worker) |
-| 8 | The Remake (RB-010) | [remake](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake.mp4) | 23.9 s | 9:16 | **Needs fix** |
-| 9 | PI Attorneys – Hammer Broke (PI-007) | [pi-attorneys-hammer-broke-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-hammer-broke-v1.mp4) | 39.5 s | 9:16 | **Needs fix** |
-| 10 | The Ad Graveyard v2 (RB-009) | [graveyard-v2](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/graveyard-v2.mp4) | 23.5 s | 9:16 | **Needs fix** |
+| ★ 1 | Furnace – Captioned (RB-005) | [9:16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-v1-MASTER.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-4x5-v1-MASTER.mp4) · [hook-cover test](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-hookcover-v1-MASTER.mp4) | 17.5 s (18.8 s test) | 9:16, 4:5 | **★ Approved** ✅ |
+| ★ 2 | A New Hat Isn't New Creative – Captioned (RB-004) | [9:16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1-MASTER.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1-MASTER.mp4) | 22.0 s | 9:16, 4:5 | **★ Approved** ✅ |
+| ★ 3 | Revboo Best-of (original, new) | box: `/workspace/revboo/edits/best-of/Revboo-BestOf-9x16.mp4`, `-4x5.mp4` (not in library yet) | ~25 s | 9:16, 4:5 | **★ Approved** ✅ (now filed: `revboo-bestof-9x16-v1`, `-4x5-v1`) |
+| ★ 4 | The Ad Doctor (RB-008) | [the-ad-doctor-flatlining-ads-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/the-ad-doctor-flatlining-ads-v1.mp4) | 30.9 s | 9:16 | **★ Approved** (fix version in progress) |
+| ★ 5 | Tube Man (RB-012) | [tube-man-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/tube-man-v1.mp4) | 36.0 s | 9:16 | **★ Approved** (fix version in progress) |
+| ★ 6 | PI Attorneys – Scroll Past (PI-008) | [pi-attorneys-scroll-past-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-scroll-past-v1.mp4) | 37.1 s | 9:16 | **★ Approved** (fix version in progress) |
+| ★ 7 | Ad Autopsy v4 – tighter transition (RB-001) | [rb-001-a-v04-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-001-a-v04-9x16.mp4) | 12.0 s | 9:16 | **★ Approved** (was: talking-girl teardown RB-013/014, now bench) |
+| ★ 8 | The Remake (RB-010) | [remake](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake.mp4) | 23.9 s | 9:16 | **★ Approved** (fix version in progress) |
+| ★ 9 | PI Attorneys – Hammer Broke (PI-007) | [pi-attorneys-hammer-broke-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-hammer-broke-v1.mp4) | 39.5 s | 9:16 | **★ Approved** (fix version in progress) |
+| ★ 10 | The Ad Graveyard v2 (RB-009) | [graveyard-v2](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/graveyard-v2.mp4) | 23.5 s | 9:16 | **★ Approved** (fix version in progress) |
 
 Bench (next in line): Monday Morning Drop v3 (RB-003, 20 s, calm, good for retargeting, weak cold hook), Clone War Room (RB-006, 15 s native VO "You started a business, not a production company."), Old Busted Ads → Supercar (RB-007, 720p + CapCut watermark), Ad Autopsy v3 (RB-001, see TEARDOWN-REVIEW), The Revenue Engine v3, Kinetic Type Reel take 2 (-17 LUFS).
 
@@ -31,14 +50,14 @@ Bench (next in line): Monday Morning Drop v3 (RB-003, 20 s, calm, good for retar
 
 ## 2. A New Hat Isn't New Creative (RB-004): Small fix
 **Why:** Funniest beat in the library ("Have you tried being interesting?"), clean VO says the tagline word for word, house captions done, 9:16 + 4:5 + covers.
-- [ ] **Chase: listen and OK** (status is approved-pending-listen)
+- [x] **Chase: listen and OK** (approved Oct 4, 2026, 1:33 PM MT)
 - [ ] Chase: OK the covers `covers/new-hat-cover-*.png`
 - [ ] Then launch with LAUNCH.md #2
 
 ## 3. Revboo Best-of (original): Small fix
 **Why:** Built to the new house standard from the strongest moments (furnace hook, defib, therapy line, supercar payoff), uses only the approved offer; 4 thumbnails ready for an A/B.
-- [ ] Other worker finishes the edit (in progress, `edits/best-of/`)
-- [ ] Whisper check (no "abs"), overlap QA, -14 LUFS, file in library, Chase OK
+- [x] Edit finished (`edits/best-of/`)
+- [x] Filed in library (RB-015) and approved by Chase (Oct 4, 2026)
 - [ ] Pick cover: thumb 1-4 (see UPCOMING.md A/B plan)
 
 ## 4. The Ad Doctor (RB-008): Needs fix
@@ -59,7 +78,8 @@ Bench (next in line): Monday Morning Drop v3 (RB-003, 20 s, calm, good for retar
 - [ ] "Your ad had 0.4 seconds" is an on-screen number: **Chase decide** keep (as dramatization) or change to "Your ad had one second. It lost." to stay clear of the no-fake-stats rule
 - [ ] Trim 37 s → ~25 s; 4:5 cut; target PI firm owners/marketing
 
-## 7. Talking-girl "two free ads" teardown (RB-013/014): Needs fix
+## (Bench, was #7) Talking-girl "two free ads" teardown (RB-013/014): Needs fix
+_Chase's approved #7 is Ad Autopsy v4 (`rb-001-a-v04-9x16`, RB-001), see the ★ list at the top._
 **Why:** Only library piece where a person *says* the offer on camera; teardown format ("This ad says they fix air conditioners. So does everybody else…").
 - [ ] Trim dead space before the computer-screen transition (**in progress, other worker**)
 - [ ] Whisper-check the offer line (tiny.en heard "I'll take my android firs…": confirm it says "two free ads")

@@ -1,6 +1,97 @@
 {
   "schema_version": 1,
-  "updated_at": null,
-  "updated_by": null,
-  "entries": []
+  "updated_at": "2026-10-04T13:33:00-06:00",
+  "updated_by": "Grok (for Chase Fowler)",
+  "entries": [
+    {
+      "concept_id": "RB-005",
+      "asset_id": "furnace-captioned-9x16-v1",
+      "starred": true,
+      "rank": 1,
+      "note": "★ Approved – Ready to Run #1 (Chase, Oct 4, 2026).",
+      "updated_at": "2026-10-04T13:33:00-06:00",
+      "updated_by": "Grok (for Chase Fowler)"
+    },
+    {
+      "concept_id": "RB-004",
+      "asset_id": "new-hat-captioned-9x16-v1",
+      "starred": true,
+      "rank": 2,
+      "note": "★ Approved – Ready to Run #2 (Chase, Oct 4, 2026).",
+      "updated_at": "2026-10-04T13:33:00-06:00",
+      "updated_by": "Grok (for Chase Fowler)"
+    },
+    {
+      "concept_id": "RB-015",
+      "asset_id": "revboo-bestof-9x16-v1",
+      "starred": true,
+      "rank": 3,
+      "note": "★ Approved – Ready to Run #3 (Chase, Oct 4, 2026).",
+      "updated_at": "2026-10-04T13:33:00-06:00",
+      "updated_by": "Grok (for Chase Fowler)"
+    },
+    {
+      "concept_id": "RB-008",
+      "asset_id": "the-ad-doctor-flatlining-ads-v1",
+      "starred": true,
+      "rank": 4,
+      "note": "★ Approved – Ready to Run #4 (Chase, Oct 4, 2026). Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+      "updated_at": "2026-10-04T13:33:00-06:00",
+      "updated_by": "Grok (for Chase Fowler)"
+    },
+    {
+      "concept_id": "RB-012",
+      "asset_id": "tube-man-v1",
+      "starred": true,
+      "rank": 5,
+      "note": "★ Approved – Ready to Run #5 (Chase, Oct 4, 2026). Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+      "updated_at": "2026-10-04T13:33:00-06:00",
+      "updated_by": "Grok (for Chase Fowler)"
+    },
+    {
+      "concept_id": "PI-008",
+      "asset_id": "pi-attorneys-scroll-past-v1",
+      "starred": true,
+      "rank": 6,
+      "note": "★ Approved – Ready to Run #6 (Chase, Oct 4, 2026). Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+      "updated_at": "2026-10-04T13:33:00-06:00",
+      "updated_by": "Grok (for Chase Fowler)"
+    },
+    {
+      "concept_id": "RB-001",
+      "asset_id": "rb-001-a-v04-9x16",
+      "starred": true,
+      "rank": 7,
+      "note": "★ Approved – Ready to Run #7 (Chase, Oct 4, 2026).",
+      "updated_at": "2026-10-04T13:33:00-06:00",
+      "updated_by": "Grok (for Chase Fowler)"
+    },
+    {
+      "concept_id": "RB-010",
+      "asset_id": "remake",
+      "starred": true,
+      "rank": 8,
+      "note": "★ Approved – Ready to Run #8 (Chase, Oct 4, 2026). Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+      "updated_at": "2026-10-04T13:33:00-06:00",
+      "updated_by": "Grok (for Chase Fowler)"
+    },
+    {
+      "concept_id": "PI-007",
+      "asset_id": "pi-attorneys-hammer-broke-v1",
+      "starred": true,
+      "rank": 9,
+      "note": "★ Approved – Ready to Run #9 (Chase, Oct 4, 2026). Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+      "updated_at": "2026-10-04T13:33:00-06:00",
+      "updated_by": "Grok (for Chase Fowler)"
+    },
+    {
+      "concept_id": "RB-009",
+      "asset_id": "graveyard-v2",
+      "starred": true,
+      "rank": 10,
+      "note": "★ Approved – Ready to Run #10 (Chase, Oct 4, 2026). Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+      "updated_at": "2026-10-04T13:33:00-06:00",
+      "updated_by": "Grok (for Chase Fowler)"
+    }
+  ]
 }
