@@ -22,7 +22,7 @@
 | **★ 8** | The Remake | RB-010 | 9:16 `rb-010-a-v02-9x16` 23.9 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-9x16.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-9x16-MASTER.mp4)<br>4:5 `rb-010-a-v02-4x5` 23.9 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-4x5.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-4x5-MASTER.mp4) | poster frame | ★ **Approved** |
 | **★ 9** | PI Attorneys – Hammer Broke | PI-007 | 9:16 `pi-007-a-v02-9x16` 26.4 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-9x16.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-9x16-MASTER.mp4)<br>4:5 `pi-007-a-v02-4x5` 26.4 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-4x5.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-4x5-MASTER.mp4) | poster frame | ★ **Approved** |
 | **★ 10** | The Ad Graveyard v2 | RB-009 | 9:16 `rb-009-a-v02-9x16` 23.5 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16-MASTER.mp4)<br>4:5 `rb-009-a-v02-4x5` 23.5 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5-MASTER.mp4) | poster frame | ★ **Approved** |
-| **★ 11** | Clone War Room | RB-006 | 9:16 `clone-war-room` 15.1 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/clone-war-room.mp4) | poster frame | ★ **Approved** · 🛠 Chase is running this (approved Oct 4, 3:37 PM MT). House-caption fix version in progress, will replace as the approved pick when done. |
+| **★ 11** | Clone War Room | RB-006 | 9:16 `rb-006-a-v02-9x16` 19.7 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16-MASTER.mp4)<br>4:5 `rb-006-a-v02-4x5` 19.7 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5-MASTER.mp4) | poster frame | ★ **Approved** |
 
 ## APPROVED videos: details (Chase approved)
 
@@ -98,7 +98,7 @@ Other takes: hf_20260928_032417 (earlier take, different line order) not used. D
 
 ## Everything else
 
-The other 62 finished ads and 90 clips in the library are **not reviewed**. They may be old drafts. Ask Chase before using any of them.
+The other 63 finished ads and 90 clips in the library are **not reviewed**. They may be old drafts. Ask Chase before using any of them.
 
 ## Adding to this list
 Only when Chase approves something: add it to `approved_ranking` in `catalog/registry.json` (with an Approved revision record; see README), or `covers.json` (images), run `python3 make_finals.py`, and commit.

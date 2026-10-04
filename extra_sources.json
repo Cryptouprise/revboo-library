@@ -767,6 +767,36 @@
       "title": "PI Attorneys – Hammer Broke",
       "version": "v2 · house captions (4:5) (★ APPROVED)",
       "category": "Ads for attorneys"
+    },
+    {
+      "id": "rb-006-a-v02-9x16",
+      "src": "/workspace/revboo/edits/top10-fixes/clone-war-room/RB-006__clone-war-room__A__v02__9x16.mp4",
+      "brand": "Revboo",
+      "note": "★ APPROVED (Chase is running Clone War Room, Oct 4, 2026; ★ #11); replaces v1 as the approved pick. House captions incl. the approved tagline 'Don’t fire your media buyer. Give them better ads.'; offer 'First 2 ads free. Delivered in 24 hours.' on the end card (model's typo'd subline removed); fire-logo end clip. -14 LUFS.",
+      "pt": 1.2,
+      "date_override": [
+        "Oct 4, 2026",
+        "2026-10-04T00:00:00"
+      ],
+      "group": "Clone War Room",
+      "title": "Clone War Room",
+      "version": "v2 · house captions (9:16) (★ APPROVED)",
+      "category": "Seedance originals (made by Chase)"
+    },
+    {
+      "id": "rb-006-a-v02-4x5",
+      "src": "/workspace/revboo/edits/top10-fixes/clone-war-room/RB-006__clone-war-room__A__v02__4x5.mp4",
+      "brand": "Revboo",
+      "note": "★ APPROVED (Chase, Oct 4, 2026; ★ #11). 4:5 (1080x1350) feed cut of the house-caption fix: per-shot reframe, captions re-placed for 4:5. -14 LUFS.",
+      "pt": 1.2,
+      "date_override": [
+        "Oct 4, 2026",
+        "2026-10-04T00:00:00"
+      ],
+      "group": "Clone War Room",
+      "title": "Clone War Room",
+      "version": "v2 · house captions (4:5) (★ APPROVED)",
+      "category": "Seedance originals (made by Chase)"
     }
   ],
   "clips": [

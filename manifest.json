@@ -460,6 +460,56 @@
       "file": "media/finals/pi-007-a-v02-4x5.mp4"
     },
     {
+      "id": "rb-006-a-v02-9x16",
+      "brand": "Revboo",
+      "category": "Seedance originals (made by Chase)",
+      "group": "Clone War Room",
+      "title": "Clone War Room",
+      "version": "v2 · house captions (9:16) (★ APPROVED)",
+      "width": 1080,
+      "height": 1920,
+      "date": "Oct 4, 2026",
+      "datetime": "2026-10-04T00:00:00",
+      "duration": 19.7,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16.mp4",
+      "poster": "media/posters/rb-006-a-v02-9x16.jpg",
+      "status": "final",
+      "note": "★ APPROVED (Chase is running Clone War Room, Oct 4, 2026; ★ #11); replaces v1 as the approved pick. House captions incl. the approved tagline 'Don’t fire your media buyer. Give them better ads.'; offer 'First 2 ads free. Delivered in 24 hours.' on the end card (model's typo'd subline removed); fire-logo end clip. -14 LUFS.",
+      "source": "/workspace/revboo/edits/top10-fixes/clone-war-room/RB-006__clone-war-room__A__v02__9x16.mp4",
+      "size_mb": 4.3,
+      "file": "media/finals/rb-006-a-v02-9x16.mp4",
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
+    },
+    {
+      "id": "rb-006-a-v02-4x5",
+      "brand": "Revboo",
+      "category": "Seedance originals (made by Chase)",
+      "group": "Clone War Room",
+      "title": "Clone War Room",
+      "version": "v2 · house captions (4:5) (★ APPROVED)",
+      "width": 1080,
+      "height": 1350,
+      "date": "Oct 4, 2026",
+      "datetime": "2026-10-04T00:00:00",
+      "duration": 19.7,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5.mp4",
+      "poster": "media/posters/rb-006-a-v02-4x5.jpg",
+      "status": "final",
+      "note": "★ APPROVED (Chase, Oct 4, 2026; ★ #11). 4:5 (1080x1350) feed cut of the house-caption fix: per-shot reframe, captions re-placed for 4:5. -14 LUFS.",
+      "source": "/workspace/revboo/edits/top10-fixes/clone-war-room/RB-006__clone-war-room__A__v02__4x5.mp4",
+      "size_mb": 4.3,
+      "file": "media/finals/rb-006-a-v02-4x5.mp4",
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
+    },
+    {
       "id": "kinetic-type-reel-take2",
       "brand": "Revboo",
       "category": "Made by Chase (Higgsfield/CapCut)",

@@ -500,12 +500,17 @@
       "category": "Seedance originals (made by Chase)",
       "aliases": [
         "ref1.mp4",
-        "clone-war-room"
+        "clone-war-room",
+        "RB-006__clone-war-room__A__v02__9x16.mp4",
+        "RB-006__clone-war-room__A__v02__9x16__720p-small.mp4",
+        "RB-006__clone-war-room__A__v02__4x5.mp4"
       ],
       "assets": [
+        "rb-006-a-v02-4x5",
+        "rb-006-a-v02-9x16",
         "clone-war-room"
       ],
-      "approved_asset_id": "clone-war-room",
+      "approved_asset_id": "rb-006-a-v02-9x16",
       "created_by": "Unknown",
       "last_edited_by": "Grok",
       "agent_tags": [
@@ -517,15 +522,22 @@
           "agent": "Grok",
           "action": "★ Chase approved (running it): added as ★ Approved #11. approved_asset_id -> clone-war-room.",
           "parent_asset_id": null
+        },
+        {
+          "at": "2026-10-04T15:54:00-06:00",
+          "agent": "Grok",
+          "action": "Added rb-006-a-v02-9x16, rb-006-a-v02-4x5 (house-caption fix v02) and made it the approved pick (★ Top 10 #11); old clone-war-room kept.",
+          "parent_asset_id": "clone-war-room"
         }
       ],
       "approved_asset_ids": [
-        "clone-war-room"
+        "rb-006-a-v02-9x16",
+        "rb-006-a-v02-4x5"
       ],
       "approved_rank": 11,
       "approved_star": "★",
       "approval_status": "★ Approved – Ready to Run",
-      "approved_note": "Chase is running this (Oct 4, 2026, 3:37 PM MT). House-caption fix version in progress, will replace as the approved pick when done.",
+      "approved_note": "Fix version v02 (house captions, approved tagline, FREE offer on the end card, typo'd model subline removed, fire-logo end clip, 19.7 s, 9:16 + 4:5) is the approved pick; original clone-war-room kept.",
       "collection_tag": "RevBoo Ads",
       "usage_tags": [
         "Ads",
@@ -5514,6 +5526,168 @@
       ],
       "approved_rank": 11,
       "approved_star": "★"
+    },
+    "rb-006-a-v02-9x16": {
+      "concept_id": "RB-006",
+      "asset_id": "rb-006-a-v02-9x16",
+      "title": "Clone War Room – house captions",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Business owners running their own ads, media buyers",
+      "category": "Seedance originals (made by Chase)",
+      "aliases": [
+        "RB-006__clone-war-room__A__v02__9x16.mp4",
+        "RB-006__clone-war-room__A__v02__9x16__720p-small.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "clone-war-room",
+      "request": "Chase (Oct 4, 2026, 3:37 PM MT): Clone War Room must be in the approved list (★ #11); make a fixed v02 like the others: house captions, approved tagline 'Don't fire your media buyer. Give them better ads.', free offer on the end card, 4:5 cut, 720p small copy; swap into rank #11.",
+      "change_log": [
+        "Rebuilt from the original Seedance 2.5 generation (/workspace/refs/ref1.mp4, byte-identical to Higgsfield gen decf38f7); it had no burned-in captions, only the model's end-card subline.",
+        "Removed the model's typo'd end-card subline 'Done for-your video ads. Delivered weekly.' (gradient fill under the logo; logo untouched); the FREE offer sits there instead.",
+        "Lone-boss shot slowed 1.79 -> 2.6 s (frame blend, near-static shot) to carry the approved tagline; its room-tone pad looped underneath.",
+        "Logo push-in + 0.4 s match-dissolve into the fire-logo end clip (BRAND crop 684:1216:18:58, its audio at -6 dB, faded last 0.3 s), after the VO tagline finishes.",
+        "House captions: You started a business. Not a production company. / Can someone just make the ad? / Don’t fire your media buyer. Give them better ads. / First 2 ads free. Delivered in 24 hours.",
+        "Not captioned (no clean zone: MCU face + torso fill the frame, or the BIG SALE standee's face/body/text): 'What’s the hook?', 'Do I have to dance?', 'Which final file?' (still spoken).",
+        "Length 15.0 s -> 19.7 s (no dead weight to trim; the end clip and the offer/tagline holds add 4.7 s). Mastered -14 LUFS integrated."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T15:54:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16-MASTER.mp4",
+      "sha256": "e0e1cb71ccdca20838a695b314118f04eeb6d36d659327cd17545aaa4a33e660",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 19.7,
+      "script": "VO: You started a business, not a production company. / Clones: What's the hook? / Do I have to dance? / Which final file? / Can someone just make the ad? / (silence, pointing) / captions: Don't fire your media buyer. Give them better ads. / VO: Revboo. The revenue boost your ads can't afford to miss. / caption: First 2 ads free. Delivered in 24 hours.",
+      "hook": "A cramped war room of identical clones: 'You started a business. Not a production company.'",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "Revboo.video end card with the FREE offer, then the fire-logo end clip",
+      "source_asset_ids": [
+        "clone-war-room"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1920 30 fps, 19.73 s, -14.06 LUFS, TP -1.27 dBTP; 720p small copy 5.45 MB",
+        "captions": "PASS: overlap QA 0 hits; OCR read-back of every caption OK",
+        "branding_cta": "Revboo.video end card with the FREE offer + fire-logo end clip",
+        "full_playback": "Contact sheets and full-size frames reviewed; Chase approved the concept Oct 4, 2026 3:37 PM MT (★ #11)."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T15:37:00-06:00",
+        "sha256": "e0e1cb71ccdca20838a695b314118f04eeb6d36d659327cd17545aaa4a33e660",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16-MASTER.mp4",
+        "evidence": "Chase (relayed by Grok Bot, Oct 4, 2026 3:37 PM MT): Clone War Room is one he's running and must be in the approved list (★ #11); he asked for this house-caption fix v02 to be swapped into rank #11 (old clone-war-room kept)."
+      },
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T15:54:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (9x16) from clone-war-room: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "clone-war-room"
+        },
+        {
+          "at": "2026-10-04T15:54:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #11), replacing clone-war-room as the approved pick.",
+          "parent_asset_id": "clone-war-room"
+        }
+      ],
+      "approved_rank": 11,
+      "approved_star": "★"
+    },
+    "rb-006-a-v02-4x5": {
+      "concept_id": "RB-006",
+      "asset_id": "rb-006-a-v02-4x5",
+      "title": "Clone War Room – house captions",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Business owners running their own ads, media buyers",
+      "category": "Seedance originals (made by Chase)",
+      "aliases": [
+        "RB-006__clone-war-room__A__v02__4x5.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "4x5",
+      "parent_asset_id": "clone-war-room",
+      "request": "Chase (Oct 4, 2026, 3:37 PM MT): Clone War Room must be in the approved list (★ #11); make a fixed v02 like the others: house captions, approved tagline 'Don't fire your media buyer. Give them better ads.', free offer on the end card, 4:5 cut, 720p small copy; swap into rank #11.",
+      "change_log": [
+        "4:5 (1080x1350) per-shot reframe of rb-006-a-v02-9x16; captions re-placed by the overlap checker (5% margins)."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T15:54:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5-MASTER.mp4",
+      "sha256": "a88b2376cc5ca8ee697e59f4afd847f07b3e34d0e43d43a2bbd3e624b76b3a73",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5.mp4",
+      "native_dimensions": "1080x1350",
+      "export_dimensions": "1080x1350",
+      "duration_seconds": 19.7,
+      "script": "VO: You started a business, not a production company. / Clones: What's the hook? / Do I have to dance? / Which final file? / Can someone just make the ad? / (silence, pointing) / captions: Don't fire your media buyer. Give them better ads. / VO: Revboo. The revenue boost your ads can't afford to miss. / caption: First 2 ads free. Delivered in 24 hours.",
+      "hook": "A cramped war room of identical clones: 'You started a business. Not a production company.'",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "Revboo.video end card with the FREE offer, then the fire-logo end clip",
+      "source_asset_ids": [
+        "clone-war-room"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1350 30 fps, 19.73 s, -14.06 LUFS",
+        "captions": "PASS: overlap QA 0 hits; OCR read-back OK",
+        "full_playback": "Contact sheet + frames reviewed."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T15:37:00-06:00",
+        "sha256": "a88b2376cc5ca8ee697e59f4afd847f07b3e34d0e43d43a2bbd3e624b76b3a73",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5-MASTER.mp4",
+        "evidence": "Chase (relayed by Grok Bot, Oct 4, 2026 3:37 PM MT): Clone War Room is one he's running and must be in the approved list (★ #11); he asked for this house-caption fix v02 to be swapped into rank #11 (old clone-war-room kept)."
+      },
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T15:54:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (4x5) from clone-war-room: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "clone-war-room"
+        },
+        {
+          "at": "2026-10-04T15:54:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #11), replacing clone-war-room as the approved pick.",
+          "parent_asset_id": "clone-war-room"
+        }
+      ],
+      "approved_rank": 11,
+      "approved_star": "★"
     }
   },
   "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber.",
@@ -5700,14 +5874,15 @@
       "concept_id": "RB-006",
       "title": "Clone War Room",
       "asset_ids": [
-        "clone-war-room"
+        "rb-006-a-v02-9x16",
+        "rb-006-a-v02-4x5"
       ],
       "cover_ids": [],
       "approved_by": "Chase Fowler",
       "approved_at": "2026-10-04T15:37:00-06:00",
       "status": "★ Approved – Ready to Run",
-      "fix_in_progress": true,
-      "note": "Chase is running this (approved Oct 4, 3:37 PM MT). House-caption fix version in progress, will replace as the approved pick when done."
+      "fix_in_progress": false,
+      "note": "Fix version v02 (house captions, approved tagline, FREE offer on the end card, typo'd model subline removed, fire-logo end clip, 19.7 s, 9:16 + 4:5) is the approved pick; original clone-war-room kept."
     }
   ]
 }

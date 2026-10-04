@@ -425,18 +425,28 @@
    "status": "approved",
    "approved_by": "Chase Fowler",
    "approved_at": "2026-10-04T15:37:00-06:00",
-   "fix_in_progress": true,
-   "note": "Chase is running this (approved Oct 4, 3:37 PM MT). House-caption fix version in progress, will replace as the approved pick when done.",
+   "fix_in_progress": false,
+   "note": "Fix version v02 (house captions, approved tagline, FREE offer on the end card, typo'd model subline removed, fire-logo end clip, 19.7 s, 9:16 + 4:5) is the approved pick; original clone-war-room kept.",
    "files": [
     {
-     "id": "clone-war-room",
+     "id": "rb-006-a-v02-9x16",
      "aspect": "9:16",
      "width": 1080,
      "height": 1920,
-     "duration": 15.1,
-     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/clone-war-room.mp4",
-     "master_url": null,
-     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/clone-war-room.jpg"
+     "duration": 19.7,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-006-a-v02-9x16.jpg"
+    },
+    {
+     "id": "rb-006-a-v02-4x5",
+     "aspect": "4:5",
+     "width": 1080,
+     "height": 1350,
+     "duration": 19.7,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-006-a-v02-4x5.jpg"
     }
    ],
    "covers": []

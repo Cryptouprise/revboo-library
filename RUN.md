@@ -65,8 +65,7 @@
 
 ## ★ 11. Clone War Room (RB-006)
 
-🛠 Chase is running this (approved Oct 4, 3:37 PM MT). House-caption fix version in progress, will replace as the approved pick when done.
-
-- **9:16** `clone-war-room` (15.1 s): [web copy](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/clone-war-room.mp4) · [poster](https://cryptouprise.github.io/revboo-library/media/posters/clone-war-room.jpg)
+- **9:16** `rb-006-a-v02-9x16` (19.7 s): [web copy](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16.mp4) · [full-quality master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16-MASTER.mp4) · [poster](https://cryptouprise.github.io/revboo-library/media/posters/rb-006-a-v02-9x16.jpg)
+- **4:5** `rb-006-a-v02-4x5` (19.7 s): [web copy](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5.mp4) · [full-quality master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5-MASTER.mp4) · [poster](https://cryptouprise.github.io/revboo-library/media/posters/rb-006-a-v02-4x5.jpg)
 - Cover: video poster frame (no custom cover yet)
 

@@ -38,6 +38,8 @@ Common fix across the older teardowns: their captions are the **banned all-caps 
 | ★ 9 | PI Attorneys – Hammer Broke (PI-007) | [pi-007-a-v02-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-9x16.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-4x5.mp4) | 26.4 s | 9:16 + 4:5 | **★ Approved** (fix v02, was v1 39.5 s) |
 | ★ 10 | The Ad Graveyard v2 (RB-009) | [rb-009-a-v02-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5.mp4) | 23.5 s | 9:16 + 4:5 | **★ Approved** (house-caption fix) |
 
+★ #11 Clone War Room (RB-006): added to the approved list by Chase (Oct 4, 2026, 3:37 PM MT; he is running it). Fix v02 → `rb-006-a-v02-9x16` + `rb-006-a-v02-4x5` (house captions, approved tagline, FREE offer on the end card, typo'd model subline removed, fire-logo end clip; 15.0 s → 19.7 s).
+
 Bench (next in line): Monday Morning Drop v3 (RB-003, 20 s, calm, good for retargeting, weak cold hook), Clone War Room (RB-006, 15 s native VO "You started a business, not a production company."), Old Busted Ads → Supercar (RB-007, 720p + CapCut watermark), Ad Autopsy v3 (RB-001, see TEARDOWN-REVIEW), The Revenue Engine v3, Kinetic Type Reel take 2 (-17 LUFS).
 
 ---

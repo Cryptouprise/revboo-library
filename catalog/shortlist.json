@@ -95,11 +95,11 @@
     },
     {
       "concept_id": "RB-006",
-      "asset_id": "clone-war-room",
+      "asset_id": "rb-006-a-v02-9x16",
       "starred": true,
       "rank": 11,
-      "note": "★ Approved – Ready to Run #11 (Chase, Oct 4, 2026, 3:37 PM MT; running).",
-      "updated_at": "2026-10-04T15:37:00-06:00",
+      "note": "★ Approved – Ready to Run #11 (Chase, Oct 4, 2026, 3:37 PM MT; running). Fixed v02 is now the approved pick.",
+      "updated_at": "2026-10-04T15:56:00-06:00",
       "updated_by": "Grok (for Chase Fowler)"
     }
   ]
