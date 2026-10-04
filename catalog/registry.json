@@ -222,30 +222,44 @@
       "category": "Ads for attorneys",
       "aliases": [
         "Revboo-PI-HammerBroke-small.mp4",
-        "pi-attorneys-hammer-broke-v1"
+        "pi-attorneys-hammer-broke-v1",
+        "PI-007__hammer-broke__A__v02__9x16.mp4",
+        "PI-007__hammer-broke__A__v02__9x16__720p-small.mp4",
+        "PI-007__hammer-broke__A__v02__4x5.mp4"
       ],
       "assets": [
+        "pi-007-a-v02-4x5",
+        "pi-007-a-v02-9x16",
         "pi-attorneys-hammer-broke-v1"
       ],
-      "approved_asset_id": "pi-attorneys-hammer-broke-v1",
+      "approved_asset_id": "pi-007-a-v02-9x16",
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
-      "agent_tags": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
       "history": [
         {
           "at": "2026-10-04T13:33:00-06:00",
           "agent": "Grok",
           "action": "★ Chase approved (Top 10 #9, Oct 4, 2026 1:33 PM MT). approved_asset_id -> pi-attorneys-hammer-broke-v1. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
           "parent_asset_id": null
+        },
+        {
+          "at": "2026-10-04T15:04:00-06:00",
+          "agent": "Grok",
+          "action": "Added pi-007-a-v02-9x16, pi-007-a-v02-4x5 (house-caption fix v02) and made it the approved pick (★ Top 10 #9); old pi-attorneys-hammer-broke-v1 kept.",
+          "parent_asset_id": "pi-attorneys-hammer-broke-v1"
         }
       ],
       "approved_asset_ids": [
-        "pi-attorneys-hammer-broke-v1"
+        "pi-007-a-v02-9x16",
+        "pi-007-a-v02-4x5"
       ],
       "approved_rank": 9,
       "approved_star": "★",
-      "approval_status": "★ Approved – Ready to Run (fix version in progress)",
-      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      "approval_status": "★ Approved – Ready to Run",
+      "approved_note": "Fix version v02 (house captions, 3 of 5 gags, approved tagline + FREE offer on the logo card, 39.5 s -> 26.4 s, 9:16 + 4:5) is the approved pick; old v1 kept."
     },
     {
       "concept_id": "RB-012",
@@ -5251,6 +5265,166 @@
       ],
       "approved_rank": 8,
       "approved_star": "★"
+    },
+    "pi-007-a-v02-9x16": {
+      "concept_id": "PI-007",
+      "asset_id": "pi-007-a-v02-9x16",
+      "title": "PI Attorneys – Hammer Broke – house captions",
+      "kind": "ad",
+      "collection": "Legal/PI",
+      "advertiser": "RevBoo (attorney-targeted)",
+      "audience": "PI law-firm owners and their marketing staff",
+      "category": "Ads for attorneys",
+      "aliases": [
+        "PI-007__hammer-broke__A__v02__9x16.mp4",
+        "PI-007__hammer-broke__A__v02__9x16__720p-small.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "pi-attorneys-hammer-broke-v1",
+      "request": "Chase (Oct 4, 2026, Top 10 #9): trim 39.5 s to ~25 s (cut 2 of the 5 gags); re-caption house style; tagline to approved wording; 4:5 cut. Then filed as the approved pick (Chase approved all 10 at 1:33 PM MT).",
+      "change_log": [
+        "Rebuilt from a text-free render of v1's own build (pi3/render_p.py, text layer off).",
+        "Kept beats 0-11 (bad PI ad, hammer broke), 19-38.5 (pigeons, nobody looked up, same firm, the calm one gets the call), 54.5-58.4 (logo) + a 3.3 s hold of the logo's last bright frame (fades out). Cut beats 11-19 (Oscar-worthy neck-brace actor + cone trip = 2 of the 5 gags) and 38.5-54.5 (4 bars: phone ring, NEW ADS card, media-guy close-ups). 39.5 s -> 26.37 s. The hold is covered by v1's hip-hop bed (lnplusmusic) continued at the fitted gain, faded out.",
+        "House captions: This is your PI ad. / The hammer broke. / The pigeons love it. / Nobody looked up. / The calm one gets the call. / Don’t fire your media buyer. Give them better ads. / First 2 ads free. Delivered in 24 hours.",
+        "'Same firm. Same budget.' dropped: the attorney close-up has no clean caption zone at 60+ px. 'This is your PI ad.' shows 1.6 s (the lawyer's face then fills the frame).",
+        "Mastered -14.1 LUFS, true peak -2.4 dBTP (limiter 0.7: the first encode overshot to +1.6 dBTP on the glass-shatter transients)."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T15:04:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-9x16-MASTER.mp4",
+      "sha256": "9f54d492541b1c2e2fe23301e26e662c120bcbdc7154b45a51a7be86ef7adecb",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 26.4,
+      "script": "(music + SFX + on-screen text, no VO) This is your PI ad. / The hammer broke. / The pigeons love it. / Nobody looked up. / The calm one gets the call. / Don’t fire your media buyer. Give them better ads. / First 2 ads free. Delivered in 24 hours.",
+      "hook": "Screaming lawyer in a parody 'INJURED?!? WE FIGHT!!' ad: 'This is your PI ad.'",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "revboo.video logo card (held 3.3 s) with tagline, then offer",
+      "source_asset_ids": [
+        "pi-attorneys-hammer-broke-v1"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1920 30 fps, 26.37 s, -14.13 LUFS, TP -2.44 dBTP; 720p small copy 5.4 MB",
+        "captions": "PASS: overlap QA 0 hits; OCR read-back of every caption OK",
+        "branding_cta": "revboo.video card with tagline, then offer",
+        "full_playback": "Contact sheets reviewed; Chase approved the concept Oct 4, 2026 (★ Top 10 #9)."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "9f54d492541b1c2e2fe23301e26e662c120bcbdc7154b45a51a7be86ef7adecb",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-9x16-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #9 PI Attorneys – Hammer Broke; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+      },
+      "rights_reuse": "Revboo own brand (Kling 3.0 Pro footage via OpenRouter + library reuse)",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T15:04:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (9x16) from pi-attorneys-hammer-broke-v1: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "pi-attorneys-hammer-broke-v1"
+        },
+        {
+          "at": "2026-10-04T15:04:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #9), replacing pi-attorneys-hammer-broke-v1 as the approved pick.",
+          "parent_asset_id": "pi-attorneys-hammer-broke-v1"
+        }
+      ],
+      "approved_rank": 9,
+      "approved_star": "★"
+    },
+    "pi-007-a-v02-4x5": {
+      "concept_id": "PI-007",
+      "asset_id": "pi-007-a-v02-4x5",
+      "title": "PI Attorneys – Hammer Broke – house captions",
+      "kind": "ad",
+      "collection": "Legal/PI",
+      "advertiser": "RevBoo (attorney-targeted)",
+      "audience": "PI law-firm owners and their marketing staff",
+      "category": "Ads for attorneys",
+      "aliases": [
+        "PI-007__hammer-broke__A__v02__4x5.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "4x5",
+      "parent_asset_id": "pi-attorneys-hammer-broke-v1",
+      "request": "Chase (Oct 4, 2026, Top 10 #9): trim 39.5 s to ~25 s (cut 2 of the 5 gags); re-caption house style; tagline to approved wording; 4:5 cut. Then filed as the approved pick (Chase approved all 10 at 1:33 PM MT).",
+      "change_log": [
+        "4:5 (1080x1350) per-shot reframe of pi-007-a-v02-9x16; captions re-placed by the overlap checker (5% margins)."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T15:04:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-4x5-MASTER.mp4",
+      "sha256": "e78071b156da5485741b1674ec60a4083fd8d21726fdf7dec1bac9287d5153db",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-4x5.mp4",
+      "native_dimensions": "1080x1350",
+      "export_dimensions": "1080x1350",
+      "duration_seconds": 26.4,
+      "script": "(music + SFX + on-screen text, no VO) This is your PI ad. / The hammer broke. / The pigeons love it. / Nobody looked up. / The calm one gets the call. / Don’t fire your media buyer. Give them better ads. / First 2 ads free. Delivered in 24 hours.",
+      "hook": "Screaming lawyer in a parody 'INJURED?!? WE FIGHT!!' ad: 'This is your PI ad.'",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "revboo.video logo card (held 3.3 s) with tagline, then offer",
+      "source_asset_ids": [
+        "pi-attorneys-hammer-broke-v1"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1350 30 fps, 26.37 s, -14.1 LUFS",
+        "captions": "PASS: overlap QA 0 hits; OCR read-back OK",
+        "full_playback": "Contact sheet reviewed."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "e78071b156da5485741b1674ec60a4083fd8d21726fdf7dec1bac9287d5153db",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-4x5-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #9 PI Attorneys – Hammer Broke; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+      },
+      "rights_reuse": "Revboo own brand (Kling 3.0 Pro footage via OpenRouter + library reuse)",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T15:04:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (4x5) from pi-attorneys-hammer-broke-v1: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "pi-attorneys-hammer-broke-v1"
+        },
+        {
+          "at": "2026-10-04T15:04:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #9), replacing pi-attorneys-hammer-broke-v1 as the approved pick.",
+          "parent_asset_id": "pi-attorneys-hammer-broke-v1"
+        }
+      ],
+      "approved_rank": 9,
+      "approved_star": "★"
     }
   },
   "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber.",
@@ -5405,14 +5579,15 @@
       "concept_id": "PI-007",
       "title": "PI Attorneys – Hammer Broke",
       "asset_ids": [
-        "pi-attorneys-hammer-broke-v1"
+        "pi-007-a-v02-9x16",
+        "pi-007-a-v02-4x5"
       ],
       "cover_ids": [],
       "approved_by": "Chase Fowler",
       "approved_at": "2026-10-04T13:33:00-06:00",
       "status": "★ Approved – Ready to Run",
-      "fix_in_progress": true,
-      "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      "fix_in_progress": false,
+      "note": "Fix version v02 (house captions, 3 of 5 gags, approved tagline + FREE offer on the logo card, 39.5 s -> 26.4 s, 9:16 + 4:5) is the approved pick; old v1 kept."
     },
     {
       "rank": 10,

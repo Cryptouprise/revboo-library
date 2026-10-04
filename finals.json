@@ -357,18 +357,28 @@
    "status": "approved",
    "approved_by": "Chase Fowler",
    "approved_at": "2026-10-04T13:33:00-06:00",
-   "fix_in_progress": true,
-   "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+   "fix_in_progress": false,
+   "note": "Fix version v02 (house captions, 3 of 5 gags, approved tagline + FREE offer on the logo card, 39.5 s -> 26.4 s, 9:16 + 4:5) is the approved pick; old v1 kept.",
    "files": [
     {
-     "id": "pi-attorneys-hammer-broke-v1",
+     "id": "pi-007-a-v02-9x16",
      "aspect": "9:16",
      "width": 1080,
      "height": 1920,
-     "duration": 39.5,
-     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-hammer-broke-v1.mp4",
-     "master_url": null,
-     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/pi-attorneys-hammer-broke-v1.jpg"
+     "duration": 26.4,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-9x16.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-9x16-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/pi-007-a-v02-9x16.jpg"
+    },
+    {
+     "id": "pi-007-a-v02-4x5",
+     "aspect": "4:5",
+     "width": 1080,
+     "height": 1350,
+     "duration": 26.4,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-4x5.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-4x5-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/pi-007-a-v02-4x5.jpg"
     }
    ],
    "covers": []

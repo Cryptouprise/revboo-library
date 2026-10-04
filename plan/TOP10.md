@@ -12,10 +12,10 @@ Chase approved all 10. Run in this order. Source of truth: `approved_ranking` in
 - [x] ★ **6. PI Attorneys – Scroll Past (PI-008)**: `pi-008-a-v02-9x16` + `pi-008-a-v02-4x5` (house-caption fix v02, 26.4 s; fixed version ✅ approved by Chase Oct 4, 2:40 PM MT; replaces `pi-attorneys-scroll-past-v1` as the approved pick, old file kept).
 - [x] ★ **7. Ad Autopsy v4 – tighter transition (RB-001)**: `rb-001-a-v04-9x16`.
 - [x] ★ **8. The Remake (RB-010)**: `rb-010-a-v02-9x16` + `rb-010-a-v02-4x5` (house-caption fix v02, 23.9 s; replaces `remake` as the approved pick, old file kept).
-- [x] ★ **9. PI Attorneys – Hammer Broke (PI-007)**: `pi-attorneys-hammer-broke-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
+- [x] ★ **9. PI Attorneys – Hammer Broke (PI-007)**: `pi-007-a-v02-9x16` + `pi-007-a-v02-4x5` (house-caption fix v02, 26.4 s; replaces `pi-attorneys-hammer-broke-v1` as the approved pick, old file kept).
 - [x] ★ **10. The Ad Graveyard v2 (RB-009)**: `rb-009-a-v02-9x16` + `rb-009-a-v02-4x5` (house-caption fix, 23.5 s; replaces `graveyard-v2` as the approved pick, old file kept).
 
-Chase's approved #7 is **Ad Autopsy v4**; the talking-girl "two free ads" teardown (RB-013/014) that was #7 in the original ranking below moves to the bench. The ranking notes below are the original Oct 4 analysis; the fix checklists for 4, 5, 6, 8, 9, 10 still apply to the fix versions in progress.
+Chase's approved #7 is **Ad Autopsy v4**; the talking-girl "two free ads" teardown (RB-013/014) that was #7 in the original ranking below moves to the bench. The ranking notes below are the original Oct 4 analysis; the fix versions for 4, 5, 6, 8, 9, 10 are done (Oct 4) and are now the approved picks; old files kept.
 
 ---
 
@@ -35,7 +35,7 @@ Common fix across the older teardowns: their captions are the **banned all-caps 
 | ★ 6 | PI Attorneys – Scroll Past (PI-008) | [pi-008-a-v02-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-9x16.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-4x5.mp4) | 26.4 s | 9:16 + 4:5 | **★ Approved** (fix v02, was v1 37.1 s) |
 | ★ 7 | Ad Autopsy v4 – tighter transition (RB-001) | [rb-001-a-v04-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-001-a-v04-9x16.mp4) | 12.0 s | 9:16 | **★ Approved** (was: talking-girl teardown RB-013/014, now bench) |
 | ★ 8 | The Remake (RB-010) | [rb-010-a-v02-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-9x16.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-4x5.mp4) | 23.9 s | 9:16 + 4:5 | **★ Approved** (fix v02) |
-| ★ 9 | PI Attorneys – Hammer Broke (PI-007) | [pi-attorneys-hammer-broke-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-hammer-broke-v1.mp4) | 39.5 s | 9:16 | **★ Approved** (fix version in progress) |
+| ★ 9 | PI Attorneys – Hammer Broke (PI-007) | [pi-007-a-v02-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-9x16.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-4x5.mp4) | 26.4 s | 9:16 + 4:5 | **★ Approved** (fix v02, was v1 39.5 s) |
 | ★ 10 | The Ad Graveyard v2 (RB-009) | [rb-009-a-v02-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5.mp4) | 23.5 s | 9:16 + 4:5 | **★ Approved** (house-caption fix) |
 
 Bench (next in line): Monday Morning Drop v3 (RB-003, 20 s, calm, good for retargeting, weak cold hook), Clone War Room (RB-006, 15 s native VO "You started a business, not a production company."), Old Busted Ads → Supercar (RB-007, 720p + CapCut watermark), Ad Autopsy v3 (RB-001, see TEARDOWN-REVIEW), The Revenue Engine v3, Kinetic Type Reel take 2 (-17 LUFS).
@@ -93,8 +93,8 @@ _Chase's approved #7 is Ad Autopsy v4 (`rb-001-a-v04-9x16`, RB-001), see the ★
 
 ## 9. PI Attorneys – Hammer Broke (PI-007): Needs fix
 **Why:** Funniest PI montage (broken gavel, neck-brace actor, cone trip, billboard pigeons) → "Same firm. Same budget. The calm one gets the call."
-- [ ] Trim 39.5 s → ~25 s (cut 2 of the 5 gags)
-- [ ] Re-caption house style; tagline to approved wording; 4:5 cut
+- [x] Trim 39.5 s → ~25 s (cut 2 of the 5 gags) → 26.4 s: cut 'Oscar-worthy' neck-brace + cone trip (`pi-007-a-v02-9x16`, Oct 4)
+- [x] Re-caption house style; tagline to approved wording; 4:5 cut → tagline + FREE offer on the logo card; `pi-007-a-v02-4x5`. 'Same firm. Same budget.' dropped (no clean zone on the attorney close-up)
 
 ## 10. The Ad Graveyard v2 (RB-009): Needs fix
 **Why:** Strong line "Where good ad budgets go to die." + "Don't bury your media buyer. Give them ads that hit."
