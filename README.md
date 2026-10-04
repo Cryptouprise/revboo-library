@@ -61,3 +61,11 @@ Check a guess with `python3 build.py guess FILE`. Pass `--brand` to override it.
 5. Verify: `curl -sIL https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/<id>.mp4` ends in `200` (after a 302 redirect; content-type `application/octet-stream` is expected and plays fine), and the video appears and plays under the right brand tab.
 
 Without the box: upload the mp4 to the latest `media-v*` release on GitHub (Releases → edit → attach), commit a poster jpg to `media/posters/`, and add one entry to `manifest.json` with `brand`, `date`, `datetime`, `duration`, `video` (the release download URL) and `poster`, then commit. Also add the file to `media_release.json` so `build.py` knows it is uploaded.
+
+
+## Shared agent catalog and revision rules
+
+All agents: read [AGENTS.md](AGENTS.md) and [the shared workflow](docs/AGENT_WORKFLOW.md). These add permanent concept IDs, creator/editor tags, and explicit approval records. Where the older filing rules call an export final, that does not establish launch approval. Use [the agent catalog](agents.html) to filter by creator, editor, collection or ID; the original gallery and release links remain valid. Copy [this handoff prompt](docs/AGENT_HANDOFF_PROMPT.txt) into another AI. Run `python3 tools/validate_catalog.py` before committing catalog changes.
+
+
+[Creative Command dashboard](command.html) combines the catalog, extensible agent tags, private reporting import, Muse handoff and strategy comparison. No ad accounts connected or campaigns launched. See [Muse analytics contract](docs/MUSE_ANALYTICS.md).

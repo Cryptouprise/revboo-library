@@ -1,0 +1,63 @@
+{
+  "concept_id": "RB-001",
+  "asset_id": "rb-001-a-v04-9x16",
+  "title": "Ad Autopsy",
+  "kind": "ad",
+  "collection": "Revboo",
+  "advertiser": "RevBoo",
+  "audience": null,
+  "category": "Teardown",
+  "aliases": [],
+  "branch": "A",
+  "revision": 4,
+  "format": "9x16",
+  "parent_asset_id": "ad-autopsy-v3",
+  "request": null,
+  "change_log": [],
+  "created_by": "ChatGPT",
+  "created_at": null,
+  "master_reference": null,
+  "sha256": null,
+  "preview_url": null,
+  "native_dimensions": null,
+  "export_dimensions": null,
+  "duration_seconds": null,
+  "script": null,
+  "verified_transcript": null,
+  "hook": null,
+  "offer": null,
+  "cta": null,
+  "voice_model": null,
+  "source_asset_ids": [],
+  "status": "Review",
+  "qa": {
+    "technical": null,
+    "speech": null,
+    "lip_sync_motion": null,
+    "branding_cta": null,
+    "full_playback": null,
+    "mobile_readability": null,
+    "remaining": []
+  },
+  "approval": null,
+  "rights_reuse": null,
+  "costs": {
+    "video": null,
+    "audio": null,
+    "edit": null,
+    "review": null
+  },
+  "live_platform_ids": [],
+  "last_edited_by": "ChatGPT",
+  "agent_tags": [
+    "ChatGPT"
+  ],
+  "history": [
+    {
+      "at": null,
+      "agent": "ChatGPT",
+      "action": null,
+      "parent_asset_id": null
+    }
+  ]
+}
