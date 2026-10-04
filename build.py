@@ -234,10 +234,18 @@ def sync_release(paths):
 def build(upload=True):
     for d in ('media/finals','media/clips','media/posters'): os.makedirs(L+d,exist_ok=True)
     ex=load_extra()
+    # Keep fields other tools/agents added to existing entries (collection_tag, usage_tags, ...) and keep entries
+    # whose source file is not on this box, instead of silently dropping them from manifest.json.
+    try: OLD=json.load(open(L+'manifest.json'))
+    except Exception: OLD={}
+    old_by_id={e['id']:e for k in ('finals','clips') for e in OLD.get(k,[]) if isinstance(e,dict) and 'id' in e}
     man=dict(site='Revboo Video Library',brands=BRANDS,brand=dict(color='#FF4B0A',font='Anton',site='revboo.video'),finals=[],clips=[],brand_assets=[])
     for f in FINALS+ex['finals']:
         src=f['src']
-        if not os.path.exists(src): print('skip (missing):',src); continue
+        if not os.path.exists(src):
+            if f['id'] in old_by_id: man['finals'].append(dict(old_by_id[f['id']])); print('kept (source missing on box):',f['id'])
+            else: print('skip (missing):',src)
+            continue
         brand=f.get('brand') or guess_brand(src,f.get('title',''),f.get('group',''))
         assert brand in BRANDS,brand
         out=L+'media/finals/'+f['id']+'.mp4'; web_final(src,out,f.get('max_mb',5.6))
@@ -252,7 +260,11 @@ def build(upload=True):
                 brand=(c[7] if len(c)>7 else None),audio=(c[8] if len(c)>8 else c[6])) for c in CLIPS]+ex['clips']
     for c in clips:
         src=c['src']
-        if not os.path.exists(src): print('skip (missing):',src); continue
+        if not os.path.exists(src):
+            cid=c.get('id') or clip_id(src)
+            if cid in old_by_id: man['clips'].append(dict(old_by_id[cid])); print('kept (source missing on box):',cid)
+            else: print('skip (missing):',src)
+            continue
         cid=c.get('id') or clip_id(src)
         brand=c.get('brand') or guess_brand(src,c.get('name',''))
         assert brand in BRANDS,brand
@@ -262,6 +274,16 @@ def build(upload=True):
         man['clips'].append(dict(id=cid,brand=brand,name=c['name'],categories=c.get('categories',[]),used_in=c.get('used_in',[]),note=c.get('note',''),date=ds,datetime=iso,
             duration=round(d,1),video='media/clips/'+cid+'.mp4',poster='media/posters/'+cid+'.jpg',source=src,size_mb=round(os.path.getsize(out)/1e6,2)))
         if c.get('brand_asset'): man['brand_assets'].append(cid)
+    # carry over unknown/extra fields from the previous manifest entry with the same id
+    for e in man['finals']+man['clips']:
+        for k,v in old_by_id.get(e['id'],{}).items():
+            if k not in e: e[k]=v
+    # entries that exist only in the previous manifest (manual intake) are kept, never dropped
+    built={e['id'] for e in man['finals']+man['clips']}
+    for k in ('finals','clips'):
+        for e in OLD.get(k,[]):
+            if isinstance(e,dict) and e.get('id') and e['id'] not in built:
+                man[k].append(dict(e)); built.add(e['id']); print('kept (manual entry):',e['id'])
     ids=[e['id'] for e in man['finals']+man['clips']]
     dupes={i for i in ids if ids.count(i)>1}
     assert not dupes, f'ids must be unique across finals and clips (release asset names): {dupes}'
@@ -269,11 +291,12 @@ def build(upload=True):
     entries=man['finals']+man['clips']
     idx=load_rel()
     if upload:
-        try: idx=sync_release([L+e['video'] for e in entries])
+        try: idx=sync_release([L+e['video'] for e in entries if not str(e.get('video','')).startswith('http')])
         except (subprocess.CalledProcessError,FileNotFoundError) as err:
             print('WARNING: release upload failed (is `gh` installed and logged in?):',err)
     missing=[]
     for e in entries:
+        if str(e.get('video','')).startswith('http'): continue   # kept entry, already points at its release copy
         n=os.path.basename(e['video']); e['file']=e['video']
         if n in idx: e['video']=rel_url(idx[n]['tag'],n)
         else: missing.append(n)
