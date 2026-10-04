@@ -389,31 +389,50 @@
         "graveyard-v2",
         "Revboo-Graveyard-v2.mp4",
         "Revboo-Graveyard-small.mp4",
-        "graveyard-v1"
+        "graveyard-v1",
+        "RB-009__graveyard__A__v02__9x16.mp4",
+        "RB-009__graveyard__A__v02__9x16__720p-small.mp4",
+        "RB-009__graveyard__A__v02__4x5.mp4"
       ],
       "assets": [
+        "rb-009-a-v02-4x5",
+        "rb-009-a-v02-9x16",
         "graveyard-v2",
         "graveyard-v1"
       ],
-      "approved_asset_id": "graveyard-v2",
+      "approved_asset_id": "rb-009-a-v02-9x16",
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
-      "agent_tags": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
       "history": [
         {
           "at": "2026-10-04T13:33:00-06:00",
           "agent": "Grok",
           "action": "★ Chase approved (Top 10 #10, Oct 4, 2026 1:33 PM MT). approved_asset_id -> graveyard-v2. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
           "parent_asset_id": null
+        },
+        {
+          "at": "2026-10-04T14:45:00-06:00",
+          "agent": "Grok",
+          "action": "Added rb-009-a-v02-9x16, rb-009-a-v02-4x5 (house-caption fix v02) and made it the approved pick (★ Top 10 #10); old graveyard-v2 kept.",
+          "parent_asset_id": "graveyard-v2"
         }
       ],
       "approved_asset_ids": [
-        "graveyard-v2"
+        "rb-009-a-v02-9x16",
+        "rb-009-a-v02-4x5"
       ],
       "approved_rank": 10,
       "approved_star": "★",
-      "approval_status": "★ Approved – Ready to Run (fix version in progress)",
-      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      "approval_status": "★ Approved – Ready to Run",
+      "approved_note": "Fix version v02 (house captions, opens on the STOCK PHOTO GUY tombstone, FREE offer on the logo, 23.5 s, 9:16 + 4:5) is the approved pick; old v2 kept.",
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "concept_id": "RB-011",
@@ -4892,6 +4911,167 @@
       ],
       "approved_rank": 6,
       "approved_star": "★"
+    },
+    "rb-009-a-v02-9x16": {
+      "concept_id": "RB-009",
+      "asset_id": "rb-009-a-v02-9x16",
+      "title": "The Ad Graveyard – house captions",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Media buyers, agencies, brands running paid social",
+      "category": "Revboo ads",
+      "aliases": [
+        "RB-009__graveyard__A__v02__9x16.mp4",
+        "RB-009__graveyard__A__v02__9x16__720p-small.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "graveyard-v2",
+      "request": "Chase (Oct 4, 2026, Top 10 #10): re-caption house style; open on the stock-photo-guy tombstone instead of the dark foggy graveyard; add offer card; 4:5 cut. Then filed as the approved pick (Chase approved all 10 at 1:33 PM MT).",
+      "change_log": [
+        "Rebuilt from a text-free render of v2's own build (text layer off).",
+        "Hook reordered to open on the STOCK PHOTO GUY tombstone (frames 46-68, skipping the hit-flash frame), then UGC_FINAL_FINAL, SUMMER SALE v3, SAME AD SINCE 2023; hook audio kept continuous (swooshes still land on the stone changes). 1 frame shorter: 23.47 s.",
+        "House captions: Where good ad budgets go to die. / Don’t bury your media buyer. / Give them ads that hit. / Send us your worst ad. / We’ll remake it. / Still scrolling? Your competitor just clicked. / First 2 ads free. Delivered in 24 hours.",
+        "'Fresh performance ads.' dropped: the supercar/phone montage is orange fire and highlights edge to edge (no clean caption zone). Chase's NEW ADS EVERY WEEK card carries no caption.",
+        "A false-positive face/person detection on the grave explosion (6.5-6.75 s) was cleared after checking the frames by eye.",
+        "Mastered -14 LUFS integrated."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T14:45:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16-MASTER.mp4",
+      "sha256": "bb1b061adc7d6122be12a1febcdc36b50326ae47cf9835dd74d9805b6e547912",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 23.5,
+      "script": "(music + SFX + on-screen text, no VO) Where good ad budgets go to die. / Don’t bury your media buyer. / Give them ads that hit. / Send us your worst ad. / We’ll remake it. / Still scrolling? Your competitor just clicked. / First 2 ads free. Delivered in 24 hours.",
+      "hook": "Engraved tombstone 'STOCK PHOTO GUY' in a foggy graveyard: 'Where good ad budgets go to die.'",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "Chase's revboo.video logo clip with the FREE offer",
+      "source_asset_ids": [
+        "graveyard-v2"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1920 30 fps, 23.47 s, -14.05 LUFS, TP -1.14 dBTP; 720p small copy 5.5 MB",
+        "captions": "PASS: overlap QA 0 hits; OCR read-back of every caption OK",
+        "branding_cta": "Logo clip with the FREE offer",
+        "full_playback": "Contact sheets reviewed; Chase approved the concept Oct 4, 2026 (★ Top 10 #10)."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "bb1b061adc7d6122be12a1febcdc36b50326ae47cf9835dd74d9805b6e547912",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #10 The Ad Graveyard v2; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+      },
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T14:45:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (9x16) from graveyard-v2: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "graveyard-v2"
+        },
+        {
+          "at": "2026-10-04T14:45:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #10), replacing graveyard-v2 as the approved pick.",
+          "parent_asset_id": "graveyard-v2"
+        }
+      ],
+      "approved_rank": 10,
+      "approved_star": "★"
+    },
+    "rb-009-a-v02-4x5": {
+      "concept_id": "RB-009",
+      "asset_id": "rb-009-a-v02-4x5",
+      "title": "The Ad Graveyard – house captions",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Media buyers, agencies, brands running paid social",
+      "category": "Revboo ads",
+      "aliases": [
+        "RB-009__graveyard__A__v02__4x5.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "4x5",
+      "parent_asset_id": "graveyard-v2",
+      "request": "Chase (Oct 4, 2026, Top 10 #10): re-caption house style; open on the stock-photo-guy tombstone instead of the dark foggy graveyard; add offer card; 4:5 cut. Then filed as the approved pick (Chase approved all 10 at 1:33 PM MT).",
+      "change_log": [
+        "4:5 (1080x1350) per-shot reframe of rb-009-a-v02-9x16; captions re-placed by the overlap checker (5% margins)."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T14:45:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5-MASTER.mp4",
+      "sha256": "cf26ac73dfd2fa4f2eb1d1d886f1b2b12addc3096a14d11844788721cb320800",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5.mp4",
+      "native_dimensions": "1080x1350",
+      "export_dimensions": "1080x1350",
+      "duration_seconds": 23.5,
+      "script": "(music + SFX + on-screen text, no VO) Where good ad budgets go to die. / Don’t bury your media buyer. / Give them ads that hit. / Send us your worst ad. / We’ll remake it. / Still scrolling? Your competitor just clicked. / First 2 ads free. Delivered in 24 hours.",
+      "hook": "Engraved tombstone 'STOCK PHOTO GUY' in a foggy graveyard: 'Where good ad budgets go to die.'",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "Chase's revboo.video logo clip with the FREE offer",
+      "source_asset_ids": [
+        "graveyard-v2"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1350 30 fps, 23.47 s, -14.05 LUFS",
+        "captions": "PASS: overlap QA 0 hits; OCR read-back OK",
+        "full_playback": "Contact sheet reviewed."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "cf26ac73dfd2fa4f2eb1d1d886f1b2b12addc3096a14d11844788721cb320800",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #10 The Ad Graveyard v2; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+      },
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T14:45:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (4x5) from graveyard-v2: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "graveyard-v2"
+        },
+        {
+          "at": "2026-10-04T14:45:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #10), replacing graveyard-v2 as the approved pick.",
+          "parent_asset_id": "graveyard-v2"
+        }
+      ],
+      "approved_rank": 10,
+      "approved_star": "★"
     }
   },
   "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber.",
@@ -5060,14 +5240,15 @@
       "concept_id": "RB-009",
       "title": "The Ad Graveyard v2",
       "asset_ids": [
-        "graveyard-v2"
+        "rb-009-a-v02-9x16",
+        "rb-009-a-v02-4x5"
       ],
       "cover_ids": [],
       "approved_by": "Chase Fowler",
       "approved_at": "2026-10-04T13:33:00-06:00",
       "status": "★ Approved – Ready to Run",
-      "fix_in_progress": true,
-      "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      "fix_in_progress": false,
+      "note": "Fix version v02 (house captions, opens on the STOCK PHOTO GUY tombstone, FREE offer on the logo, 23.5 s, 9:16 + 4:5) is the approved pick; old v2 kept."
     }
   ]
 }

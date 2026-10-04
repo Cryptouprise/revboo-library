@@ -677,6 +677,36 @@
       "title": "PI Attorneys – Scroll Past",
       "version": "v2 · house captions (4:5) (★ APPROVED)",
       "category": "Ads for attorneys"
+    },
+    {
+      "id": "rb-009-a-v02-9x16",
+      "src": "/workspace/revboo/edits/top10-fixes/graveyard/RB-009__graveyard__A__v02__9x16.mp4",
+      "brand": "Revboo",
+      "note": "★ APPROVED by Chase Oct 4, 2026 (Top 10 #10); replaces v2 as the approved pick. Fix of v2: opens on the STOCK PHOTO GUY tombstone; house captions replace the all-caps Anton text ('Don’t bury your media buyer. Give them ads that hit.'); offer 'First 2 ads free. Delivered in 24 hours.' on the closing logo. -14 LUFS.",
+      "pt": 0.4,
+      "date_override": [
+        "Oct 4, 2026",
+        "2026-10-04T00:00:00"
+      ],
+      "group": "The Ad Graveyard",
+      "title": "The Ad Graveyard",
+      "version": "v3 · house captions (9:16) (★ APPROVED)",
+      "category": "Revboo ads"
+    },
+    {
+      "id": "rb-009-a-v02-4x5",
+      "src": "/workspace/revboo/edits/top10-fixes/graveyard/RB-009__graveyard__A__v02__4x5.mp4",
+      "brand": "Revboo",
+      "note": "★ APPROVED by Chase Oct 4, 2026 (Top 10 #10). 4:5 (1080x1350) feed cut of the house-caption fix: per-shot reframe, captions re-placed for 4:5. -14 LUFS.",
+      "pt": 0.4,
+      "date_override": [
+        "Oct 4, 2026",
+        "2026-10-04T00:00:00"
+      ],
+      "group": "The Ad Graveyard",
+      "title": "The Ad Graveyard",
+      "version": "v3 · house captions (4:5) (★ APPROVED)",
+      "category": "Revboo ads"
     }
   ],
   "clips": [

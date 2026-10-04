@@ -371,18 +371,28 @@
    "status": "approved",
    "approved_by": "Chase Fowler",
    "approved_at": "2026-10-04T13:33:00-06:00",
-   "fix_in_progress": true,
-   "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+   "fix_in_progress": false,
+   "note": "Fix version v02 (house captions, opens on the STOCK PHOTO GUY tombstone, FREE offer on the logo, 23.5 s, 9:16 + 4:5) is the approved pick; old v2 kept.",
    "files": [
     {
-     "id": "graveyard-v2",
+     "id": "rb-009-a-v02-9x16",
      "aspect": "9:16",
      "width": 1080,
      "height": 1920,
      "duration": 23.5,
-     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/graveyard-v2.mp4",
-     "master_url": null,
-     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/graveyard-v2.jpg"
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-009-a-v02-9x16.jpg"
+    },
+    {
+     "id": "rb-009-a-v02-4x5",
+     "aspect": "4:5",
+     "width": 1080,
+     "height": 1350,
+     "duration": 23.5,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-009-a-v02-4x5.jpg"
     }
    ],
    "covers": []

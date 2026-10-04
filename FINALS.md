@@ -21,7 +21,7 @@
 | **★ 7** | Ad Autopsy v4 – tighter transition | RB-001 | 9:16 `rb-001-a-v04-9x16` 12.0 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-001-a-v04-9x16.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-001-a-v04-9x16-MASTER.mp4) | poster frame | ★ **Approved** |
 | **★ 8** | The Remake | RB-010 | 9:16 `remake` 23.9 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake.mp4) | poster frame | ★ **Approved** · 🛠 Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done. |
 | **★ 9** | PI Attorneys – Hammer Broke | PI-007 | 9:16 `pi-attorneys-hammer-broke-v1` 39.5 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-hammer-broke-v1.mp4) | poster frame | ★ **Approved** · 🛠 Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done. |
-| **★ 10** | The Ad Graveyard v2 | RB-009 | 9:16 `graveyard-v2` 23.5 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/graveyard-v2.mp4) | poster frame | ★ **Approved** · 🛠 Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done. |
+| **★ 10** | The Ad Graveyard v2 | RB-009 | 9:16 `rb-009-a-v02-9x16` 23.5 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16-MASTER.mp4)<br>4:5 `rb-009-a-v02-4x5` 23.5 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5-MASTER.mp4) | poster frame | ★ **Approved** |
 
 ## APPROVED videos: details (Chase approved)
 
@@ -97,7 +97,7 @@ Other takes: hf_20260928_032417 (earlier take, different line order) not used. D
 
 ## Everything else
 
-The other 60 finished ads and 90 clips in the library are **not reviewed**. They may be old drafts. Ask Chase before using any of them.
+The other 61 finished ads and 90 clips in the library are **not reviewed**. They may be old drafts. Ask Chase before using any of them.
 
 ## Adding to this list
 Only when Chase approves something: add it to `approved_ranking` in `catalog/registry.json` (with an Approved revision record; see README), or `covers.json` (images), run `python3 make_finals.py`, and commit.

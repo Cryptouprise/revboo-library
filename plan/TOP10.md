@@ -13,7 +13,7 @@ Chase approved all 10. Run in this order. Source of truth: `approved_ranking` in
 - [x] ★ **7. Ad Autopsy v4 – tighter transition (RB-001)**: `rb-001-a-v04-9x16`.
 - [x] ★ **8. The Remake (RB-010)**: `remake`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
 - [x] ★ **9. PI Attorneys – Hammer Broke (PI-007)**: `pi-attorneys-hammer-broke-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
-- [x] ★ **10. The Ad Graveyard v2 (RB-009)**: `graveyard-v2`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
+- [x] ★ **10. The Ad Graveyard v2 (RB-009)**: `rb-009-a-v02-9x16` + `rb-009-a-v02-4x5` (house-caption fix, 23.5 s; replaces `graveyard-v2` as the approved pick, old file kept).
 
 Chase's approved #7 is **Ad Autopsy v4**; the talking-girl "two free ads" teardown (RB-013/014) that was #7 in the original ranking below moves to the bench. The ranking notes below are the original Oct 4 analysis; the fix checklists for 4, 5, 6, 8, 9, 10 still apply to the fix versions in progress.
 
@@ -36,7 +36,7 @@ Common fix across the older teardowns: their captions are the **banned all-caps 
 | ★ 7 | Ad Autopsy v4 – tighter transition (RB-001) | [rb-001-a-v04-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-001-a-v04-9x16.mp4) | 12.0 s | 9:16 | **★ Approved** (was: talking-girl teardown RB-013/014, now bench) |
 | ★ 8 | The Remake (RB-010) | [remake](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake.mp4) | 23.9 s | 9:16 | **★ Approved** (fix version in progress) |
 | ★ 9 | PI Attorneys – Hammer Broke (PI-007) | [pi-attorneys-hammer-broke-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-hammer-broke-v1.mp4) | 39.5 s | 9:16 | **★ Approved** (fix version in progress) |
-| ★ 10 | The Ad Graveyard v2 (RB-009) | [graveyard-v2](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/graveyard-v2.mp4) | 23.5 s | 9:16 | **★ Approved** (fix version in progress) |
+| ★ 10 | The Ad Graveyard v2 (RB-009) | [rb-009-a-v02-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5.mp4) | 23.5 s | 9:16 + 4:5 | **★ Approved** (house-caption fix) |
 
 Bench (next in line): Monday Morning Drop v3 (RB-003, 20 s, calm, good for retargeting, weak cold hook), Clone War Room (RB-006, 15 s native VO "You started a business, not a production company."), Old Busted Ads → Supercar (RB-007, 720p + CapCut watermark), Ad Autopsy v3 (RB-001, see TEARDOWN-REVIEW), The Revenue Engine v3, Kinetic Type Reel take 2 (-17 LUFS).
 
@@ -98,5 +98,5 @@ _Chase's approved #7 is Ad Autopsy v4 (`rb-001-a-v04-9x16`, RB-001), see the ★
 
 ## 10. The Ad Graveyard v2 (RB-009): Needs fix
 **Why:** Strong line "Where good ad budgets go to die." + "Don't bury your media buyer. Give them ads that hit."
-- [ ] Re-caption house style; first frame is a dark foggy graveyard (low thumb-stop): open on the stock-photo-guy tombstone instead
-- [ ] Add offer card; 4:5 cut
+- [x] Re-caption house style; first frame is a dark foggy graveyard (low thumb-stop): open on the stock-photo-guy tombstone instead → `rb-009-a-v02-9x16` (Oct 4); 'Fresh performance ads.' dropped (montage is all fire/highlights, no clean zone)
+- [x] Add offer card; 4:5 cut → offer on the closing logo; `rb-009-a-v02-4x5`

@@ -320,6 +320,56 @@
       "file": "media/finals/pi-008-a-v02-4x5.mp4"
     },
     {
+      "id": "rb-009-a-v02-9x16",
+      "brand": "Revboo",
+      "category": "Revboo ads",
+      "group": "The Ad Graveyard",
+      "title": "The Ad Graveyard",
+      "version": "v3 · house captions (9:16) (★ APPROVED)",
+      "width": 1080,
+      "height": 1920,
+      "date": "Oct 4, 2026",
+      "datetime": "2026-10-04T00:00:00",
+      "duration": 23.5,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16.mp4",
+      "poster": "media/posters/rb-009-a-v02-9x16.jpg",
+      "status": "final",
+      "note": "★ APPROVED by Chase Oct 4, 2026 (Top 10 #10); replaces v2 as the approved pick. Fix of v2: opens on the STOCK PHOTO GUY tombstone; house captions replace the all-caps Anton text ('Don’t bury your media buyer. Give them ads that hit.'); offer 'First 2 ads free. Delivered in 24 hours.' on the closing logo. -14 LUFS.",
+      "source": "/workspace/revboo/edits/top10-fixes/graveyard/RB-009__graveyard__A__v02__9x16.mp4",
+      "size_mb": 5.2,
+      "file": "media/finals/rb-009-a-v02-9x16.mp4",
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
+    },
+    {
+      "id": "rb-009-a-v02-4x5",
+      "brand": "Revboo",
+      "category": "Revboo ads",
+      "group": "The Ad Graveyard",
+      "title": "The Ad Graveyard",
+      "version": "v3 · house captions (4:5) (★ APPROVED)",
+      "width": 1080,
+      "height": 1350,
+      "date": "Oct 4, 2026",
+      "datetime": "2026-10-04T00:00:00",
+      "duration": 23.5,
+      "video": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5.mp4",
+      "poster": "media/posters/rb-009-a-v02-4x5.jpg",
+      "status": "final",
+      "note": "★ APPROVED by Chase Oct 4, 2026 (Top 10 #10). 4:5 (1080x1350) feed cut of the house-caption fix: per-shot reframe, captions re-placed for 4:5. -14 LUFS.",
+      "source": "/workspace/revboo/edits/top10-fixes/graveyard/RB-009__graveyard__A__v02__4x5.mp4",
+      "size_mb": 5.2,
+      "file": "media/finals/rb-009-a-v02-4x5.mp4",
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
+    },
+    {
       "id": "kinetic-type-reel-take2",
       "brand": "Revboo",
       "category": "Made by Chase (Higgsfield/CapCut)",
