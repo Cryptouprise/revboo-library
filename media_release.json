@@ -624,6 +624,11 @@
   "size": 3845360,
   "sha256": "c48dd2a600282386769f6d99f801005cfe28019c6b6f7e3f9c5f281eeb2d7b8c"
  },
+ "rb-001-a-v04-9x16.mp4": {
+  "tag": "media-v1",
+  "size": 2620245,
+  "sha256": "b9d5dc08e376547550ff8ce622a375f053687a24c8c6a27e1b852259dbdb1b9f"
+ },
  "remake-r1.mp4": {
   "tag": "media-v1",
   "size": 329961,
@@ -833,5 +838,11 @@
   "tag": "media-v1",
   "size": 1048622,
   "sha256": "fb37174ffdd84878266857be3df852545142842b0e1af3a006032fcc5619afab"
+ },
+ "rb-001-a-v04-9x16-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 6447109,
+  "sha256": "8b04d7e951f3b489d4b38c8fe11cbc79a3ccef3ba3e94835380edef617b74657",
+  "master": true
  }
 }

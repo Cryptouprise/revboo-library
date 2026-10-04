@@ -35,22 +35,34 @@
         "ad-autopsy-v1",
         "04_concept2_ad-autopsy_v1.mp4",
         "05_concept2_ad-autopsy_v2.mp4",
-        "ad-autopsy-v2"
+        "ad-autopsy-v2",
+        "rb-001-a-v04-9x16",
+        "RB-001__ad-autopsy__A__v04__9x16.mp4",
+        "ad-autopsy-v4"
       ],
       "assets": [
+        "rb-001-a-v04-9x16",
         "ad-autopsy-v3",
         "ad-autopsy-v1",
         "ad-autopsy-v2"
       ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
-      "agent_tags": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
       "history": [
         {
           "at": "2026-10-04T18:30:00Z",
           "agent": "ChatGPT",
           "action": "User corrected teardowns to RevBoo Ads + Content; not Free Ads."
+        },
+        {
+          "at": "2026-10-04T13:05:00-06:00",
+          "agent": "Grok",
+          "action": "Added v04 9:16: tightened the presenter-to-computer-screen transition (cut 1.08 s of silent black-card dead space from v3). Nothing else changed. v3 kept.",
+          "parent_asset_id": "ad-autopsy-v3"
         }
       ],
       "collection_tag": "RevBoo Ads",
@@ -3677,6 +3689,78 @@
         }
       ],
       "finals_md": "Listed in FINALS.md as approved-pending-Chase-listen."
+    },
+    "rb-001-a-v04-9x16": {
+      "concept_id": "RB-001",
+      "asset_id": "rb-001-a-v04-9x16",
+      "title": "Ad Autopsy – tighter transition",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Media buyers / brands running paid social",
+      "category": "UGC/presenter",
+      "aliases": [
+        "RB-001__ad-autopsy__A__v04__9x16.mp4",
+        "ad-autopsy-v4",
+        "06_concept2_ad-autopsy_v3-final.mp4 (parent)"
+      ],
+      "branch": "A",
+      "revision": 4,
+      "format": "9x16",
+      "parent_asset_id": "ad-autopsy-v3",
+      "request": "Chase (Oct 4, 2026): loves the video, but there is a small dead space in the transition from her (presenter) to the computer screen. Make it transition much quicker; change nothing else.",
+      "change_log": [
+        "Removed source 4.708-5.792 s (frames 113-138, 26 frames = 1.083 s): the silent stretch of the static black Revboo card between the presenter and the computer-screen shot. Card still shows ~0.67 s (was 1.75 s).",
+        "About 0.2 s quiet breath kept between \"...every week.\" and the whoosh into the computer shot; 20 ms audio crossfade at the cut (both sides below -50 dBFS, no click).",
+        "Mastered -14 LUFS integrated (source was -19), peak -2 dBFS; audio otherwise untouched.",
+        "Picture, captions (burned in by the generator, none cross the cut), music, VO and end card unchanged. Re-encoded H.264 CRF 12 at the native 720x1280."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T13:05:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-001-a-v04-9x16-MASTER.mp4",
+      "sha256": "8b04d7e951f3b489d4b38c8fe11cbc79a3ccef3ba3e94835380edef617b74657",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-001-a-v04-9x16.mp4",
+      "native_dimensions": "720x1280",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 11.96,
+      "script": "Your ads deserve better creative. We deliver fresh video creative ads every week. Stop guessing which creative is actually going to hit. Finding winning ads just got easier. Revboo.video",
+      "verified_transcript": "Your ads deserve better creative. We deliver fresh video creative ads every week. Stop guessing which creative is (actually) going to hit. Finding winning ads just got easier. Revboo .video (faster-whisper small.en/medium.en; post-cut audio sample-matched to source, corr 0.98-0.99)",
+      "hook": "Your ads deserve better creative.",
+      "offer": "Fresh video creative ads every week.",
+      "cta": "REVBOO.VIDEO (end card)",
+      "voice_model": "Higgsfield Seedance generated presenter VO (from parent)",
+      "source_asset_ids": [
+        "ad-autopsy-v3"
+      ],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC 720x1280 24 fps, 11.958 s, -14.0 LUFS, peak -2.0 dBFS; web preview 2.6 MB",
+        "speech": "PASS (machine): all words present; post-cut audio identical to source shifted by the cut.",
+        "lip_sync_motion": "Picture unchanged; cut lands inside a static black card (no motion jump). A/V offset 2 ms.",
+        "branding_cta": "Black card \"Revboo.video / Done-for-your video creative delivered weekly.\" still visible ~0.67 s (note: source typo \"Done-for-your\" unchanged).",
+        "full_playback": "Frames around the cut and RMS envelope reviewed; Chase eye/ear check pending."
+      },
+      "approval": null,
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T13:05:00-06:00",
+          "agent": "Grok",
+          "action": "Created v04 from ad-autopsy-v3 (tightened transition).",
+          "parent_asset_id": "ad-autopsy-v3"
+        }
+      ]
     }
   },
   "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber."
