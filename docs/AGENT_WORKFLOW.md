@@ -79,3 +79,6 @@ Use Created by and Last edited by with a consistent readable agent name: ChatGPT
 
 ## Muse and media operations
 Read docs/MUSE_ANALYTICS.md for launch handoffs, exact creative-to-ad mapping, metric definitions, data imports and decision logs. Tag Muse (or another operator) in operated_by separately from created_by/last_edited_by. Marketing account data stays private; no account credentials or performance rows in this public repository.
+
+## Grouped versions and edit requests
+Creative Command shows one card per registered concept, with a version selector and all-version history. Search retains the full matching concept family. A selected preview is not launch approval. “Request an edit” includes the immutable source asset, concept ID, version, URL, time range, requested change and protected elements. The player can capture its current timestamp. Requests are copied/downloaded locally; no task is submitted automatically. The receiving agent must resolve this exact source, make a new revision and keep the old export. Deep links use command.html?asset=<exact-asset-id>.
