@@ -1,0 +1,15 @@
+# PIPELINE: the repeatable Revboo edit pipeline
+
+Every ad goes through the same 9 steps. Reference build: Furnace (`/workspace/revboo/edits/fire-money-captioned/work/`). Rules: [BRAND.md](../BRAND.md).
+
+1. **Intake.** Pull new source from the Google Drive **Revboo Assets** folder (Drive connector → `DownloadFile`) or the Higgsfield inbox (`/workspace/revboo/inbox/higgsfield/`). Keep originals untouched. Record source path, sha256, and the UTC→MT date (Higgsfield `hf_YYYYMMDD_HHMMSS` names are UTC). Reserve a concept ID in `catalog/registry.json` (see [AGENTS.md](../AGENTS.md)).
+2. **Transcript.** faster-whisper `small.en` and `large-v3`, word timestamps, `initial_prompt="Revboo. Ads. Media buyer."`. Read every word of the tagline. Known AI-VO failures: "abs"/"apps" for "ads", "Revo"/"Revbo" for "Revboo". **If the VO says a wrong word, flag it and don't caption over it.** Patch it (same voice, as in Furnace) or reject the take.
+3. **Contact sheet + dead-space scan.** `ffmpeg -vf "fps=16/DUR,scale=270:-2,tile=8x2"`, a first-2-s sheet (`fps=2`), and `silencedetect=n=-40dB:d=0.8` + black-frame check. Cut dead space. The first frame must move and be bright.
+4. **House captions.** `tools/house_captions.py`: Inter Tight ExtraBold 60-64 px, white + exactly one #FF4B0A word, mixed case, soft shadow. Captions only in clean zones (not over faces, people, on-screen text or the key action; not in the top 12% / bottom 20% of 9:16). If a shot has no clean zone, it gets no caption. Captions match the VO word for word.
+5. **Overlap QA.** Run the face/person detectors (`/workspace/revboo/tools/person_det.py`, models in `tools/models/`) against caption boxes on every caption frame. Build a QA sheet (Furnace `qa_sheet.py`). Zero overlaps.
+6. **Reframes + audio.** 9:16 main, 4:5 per-shot reframe (re-place captions). Loudness -14 LUFS integrated, true peak ≤ -1 dBTP. Add the +2-2.5 s end-card hold with a sound-off line and the offer "First 2 ads free. Delivered in 24 hours."
+7. **Covers.** 9:16 + 4:5 from a real ad frame (Furnace `thumbs.py` / best-of `work/thumbs.py`). Headline 106/112 px, ≤6 words, no fake numbers.
+8. **Copy + hook variants (cheap model).** Text model via OpenRouter (`/workspace/revboo/tools/`; the key loads at runtime from box secrets, never print it). Ask for 5 primary texts, 5 headlines and 3 alt hook lines. Reject any stat, result, price or client claim. Budget < $0.10 per ad. Paste the winners into [LAUNCH.md](LAUNCH.md).
+9. **Library + FINALS.** `python3 build.py add FILE --title … --version … --group …` (uploads to the release; never git-add mp4s). Register in `catalog/registry.json` and run `python3 tools/validate_catalog.py`. After **Chase approves**, add to `APPROVED` in `make_finals.py` / `covers.json` and run `python3 make_finals.py`. Tick the box in [TOP10.md](TOP10.md). Commit as Chase Fowler, `git pull --rebase`, push (never force). Verify the release URL and Pages return 200.
+
+**Definition of done:** Whisper-clean VO · house captions with 0 overlaps · 9:16 + 4:5 · -14 LUFS · offer on end card · 2 covers · copy in LAUNCH.md · filed in library · Chase OK in FINALS.md.

@@ -2,6 +2,8 @@
 
 Live page: https://cryptouprise.github.io/revboo-library/
 
+> **Strategy & execution: start in [plan/](plan/README.md)** (Top 10 to run on Meta, teardown review, edit pipeline, upcoming concepts, Meta launch checklist + copy).
+>
 > **Other AIs: follow [BRAND.md](BRAND.md) for all Revboo ads** (colors, fonts, the house caption standard, covers, end card, audio, banned styles; caption helper `tools/house_captions.py`).
 >
 > **Other AIs: only use files listed in [FINALS.md](FINALS.md)** (machine-readable: `finals.json`). Everything else in this library is unreviewed or rejected; ask Chase before using it. Files marked `status: rejected` (red REJECTED chip) must never be used. Approved cover images live in `covers/` (listed in `covers.json`). Regenerate FINALS with `python3 make_finals.py` after Chase approves something.
