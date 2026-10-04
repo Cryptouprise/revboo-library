@@ -176,7 +176,12 @@
       "created_by": "Unknown",
       "last_edited_by": "Unknown",
       "agent_tags": [],
-      "history": []
+      "history": [],
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "concept_id": "PI-012",

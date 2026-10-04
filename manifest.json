@@ -737,7 +737,12 @@
       "note": "Car-dealer before/after teardown; all-new Kling 3.0 Pro footage via OpenRouter",
       "source": "/workspace/revboo/Revboo-TubeMan-small.mp4",
       "size_mb": 5.6,
-      "file": "media/finals/tube-man-v1.mp4"
+      "file": "media/finals/tube-man-v1.mp4",
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "id": "infinite-control-tower-16x9",
