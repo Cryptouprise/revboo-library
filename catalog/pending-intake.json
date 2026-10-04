@@ -20,7 +20,7 @@
     {
       "concept_id": "HV-003",
       "id": "hv-003-fixed-voice",
-      "title": "Lifeguard \u2014 First Skit",
+      "title": "Lifeguard — First Skit",
       "name": "RevBoo-Lifeguard-Fixed-Voice.mp4",
       "version": "fixed-voice",
       "advertiser": "Everwell (fictional)",
@@ -36,7 +36,7 @@
     {
       "concept_id": "SM-006",
       "id": "sm-006-v1",
-      "title": "Future You \u2014 Tax Relief",
+      "title": "Future You — Tax Relief",
       "name": "SuperMoney-06-future-you-tax-relief.mp4",
       "version": "v1",
       "advertiser": "SuperMoney",
@@ -52,7 +52,7 @@
     {
       "concept_id": "SM-007",
       "id": "sm-007-v1",
-      "title": "Future Me\u2019s Problem",
+      "title": "Future Me’s Problem",
       "name": "SuperMoney-07-future-mes-problem.mp4",
       "version": "v1",
       "advertiser": "SuperMoney",
@@ -116,7 +116,7 @@
     {
       "concept_id": "SM-004",
       "id": "sm-004-v1",
-      "title": "Future You \u2014 App",
+      "title": "Future You — App",
       "name": "SuperMoney-04-future-you.mp4",
       "version": "v1",
       "advertiser": "SuperMoney",
@@ -132,34 +132,42 @@
     {
       "concept_id": "RB-013",
       "id": "rb-013-fresh-orus",
-      "title": "HVAC Teardown \u2014 Lifeguard",
+      "title": "HVAC Teardown — Lifeguard",
       "name": "RevBoo-HVAC-Teardown-Fresh-Orus.mp4",
       "version": "fresh-orus",
       "advertiser": "RevBoo",
       "brand": "Revboo",
-      "collection_tag": "Free Ads",
+      "collection_tag": "RevBoo Ads",
       "category": "Teardown",
       "duration": 40.533333,
       "sha256": "6991336693e29f9eab305144811ff6d6fbcf08c4f774bcecb245e6b87fc62b20",
       "preview_sha256": "a1307cf79118b362bfdec8155dcfd7365c4751f033c939cb088dc426b661a131",
       "preview_bytes": 5272354,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "concept_id": "RB-013",
       "id": "rb-013-reveal-segment",
-      "title": "HVAC Teardown \u2014 Lifeguard",
+      "title": "HVAC Teardown — Lifeguard",
       "name": "RevBoo-HVAC-Our-Ad-Reveal.mp4",
       "version": "reveal-segment",
       "advertiser": "RevBoo",
       "brand": "Revboo",
-      "collection_tag": "Free Ads",
+      "collection_tag": "RevBoo Ads",
       "category": "Teardown",
       "duration": 21.505,
       "sha256": "15a5ae33c102e8006dc31e7bc158bbeb7638924dbf8827134d83436e5df0a8a5",
       "preview_sha256": "8708ba21f354aa78ecdbad62d60070e13bbf85948bf3c3c1a0b704900c75531e",
       "preview_bytes": 5272550,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "concept_id": "SM-005",
@@ -196,18 +204,22 @@
     {
       "concept_id": "RB-014",
       "id": "rb-014-real-ad-opening",
-      "title": "HVAC Teardown \u2014 Penguin",
+      "title": "HVAC Teardown — Penguin",
       "name": "RevBoo-Real-HVAC-Penguin-Teardown.mp4",
       "version": "real-ad-opening",
       "advertiser": "RevBoo",
       "brand": "Revboo",
-      "collection_tag": "Free Ads",
+      "collection_tag": "RevBoo Ads",
       "category": "Teardown",
       "duration": 40.469,
       "sha256": "499fc23b6010226cf3aa94c568bdd1417cb35a2cbb6df773057d333acc154d26",
       "preview_sha256": "8c061d124b70f1c5f150e52759b26a5d944a0384671d911af29821abe21299c2",
       "preview_bytes": 5290096,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "concept_id": "SM-002",
@@ -244,66 +256,82 @@
     {
       "concept_id": "RB-013",
       "id": "rb-013-car-smash-v2",
-      "title": "HVAC Teardown \u2014 Lifeguard",
+      "title": "HVAC Teardown — Lifeguard",
       "name": "RevBoo-HVAC-Teardown-Car-Smash-v2.mp4",
       "version": "car-smash-v2",
       "advertiser": "RevBoo",
       "brand": "Revboo",
-      "collection_tag": "Free Ads",
+      "collection_tag": "RevBoo Ads",
       "category": "Teardown",
       "duration": 40.533333,
       "sha256": "2b01affad168bdab96d08765c1fcaed61a0f347723dfc2e0f355b20630befd2c",
       "preview_sha256": "7578631b79ac22a551dc177840ae448ba1594e8c3f829b92317970d0b10e8625",
       "preview_bytes": 5276516,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "concept_id": "RB-013",
       "id": "rb-013-fictional-v1",
-      "title": "HVAC Teardown \u2014 Lifeguard",
+      "title": "HVAC Teardown — Lifeguard",
       "name": "RevBoo-HVAC-Fictional-Ad-Teardown.mp4",
       "version": "fictional-v1",
       "advertiser": "RevBoo",
       "brand": "Revboo",
-      "collection_tag": "Free Ads",
+      "collection_tag": "RevBoo Ads",
       "category": "Teardown",
       "duration": 33.839,
       "sha256": "4930369fff2e080fda7bce6444e6e5971449f0a0fcf92852f319f1709519961f",
       "preview_sha256": "c2daa2dcd402ef739e00127922db6ba3e4300d505e71bea936b7f5029d078a65",
       "preview_bytes": 5402866,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "concept_id": "RB-013",
       "id": "rb-013-ken-labelled",
-      "title": "HVAC Teardown \u2014 Lifeguard",
+      "title": "HVAC Teardown — Lifeguard",
       "name": "RevBoo-HVAC-Teardown-Ken.mp4",
       "version": "ken-labelled",
       "advertiser": "RevBoo",
       "brand": "Revboo",
-      "collection_tag": "Free Ads",
+      "collection_tag": "RevBoo Ads",
       "category": "Teardown",
       "duration": 40.533333,
       "sha256": "2bde32a7fca3a881d2ab3f0468e0507106c76d5c659be5af55c2900897dfe9c1",
       "preview_sha256": "6f14bfd5a4fe425acf0ab54e50b37f6c20d267cf6e7c3c72f339e359038985d1",
       "preview_bytes": 5298926,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "concept_id": "RB-013",
       "id": "rb-013-ken-warm-labelled",
-      "title": "HVAC Teardown \u2014 Lifeguard",
+      "title": "HVAC Teardown — Lifeguard",
       "name": "RevBoo-HVAC-Teardown-Ken-Warm.mp4",
       "version": "ken-warm-labelled",
       "advertiser": "RevBoo",
       "brand": "Revboo",
-      "collection_tag": "Free Ads",
+      "collection_tag": "RevBoo Ads",
       "category": "Teardown",
       "duration": 40.533333,
       "sha256": "50fa39f5832ac38c0e9107b60c5921b3569023a0dbe3647decd0c33d0626a3ee",
       "preview_sha256": "4a5345c396bce273698f7f04c552aa4bc0ceffc34b0ae261ce2cf42f8151e52a",
       "preview_bytes": 5296364,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     }
   ]
 }

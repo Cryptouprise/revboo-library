@@ -432,7 +432,12 @@
       "note": "Presenter: 'Your ads deserve better creative. We deliver fresh video creative ads every week.' Cleanest version.",
       "source": "/workspace/revboo/assets/Revboo/06_concept2_ad-autopsy_v3-final.mp4",
       "size_mb": 3.1,
-      "file": "media/finals/ad-autopsy-v3.mp4"
+      "file": "media/finals/ad-autopsy-v3.mp4",
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "id": "trovy-yellow-card",
@@ -1012,7 +1017,12 @@
       "note": "⚠ End card misspelled REVBOOO.VIDEO. ROAS 0.7x ad dissolves, media buyer picks a new ad on the Revboo dashboard. Higgsfield hf_20260928_030044.",
       "source": "/workspace/revboo/assets/Revboo/04_concept2_ad-autopsy_v1.mp4",
       "size_mb": 2.7,
-      "file": "media/finals/ad-autopsy-v1.mp4"
+      "file": "media/finals/ad-autopsy-v1.mp4",
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "id": "ad-autopsy-v2",
@@ -1032,7 +1042,12 @@
       "note": "⚠ Middle text card garbled ('Donefor-youf video'). End card spelling fixed. Higgsfield hf_20260928_034319.",
       "source": "/workspace/revboo/assets/Revboo/05_concept2_ad-autopsy_v2.mp4",
       "size_mb": 2.4,
-      "file": "media/finals/ad-autopsy-v2.mp4"
+      "file": "media/finals/ad-autopsy-v2.mp4",
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "id": "old-busted-ads-supercar-v1",

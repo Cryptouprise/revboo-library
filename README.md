@@ -74,4 +74,10 @@ All agents: read [AGENTS.md](AGENTS.md) and [the shared workflow](docs/AGENT_WOR
 
 
 ## Free Ads
-Creative Command has a **Free Ads** shortcut for complimentary prospect concepts, HVAC demonstration skits and related teardown pitches. SuperMoney and HVAC Samples retain their own brand filters. This label is a purpose tag, independent of creator, advertiser, format and approval. Older Ken-labelled narration exports retain their original labels; the label alone does not verify voice identity.
+Creative Command has a **Free Ads** shortcut for complimentary prospect concepts, HVAC demonstration skits. SuperMoney and HVAC Samples retain their own brand filters. This label is a purpose tag, independent of creator, advertiser, format and approval. Older Ken-labelled narration exports retain their original labels; the label alone does not verify voice identity.
+
+
+### Stars and content
+Creative Command now has ★ buttons, a Starred view, favorites-first ordering, notes, ordering controls and Copy/Download/Import shortlist. Your chosen version stays attached to its concept. Browser picks save locally; copy the shortlist into any AI to discuss the same exact exports. Ask an authorized agent to sync the shortlist to catalog/shortlist.json to share it through GitHub. No campaign launch is implied.
+
+RevBoo teardowns are tagged RevBoo Ads plus Content. They are not Free Ads. Content filtering reuses the same concept/version records. See docs/AGENT_WORKFLOW.md for the cross-agent shortlist contract.
