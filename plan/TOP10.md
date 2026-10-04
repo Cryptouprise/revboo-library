@@ -11,7 +11,7 @@ Chase approved all 10. Run in this order. Source of truth: `approved_ranking` in
 - [x] ★ **5. Tube Man (RB-012)**: `rb-012-a-v02-9x16` + `rb-012-a-v02-4x5` (house-caption fix v02, 27.4 s; fixed version ✅ approved by Chase Oct 4, 2:40 PM MT; replaces `tube-man-v1` as the approved pick, old file kept).
 - [x] ★ **6. PI Attorneys – Scroll Past (PI-008)**: `pi-008-a-v02-9x16` + `pi-008-a-v02-4x5` (house-caption fix v02, 26.4 s; fixed version ✅ approved by Chase Oct 4, 2:40 PM MT; replaces `pi-attorneys-scroll-past-v1` as the approved pick, old file kept).
 - [x] ★ **7. Ad Autopsy v4 – tighter transition (RB-001)**: `rb-001-a-v04-9x16`.
-- [x] ★ **8. The Remake (RB-010)**: `remake`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
+- [x] ★ **8. The Remake (RB-010)**: `rb-010-a-v02-9x16` + `rb-010-a-v02-4x5` (house-caption fix v02, 23.9 s; replaces `remake` as the approved pick, old file kept).
 - [x] ★ **9. PI Attorneys – Hammer Broke (PI-007)**: `pi-attorneys-hammer-broke-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
 - [x] ★ **10. The Ad Graveyard v2 (RB-009)**: `rb-009-a-v02-9x16` + `rb-009-a-v02-4x5` (house-caption fix, 23.5 s; replaces `graveyard-v2` as the approved pick, old file kept).
 
@@ -34,7 +34,7 @@ Common fix across the older teardowns: their captions are the **banned all-caps 
 | ★ 5 | Tube Man (RB-012) | [rb-012-a-v02-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-9x16.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-4x5.mp4) | 27.4 s | 9:16 + 4:5 | **★ Approved** (fix v02, was v1 36.0 s) |
 | ★ 6 | PI Attorneys – Scroll Past (PI-008) | [pi-008-a-v02-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-9x16.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-4x5.mp4) | 26.4 s | 9:16 + 4:5 | **★ Approved** (fix v02, was v1 37.1 s) |
 | ★ 7 | Ad Autopsy v4 – tighter transition (RB-001) | [rb-001-a-v04-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-001-a-v04-9x16.mp4) | 12.0 s | 9:16 | **★ Approved** (was: talking-girl teardown RB-013/014, now bench) |
-| ★ 8 | The Remake (RB-010) | [remake](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake.mp4) | 23.9 s | 9:16 | **★ Approved** (fix version in progress) |
+| ★ 8 | The Remake (RB-010) | [rb-010-a-v02-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-9x16.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-4x5.mp4) | 23.9 s | 9:16 + 4:5 | **★ Approved** (fix v02) |
 | ★ 9 | PI Attorneys – Hammer Broke (PI-007) | [pi-attorneys-hammer-broke-v1](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-attorneys-hammer-broke-v1.mp4) | 39.5 s | 9:16 | **★ Approved** (fix version in progress) |
 | ★ 10 | The Ad Graveyard v2 (RB-009) | [rb-009-a-v02-9x16](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16.mp4) · [4:5](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5.mp4) | 23.5 s | 9:16 + 4:5 | **★ Approved** (house-caption fix) |
 
@@ -87,9 +87,9 @@ _Chase's approved #7 is Ad Autopsy v4 (`rb-001-a-v04-9x16`, RB-001), see the ★
 
 ## 8. The Remake (RB-010): Needs fix
 **Why:** "This is your ad. They scrolled. You paid for that." → "Same product. Same budget. Completely different ad." + "Send us your worst ad. We'll remake it." The best CTA concept in the library.
-- [ ] Re-caption house style
-- [ ] Replace the fake "SUMMER SALE 10% OFF" sneaker card? It is the parody "bad ad", so OK, but check no garbled text
-- [ ] Add offer line "First 2 ads free. Delivered in 24 hours." on end card; 4:5 cut
+- [x] Re-caption house style → `rb-010-a-v02-9x16` (Oct 4)
+- [x] Replace the fake "SUMMER SALE 10% OFF" sneaker card? It is the parody "bad ad", so OK, but check no garbled text → checked: SUMMER SALE / 10% OFF reads cleanly, kept as the parody bad ad
+- [x] Add offer line "First 2 ads free. Delivered in 24 hours." on end card; 4:5 cut → `rb-010-a-v02-4x5`
 
 ## 9. PI Attorneys – Hammer Broke (PI-007): Needs fix
 **Why:** Funniest PI montage (broken gavel, neck-brace actor, cone trip, billboard pigeons) → "Same firm. Same budget. The calm one gets the call."

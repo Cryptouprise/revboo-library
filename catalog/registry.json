@@ -354,30 +354,49 @@
       "category": "Revboo ads",
       "aliases": [
         "Revboo-Remake.mp4",
-        "remake"
+        "remake",
+        "RB-010__remake__A__v02__9x16.mp4",
+        "RB-010__remake__A__v02__9x16__720p-small.mp4",
+        "RB-010__remake__A__v02__4x5.mp4"
       ],
       "assets": [
+        "rb-010-a-v02-4x5",
+        "rb-010-a-v02-9x16",
         "remake"
       ],
-      "approved_asset_id": "remake",
+      "approved_asset_id": "rb-010-a-v02-9x16",
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
-      "agent_tags": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
       "history": [
         {
           "at": "2026-10-04T13:33:00-06:00",
           "agent": "Grok",
           "action": "★ Chase approved (Top 10 #8, Oct 4, 2026 1:33 PM MT). approved_asset_id -> remake. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
           "parent_asset_id": null
+        },
+        {
+          "at": "2026-10-04T14:59:00-06:00",
+          "agent": "Grok",
+          "action": "Added rb-010-a-v02-9x16, rb-010-a-v02-4x5 (house-caption fix v02) and made it the approved pick (★ Top 10 #8); old remake kept.",
+          "parent_asset_id": "remake"
         }
       ],
       "approved_asset_ids": [
-        "remake"
+        "rb-010-a-v02-9x16",
+        "rb-010-a-v02-4x5"
       ],
       "approved_rank": 8,
       "approved_star": "★",
-      "approval_status": "★ Approved – Ready to Run (fix version in progress)",
-      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      "approval_status": "★ Approved – Ready to Run",
+      "approved_note": "Fix version v02 (house captions, FREE offer on the logo card, same 23.9 s cut, 9:16 + 4:5) is the approved pick; old v1 kept.",
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     },
     {
       "concept_id": "RB-009",
@@ -5072,6 +5091,166 @@
       ],
       "approved_rank": 10,
       "approved_star": "★"
+    },
+    "rb-010-a-v02-9x16": {
+      "concept_id": "RB-010",
+      "asset_id": "rb-010-a-v02-9x16",
+      "title": "The Remake – house captions",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Business owners, media buyers, agencies",
+      "category": "Revboo ads",
+      "aliases": [
+        "RB-010__remake__A__v02__9x16.mp4",
+        "RB-010__remake__A__v02__9x16__720p-small.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "remake",
+      "request": "Chase (Oct 4, 2026, Top 10 #8): re-caption house style; check the parody SUMMER SALE sneaker card for garbled text; add offer line 'First 2 ads free. Delivered in 24 hours.' on the end card; 4:5 cut. Then filed as the approved pick (Chase approved all 10 at 1:33 PM MT).",
+      "change_log": [
+        "Rebuilt from a text-free render of v1's own build (text layer off); picture edit and music unchanged (23.9 s).",
+        "House captions: This is your ad. They scrolled. / You paid for that. / Now watch. / Same product. Same budget. / Completely different ad. / That’s a click. / Done for you. Send us your worst ad. / We’ll remake it. / First 2 ads free. Delivered in 24 hours. Short v1 lines were merged so most captions stay up 2+ s; timings shifted off the orange flash frames.",
+        "'We’ll remake it like this.' shortened to 'We’ll remake it.' (1.3 s window on the premium sneaker shot before the logo).",
+        "Parody SUMMER SALE / 10% OFF sneaker card checked: text reads cleanly (it is the 'bad ad', kept).",
+        "Mastered -14 LUFS integrated."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T14:59:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-9x16-MASTER.mp4",
+      "sha256": "15a787d7c8385fe2bf7952fd5a3162e420f42bf3644744a50f5718eb9e71e274",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 23.9,
+      "script": "(music + on-screen text, no VO) This is your ad. They scrolled. / You paid for that. / Now watch. / Same product. Same budget. / Completely different ad. / That’s a click. / Done for you. Send us your worst ad. / We’ll remake it. / First 2 ads free. Delivered in 24 hours.",
+      "hook": "Phone scrolling past a SUMMER SALE sneaker ad: 'This is your ad. They scrolled.'",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "revboo.video logo card with the offer",
+      "source_asset_ids": [
+        "remake"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1920 30 fps, 23.9 s, -14.06 LUFS, TP -1.1 dBTP; 720p small copy 5.5 MB",
+        "captions": "PASS: overlap QA 0 hits; OCR read-back of every caption OK",
+        "branding_cta": "revboo.video card with the FREE offer",
+        "full_playback": "Contact sheets reviewed; Chase approved the concept Oct 4, 2026 (★ Top 10 #8)."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "15a787d7c8385fe2bf7952fd5a3162e420f42bf3644744a50f5718eb9e71e274",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-9x16-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #8 The Remake; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+      },
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T14:59:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (9x16) from remake: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "remake"
+        },
+        {
+          "at": "2026-10-04T14:59:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #8), replacing remake as the approved pick.",
+          "parent_asset_id": "remake"
+        }
+      ],
+      "approved_rank": 8,
+      "approved_star": "★"
+    },
+    "rb-010-a-v02-4x5": {
+      "concept_id": "RB-010",
+      "asset_id": "rb-010-a-v02-4x5",
+      "title": "The Remake – house captions",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Business owners, media buyers, agencies",
+      "category": "Revboo ads",
+      "aliases": [
+        "RB-010__remake__A__v02__4x5.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "4x5",
+      "parent_asset_id": "remake",
+      "request": "Chase (Oct 4, 2026, Top 10 #8): re-caption house style; check the parody SUMMER SALE sneaker card for garbled text; add offer line 'First 2 ads free. Delivered in 24 hours.' on the end card; 4:5 cut. Then filed as the approved pick (Chase approved all 10 at 1:33 PM MT).",
+      "change_log": [
+        "4:5 (1080x1350) per-shot reframe of rb-010-a-v02-9x16; captions re-placed by the overlap checker (5% margins)."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T14:59:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-4x5-MASTER.mp4",
+      "sha256": "c25c5ad901a86d7ba02f97e40759f398092fe67d68e1de880cc7bbd8e7f67e45",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-4x5.mp4",
+      "native_dimensions": "1080x1350",
+      "export_dimensions": "1080x1350",
+      "duration_seconds": 23.9,
+      "script": "(music + on-screen text, no VO) This is your ad. They scrolled. / You paid for that. / Now watch. / Same product. Same budget. / Completely different ad. / That’s a click. / Done for you. Send us your worst ad. / We’ll remake it. / First 2 ads free. Delivered in 24 hours.",
+      "hook": "Phone scrolling past a SUMMER SALE sneaker ad: 'This is your ad. They scrolled.'",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "revboo.video logo card with the offer",
+      "source_asset_ids": [
+        "remake"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1350 30 fps, 23.9 s, -14.06 LUFS",
+        "captions": "PASS: overlap QA 0 hits; OCR read-back OK",
+        "full_playback": "Contact sheet reviewed."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "c25c5ad901a86d7ba02f97e40759f398092fe67d68e1de880cc7bbd8e7f67e45",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-4x5-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #8 The Remake; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+      },
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T14:59:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (4x5) from remake: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "remake"
+        },
+        {
+          "at": "2026-10-04T14:59:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #8), replacing remake as the approved pick.",
+          "parent_asset_id": "remake"
+        }
+      ],
+      "approved_rank": 8,
+      "approved_star": "★"
     }
   },
   "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber.",
@@ -5210,14 +5389,15 @@
       "concept_id": "RB-010",
       "title": "The Remake",
       "asset_ids": [
-        "remake"
+        "rb-010-a-v02-9x16",
+        "rb-010-a-v02-4x5"
       ],
       "cover_ids": [],
       "approved_by": "Chase Fowler",
       "approved_at": "2026-10-04T13:33:00-06:00",
       "status": "★ Approved – Ready to Run",
-      "fix_in_progress": true,
-      "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      "fix_in_progress": false,
+      "note": "Fix version v02 (house captions, FREE offer on the logo card, same 23.9 s cut, 9:16 + 4:5) is the approved pick; old v1 kept."
     },
     {
       "rank": 9,

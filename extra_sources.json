@@ -707,6 +707,36 @@
       "title": "The Ad Graveyard",
       "version": "v3 · house captions (4:5) (★ APPROVED)",
       "category": "Revboo ads"
+    },
+    {
+      "id": "rb-010-a-v02-9x16",
+      "src": "/workspace/revboo/edits/top10-fixes/remake/RB-010__remake__A__v02__9x16.mp4",
+      "brand": "Revboo",
+      "note": "★ APPROVED by Chase Oct 4, 2026 (Top 10 #8); replaces v1 as the approved pick. Fix of v1: house captions (one orange word, clean zones only) replace the all-caps Anton text; offer 'First 2 ads free. Delivered in 24 hours.' on the revboo.video card (replaces the REVBOO.VIDEO text). Same 23.9 s edit and audio. -14 LUFS.",
+      "pt": 9.0,
+      "date_override": [
+        "Oct 4, 2026",
+        "2026-10-04T00:00:00"
+      ],
+      "group": "The Remake",
+      "title": "The Remake",
+      "version": "v2 · house captions (9:16) (★ APPROVED)",
+      "category": "Revboo ads"
+    },
+    {
+      "id": "rb-010-a-v02-4x5",
+      "src": "/workspace/revboo/edits/top10-fixes/remake/RB-010__remake__A__v02__4x5.mp4",
+      "brand": "Revboo",
+      "note": "★ APPROVED by Chase Oct 4, 2026 (Top 10 #8). 4:5 (1080x1350) feed cut of v2: per-shot reframe, captions re-placed for 4:5. -14 LUFS.",
+      "pt": 9.0,
+      "date_override": [
+        "Oct 4, 2026",
+        "2026-10-04T00:00:00"
+      ],
+      "group": "The Remake",
+      "title": "The Remake",
+      "version": "v2 · house captions (4:5) (★ APPROVED)",
+      "category": "Revboo ads"
     }
   ],
   "clips": [

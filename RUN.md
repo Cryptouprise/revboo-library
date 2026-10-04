@@ -47,9 +47,8 @@
 
 ## ★ 8. The Remake (RB-010)
 
-🛠 Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
-
-- **9:16** `remake` (23.9 s): [web copy](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/remake.mp4) · [poster](https://cryptouprise.github.io/revboo-library/media/posters/remake.jpg)
+- **9:16** `rb-010-a-v02-9x16` (23.9 s): [web copy](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-9x16.mp4) · [full-quality master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-9x16-MASTER.mp4) · [poster](https://cryptouprise.github.io/revboo-library/media/posters/rb-010-a-v02-9x16.jpg)
+- **4:5** `rb-010-a-v02-4x5` (23.9 s): [web copy](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-4x5.mp4) · [full-quality master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-010-a-v02-4x5-MASTER.mp4) · [poster](https://cryptouprise.github.io/revboo-library/media/posters/rb-010-a-v02-4x5.jpg)
 - Cover: video poster frame (no custom cover yet)
 
 ## ★ 9. PI Attorneys – Hammer Broke (PI-007)

@@ -679,6 +679,12 @@
   "size": 5062479,
   "sha256": "0b4948805c8860a39fa0c5d53f8a0e98bf979597869860561251ffac8b8fc529"
  },
+ "rb-009-a-v02-4x5-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 67459492,
+  "sha256": "cf26ac73dfd2fa4f2eb1d1d886f1b2b12addc3096a14d11844788721cb320800",
+  "master": true
+ },
  "rb-009-a-v02-4x5.mp4": {
   "tag": "media-v1",
   "size": 5198552,
@@ -694,6 +700,22 @@
   "tag": "media-v1",
   "size": 5214829,
   "sha256": "c279de1b72ea8c87bbc945134a503f344c1ac11037865259b99daf88dd1dec85"
+ },
+ "rb-010-a-v02-4x5.mp4": {
+  "tag": "media-v1",
+  "size": 5394582,
+  "sha256": "5a298046db9f8e4c68a550fbfac73e8223d376e2d446c7f1bdda5d0dcf6d671e"
+ },
+ "rb-010-a-v02-9x16-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 81057665,
+  "sha256": "15a787d7c8385fe2bf7952fd5a3162e420f42bf3644744a50f5718eb9e71e274",
+  "master": true
+ },
+ "rb-010-a-v02-9x16.mp4": {
+  "tag": "media-v1",
+  "size": 5308814,
+  "sha256": "622aa932cf12c7cd87bf725e1555fc5ef13b36e8fa32f091d1e2d2ba19049a66"
  },
  "rb-012-a-v02-4x5-MASTER.mp4": {
   "tag": "media-v1",
@@ -949,10 +971,10 @@
   "size": 1048622,
   "sha256": "fb37174ffdd84878266857be3df852545142842b0e1af3a006032fcc5619afab"
  },
- "rb-009-a-v02-4x5-MASTER.mp4": {
+ "rb-010-a-v02-4x5-MASTER.mp4": {
   "tag": "media-v1",
-  "size": 67459492,
-  "sha256": "cf26ac73dfd2fa4f2eb1d1d886f1b2b12addc3096a14d11844788721cb320800",
+  "size": 63716748,
+  "sha256": "c25c5ad901a86d7ba02f97e40759f398092fe67d68e1de880cc7bbd8e7f67e45",
   "master": true
  }
 }
