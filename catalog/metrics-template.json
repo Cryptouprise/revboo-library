@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "currency": "USD",
+  "timezone": "America/Denver",
+  "attribution": "SET_ACTUAL_META_ATTRIBUTION",
+  "imported_at": null,
+  "source_updated_at": null,
+  "crm_mature_through": null,
+  "crm_deduped": false,
+  "rows": []
+}

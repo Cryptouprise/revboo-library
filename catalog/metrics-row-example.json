@@ -1,0 +1,21 @@
+{
+  "date": "YYYY-MM-DD",
+  "account_id": "ACCOUNT_ID",
+  "ad_id": "AD_ID",
+  "asset_id": "ad-autopsy-v3",
+  "operated_by": "Muse",
+  "strategy": "direct",
+  "stage": "prospecting",
+  "spend": null,
+  "impressions": null,
+  "views_3s": null,
+  "thruplays": null,
+  "outbound_clicks": null,
+  "landing_page_views": null,
+  "meta_leads": null,
+  "qualified_leads": null,
+  "booked_calls": null,
+  "held_calls": null,
+  "new_customers": null,
+  "collected_revenue": null
+}
