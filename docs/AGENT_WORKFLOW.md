@@ -88,7 +88,7 @@ Use collection_tag="Free Ads" for complimentary proof-of-concept ads, fictional 
 
 
 ## RevBoo ads and reusable content
-Teardowns (including RB-001, RB-013 and RB-014) are RevBoo marketing ads, not Free Ads. Set collection_tag="RevBoo Ads" and usage_tags=["Ads","Content"]. Keep kind="ad", brand/collection="Revboo" and the permanent IDs. Content is an additional use tag, not a duplicated export or new concept. SuperMoney complimentary samples and fictional HVAC sample ads remain Free Ads unless the user changes their purpose. Preserve this correction during pending intake.
+Teardowns (including RB-001, RB-012, RB-013 and RB-014) are RevBoo marketing ads, not Free Ads. Set collection_tag="RevBoo Ads" and usage_tags=["Ads","Content"]. Keep kind="ad", brand/collection="Revboo" and the permanent IDs. Content is an additional use tag, not a duplicated export or new concept. SuperMoney complimentary samples and fictional HVAC sample ads remain Free Ads unless the user changes their purpose. Preserve this correction during pending intake.
 
 ## Stars, shortlist and cross-agent discussion
 Creative Command stars one concept with an exact preferred asset_id/version, rank and note. Versions remain together. Browser changes persist in localStorage; the static dashboard does not automatically write them to GitHub. Copy shortlist creates an agent-ready brief with IDs, version, playback link, notes and a machine-readable JSON block. Download/import transfers the same choices between agents/devices.
