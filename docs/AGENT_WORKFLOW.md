@@ -82,3 +82,6 @@ Read docs/MUSE_ANALYTICS.md for launch handoffs, exact creative-to-ad mapping, m
 
 ## Grouped versions and edit requests
 Creative Command shows one card per registered concept, with a version selector and all-version history. Search retains the full matching concept family. A selected preview is not launch approval. “Request an edit” includes the immutable source asset, concept ID, version, URL, time range, requested change and protected elements. The player can capture its current timestamp. Requests are copied/downloaded locally; no task is submitted automatically. The receiving agent must resolve this exact source, make a new revision and keep the old export. Deep links use command.html?asset=<exact-asset-id>.
+
+## Free Ads prospect collection
+Use collection_tag="Free Ads" for complimentary proof-of-concept ads, fictional HVAC demonstration ads and the associated RevBoo teardown pitches. Preserve the advertiser separately: SuperMoney, Everwell (fictional), or RevBoo. Brand is not replaced by the prospect stage. Category still describes the creative format. This label does not imply the prospect is a paying customer, commissioned the work, approved the claims, or authorized campaign launch. Keep variants under their existing concept and preserve older versions. The user authorized adding these videos to this GitHub gallery on 2026-10-04.

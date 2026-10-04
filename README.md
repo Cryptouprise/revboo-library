@@ -69,3 +69,6 @@ All agents: read [AGENTS.md](AGENTS.md) and [the shared workflow](docs/AGENT_WOR
 
 
 [Creative Command dashboard](command.html) combines the catalog, extensible agent tags, private reporting import, Muse handoff and strategy comparison. No ad accounts connected or campaigns launched. See [Muse analytics contract](docs/MUSE_ANALYTICS.md).
+
+## Free Ads
+Creative Command has a **Free Ads** shortcut for complimentary prospect concepts, HVAC demonstration skits and related teardown pitches. SuperMoney and HVAC Samples retain their own brand filters. This label is a purpose tag, independent of creator, advertiser, format and approval. Older Ken-labelled narration exports retain their original labels; the label alone does not verify voice identity.
