@@ -1,0 +1,11 @@
+{
+  "note": "Approved cover / thumbnail images. Listed in FINALS.md. Add new ones here and rerun python3 make_finals.py.",
+  "covers": [
+    {"id": "furnace-cover-9x16", "file": "covers/furnace-cover-9x16.png", "for": "Furnace – Captioned Paid Ad", "made_by": "Grok Bot (from ad frame 0:05.6)", "size": "1080x1920", "aspect": "9:16", "line": "Stop feeding the furnace.", "status": "approved", "date": "Oct 4, 2026", "note": "Cover for the 9:16 Furnace cut. Frame: Chase shoveling cash toward the furnace."},
+    {"id": "furnace-cover-4x5", "file": "covers/furnace-cover-4x5.png", "for": "Furnace – Captioned Paid Ad", "made_by": "Grok Bot (from ad frame 0:05.6)", "size": "1080x1350", "aspect": "4:5", "line": "Stop feeding the furnace.", "status": "approved", "date": "Oct 4, 2026", "note": "Cover for the 4:5 Furnace cut."},
+    {"id": "muse-01", "file": "covers/muse-01_ads-are-dying.webp", "for": "Revboo (general)", "made_by": "Muse", "size": "1408x1760", "aspect": "4:5", "line": "YOUR ADS ARE DYING. / Not the offer. The creative.", "status": "approved", "date": "Oct 4, 2026", "note": "Flatline ECG monitor. Its line is used as the hook in the Furnace hook-cover test variant."},
+    {"id": "muse-02", "file": "covers/muse-02_secret-weapon.webp", "for": "Revboo (general)", "made_by": "Muse", "size": "1408x1760", "aspect": "4:5", "line": "THE SECRET WEAPON. your media buyer has been waiting for", "status": "approved", "date": "Oct 4, 2026", "note": "Desk with a glowing case."},
+    {"id": "muse-03", "file": "covers/muse-03_2000-20-fresh.webp", "for": "Revboo (general)", "made_by": "Muse", "size": "1408x1760", "aspect": "4:5", "line": "$2,000 / MONTH, 20 FRESH VIDEO ADS, EVERY. SINGLE. MONTH.", "status": "approved", "date": "Oct 4, 2026", "note": "Yellow poster. PRICING NOT CONFIRMED: Chase has not confirmed the $2,000/month or 20-ads figures. Check with Chase before running it.", "warning": true},
+    {"id": "muse-04", "file": "covers/muse-04_stop-boosting.webp", "for": "Revboo (general)", "made_by": "Muse", "size": "1408x1760", "aspect": "4:5", "line": "STOP BOOSTING THE SAME 3 VIDEOS.", "status": "approved", "date": "Oct 4, 2026", "note": "Wall of phones."}
+  ]
+}

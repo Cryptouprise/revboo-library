@@ -117,12 +117,13 @@
       "id": "blast-furnace-take2",
       "src": "/workspace/revboo/assets/Revboo/furB_fixed.mp4",
       "brand": "Revboo",
-      "note": "Shovels cash toward the furnace where the BIG SALE mascot burns, pulls the lever; end card 'Done-for-you video ads. Delivered weekly.'",
+      "note": "REJECTED, do not use: same \"your ABS can't afford to miss\" voice-over as take 1 (the audio track is bit-identical; Whisper small.en/medium.en/large-v3 all hear \"abs\"). Only the end-card text was fixed. Kept for the archive. Use the captioned Furnace ad listed in FINALS.md. Original note: Shovels cash toward the furnace where the BIG SALE mascot burns, pulls the lever; end card 'Done-for-you video ads. Delivered weekly.'",
       "pt": 5.6,
       "group": "Blast Furnace / Change the Creative",
       "title": "Blast Furnace / Change the Creative",
       "version": "take 2 (furB fixed)",
-      "category": "Seedance originals (made by Chase)"
+      "category": "Rejected takes (do not use)",
+      "status": "rejected"
     },
     {
       "id": "old-busted-ads-supercar-v1",
@@ -481,6 +482,39 @@
       "title": "LeaseStack Explainer (rebrand sample)",
       "version": "v1 · 9:16",
       "category": "Client samples: LeaseStack"
+    },
+    {
+      "id": "furnace-captioned-9x16-hookcover-v1",
+      "src": "/workspace/revboo/edits/fire-money-captioned/Revboo-Furnace-Captioned-9x16-hookcover.mp4",
+      "brand": "Revboo",
+      "note": "Test variant: 1.25 s cover frame with Muse thumbnail 01's line 'Your ads are dying. Not the offer. The creative.' over the burning BIG SALE mascot, then the full captioned 9:16 cut. Same audio fix as the main cut.",
+      "pt": 0.5,
+      "group": "Blast Furnace / Change the Creative",
+      "title": "Furnace – Captioned Paid Ad",
+      "version": "v1 · 9:16 + 1.25 s hook cover (test variant)",
+      "category": "Paid ad cuts (captioned)"
+    },
+    {
+      "id": "furnace-captioned-4x5-v1",
+      "src": "/workspace/revboo/edits/fire-money-captioned/Revboo-Furnace-Captioned-4x5.mp4",
+      "brand": "Revboo",
+      "note": "4:5 (1080x1350) feed cut of the approved captioned Furnace ad: per-shot crop, captions re-placed off faces/torso/text/fire/money. -14 LUFS.",
+      "pt": 8.5,
+      "group": "Blast Furnace / Change the Creative",
+      "title": "Furnace – Captioned Paid Ad",
+      "version": "v1 · 4:5 captioned",
+      "category": "Paid ad cuts (captioned)"
+    },
+    {
+      "id": "furnace-captioned-9x16-v1",
+      "src": "/workspace/revboo/edits/fire-money-captioned/Revboo-Furnace-Captioned-9x16.mp4",
+      "brand": "Revboo",
+      "note": "APPROVED paid-ad cut (sound-off ready). Base: furB_fixed (take 2 picture, correct end-card text). The source VO's last word was 'abs'; it is patched to 'ads' using the same voice's 'ads' from 0:02 (Whisper now hears 'your ads can't afford to miss'). Style C captions (Inter Tight ExtraBold, one orange word), +2.5 s end-card hold with a sound-off beat 'Get more out of your ad budget.', -14 LUFS. Ends: '...your ads can't afford to miss.'",
+      "pt": 8.5,
+      "group": "Blast Furnace / Change the Creative",
+      "title": "Furnace – Captioned Paid Ad",
+      "version": "v1 · 9:16 captioned (APPROVED)",
+      "category": "Paid ad cuts (captioned)"
     }
   ],
   "clips": [
