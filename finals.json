@@ -1,0 +1,169 @@
+{
+ "generated": "Oct 4, 2026",
+ "rule": "Only files listed here are approved. Everything else: ask Chase.",
+ "approved_videos": [
+  {
+   "id": "furnace-captioned-9x16-v1",
+   "title": "Furnace – Captioned Paid Ad",
+   "brand": "Revboo",
+   "version": "v1 · 9:16 captioned (APPROVED)",
+   "role": "MAIN cut: Reels/TikTok/Shorts/Stories",
+   "aspect": "9:16",
+   "width": 1080,
+   "height": 1920,
+   "duration": 17.5,
+   "date": "Oct 4, 2026",
+   "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-v1-MASTER.mp4",
+   "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-v1.mp4",
+   "local_master": "/workspace/revboo/edits/fire-money-captioned/Revboo-Furnace-Captioned-9x16.mp4",
+   "poster": "https://cryptouprise.github.io/revboo-library/media/posters/furnace-captioned-9x16-v1.jpg",
+   "note": "Correct final ends with \"...your ads can't afford to miss.\" The original Seedance VO said \"abs\"; the last word was audio-patched to \"ads\" (same voice, taken from 0:02). Whisper large-v3/medium.en/small.en now hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). Chase should confirm by ear. Style C captions (Inter Tight ExtraBold, white + one orange #FF4B0A word), placed off his face/torso. +2.5 s end-card hold with sound-off line \"Get more out of your ad budget.\" -14 LUFS."
+  },
+  {
+   "id": "furnace-captioned-4x5-v1",
+   "title": "Furnace – Captioned Paid Ad",
+   "brand": "Revboo",
+   "version": "v1 · 4:5 captioned",
+   "role": "Feed cut (FB/IG feed)",
+   "aspect": "4:5",
+   "width": 1080,
+   "height": 1350,
+   "duration": 17.5,
+   "date": "Oct 4, 2026",
+   "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-4x5-v1-MASTER.mp4",
+   "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-4x5-v1.mp4",
+   "local_master": "/workspace/revboo/edits/fire-money-captioned/Revboo-Furnace-Captioned-4x5.mp4",
+   "poster": "https://cryptouprise.github.io/revboo-library/media/posters/furnace-captioned-4x5-v1.jpg",
+   "note": "Correct final ends with \"...your ads can't afford to miss.\" The original Seedance VO said \"abs\"; the last word was audio-patched to \"ads\" (same voice, taken from 0:02). Whisper large-v3/medium.en/small.en now hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). Chase should confirm by ear. Per-shot reframe of the main cut; captions re-placed for 4:5."
+  },
+  {
+   "id": "furnace-captioned-9x16-hookcover-v1",
+   "title": "Furnace – Captioned Paid Ad",
+   "brand": "Revboo",
+   "version": "v1 · 9:16 + 1.25 s hook cover (test variant)",
+   "role": "TEST variant: A/B against the main cut",
+   "aspect": "9:16",
+   "width": 1080,
+   "height": 1920,
+   "duration": 18.8,
+   "date": "Oct 4, 2026",
+   "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-hookcover-v1-MASTER.mp4",
+   "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/furnace-captioned-9x16-hookcover-v1.mp4",
+   "local_master": "/workspace/revboo/edits/fire-money-captioned/Revboo-Furnace-Captioned-9x16-hookcover.mp4",
+   "poster": "https://cryptouprise.github.io/revboo-library/media/posters/furnace-captioned-9x16-hookcover-v1.jpg",
+   "note": "Correct final ends with \"...your ads can't afford to miss.\" The original Seedance VO said \"abs\"; the last word was audio-patched to \"ads\" (same voice, taken from 0:02). Whisper large-v3/medium.en/small.en now hear \"your ads can't afford to miss\" (p 0.995/0.977/0.984). Chase should confirm by ear. 1.25 s opening cover \"Your ads are dying. Not the offer. The creative.\" (Muse thumbnail 01 line), then the main cut. Not a replacement."
+  }
+ ],
+ "approved_covers": [
+  {
+   "id": "furnace-cover-9x16",
+   "file": "covers/furnace-cover-9x16.png",
+   "for": "Furnace – Captioned Paid Ad",
+   "made_by": "Grok Bot (from ad frame 0:05.6)",
+   "size": "1080x1920",
+   "aspect": "9:16",
+   "line": "Stop feeding the furnace.",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Cover for the 9:16 Furnace cut. Frame: Chase shoveling cash toward the furnace.",
+   "url": "https://cryptouprise.github.io/revboo-library/covers/furnace-cover-9x16.png"
+  },
+  {
+   "id": "furnace-cover-4x5",
+   "file": "covers/furnace-cover-4x5.png",
+   "for": "Furnace – Captioned Paid Ad",
+   "made_by": "Grok Bot (from ad frame 0:05.6)",
+   "size": "1080x1350",
+   "aspect": "4:5",
+   "line": "Stop feeding the furnace.",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Cover for the 4:5 Furnace cut.",
+   "url": "https://cryptouprise.github.io/revboo-library/covers/furnace-cover-4x5.png"
+  },
+  {
+   "id": "muse-01",
+   "file": "covers/muse-01_ads-are-dying.webp",
+   "for": "Revboo (general)",
+   "made_by": "Muse",
+   "size": "1408x1760",
+   "aspect": "4:5",
+   "line": "YOUR ADS ARE DYING. / Not the offer. The creative.",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Flatline ECG monitor. Its line is used as the hook in the Furnace hook-cover test variant.",
+   "url": "https://cryptouprise.github.io/revboo-library/covers/muse-01_ads-are-dying.webp"
+  },
+  {
+   "id": "muse-02",
+   "file": "covers/muse-02_secret-weapon.webp",
+   "for": "Revboo (general)",
+   "made_by": "Muse",
+   "size": "1408x1760",
+   "aspect": "4:5",
+   "line": "THE SECRET WEAPON. your media buyer has been waiting for",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Desk with a glowing case.",
+   "url": "https://cryptouprise.github.io/revboo-library/covers/muse-02_secret-weapon.webp"
+  },
+  {
+   "id": "muse-03",
+   "file": "covers/muse-03_2000-20-fresh.webp",
+   "for": "Revboo (general)",
+   "made_by": "Muse",
+   "size": "1408x1760",
+   "aspect": "4:5",
+   "line": "$2,000 / MONTH, 20 FRESH VIDEO ADS, EVERY. SINGLE. MONTH.",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Yellow poster. PRICING NOT CONFIRMED: Chase has not confirmed the $2,000/month or 20-ads figures. Check with Chase before running it.",
+   "warning": true,
+   "url": "https://cryptouprise.github.io/revboo-library/covers/muse-03_2000-20-fresh.webp"
+  },
+  {
+   "id": "muse-04",
+   "file": "covers/muse-04_stop-boosting.webp",
+   "for": "Revboo (general)",
+   "made_by": "Muse",
+   "size": "1408x1760",
+   "aspect": "4:5",
+   "line": "STOP BOOSTING THE SAME 3 VIDEOS.",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Wall of phones.",
+   "url": "https://cryptouprise.github.io/revboo-library/covers/muse-04_stop-boosting.webp"
+  }
+ ],
+ "rejected": [
+  {
+   "id": "blast-furnace-take2",
+   "title": "Blast Furnace / Change the Creative",
+   "version": "take 2 (furB fixed)",
+   "url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/blast-furnace-take2.mp4",
+   "source": "/workspace/revboo/assets/Revboo/furB_fixed.mp4",
+   "why": "REJECTED, do not use: same \"your ABS can't afford to miss\" voice-over as take 1 (the audio track is bit-identical; Whisper small.en/medium.en/large-v3 all hear \"abs\"). Only the end-card text was fixed. Kept for the archive. Use the captioned Furnace ad listed in FINALS.md. Original note: Shovels cash toward the furnace where the BIG SALE mascot burns, pulls the lever; end card 'Done-for-you video ads. Delivered weekly.'"
+  },
+  {
+   "id": "promo-v1",
+   "title": "The Revenue Engine",
+   "version": "v1 (stills)",
+   "url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/promo-v1.mp4",
+   "source": "/workspace/revboo/revboo-promo-v1.mp4",
+   "why": "Rejected: stills slideshow. Kept for the archive."
+  },
+  {
+   "id": "blast-furnace-take1",
+   "title": "Blast Furnace / Change the Creative",
+   "version": "take 1 · Seedance",
+   "url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/blast-furnace-take1.mp4",
+   "source": "/workspace/refs/hf/hf_20260928_043048_b9755242-d220-41de-8935-3936d2143bcb.mp4",
+   "why": "REJECTED, do not use: the last line says \"your ABS can't afford to miss\" instead of \"ads\" (Whisper small.en, medium.en and large-v3 all hear \"abs\", p 0.92-1.00, even when prompted toward \"ads\"). End card also misspelled \"Donefor-your\". Kept for the archive. Use the captioned Furnace ad listed in FINALS.md. Made about 10:30 PM MT on Sep 27."
+  },
+  {
+   "id": "(unfiled) hf_20260928_043047_01aeba6a",
+   "where": "box: /workspace/revboo/inbox/higgsfield/_scan/vid/hf_20260928_043047_01aeba6a-4ac6-49d8-8537-322592a7d7c0.mp4",
+   "why": "Sibling Furnace generation. Also says \"abs\" (Whisper medium.en p0.82-0.94) and the end card is garbled (\"Donefor-youf\"). Not in the library; do not use."
+  }
+ ]
+}

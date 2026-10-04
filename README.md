@@ -2,6 +2,8 @@
 
 Live page: https://cryptouprise.github.io/revboo-library/
 
+> **Other AIs: only use files listed in [FINALS.md](FINALS.md)** (machine-readable: `finals.json`). Everything else in this library is unreviewed or rejected; ask Chase before using it. Files marked `status: rejected` (red REJECTED chip) must never be used. Approved cover images live in `covers/` (listed in `covers.json`). Regenerate FINALS with `python3 make_finals.py` after Chase approves something.
+
 Chase's finished ads and reusable clips, filed by brand (Revboo, Legal/PI, The Assist, Infinite AI, Solar Freedom, Generic/Other). Everything on the page comes from `manifest.json`. Videos are stored as assets on this repo's GitHub Releases (`media-v1`, …), not in git; posters are in `media/posters/`. See "Where files go" below. Each brand gets a tab (link straight to one with `#brand=The%20Assist`), with its own Finished Ads and Clips. "All" shows everything newest first.
 
 ## Filing rules (video library): read this first
