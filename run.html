@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Revboo – Approved to Run</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--o:#FF4B0A;--bg:#0b0b0c;--card:#16161a;--line:#26262c;--mut:#9a9aa3;--star:#ffcf33}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#f2f2f2;font-family:Inter,system-ui,sans-serif}
+h1,h2,h3{font-family:Anton,Impact,sans-serif;font-weight:400;letter-spacing:.5px;text-transform:uppercase}
+a{color:var(--o)}
+main{max-width:1280px;margin:auto;padding:28px 20px 60px}
+h1{font-size:clamp(36px,6vw,72px);margin:0;line-height:1}h1 span{color:var(--o)}
+.sub{color:var(--mut);margin:8px 0 28px;font-size:15px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:28px}
+.card{background:linear-gradient(180deg,#22160f,#16161a 40%);border:2px solid var(--o);border-radius:18px;padding:14px;position:relative}
+.rk{position:absolute;top:-14px;left:14px;background:var(--o);color:#000;font-family:Anton;font-size:22px;padding:2px 14px;border-radius:99px;z-index:2}
+video{width:100%;background:#000;border-radius:12px;display:block;margin-top:8px;max-height:600px}
+h3{font-size:26px;margin:10px 0 6px}
+.chip{display:inline-block;padding:3px 10px;border-radius:99px;font-size:12px;font-weight:700;background:#24242a;color:#ddd;margin:0 6px 6px 0}
+.chip.star{background:var(--star);color:#000}
+.tog{display:flex;gap:8px;margin:10px 0 4px;flex-wrap:wrap}
+.tog button{background:#24242a;color:#fff;border:1px solid var(--line);border-radius:99px;padding:6px 14px;cursor:pointer;font-weight:700;font-size:13px}
+.tog button.on{background:var(--o);color:#000;border-color:var(--o)}
+.files{font-size:13px;margin:8px 0;display:flex;flex-direction:column;gap:5px}
+.files code{font-size:12px;color:#ccc}
+.dl{font-weight:700;text-decoration:none}
+.fix{font-size:13px;color:#ffd08f;background:#2a1f0e;border:1px solid #5a3f12;border-radius:8px;padding:6px 8px;margin:6px 0}
+.cvl{color:var(--mut);font-size:13px;margin:8px 0 4px}
+.cv{display:flex;gap:6px;flex-wrap:wrap}.cv img{height:96px;border-radius:6px;display:block;background:#000}
+footer{color:var(--mut);text-align:center;font-size:12px;padding:20px}
+</style>
+</head>
+<body>
+<main>
+<h1>Revboo – <span>Approved to Run</span></h1>
+<p class="sub" id="sub">Chase's 10 approved ads, in the order to run them.</p>
+<div class="grid" id="grid"><p class="sub">Loading…</p></div>
+</main>
+<footer>Generated from <code>approved_ranking</code> in catalog/registry.json · fixed versions swap in automatically</footer>
+<script>
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt=s=>{s=Math.round(s||0);return Math.floor(s/60)+':'+String(s%60).padStart(2,'0')};
+const ar=f=>({'1080x1920':'9:16','720x1280':'9:16','1080x1350':'4:5'}[f.width+'x'+f.height]||(f.width+'x'+f.height));
+Promise.all([fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()),fetch('catalog/registry.json',{cache:'no-cache'}).then(r=>r.json()),fetch('covers.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>({covers:[]}))]).then(([m,reg,cvj])=>{
+  const FM={};(m.finals||[]).forEach(f=>FM[f.id]=f);const CV={};(cvj.covers||[]).forEach(c=>CV[c.id]=c);const REC=reg.revision_records||{};
+  const master=id=>{const u=(REC[id]||{}).master_reference||'';return /-MASTER\.mp4$/.test(u)?u:''};
+  const R=(reg.approved_ranking||[]).slice().sort((a,b)=>a.rank-b.rank);
+  const at=R[0]&&R[0].approved_at?new Date(R[0].approved_at):null;
+  if(at)document.getElementById('sub').textContent=`Chase's ${R.length} approved ads, in the order to run them (approved ${at.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'America/Denver'})}). Pick 9:16 or 4:5, play, download.`;
+  const g=document.getElementById('grid');
+  g.innerHTML=R.map(x=>{const fs=(x.asset_ids||[]).map(id=>FM[id]).filter(Boolean);const f=fs[0];if(!f)return '';
+    const cvs=(x.cover_ids||[]).map(c=>CV[c]).filter(Boolean);
+    return `<div class="card" id="rank-${x.rank}"><span class="rk">★ #${x.rank}</span>
+     <video data-r="${x.rank}" controls playsinline preload="metadata" style="aspect-ratio:${f.width}/${f.height}" poster="${esc(f.poster)}" src="${esc(f.video)}"></video>
+     <div class="tog">${fs.map((v,i)=>`<button class="${i?'':'on'}" data-r="${x.rank}" data-v="${esc(v.video)}" data-p="${esc(v.poster)}" data-a="${v.width}/${v.height}">▶ ${esc(ar(v))}${v.id.includes('hookcover')?' hook-cover test':''}</button>`).join('')}</div>
+     <h3>${esc(x.title)}</h3><div><span class="chip star">★ APPROVED</span><span class="chip">${esc(f.brand)}</span><span class="chip">${esc(x.concept_id)}</span></div>
+     ${x.fix_in_progress?`<div class="fix">🛠 ${esc(x.note)}</div>`:''}
+     <div class="files">${fs.map(v=>`<div>${esc(ar(v))}${v.id.includes('hookcover')?' test':''} · ${fmt(v.duration)} · <a class="dl" href="${esc(v.video)}" download>⬇ Web copy</a>${master(v.id)?` · <a class="dl" href="${esc(master(v.id))}" download>⬇ Full-quality master</a>`:''}<br><code>${esc(v.id)}</code></div>`).join('')}</div>
+     <div class="cvl">${cvs.length?`Covers (${cvs.length}) · click to open full size`:'Cover: video poster frame'}</div>
+     <div class="cv">${cvs.length?cvs.map(c=>`<a href="${esc(c.file)}" target="_blank" rel="noopener" title="${esc(c.line)} · ${esc(c.aspect)}"><img loading="lazy" src="${esc(c.file)}" alt="${esc(c.line)}"></a>`).join(''):`<a href="${esc(f.poster)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(f.poster)}" alt="poster"></a>`}</div>
+    </div>`}).join('')||'<p class="sub">No approved ads listed.</p>';
+  g.querySelectorAll('.tog button').forEach(b=>b.onclick=()=>{const v=g.querySelector(`video[data-r="${b.dataset.r}"]`);v.poster=b.dataset.p;v.src=b.dataset.v;v.style.aspectRatio=b.dataset.a;
+    b.parentNode.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));v.play().catch(()=>{})});
+}).catch(e=>{document.getElementById('grid').innerHTML='<p style="color:#f88">Could not load the approved list: '+esc(e)+'</p>'});
+</script>
+</body>
+</html>

@@ -1,5 +1,7 @@
 # Revboo Video Library
 
+> # ★ [Approved to Run: the 10 ads to run](https://cryptouprise.github.io/revboo-library/run.html) (only those, ranked) · [RUN.md](RUN.md)
+
 Live page: https://cryptouprise.github.io/revboo-library/
 
 > ## ★ Approved – Ready to Run = the source of truth for what runs

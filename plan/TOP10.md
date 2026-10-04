@@ -5,7 +5,7 @@
 Chase approved all 10. Run in this order. Source of truth: `approved_ranking` in [catalog/registry.json](../catalog/registry.json) (also [FINALS.md](../FINALS.md) and the top of the [library page](https://cryptouprise.github.io/revboo-library/#approved)).
 
 - [x] ★ **1. Furnace – Captioned (RB-005)**: `furnace-captioned-9x16-v1`, `furnace-captioned-4x5-v1`, `furnace-captioned-9x16-hookcover-v1` (A/B test). Covers approved.
-- [x] ★ **2. A New Hat Isn't New Creative – Captioned (RB-004)**: `new-hat-captioned-9x16-v1`, `new-hat-captioned-4x5-v1`. Covers still need Chase's OK.
+- [x] ★ **2. A New Hat Isn't New Creative – Captioned (RB-004)**: `new-hat-captioned-9x16-v1`, `new-hat-captioned-4x5-v1`. Covers approved.
 - [x] ★ **3. Have You Tried Being Interesting? (Best-of) (RB-015)**: `revboo-bestof-9x16-v1`, `revboo-bestof-4x5-v1`; 4 A/B covers `covers/bestof-cover-*`. Now filed in the library.
 - [x] ★ **4. The Ad Doctor (RB-008)**: `the-ad-doctor-flatlining-ads-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
 - [x] ★ **5. Tube Man (RB-012)**: `tube-man-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
@@ -51,7 +51,7 @@ Bench (next in line): Monday Morning Drop v3 (RB-003, 20 s, calm, good for retar
 ## 2. A New Hat Isn't New Creative (RB-004): Small fix
 **Why:** Funniest beat in the library ("Have you tried being interesting?"), clean VO says the tagline word for word, house captions done, 9:16 + 4:5 + covers.
 - [x] **Chase: listen and OK** (approved Oct 4, 2026, 1:33 PM MT)
-- [ ] Chase: OK the covers `covers/new-hat-cover-*.png`
+- [x] Chase: OK the covers `covers/new-hat-cover-*.png` (approved Oct 4, 2026)
 - [ ] Then launch with LAUNCH.md #2
 
 ## 3. Revboo Best-of (original): Small fix

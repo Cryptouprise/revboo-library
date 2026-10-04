@@ -96,13 +96,13 @@
      "id": "new-hat-cover-9x16",
      "url": "https://cryptouprise.github.io/revboo-library/covers/new-hat-cover-9x16.png",
      "aspect": "9:16",
-     "status": "pending"
+     "status": "approved"
     },
     {
      "id": "new-hat-cover-4x5",
      "url": "https://cryptouprise.github.io/revboo-library/covers/new-hat-cover-4x5.png",
      "aspect": "4:5",
-     "status": "pending"
+     "status": "approved"
     }
    ]
   },
@@ -426,7 +426,7 @@
    "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-9x16-v1.mp4",
    "local_master": "/workspace/revboo/edits/new-hat-captioned/Revboo-NewHat-Captioned-9x16.mp4",
    "poster": "https://cryptouprise.github.io/revboo-library/media/posters/new-hat-captioned-9x16-v1.jpg",
-   "note": "Built from the clean Higgsfield take hf_20260928_033156 (the latest take, and the picture under Chase's hook_A upload, without hook_A's burned-in all-caps hook). VO verified with Whisper small.en + large-v3 (word for word, no mispronunciations; 'Revboo' heard correctly). House caption standard (see BRAND.md); captions only where there is a clean zone. Shots that the cutout, the therapist or the title card fill have no caption. Light vignette/grain on scene shots only. -14 LUFS. APPROVED by Chase on Oct 4, 2026, 1:33 PM MT (★ Top 10 #2). Covers still pending Chase's OK. Captions: \"Your ad wants more.\" (wide shot, top band) / \"Don't fire your media buyer.\" + \"Give them better ads.\" (upper-left beside his head, 54 px) / end card \"The revenue boost your ads can't afford to miss.\""
+   "note": "Built from the clean Higgsfield take hf_20260928_033156 (the latest take, and the picture under Chase's hook_A upload, without hook_A's burned-in all-caps hook). VO verified with Whisper small.en + large-v3 (word for word, no mispronunciations; 'Revboo' heard correctly). House caption standard (see BRAND.md); captions only where there is a clean zone. Shots that the cutout, the therapist or the title card fill have no caption. Light vignette/grain on scene shots only. -14 LUFS. APPROVED by Chase on Oct 4, 2026, 1:33 PM MT (★ Top 10 #2). Captions: \"Your ad wants more.\" (wide shot, top band) / \"Don't fire your media buyer.\" + \"Give them better ads.\" (upper-left beside his head, 54 px) / end card \"The revenue boost your ads can't afford to miss.\""
   },
   {
    "id": "new-hat-captioned-4x5-v1",
@@ -444,7 +444,7 @@
    "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/new-hat-captioned-4x5-v1.mp4",
    "local_master": "/workspace/revboo/edits/new-hat-captioned/Revboo-NewHat-Captioned-4x5.mp4",
    "poster": "https://cryptouprise.github.io/revboo-library/media/posters/new-hat-captioned-4x5-v1.jpg",
-   "note": "Built from the clean Higgsfield take hf_20260928_033156 (the latest take, and the picture under Chase's hook_A upload, without hook_A's burned-in all-caps hook). VO verified with Whisper small.en + large-v3 (word for word, no mispronunciations; 'Revboo' heard correctly). House caption standard (see BRAND.md); captions only where there is a clean zone. Shots that the cutout, the therapist or the title card fill have no caption. Light vignette/grain on scene shots only. -14 LUFS. APPROVED by Chase on Oct 4, 2026, 1:33 PM MT (★ Top 10 #2). Covers still pending Chase's OK. Per-shot reframe of the main cut; captions re-placed for 4:5."
+   "note": "Built from the clean Higgsfield take hf_20260928_033156 (the latest take, and the picture under Chase's hook_A upload, without hook_A's burned-in all-caps hook). VO verified with Whisper small.en + large-v3 (word for word, no mispronunciations; 'Revboo' heard correctly). House caption standard (see BRAND.md); captions only where there is a clean zone. Shots that the cutout, the therapist or the title card fill have no caption. Light vignette/grain on scene shots only. -14 LUFS. APPROVED by Chase on Oct 4, 2026, 1:33 PM MT (★ Top 10 #2). Per-shot reframe of the main cut; captions re-placed for 4:5."
   }
  ],
  "approved_covers": [
@@ -477,6 +477,36 @@
    "approved_by": "Chase Fowler",
    "approved_at": "2026-10-04",
    "url": "https://cryptouprise.github.io/revboo-library/covers/furnace-cover-4x5.png"
+  },
+  {
+   "id": "new-hat-cover-9x16",
+   "file": "covers/new-hat-cover-9x16.png",
+   "for": "A New Hat Isn't New Creative – Captioned Paid Ad",
+   "made_by": "Grok Bot (from ad frame 0:02.0, pushed in 1.2x)",
+   "size": "1080x1920",
+   "aspect": "9:16",
+   "line": "A new hat isn't new creative.",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Cover for the 9:16 New Hat cut. Frame: the therapy room with Chase's BIG SALE cutout in the patient chair; text on the empty ceiling (not over anyone). Line is the ad's own title card. APPROVED by Chase on Oct 4, 2026 (with the New Hat ad, ★ #2).",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04",
+   "url": "https://cryptouprise.github.io/revboo-library/covers/new-hat-cover-9x16.png"
+  },
+  {
+   "id": "new-hat-cover-4x5",
+   "file": "covers/new-hat-cover-4x5.png",
+   "for": "A New Hat Isn't New Creative – Captioned Paid Ad",
+   "made_by": "Grok Bot (from ad frame 0:02.0, pushed in 1.2x)",
+   "size": "1080x1350",
+   "aspect": "4:5",
+   "line": "A new hat isn't new creative.",
+   "status": "approved",
+   "date": "Oct 4, 2026",
+   "note": "Cover for the 4:5 New Hat cut. APPROVED by Chase on Oct 4, 2026 (with the New Hat ad, ★ #2).",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-04",
+   "url": "https://cryptouprise.github.io/revboo-library/covers/new-hat-cover-4x5.png"
   },
   {
    "id": "muse-01",
@@ -691,33 +721,5 @@
    "why": "Sibling Furnace generation. Also says \"abs\" (Whisper medium.en p0.82-0.94) and the end card is garbled (\"Donefor-youf\"). Not in the library; do not use."
   }
  ],
- "pending_videos": [],
- "pending_covers": [
-  {
-   "id": "new-hat-cover-9x16",
-   "file": "covers/new-hat-cover-9x16.png",
-   "for": "A New Hat Isn't New Creative – Captioned Paid Ad",
-   "made_by": "Grok Bot (from ad frame 0:02.0, pushed in 1.2x)",
-   "size": "1080x1920",
-   "aspect": "9:16",
-   "line": "A new hat isn't new creative.",
-   "status": "pending",
-   "date": "Oct 4, 2026",
-   "note": "Cover for the 9:16 New Hat cut. Frame: the therapy room with Chase's BIG SALE cutout in the patient chair; text on the empty ceiling (not over anyone). Line is the ad's own title card. Pending Chase's OK.",
-   "url": "https://cryptouprise.github.io/revboo-library/covers/new-hat-cover-9x16.png"
-  },
-  {
-   "id": "new-hat-cover-4x5",
-   "file": "covers/new-hat-cover-4x5.png",
-   "for": "A New Hat Isn't New Creative – Captioned Paid Ad",
-   "made_by": "Grok Bot (from ad frame 0:02.0, pushed in 1.2x)",
-   "size": "1080x1350",
-   "aspect": "4:5",
-   "line": "A new hat isn't new creative.",
-   "status": "pending",
-   "date": "Oct 4, 2026",
-   "note": "Cover for the 4:5 New Hat cut. Pending Chase's OK.",
-   "url": "https://cryptouprise.github.io/revboo-library/covers/new-hat-cover-4x5.png"
-  }
- ]
+ "pending_videos": []
 }
