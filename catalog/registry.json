@@ -283,6 +283,12 @@
           "agent": "Grok",
           "action": "Added rb-012-a-v02-9x16, rb-012-a-v02-4x5 (house-caption fix v02) and made it the approved pick (★ Top 10 #5); old tube-man-v1 kept.",
           "parent_asset_id": "tube-man-v1"
+        },
+        {
+          "at": "2026-10-04T14:40:00-06:00",
+          "agent": "Grok",
+          "action": "Chase approved the fixed v02 (rb-012-a-v02-9x16, rb-012-a-v02-4x5) on Oct 4, 2026, 2:40 PM MT.",
+          "parent_asset_id": null
         }
       ],
       "collection_tag": "RevBoo Ads",
@@ -297,7 +303,7 @@
       "approved_rank": 5,
       "approved_star": "★",
       "approval_status": "★ Approved – Ready to Run",
-      "approved_note": "Fix version v02 (house captions, approved tagline + offer on the revboo.video card, 36.0 s -> 27.4 s, 9:16 + 4:5) is the approved pick; old v1 kept."
+      "approved_note": "Fix version v02 (house captions, approved tagline + offer on the revboo.video card, 36.0 s -> 27.4 s, 9:16 + 4:5) is the approved pick; old v1 kept. Chase approved the fix, Oct 4, 2:40 PM MT."
     },
     {
       "concept_id": "PI-012",
@@ -769,6 +775,12 @@
           "agent": "Grok",
           "action": "Added rb-008-a-v02-9x16, rb-008-a-v02-4x5 (house-caption fix v02) and made it the approved pick (★ Top 10 #4); old the-ad-doctor-flatlining-ads-v1 kept.",
           "parent_asset_id": "the-ad-doctor-flatlining-ads-v1"
+        },
+        {
+          "at": "2026-10-04T14:40:00-06:00",
+          "agent": "Grok",
+          "action": "Chase approved the fixed v02 (rb-008-a-v02-9x16, rb-008-a-v02-4x5) on Oct 4, 2026, 2:40 PM MT.",
+          "parent_asset_id": null
         }
       ],
       "approved_asset_ids": [
@@ -778,7 +790,7 @@
       "approved_rank": 4,
       "approved_star": "★",
       "approval_status": "★ Approved – Ready to Run",
-      "approved_note": "Fix version v02 (house captions, opens on the surgeon's eyes, 30.9 s -> 22.6 s, 9:16 + 4:5) is the approved pick; old v1 kept.",
+      "approved_note": "Fix version v02 (house captions, opens on the surgeon's eyes, 30.9 s -> 22.6 s, 9:16 + 4:5) is the approved pick; old v1 kept. Chase approved the fix, Oct 4, 2:40 PM MT.",
       "collection_tag": "RevBoo Ads",
       "usage_tags": [
         "Ads",
@@ -821,6 +833,12 @@
           "agent": "Grok",
           "action": "Added pi-008-a-v02-9x16, pi-008-a-v02-4x5 (house-caption fix v02) and made it the approved pick (★ Top 10 #6); old pi-attorneys-scroll-past-v1 kept.",
           "parent_asset_id": "pi-attorneys-scroll-past-v1"
+        },
+        {
+          "at": "2026-10-04T14:40:00-06:00",
+          "agent": "Grok",
+          "action": "Chase approved the fixed v02 (pi-008-a-v02-9x16, pi-008-a-v02-4x5) on Oct 4, 2026, 2:40 PM MT.",
+          "parent_asset_id": null
         }
       ],
       "approved_asset_ids": [
@@ -830,7 +848,7 @@
       "approved_rank": 6,
       "approved_star": "★",
       "approval_status": "★ Approved – Ready to Run",
-      "approved_note": "Fix version v02 (house captions, approved tagline + FREE offer on the logo card, 37.1 s -> 26.4 s, 9:16 + 4:5) is the approved pick; old v1 kept. Chase to confirm the '0.4 seconds' line (kept as a dramatization)."
+      "approved_note": "Fix version v02 (house captions, approved tagline + FREE offer on the logo card, 37.1 s -> 26.4 s, 9:16 + 4:5) is the approved pick; old v1 kept. Chase approved the fix (keep the '0.4 seconds' line), Oct 4, 2:40 PM MT."
     },
     {
       "concept_id": "RB-007",
@@ -4404,14 +4422,14 @@
         "technical": "PASS: H.264/AAC 1080x1920 30 fps, 22.63 s, -14.06 LUFS; 720p small copy 5.6 MB",
         "captions": "PASS: overlap QA (4 fps contact sheet) no caption over face/person/text/fire; OCR read-back of every caption OK (C1 needed a padded crop for the OCR detector, text reads correctly)",
         "branding_cta": "Offer on logo card; fire-logo end clip",
-        "full_playback": "Contact sheets reviewed; Chase approved the concept Oct 4, 2026 (★ Top 10 #4)."
+        "full_playback": "Contact sheets reviewed; Chase approved the concept Oct 4, 2026 (★ Top 10 #4). Chase approved the fixed version Oct 4, 2026, 2:40 PM MT."
       },
       "approval": {
         "by": "Chase Fowler",
-        "at": "2026-10-04T13:33:00-06:00",
+        "at": "2026-10-04T14:40:00-06:00",
         "sha256": "ff4380e2a8e39e1d1ac0cd46331ea84743cd2c10e42b74b75c6a4103ba8b7fbc",
         "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-9x16-MASTER.mp4",
-        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #4 The Ad Doctor; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+        "evidence": "Chase approved the fixed v02 version on Oct 4, 2026, 2:40 PM MT (relayed by Grok Bot); concept approved at 1:33 PM MT (Top 10 #4). Replaces the old version as the approved pick (old files kept)."
       },
       "rights_reuse": "Revboo own brand",
       "costs": {
@@ -4435,6 +4453,12 @@
           "at": "2026-10-04T14:06:00-06:00",
           "agent": "Grok",
           "action": "Filed as ★ Approved (Top 10 #4), replacing the-ad-doctor-flatlining-ads-v1 as the approved pick.",
+          "parent_asset_id": "the-ad-doctor-flatlining-ads-v1"
+        },
+        {
+          "at": "2026-10-04T14:40:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval of the fixed v02 version.",
           "parent_asset_id": "the-ad-doctor-flatlining-ads-v1"
         }
       ],
@@ -4481,14 +4505,14 @@
       "qa": {
         "technical": "PASS: H.264/AAC 1080x1350 30 fps, 22.63 s, -14.06 LUFS",
         "captions": "PASS: overlap QA no hits; OCR read-back OK",
-        "full_playback": "Contact sheet reviewed."
+        "full_playback": "Contact sheet reviewed. Chase approved the fixed version Oct 4, 2026, 2:40 PM MT."
       },
       "approval": {
         "by": "Chase Fowler",
-        "at": "2026-10-04T13:33:00-06:00",
+        "at": "2026-10-04T14:40:00-06:00",
         "sha256": "81db65dd35d8f6a6fdcc3c6c434b4e6d7b4628b41d880aaeb16bde92ad5a79a9",
         "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-008-a-v02-4x5-MASTER.mp4",
-        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #4 The Ad Doctor; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+        "evidence": "Chase approved the fixed v02 version on Oct 4, 2026, 2:40 PM MT (relayed by Grok Bot); concept approved at 1:33 PM MT (Top 10 #4). Replaces the old version as the approved pick (old files kept)."
       },
       "rights_reuse": "Revboo own brand",
       "costs": {
@@ -4512,6 +4536,12 @@
           "at": "2026-10-04T14:06:00-06:00",
           "agent": "Grok",
           "action": "Filed as ★ Approved (Top 10 #4), replacing the-ad-doctor-flatlining-ads-v1 as the approved pick.",
+          "parent_asset_id": "the-ad-doctor-flatlining-ads-v1"
+        },
+        {
+          "at": "2026-10-04T14:40:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval of the fixed v02 version.",
           "parent_asset_id": "the-ad-doctor-flatlining-ads-v1"
         }
       ],
@@ -4564,14 +4594,14 @@
         "technical": "PASS: H.264/AAC 1080x1920 30 fps, 27.4 s, -14.06 LUFS, TP -1.25 dBTP; 720p small copy 5.5 MB",
         "captions": "PASS: overlap QA (4 fps contact sheet) 0 hits; OCR read-back of every caption OK",
         "branding_cta": "revboo.video card with tagline then offer",
-        "full_playback": "Contact sheets reviewed; Chase approved the concept Oct 4, 2026 (★ Top 10 #5)."
+        "full_playback": "Contact sheets reviewed; Chase approved the concept Oct 4, 2026 (★ Top 10 #5). Chase approved the fixed version Oct 4, 2026, 2:40 PM MT."
       },
       "approval": {
         "by": "Chase Fowler",
-        "at": "2026-10-04T13:33:00-06:00",
+        "at": "2026-10-04T14:40:00-06:00",
         "sha256": "3854600dba9501f754af6fb374af5a4cc14b75fd35966080ce15fdbd8b1fcb1c",
         "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-9x16-MASTER.mp4",
-        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #5 Tube Man; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+        "evidence": "Chase approved the fixed v02 version on Oct 4, 2026, 2:40 PM MT (relayed by Grok Bot); concept approved at 1:33 PM MT (Top 10 #5). Replaces the old version as the approved pick (old files kept)."
       },
       "rights_reuse": "Revboo own brand",
       "costs": {
@@ -4595,6 +4625,12 @@
           "at": "2026-10-04T14:14:00-06:00",
           "agent": "Grok",
           "action": "Filed as ★ Approved (Top 10 #5), replacing tube-man-v1 as the approved pick.",
+          "parent_asset_id": "tube-man-v1"
+        },
+        {
+          "at": "2026-10-04T14:40:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval of the fixed v02 version.",
           "parent_asset_id": "tube-man-v1"
         }
       ],
@@ -4641,14 +4677,14 @@
       "qa": {
         "technical": "PASS: H.264/AAC 1080x1350 30 fps, 27.4 s, -14.06 LUFS",
         "captions": "PASS: overlap QA 0 hits; OCR read-back OK",
-        "full_playback": "Contact sheet reviewed."
+        "full_playback": "Contact sheet reviewed. Chase approved the fixed version Oct 4, 2026, 2:40 PM MT."
       },
       "approval": {
         "by": "Chase Fowler",
-        "at": "2026-10-04T13:33:00-06:00",
+        "at": "2026-10-04T14:40:00-06:00",
         "sha256": "1416e09b6b40eaf8ede04e3bbb6ca71be95484b165c34dc9106d64856af4726a",
         "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-4x5-MASTER.mp4",
-        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #5 Tube Man; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+        "evidence": "Chase approved the fixed v02 version on Oct 4, 2026, 2:40 PM MT (relayed by Grok Bot); concept approved at 1:33 PM MT (Top 10 #5). Replaces the old version as the approved pick (old files kept)."
       },
       "rights_reuse": "Revboo own brand",
       "costs": {
@@ -4672,6 +4708,12 @@
           "at": "2026-10-04T14:14:00-06:00",
           "agent": "Grok",
           "action": "Filed as ★ Approved (Top 10 #5), replacing tube-man-v1 as the approved pick.",
+          "parent_asset_id": "tube-man-v1"
+        },
+        {
+          "at": "2026-10-04T14:40:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval of the fixed v02 version.",
           "parent_asset_id": "tube-man-v1"
         }
       ],
@@ -4725,14 +4767,14 @@
         "technical": "PASS: H.264/AAC 1080x1920 30 fps, 26.37 s, -14.03 LUFS, TP -1.72 dBTP; 720p small copy 5.5 MB",
         "captions": "PASS: overlap QA 0 hits; OCR read-back of every caption OK",
         "branding_cta": "Logo card with tagline then offer; fire-logo end clip",
-        "full_playback": "Contact sheets reviewed; Chase approved the concept Oct 4, 2026 (★ Top 10 #6). Open item: '0.4 seconds' is an on-screen number (dramatization) — Chase to confirm."
+        "full_playback": "Contact sheets reviewed; Chase approved the concept Oct 4, 2026 (★ Top 10 #6). Chase approved the fixed version Oct 4, 2026, 2:40 PM MT."
       },
       "approval": {
         "by": "Chase Fowler",
-        "at": "2026-10-04T13:33:00-06:00",
+        "at": "2026-10-04T14:40:00-06:00",
         "sha256": "c65def0b849e6c726acca80b68789d1ac9850169a0f77ddadbf393672735e566",
         "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-9x16-MASTER.mp4",
-        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #6 PI Attorneys – Scroll Past; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+        "evidence": "Chase approved the fixed v02 version on Oct 4, 2026, 2:40 PM MT (relayed by Grok Bot) (incl. keeping the '0.4 seconds' line); concept approved at 1:33 PM MT (Top 10 #6). Replaces the old version as the approved pick (old files kept)."
       },
       "rights_reuse": "Revboo own brand (Kling 3.0 Pro footage via OpenRouter)",
       "costs": {
@@ -4756,6 +4798,12 @@
           "at": "2026-10-04T14:27:00-06:00",
           "agent": "Grok",
           "action": "Filed as ★ Approved (Top 10 #6), replacing pi-attorneys-scroll-past-v1 as the approved pick.",
+          "parent_asset_id": "pi-attorneys-scroll-past-v1"
+        },
+        {
+          "at": "2026-10-04T14:40:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval of the fixed v02 version (keep the '0.4 seconds' line).",
           "parent_asset_id": "pi-attorneys-scroll-past-v1"
         }
       ],
@@ -4802,14 +4850,14 @@
       "qa": {
         "technical": "PASS: H.264/AAC 1080x1350 30 fps, 26.37 s, -14.03 LUFS",
         "captions": "PASS: overlap QA 0 hits; OCR read-back OK",
-        "full_playback": "Contact sheet reviewed."
+        "full_playback": "Contact sheet reviewed. Chase approved the fixed version Oct 4, 2026, 2:40 PM MT."
       },
       "approval": {
         "by": "Chase Fowler",
-        "at": "2026-10-04T13:33:00-06:00",
+        "at": "2026-10-04T14:40:00-06:00",
         "sha256": "fe85275a17481cd0e8042ce6292e286aae3acd4da57073360d5c690aa7be5a4d",
         "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-008-a-v02-4x5-MASTER.mp4",
-        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #6 PI Attorneys – Scroll Past; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+        "evidence": "Chase approved the fixed v02 version on Oct 4, 2026, 2:40 PM MT (relayed by Grok Bot) (incl. keeping the '0.4 seconds' line); concept approved at 1:33 PM MT (Top 10 #6). Replaces the old version as the approved pick (old files kept)."
       },
       "rights_reuse": "Revboo own brand (Kling 3.0 Pro footage via OpenRouter)",
       "costs": {
@@ -4833,6 +4881,12 @@
           "at": "2026-10-04T14:27:00-06:00",
           "agent": "Grok",
           "action": "Filed as ★ Approved (Top 10 #6), replacing pi-attorneys-scroll-past-v1 as the approved pick.",
+          "parent_asset_id": "pi-attorneys-scroll-past-v1"
+        },
+        {
+          "at": "2026-10-04T14:40:00-06:00",
+          "agent": "Grok",
+          "action": "Recorded Chase's approval of the fixed v02 version (keep the '0.4 seconds' line).",
           "parent_asset_id": "pi-attorneys-scroll-past-v1"
         }
       ],
@@ -4921,7 +4975,7 @@
       "approved_at": "2026-10-04T13:33:00-06:00",
       "status": "★ Approved – Ready to Run",
       "fix_in_progress": false,
-      "note": "Fix version v02 (house captions, opens on the surgeon's eyes, 30.9 s -> 22.6 s, 9:16 + 4:5) is the approved pick; old v1 kept."
+      "note": "Fix version v02 (house captions, opens on the surgeon's eyes, 30.9 s -> 22.6 s, 9:16 + 4:5) is the approved pick; old v1 kept. Chase approved the fix, Oct 4, 2:40 PM MT."
     },
     {
       "rank": 5,
@@ -4937,7 +4991,7 @@
       "approved_at": "2026-10-04T13:33:00-06:00",
       "status": "★ Approved – Ready to Run",
       "fix_in_progress": false,
-      "note": "Fix version v02 (house captions, approved tagline + offer on the revboo.video card, 36.0 s -> 27.4 s, 9:16 + 4:5) is the approved pick; old v1 kept."
+      "note": "Fix version v02 (house captions, approved tagline + offer on the revboo.video card, 36.0 s -> 27.4 s, 9:16 + 4:5) is the approved pick; old v1 kept. Chase approved the fix, Oct 4, 2:40 PM MT."
     },
     {
       "rank": 6,
@@ -4953,7 +5007,7 @@
       "approved_at": "2026-10-04T13:33:00-06:00",
       "status": "★ Approved – Ready to Run",
       "fix_in_progress": false,
-      "note": "Fix version v02 (house captions, approved tagline + FREE offer on the logo card, 37.1 s -> 26.4 s, 9:16 + 4:5) is the approved pick; old v1 kept. Chase to confirm the '0.4 seconds' line (kept as a dramatization)."
+      "note": "Fix version v02 (house captions, approved tagline + FREE offer on the logo card, 37.1 s -> 26.4 s, 9:16 + 4:5) is the approved pick; old v1 kept. Chase approved the fix (keep the '0.4 seconds' line), Oct 4, 2:40 PM MT."
     },
     {
       "rank": 7,

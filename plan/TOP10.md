@@ -7,9 +7,9 @@ Chase approved all 10. Run in this order. Source of truth: `approved_ranking` in
 - [x] ★ **1. Furnace – Captioned (RB-005)**: `furnace-captioned-9x16-v1`, `furnace-captioned-4x5-v1`, `furnace-captioned-9x16-hookcover-v1` (A/B test). Covers approved.
 - [x] ★ **2. A New Hat Isn't New Creative – Captioned (RB-004)**: `new-hat-captioned-9x16-v1`, `new-hat-captioned-4x5-v1`. Covers approved.
 - [x] ★ **3. Have You Tried Being Interesting? (Best-of) (RB-015)**: `revboo-bestof-9x16-v1`, `revboo-bestof-4x5-v1`; 4 A/B covers `covers/bestof-cover-*`. Now filed in the library.
-- [x] ★ **4. The Ad Doctor (RB-008)**: `rb-008-a-v02-9x16` + `rb-008-a-v02-4x5` (house-caption fix v02, 22.6 s; replaces `the-ad-doctor-flatlining-ads-v1` as the approved pick, old file kept).
-- [x] ★ **5. Tube Man (RB-012)**: `rb-012-a-v02-9x16` + `rb-012-a-v02-4x5` (house-caption fix v02, 27.4 s; replaces `tube-man-v1` as the approved pick, old file kept).
-- [x] ★ **6. PI Attorneys – Scroll Past (PI-008)**: `pi-008-a-v02-9x16` + `pi-008-a-v02-4x5` (house-caption fix v02, 26.4 s; replaces `pi-attorneys-scroll-past-v1` as the approved pick, old file kept).
+- [x] ★ **4. The Ad Doctor (RB-008)**: `rb-008-a-v02-9x16` + `rb-008-a-v02-4x5` (house-caption fix v02, 22.6 s; fixed version ✅ approved by Chase Oct 4, 2:40 PM MT; replaces `the-ad-doctor-flatlining-ads-v1` as the approved pick, old file kept).
+- [x] ★ **5. Tube Man (RB-012)**: `rb-012-a-v02-9x16` + `rb-012-a-v02-4x5` (house-caption fix v02, 27.4 s; fixed version ✅ approved by Chase Oct 4, 2:40 PM MT; replaces `tube-man-v1` as the approved pick, old file kept).
+- [x] ★ **6. PI Attorneys – Scroll Past (PI-008)**: `pi-008-a-v02-9x16` + `pi-008-a-v02-4x5` (house-caption fix v02, 26.4 s; fixed version ✅ approved by Chase Oct 4, 2:40 PM MT; replaces `pi-attorneys-scroll-past-v1` as the approved pick, old file kept).
 - [x] ★ **7. Ad Autopsy v4 – tighter transition (RB-001)**: `rb-001-a-v04-9x16`.
 - [x] ★ **8. The Remake (RB-010)**: `remake`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
 - [x] ★ **9. PI Attorneys – Hammer Broke (PI-007)**: `pi-attorneys-hammer-broke-v1`. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
@@ -75,8 +75,8 @@ Bench (next in line): Monday Morning Drop v3 (RB-003, 20 s, calm, good for retar
 ## 6. PI Attorneys – Scroll Past (PI-008): Needs fix
 **Why:** Best PI hook (neck-brace guy jaw-drop), story is clear sound-off.
 - [x] Re-caption house style; tagline to approved wording → `pi-008-a-v02-9x16` (Oct 4); tagline + FREE offer on the logo card (media-guy close-ups have no clean caption zone)
-- [ ] "Your ad had 0.4 seconds" is an on-screen number: **Chase decide** keep (as dramatization) or change to "Your ad had one second. It lost." to stay clear of the no-fake-stats rule
-- [x] Trim 37 s → ~25 s; 4:5 cut; target PI firm owners/marketing → 26.4 s, `pi-008-a-v02-4x5` (0.4 s line kept as dramatization; still Chase's call)
+- [x] "Your ad had 0.4 seconds": **Chase decided to keep it** (Oct 4, 2:40 PM MT, with his approval of the fixed v02)
+- [x] Trim 37 s → ~25 s; 4:5 cut; target PI firm owners/marketing → 26.4 s, `pi-008-a-v02-4x5`
 
 ## (Bench, was #7) Talking-girl "two free ads" teardown (RB-013/014): Needs fix
 _Chase's approved #7 is Ad Autopsy v4 (`rb-001-a-v04-9x16`, RB-001), see the ★ list at the top._
