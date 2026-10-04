@@ -255,21 +255,34 @@
       "category": "Revboo ads",
       "aliases": [
         "Revboo-TubeMan-small.mp4",
-        "tube-man-v1"
+        "tube-man-v1",
+        "RB-012__tube-man__A__v02__9x16.mp4",
+        "RB-012__tube-man__A__v02__9x16__720p-small.mp4",
+        "RB-012__tube-man__A__v02__4x5.mp4"
       ],
       "assets": [
+        "rb-012-a-v02-4x5",
+        "rb-012-a-v02-9x16",
         "tube-man-v1"
       ],
-      "approved_asset_id": "tube-man-v1",
+      "approved_asset_id": "rb-012-a-v02-9x16",
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
-      "agent_tags": [],
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
       "history": [
         {
           "at": "2026-10-04T13:33:00-06:00",
           "agent": "Grok",
           "action": "★ Chase approved (Top 10 #5, Oct 4, 2026 1:33 PM MT). approved_asset_id -> tube-man-v1. Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
           "parent_asset_id": null
+        },
+        {
+          "at": "2026-10-04T14:14:00-06:00",
+          "agent": "Grok",
+          "action": "Added rb-012-a-v02-9x16, rb-012-a-v02-4x5 (house-caption fix v02) and made it the approved pick (★ Top 10 #5); old tube-man-v1 kept.",
+          "parent_asset_id": "tube-man-v1"
         }
       ],
       "collection_tag": "RevBoo Ads",
@@ -278,12 +291,13 @@
         "Content"
       ],
       "approved_asset_ids": [
-        "tube-man-v1"
+        "rb-012-a-v02-9x16",
+        "rb-012-a-v02-4x5"
       ],
       "approved_rank": 5,
       "approved_star": "★",
-      "approval_status": "★ Approved – Ready to Run (fix version in progress)",
-      "approved_note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      "approval_status": "★ Approved – Ready to Run",
+      "approved_note": "Fix version v02 (house captions, approved tagline + offer on the revboo.video card, 36.0 s -> 27.4 s, 9:16 + 4:5) is the approved pick; old v1 kept."
     },
     {
       "concept_id": "PI-012",
@@ -4489,6 +4503,166 @@
       ],
       "approved_rank": 4,
       "approved_star": "★"
+    },
+    "rb-012-a-v02-9x16": {
+      "concept_id": "RB-012",
+      "asset_id": "rb-012-a-v02-9x16",
+      "title": "Tube Man – house captions",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Business owners (auto dealers and anyone who 'shouts' in ads), media buyers",
+      "category": "Revboo ads",
+      "aliases": [
+        "RB-012__tube-man__A__v02__9x16.mp4",
+        "RB-012__tube-man__A__v02__9x16__720p-small.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "tube-man-v1",
+      "request": "Chase (Oct 4, 2026, Top 10 #5): re-caption house style; tagline to 'media buyer / them'; trim 36 s to ~25 s (shorten the 'New ads every week' card and the double 'Give him better ads'); 4:5 cut; end on revboo.video card + offer line. Then filed as the approved pick (Chase approved all 10 at 1:33 PM MT).",
+      "change_log": [
+        "Rebuilt from a text-free render of v1's own build (text layer off).",
+        "Kept beats 0-4, 10-30 and 42-53.5 of v1 (cut the showroom shot, the 'NEW ADS EVERY WEEK' kinetic card and most of the facepalm shot) + a 3.9 s frozen hold of the revboo.video card (last 0.35 s fades to black); 36.0 s -> 27.4 s. Music cut on whole bars; the hold is covered by the same hip-hop track (lnplusmusic, the v1 bed) continued and faded out.",
+        "House captions: Your ad looks like this. / Nobody stops for a tube man. / Now watch. / Same cars. Same budget. / Completely different ad. / Don’t fire your media buyer. Give them better ads. / First 2 ads free. Delivered in 24 hours.",
+        "The media-buyer close-ups (facepalm, smile) have no clean caption zone (his face/torso fill the frame), so the tagline moved to the revboo.video card.",
+        "Mastered -14 LUFS integrated."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T14:14:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-9x16-MASTER.mp4",
+      "sha256": "3854600dba9501f754af6fb374af5a4cc14b75fd35966080ce15fdbd8b1fcb1c",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 27.4,
+      "script": "(music + on-screen text, no VO) Your ad looks like this. / Nobody stops for a tube man. / Now watch. / Same cars. Same budget. / Completely different ad. / Don’t fire your media buyer. Give them better ads. / First 2 ads free. Delivered in 24 hours.",
+      "hook": "Flailing tube man at a SALEBRATION car lot: 'Your ad looks like this.'",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "revboo.video logo card (held 3.9 s) + offer line",
+      "source_asset_ids": [
+        "tube-man-v1"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1920 30 fps, 27.4 s, -14.06 LUFS, TP -1.25 dBTP; 720p small copy 5.5 MB",
+        "captions": "PASS: overlap QA (4 fps contact sheet) 0 hits; OCR read-back of every caption OK",
+        "branding_cta": "revboo.video card with tagline then offer",
+        "full_playback": "Contact sheets reviewed; Chase approved the concept Oct 4, 2026 (★ Top 10 #5)."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "3854600dba9501f754af6fb374af5a4cc14b75fd35966080ce15fdbd8b1fcb1c",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-9x16-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #5 Tube Man; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+      },
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T14:14:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (9x16) from tube-man-v1: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "tube-man-v1"
+        },
+        {
+          "at": "2026-10-04T14:14:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #5), replacing tube-man-v1 as the approved pick.",
+          "parent_asset_id": "tube-man-v1"
+        }
+      ],
+      "approved_rank": 5,
+      "approved_star": "★"
+    },
+    "rb-012-a-v02-4x5": {
+      "concept_id": "RB-012",
+      "asset_id": "rb-012-a-v02-4x5",
+      "title": "Tube Man – house captions",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Business owners (auto dealers and anyone who 'shouts' in ads), media buyers",
+      "category": "Revboo ads",
+      "aliases": [
+        "RB-012__tube-man__A__v02__4x5.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "4x5",
+      "parent_asset_id": "tube-man-v1",
+      "request": "Chase (Oct 4, 2026, Top 10 #5): re-caption house style; tagline to 'media buyer / them'; trim 36 s to ~25 s (shorten the 'New ads every week' card and the double 'Give him better ads'); 4:5 cut; end on revboo.video card + offer line. Then filed as the approved pick (Chase approved all 10 at 1:33 PM MT).",
+      "change_log": [
+        "4:5 (1080x1350) per-shot reframe of rb-012-a-v02-9x16; captions re-placed by the overlap checker (5% margins)."
+      ],
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-04T14:14:00-06:00",
+      "master_reference": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-4x5-MASTER.mp4",
+      "sha256": "1416e09b6b40eaf8ede04e3bbb6ca71be95484b165c34dc9106d64856af4726a",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-4x5.mp4",
+      "native_dimensions": "1080x1350",
+      "export_dimensions": "1080x1350",
+      "duration_seconds": 27.4,
+      "script": "(music + on-screen text, no VO) Your ad looks like this. / Nobody stops for a tube man. / Now watch. / Same cars. Same budget. / Completely different ad. / Don’t fire your media buyer. Give them better ads. / First 2 ads free. Delivered in 24 hours.",
+      "hook": "Flailing tube man at a SALEBRATION car lot: 'Your ad looks like this.'",
+      "offer": "First 2 ads FREE. Delivered in 24 hours.",
+      "cta": "revboo.video logo card (held 3.9 s) + offer line",
+      "source_asset_ids": [
+        "tube-man-v1"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "PASS: H.264/AAC 1080x1350 30 fps, 27.4 s, -14.06 LUFS",
+        "captions": "PASS: overlap QA 0 hits; OCR read-back OK",
+        "full_playback": "Contact sheet reviewed."
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-04T13:33:00-06:00",
+        "sha256": "1416e09b6b40eaf8ede04e3bbb6ca71be95484b165c34dc9106d64856af4726a",
+        "asset": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-4x5-MASTER.mp4",
+        "evidence": "Chase approved all 10 Top-10 ads on Oct 4, 2026, 1:33 PM MT (relayed by Grok Bot), incl. #5 Tube Man; per his instruction this house-caption fix version replaces the old version as the approved pick (old files kept)."
+      },
+      "rights_reuse": "Revboo own brand",
+      "costs": {
+        "video": 0,
+        "audio": 0,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-04T14:14:00-06:00",
+          "agent": "Grok",
+          "action": "Created v02 (4x5) from tube-man-v1: house captions, approved tagline/offer, trims.",
+          "parent_asset_id": "tube-man-v1"
+        },
+        {
+          "at": "2026-10-04T14:14:00-06:00",
+          "agent": "Grok",
+          "action": "Filed as ★ Approved (Top 10 #5), replacing tube-man-v1 as the approved pick.",
+          "parent_asset_id": "tube-man-v1"
+        }
+      ],
+      "approved_rank": 5,
+      "approved_star": "★"
     }
   },
   "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber.",
@@ -4580,14 +4754,15 @@
       "concept_id": "RB-012",
       "title": "Tube Man",
       "asset_ids": [
-        "tube-man-v1"
+        "rb-012-a-v02-9x16",
+        "rb-012-a-v02-4x5"
       ],
       "cover_ids": [],
       "approved_by": "Chase Fowler",
       "approved_at": "2026-10-04T13:33:00-06:00",
       "status": "★ Approved – Ready to Run",
-      "fix_in_progress": true,
-      "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done."
+      "fix_in_progress": false,
+      "note": "Fix version v02 (house captions, approved tagline + offer on the revboo.video card, 36.0 s -> 27.4 s, 9:16 + 4:5) is the approved pick; old v1 kept."
     },
     {
       "rank": 6,

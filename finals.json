@@ -231,18 +231,28 @@
    "status": "approved",
    "approved_by": "Chase Fowler",
    "approved_at": "2026-10-04T13:33:00-06:00",
-   "fix_in_progress": true,
-   "note": "Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.",
+   "fix_in_progress": false,
+   "note": "Fix version v02 (house captions, approved tagline + offer on the revboo.video card, 36.0 s -> 27.4 s, 9:16 + 4:5) is the approved pick; old v1 kept.",
    "files": [
     {
-     "id": "tube-man-v1",
+     "id": "rb-012-a-v02-9x16",
      "aspect": "9:16",
      "width": 1080,
      "height": 1920,
-     "duration": 36.0,
-     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/tube-man-v1.mp4",
-     "master_url": null,
-     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/tube-man-v1.jpg"
+     "duration": 27.4,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-9x16.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-9x16-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-012-a-v02-9x16.jpg"
+    },
+    {
+     "id": "rb-012-a-v02-4x5",
+     "aspect": "4:5",
+     "width": 1080,
+     "height": 1350,
+     "duration": 27.4,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-4x5.mp4",
+     "master_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-4x5-MASTER.mp4",
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-012-a-v02-4x5.jpg"
     }
    ],
    "covers": []

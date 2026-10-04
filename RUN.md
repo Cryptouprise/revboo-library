@@ -30,9 +30,8 @@
 
 ## ★ 5. Tube Man (RB-012)
 
-🛠 Approved concept; house-caption/tagline fix version in progress, will replace as the approved pick when done.
-
-- **9:16** `tube-man-v1` (36.0 s): [web copy](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/tube-man-v1.mp4) · [poster](https://cryptouprise.github.io/revboo-library/media/posters/tube-man-v1.jpg)
+- **9:16** `rb-012-a-v02-9x16` (27.4 s): [web copy](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-9x16.mp4) · [full-quality master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-9x16-MASTER.mp4) · [poster](https://cryptouprise.github.io/revboo-library/media/posters/rb-012-a-v02-9x16.jpg)
+- **4:5** `rb-012-a-v02-4x5` (27.4 s): [web copy](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-4x5.mp4) · [full-quality master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-012-a-v02-4x5-MASTER.mp4) · [poster](https://cryptouprise.github.io/revboo-library/media/posters/rb-012-a-v02-4x5.jpg)
 - Cover: video poster frame (no custom cover yet)
 
 ## ★ 6. PI Attorneys – Scroll Past (PI-008)

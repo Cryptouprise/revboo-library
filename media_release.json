@@ -635,6 +635,12 @@
   "size": 2620245,
   "sha256": "b9d5dc08e376547550ff8ce622a375f053687a24c8c6a27e1b852259dbdb1b9f"
  },
+ "rb-008-a-v02-4x5-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 65693781,
+  "sha256": "81db65dd35d8f6a6fdcc3c6c434b4e6d7b4628b41d880aaeb16bde92ad5a79a9",
+  "master": true
+ },
  "rb-008-a-v02-4x5.mp4": {
   "tag": "media-v1",
   "size": 5163581,
@@ -650,6 +656,22 @@
   "tag": "media-v1",
   "size": 5062479,
   "sha256": "0b4948805c8860a39fa0c5d53f8a0e98bf979597869860561251ffac8b8fc529"
+ },
+ "rb-012-a-v02-4x5.mp4": {
+  "tag": "media-v1",
+  "size": 5462253,
+  "sha256": "9133432125e0994589b0cd3ff4647940e32bf592c988b9d7cdee0eef8cf5ad94"
+ },
+ "rb-012-a-v02-9x16-MASTER.mp4": {
+  "tag": "media-v1",
+  "size": 85408161,
+  "sha256": "3854600dba9501f754af6fb374af5a4cc14b75fd35966080ce15fdbd8b1fcb1c",
+  "master": true
+ },
+ "rb-012-a-v02-9x16.mp4": {
+  "tag": "media-v1",
+  "size": 5488901,
+  "sha256": "baebd837360e98d1705909d1e127c9b148644d4c89063f3fe1ed6680a1b5fa2e"
  },
  "remake-r1.mp4": {
   "tag": "media-v1",
@@ -883,10 +905,10 @@
   "size": 1048622,
   "sha256": "fb37174ffdd84878266857be3df852545142842b0e1af3a006032fcc5619afab"
  },
- "rb-008-a-v02-4x5-MASTER.mp4": {
+ "rb-012-a-v02-4x5-MASTER.mp4": {
   "tag": "media-v1",
-  "size": 65693781,
-  "sha256": "81db65dd35d8f6a6fdcc3c6c434b4e6d7b4628b41d880aaeb16bde92ad5a79a9",
+  "size": 66340976,
+  "sha256": "1416e09b6b40eaf8ede04e3bbb6ca71be95484b165c34dc9106d64856af4726a",
   "master": true
  }
 }
