@@ -143,5 +143,9 @@ Needs: Pillow, numpy, OpenCV, rapidocr_onnxruntime, onnxruntime, ffmpeg, and the
 
 ## Voice
 
-The Revboo voiceover voice is ElevenLabs Eleven v4 "Adam" (male), via OpenRouter `elevenlabs/eleven-v4`. Chase chose it on Oct 13 2026. Master it to -14 LUFS.
-Jessica (female, Eleven v4) is the A/B-test alternate voice. Her test take is `/workspace/revboo/tests/eleven-v4/revboo_furnace_v4_jessica.mp3`.
+Revboo has two permanent voice characters, both ElevenLabs Eleven v4 via OpenRouter (`elevenlabs/eleven-v4`). Chase chose them on Oct 13 2026.
+
+- **Adam** is the male voice. His test take is `/workspace/revboo/tests/eleven-v4/revboo_furnace_v4_adam.mp3`.
+- **Jessica** is the female voice. Her test take is `/workspace/revboo/tests/eleven-v4/revboo_furnace_v4_jessica.mp3`.
+
+Use both. Mix them across ads instead of putting one on everything, and A/B test them. Master to -14 LUFS.
