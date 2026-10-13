@@ -140,3 +140,7 @@ Needs: Pillow, numpy, OpenCV, rapidocr_onnxruntime, onnxruntime, ffmpeg, and the
 - [ ] Taglines and the offer word for word; no stats, prices or "$2,000 / 20 ads"; "revboo.video" spelled right.
 - [ ] -14 LUFS / about -1 dBTP. End clip only on Revboo-branded ads, watermark cropped.
 - [ ] 9:16 + 4:5 + small copy + 9:16/4:5 covers (3-6 word hook, one orange word, subline, Revboo .video).
+
+## Voice
+
+The Revboo voiceover voice is ElevenLabs Eleven v4 "Adam" (male), via OpenRouter `elevenlabs/eleven-v4`. Chase chose it on Oct 13 2026. Master it to -14 LUFS.
