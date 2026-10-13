@@ -4,6 +4,8 @@
 
 Live page: https://cryptouprise.github.io/revboo-library/
 
+**[Start here](start.html)** — recorded approved work in rank order, exact export links, Content filtering, and routes to all work, source clips, and review. Reads the existing registry and manifest; approval is separate from publication.
+
 > ## ★ Approved – Ready to Run = the source of truth for what runs
 > Chase approved 10 ads on Oct 4, 2026 (1:33 PM MT). The **★ Approved section is the source of truth for what runs**: top of the [live page](https://cryptouprise.github.io/revboo-library/#approved), top of [FINALS.md](FINALS.md), checklist in [plan/TOP10.md](plan/TOP10.md).
 > Stored in `catalog/registry.json` → `approved_ranking` (ordered list: `rank` 1-10, `star`, `concept_id`, `asset_ids`, `cover_ids`, `fix_in_progress`, `note`). Each ranked concept also has `approved_rank`, `approved_star: "★"`, `approval_status`, `approved_asset_ids` and `approved_asset_id`; each approved file has an `Approved` revision record with `approval` {by, at, sha256}. `catalog/shortlist.json` mirrors the ranks (starred) for Creative Command.
