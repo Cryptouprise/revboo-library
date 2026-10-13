@@ -56,6 +56,80 @@ Organic posts of the paid four are fine: they give the page social proof (likes/
 
 Volume: 17 posts in 14 days (2 a day on launch days 1, 2 and 7). Every approved file runs at least once.
 
+## Organic page posts (separate track from paid)
+
+> Drafts only, nothing posted. Organic is its own track: it tells the story or the joke, it doesn't pitch. Rules (Chase, Oct 13): Revboo is **not** a SaaS/AI app. It's a real human creative team that uses AI to move fast, and every caption says so in plain words in the first line or two. Every caption ends with **"Real editors. AI speed. Fresh ads every week."** "First 2 ads free" goes on about 1 in 3 posts, said softly (here: #2, #5, #8). No stats, prices or client claims. These slots fit around the calendar above without double-booking a time. Previews: `/workspace/revboo/social-previews/organic/post-NN.png` on the box. Graphics are 1080x1350 in `covers/organic/`, built by `social-previews/organic/graphics.py`.
+
+### O1. Wed Oct 14, 12:00 PM MT · FB feed
+
+Asset: `furnace-captioned-4x5-v1` (cover `covers/furnace-cover-4x5.png`)
+
+> We're a team of real human editors, and we use AI to move fast. This one is about a feeling every business owner knows.
+> The ad isn't working, so you feed it more budget. Then more. Same cardboard guy, same "BIG SALE," one more shovel into the furnace.
+> The budget was never the problem. The ad was.
+> Real editors. AI speed. Fresh ads every week.
+
+### O2. Thu Oct 15, 7:30 PM MT · FB feed
+
+Asset: Graphic `covers/organic/g1-meet-the-team.png` (mascot frame from New Hat)
+
+> Meet the team behind your ads. Revboo isn't an app. We're real people who write, edit and cut every ad, and we use AI tools so it doesn't take weeks.
+> The guy in the picture is our mascot. He has great energy and zero editing skills.
+> If you want to see what we'd make for you, your first 2 ads are on us.
+> Real editors. AI speed. Fresh ads every week.
+
+### O3. Fri Oct 16, 7:30 PM MT · FB feed
+
+Asset: `rb-006-a-v02-4x5` (Clone War Room)
+
+> Real people came up with this one, and AI helped us build the room full of clones.
+> The setup: you started a business, not a production company. So you call a meeting and ask, "Can someone just make the ad?" Every person in the room is you. Everyone has an opinion. Nobody has time.
+> Real editors. AI speed. Fresh ads every week.
+
+### O4. Sat Oct 17, 7:30 PM MT · FB feed
+
+Asset: Graphic `covers/organic/g2-3-signs.png`
+
+> Our human editors look at a lot of ads (AI just helps us work faster). Here are three signs an ad has gone stale:
+> 1. You skip it yourself when it shows up in your feed.
+> 2. The "new" version is the old one with a different headline.
+> 3. It's been the same few videos on repeat for months.
+> One out of three is a hint. Three out of three is a eulogy.
+> Real editors. AI speed. Fresh ads every week.
+
+### O5. Sun Oct 18, 12:00 PM MT · FB Reel
+
+Asset: `rb-001-a-v04-9x16` (Ad Autopsy v04, Reel)
+
+> Real editors made this 12-second cut, with AI to get it done fast. It's the whole idea in one breath: your ads deserve better creative, so we make fresh ones every week.
+> Curious what that looks like for your brand? The first 2 ads are free.
+> Real editors. AI speed. Fresh ads every week.
+
+### O6. Mon Oct 19, 12:00 PM MT · FB feed
+
+Asset: Graphic `covers/organic/g3-before-after.png` (frames from `rb-010-a-v02-4x5`)
+
+> Before and after, made by our human editors with AI doing the heavy lifting.
+> Left: the kind of summer-sale ad everyone scrolls past. Right: same shoe, completely different ad. Both are real frames from our Remake video.
+> Real editors. AI speed. Fresh ads every week.
+
+### O7. Tue Oct 20, 7:30 PM MT · FB feed
+
+Asset: `rb-009-a-v02-4x5` (Graveyard v02)
+
+> Our real-life editors built a cemetery for tired ads. AI did the fog.
+> Every headstone is an ad that ran too long: the same three videos on repeat until the budget gave out. The good news is that ads don't have to end up here. Send us your worst one, and we'll remake it.
+> Real editors. AI speed. Fresh ads every week.
+
+### O8. Wed Oct 21, 12:00 PM MT · FB feed
+
+Asset: Graphic `covers/organic/g4-how-it-works.png`
+
+> How Revboo works, in plain words: we're not software, and there's nothing to learn. We're a human creative team that uses AI to move fast.
+> You send us the product. Our editors make the ads and send fresh ones every week. You run them.
+> If you want to try it, the first 2 ads are free.
+> Real editors. AI speed. Fresh ads every week.
+
 ## Reuse notes
 
 - **Instagram:** post the 9:16 as a Reel on the same day/time (or cross-post from Meta Business Suite). Put the CTA as "Link in bio → revboo.video" (IG captions don't link). Use the 4:5 for grid posts. Up to 3-5 niche hashtags at the end: #videoads #mediabuyer #facebookads #ugcads #adcreative.
