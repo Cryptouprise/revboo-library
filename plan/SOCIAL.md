@@ -56,78 +56,113 @@ Organic posts of the paid four are fine: they give the page social proof (likes/
 
 Volume: 17 posts in 14 days (2 a day on launch days 1, 2 and 7). Every approved file runs at least once.
 
-## Organic page posts (separate track from paid)
+## Organic page posts v2 (replaces v1, Oct 13)
 
-> Drafts only, nothing posted. Organic is its own track: it tells the story or the joke, it doesn't pitch. Rules (Chase, Oct 13): Revboo is **not** a SaaS/AI app. It's a real human creative team that uses AI to move fast, and every caption says so in plain words in the first line or two. Every caption ends with **"Real editors. AI speed. Fresh ads every week."** "First 2 ads free" goes on about 1 in 3 posts, said softly (here: #2, #5, #8). No stats, prices or client claims. These slots fit around the calendar above without double-booking a time. Previews: `/workspace/revboo/social-previews/organic/post-NN.png` on the box. Graphics are 1080x1350 in `covers/organic/`, built by `social-previews/organic/graphics.py`.
+> Rules: [VIRAL-PLAYBOOK.md](VIRAL-PLAYBOOK.md). Hook first. The human team is named once, never in line 1. Every post asks a question. There's a weekly **Remake Your Worst Ad** series. No Chase on camera. "First 2 free" appears on posts 4, 7 and 10 (3 of 10). Every caption ends with the sign-off. Scores use the playbook's 10-point checklist (the number in brackets is the checklist item that lost a point). Previews on the box: `/workspace/revboo/social-previews/organic-v2/post-NN.png`. Graphics are built by `social-previews/organic-v2/graphics.py`. Drafts only, nothing posted.
 
-### O1. Wed Oct 14, 12:00 PM MT · FB feed
+### O1. Wed Oct 14, 12:00 PM MT · FB feed · score 9/10
 
-Asset: `furnace-captioned-4x5-v1` (cover `covers/furnace-cover-4x5.png`)
+Asset: Video `furnace-captioned-4x5-v1` (cover `covers/furnace-cover-4x5.png`)  
+Score note: Shareable (9) is soft: it's a joke for owners who already feel it.
 
-> We're a team of real human editors, and we use AI to move fast. This one is about a feeling every business owner knows.
-> The ad isn't working, so you feed it more budget. Then more. Same cardboard guy, same "BIG SALE," one more shovel into the furnace.
-> The budget was never the problem. The ad was.
+> Your ad isn't broke. It's on fire.
+> Same cardboard guy. Same "BIG SALE!!!" One more shovel of budget into the furnace, every single week. The ad never changes. Only the bill does.
+> We're a crew of human editors (AI just makes us quick), and we made this about the ads we replace.
+> Be honest: how many weeks has your current ad been running?
 > Real editors. AI speed. Fresh ads every week.
 
-### O2. Thu Oct 15, 7:30 PM MT · FB feed
+### O2. Thu Oct 15, 7:30 PM MT · FB feed · score 8/10
 
-Asset: Graphic `covers/organic/g1-meet-the-team.png` (mascot frame from New Hat)
+Asset: Graphic `covers/organic-v2/g1-newest-editor.png` (mascot frame from `new-hat-captioned-4x5-v1`)  
+Score note: Thumb-stop (2): the source frame crops the mascot's hair. The name question is fun but low-intent.
 
-> Meet the team behind your ads. Revboo isn't an app. We're real people who write, edit and cut every ad, and we use AI tools so it doesn't take weeks.
-> The guy in the picture is our mascot. He has great energy and zero editing skills.
-> If you want to see what we'd make for you, your first 2 ads are on us.
+> Meet our newest editor. He has never edited anything.
+> He's cardboard. He comes to every meeting and contributes only thumbs. The actual ads are made by real human editors, who use AI so you aren't waiting three weeks.
+> He needs a name. What should we call him?
 > Real editors. AI speed. Fresh ads every week.
 
-### O3. Fri Oct 16, 7:30 PM MT · FB feed
+### O3. Fri Oct 16, 7:30 PM MT · FB feed · score 9/10
 
-Asset: `rb-006-a-v02-4x5` (Clone War Room)
+Asset: Video `rb-006-a-v02-4x5` (Clone War Room)  
+Score note: Story (3) depends on people watching past 3 s. The frame-1 headline helps.
 
-> Real people came up with this one, and AI helped us build the room full of clones.
-> The setup: you started a business, not a production company. So you call a meeting and ask, "Can someone just make the ad?" Every person in the room is you. Everyone has an opinion. Nobody has time.
+> You called a meeting about the ad. Everyone in the room was you.
+> You write the script, shoot it, edit it at midnight, then argue with yourself about the font. You started a business, not a production company.
+> That's the part our editors take off your plate. Real people, AI speed, new ads every week.
+> Which clone are you: the yeller, the pointer, or the one who just wants it done?
 > Real editors. AI speed. Fresh ads every week.
 
-### O4. Sat Oct 17, 7:30 PM MT · FB feed
+### O4. Sat Oct 17, 7:30 PM MT · FB feed · score 9/10
 
-Asset: Graphic `covers/organic/g2-3-signs.png`
+Asset: Graphic `covers/organic-v2/g2-is-it-stale.png` (frame from `rb-010-a-v02-4x5`)  
+Score note: The checklist is saveable. The soft offer is tied to scoring a 3. Visual is a strong pattern interrupt.
 
-> Our human editors look at a lot of ads (AI just helps us work faster). Here are three signs an ad has gone stale:
-> 1. You skip it yourself when it shows up in your feed.
-> 2. The "new" version is the old one with a different headline.
-> 3. It's been the same few videos on repeat for months.
-> One out of three is a hint. Three out of three is a eulogy.
+> Your ad isn't dead. It's stale. Here's the 10-second test.
+> 1. You skip it in your own feed.
+> 2. The "new" one just has a new headline.
+> 3. Same few videos, months on repeat.
+> Our editors see all three every week. The offer is usually fine. The creative is tired.
+> How many did you check: 0, 1, 2 or 3? If it's 3, your first 2 ads from us are free.
 > Real editors. AI speed. Fresh ads every week.
 
-### O5. Sun Oct 18, 12:00 PM MT · FB Reel
+### O5. Sun Oct 18, 12:00 PM MT · FB Reel · score 7/10
 
-Asset: `rb-001-a-v04-9x16` (Ad Autopsy v04, Reel)
+Asset: Reel `rb-001-a-v04-9x16` (Ad Autopsy v04)  
+Score note: The video is a straight spokesperson cut with no joke (3), and the 12 s challenge question is hard for most people (5).
 
-> Real editors made this 12-second cut, with AI to get it done fast. It's the whole idea in one breath: your ads deserve better creative, so we make fresh ones every week.
-> Curious what that looks like for your brand? The first 2 ads are free.
+> You get 12 seconds. Go.
+> That's how long this whole pitch takes: your ads deserve better creative, so a team of real editors makes fresh ones every week, with AI doing the grunt work in between.
+> Your turn. You have 12 seconds to sell what you sell. What do you say?
 > Real editors. AI speed. Fresh ads every week.
 
-### O6. Mon Oct 19, 12:00 PM MT · FB feed
+### O6. Mon Oct 19, 12:00 PM MT · FB feed · score 9/10
 
-Asset: Graphic `covers/organic/g3-before-after.png` (frames from `rb-010-a-v02-4x5`)
+Asset: Graphic `covers/organic-v2/g3-same-shoe.png` (before/after frames from `rb-010-a-v02-4x5`)  
+Score note: Pick-one plus fix-one question. The before frame is busy at thumbnail size.
 
-> Before and after, made by our human editors with AI doing the heavy lifting.
-> Left: the kind of summer-sale ad everyone scrolls past. Right: same shoe, completely different ad. Both are real frames from our Remake video.
+> Same shoe. Same budget. Only one of these stops your thumb.
+> Left: the summer-sale ad you've seen a thousand times. Right: the same shoe, remade by our editors. AI helped with the fire. Both are real frames from our Remake video.
+> Left or right? And what's the one thing you'd fix on the left?
 > Real editors. AI speed. Fresh ads every week.
 
-### O7. Tue Oct 20, 7:30 PM MT · FB feed
+### O7. Tue Oct 20, 7:30 PM MT · FB feed · score 10/10
 
-Asset: `rb-009-a-v02-4x5` (Graveyard v02)
+Asset: Video `rb-009-a-v02-4x5` (Graveyard v02)  
+Score note: Hook, a joke in the human line, a fill-in question, a soft offer, and the strongest frame.
 
-> Our real-life editors built a cemetery for tired ads. AI did the fog.
-> Every headstone is an ad that ran too long: the same three videos on repeat until the budget gave out. The good news is that ads don't have to end up here. Send us your worst one, and we'll remake it.
+> Where good ad budgets go to die.
+> Every headstone is an ad that ran too long: the same three videos on repeat until the budget gave out. Our human editors built the whole cemetery. AI did the fog.
+> If your ad got a headstone, what would it say? Send us the ad before it gets one. First 2 are free.
 > Real editors. AI speed. Fresh ads every week.
 
-### O8. Wed Oct 21, 12:00 PM MT · FB feed
+### O8. Wed Oct 21, 12:00 PM MT · FB feed · score 7/10
 
-Asset: Graphic `covers/organic/g4-how-it-works.png`
+Asset: Graphic `covers/organic-v2/g4-you-send-we-send.png`  
+Score note: An explainer by nature (3, 9). The time/money/ideas question is the only comment driver.
 
-> How Revboo works, in plain words: we're not software, and there's nothing to learn. We're a human creative team that uses AI to move fast.
-> You send us the product. Our editors make the ads and send fresh ones every week. You run them.
-> If you want to try it, the first 2 ads are free.
+> The whole process fits in one sentence.
+> You send the product. We send the ads, every week. Real editors make them, AI keeps it fast, and there's no software for you to learn.
+> What's actually stopped you from making new ads: time, money or ideas?
+> Real editors. AI speed. Fresh ads every week.
+
+### O9. Thu Oct 22, 7:30 PM MT · FB feed · score 9/10
+
+Asset: **Engagement:** graphic `covers/organic-v2/g5-hot-take.png` (blurred frame from Furnace)  
+Score note: Built to be argued with. Risk: negative feedback. Reply to every comment with substance.
+
+> Hot take: your offer is fine. Your ad is boring.
+> Same discount, new angle, and people suddenly stop scrolling. Our editors watch it happen every week. Most "offer problems" are creative problems wearing a disguise.
+> Agree or disagree? Tell us why. We read every reply.
+> Real editors. AI speed. Fresh ads every week.
+
+### O10. Fri Oct 23, 7:30 PM MT · FB feed · score 9/10
+
+Asset: **Engagement / series:** graphic `covers/organic-v2/g6-remake-worst-ad.png`  
+Score note: Series mechanic and a genuine CTA. Score assumes Chase signs off on 1 public remake a week. Without that it's a 6.
+
+> Remake Your Worst Ad, episode 1.
+> Post a screenshot or link of the ad you're least proud of, plus one line on what you sell. Every week our editors pick one and remake it right here on the page: before, after, and what we changed. If we pick yours, you get the remake free.
+> What's the worst ad you've ever run? We won't judge. Much.
 > Real editors. AI speed. Fresh ads every week.
 
 ## Reuse notes
