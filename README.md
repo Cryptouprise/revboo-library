@@ -1,5 +1,7 @@
 # Revboo Video Library
 
+**[Central searchable video index](LIBRARY_INDEX.md)** — all cataloged exports, versions, approval states, source lineage and recovery queue.
+
 > # ★ [Approved to Run: the ads to run](https://cryptouprise.github.io/revboo-library/run.html) (only those, ranked) · [RUN.md](RUN.md)
 
 Live page: https://cryptouprise.github.io/revboo-library/
