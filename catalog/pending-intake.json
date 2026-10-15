@@ -15,7 +15,13 @@
       "sha256": "2853d3e830600d66ecbdc11ebdf48fce6a2d51ab1ea3b05f3ce7a6ed9c598d87",
       "preview_sha256": "54b22d93ea7013648ea963c4efacc2cd1a39402c83298f54f31f37ce390a8fec",
       "preview_bytes": 4621507,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "HV-003",
@@ -31,7 +37,13 @@
       "sha256": "e39e83f2a88dc8d550a6d299a2169838510823778861b48a93c803cadc676d74",
       "preview_sha256": "d39a41f2975bf6a748a20d7d4dfc080fc705c27fb57ca6ee8803739d01eaea44",
       "preview_bytes": 3911728,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "SM-006",
@@ -47,7 +59,13 @@
       "sha256": "e658fee8c8b2408c98a89c8b52b95a6734ed3cedbbf95d0372f71b7c35b3b30e",
       "preview_sha256": "1f71fbb0a35bf1a811af4845be63e787896697917318da946c12167ec92c655e",
       "preview_bytes": 5234187,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "SM-007",
@@ -63,7 +81,13 @@
       "sha256": "4ff78625684dbbfdf89af71241dd379048e87953e2dc8b084146ca3949937c4c",
       "preview_sha256": "35b45fa97a312793015c61a05e2ae4d3b53501dd41e4677cfed4761da9495936",
       "preview_bytes": 5197429,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "SM-009",
@@ -79,7 +103,13 @@
       "sha256": "5bf013821f9dfb193e455d9fd4281a434753119cfcfdcc6a3410cb9f29ed9b46",
       "preview_sha256": "f439f2d6ddd9eb247c476dd5ae3c339fffca302945dab140edd6cc2f245747bf",
       "preview_bytes": 5186379,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "SM-008",
@@ -95,7 +125,13 @@
       "sha256": "85941426acbfc53b12a564da75706604b6acad4eff032d289654b68cd01317f3",
       "preview_sha256": "5da94757759b793e773e3670912b786f573d8d59ac1dd56c4abf3052dc2c3581",
       "preview_bytes": 5209936,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "SM-001",
@@ -111,7 +147,13 @@
       "sha256": "45556494a697023ffa90e57b18c04f2554a07815c2dc79a008132d34f113b3f0",
       "preview_sha256": "af7cfb9134936b0a3474752e05a77d1001206e791f7a28b6a582b6500d4ad8df",
       "preview_bytes": 5193582,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "SM-004",
@@ -127,7 +169,13 @@
       "sha256": "2e5b1502ed5d1d11e717a072705108d698b13fca2803307e7180e4f990faba92",
       "preview_sha256": "c57cbd912ef5db0cc2a873a42392d434ccf20ed5e139cc0556ad05504a13b9b3",
       "preview_bytes": 5158880,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "RB-013",
@@ -147,7 +195,13 @@
       "usage_tags": [
         "Ads",
         "Content"
-      ]
+      ],
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "RB-013",
@@ -167,7 +221,13 @@
       "usage_tags": [
         "Ads",
         "Content"
-      ]
+      ],
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "SM-005",
@@ -183,7 +243,13 @@
       "sha256": "1523ab02d9cb231a447fd952b64154333d1534f4866cb047323263db118f32a2",
       "preview_sha256": "a6b52fb091de92eb5b8cc8f9423cbb6d7854f27b298a61f7bbe08b961513c87f",
       "preview_bytes": 4242693,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "SM-003",
@@ -199,7 +265,13 @@
       "sha256": "b089c93daaf45ed1621f58c64cc95b81b4b46443a6f8635c8a6eb8c2a1c45d22",
       "preview_sha256": "04e6300f376f9c9bf97bef8938802e3160cb435f92b3455c8c2182c262615637",
       "preview_bytes": 5236918,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "RB-014",
@@ -219,7 +291,13 @@
       "usage_tags": [
         "Ads",
         "Content"
-      ]
+      ],
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "SM-002",
@@ -235,7 +313,13 @@
       "sha256": "a33cb118418081df34789f2073a3823556b4c0928a39de7a6a8107cb953e3e88",
       "preview_sha256": "395adace17e8f8779db32dc986c766629b6c175a18171e72bec6cb363c8c9cbf",
       "preview_bytes": 5284933,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "HV-002",
@@ -251,7 +335,13 @@
       "sha256": "e4b051d31fa91ae599dba89402eff81f00c943a086fe394ff880b73563ef1c15",
       "preview_sha256": "20ae2311af24bbfa81ade94f8cec5794d767186f66f3a4b58c6163c65ad48eb8",
       "preview_bytes": 4714025,
-      "status": "Prepared; video release upload pending"
+      "status": "Prepared; video release upload pending",
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "RB-013",
@@ -271,7 +361,13 @@
       "usage_tags": [
         "Ads",
         "Content"
-      ]
+      ],
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "RB-013",
@@ -291,7 +387,13 @@
       "usage_tags": [
         "Ads",
         "Content"
-      ]
+      ],
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "RB-013",
@@ -311,7 +413,13 @@
       "usage_tags": [
         "Ads",
         "Content"
-      ]
+      ],
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     },
     {
       "concept_id": "RB-013",
@@ -331,7 +439,13 @@
       "usage_tags": [
         "Ads",
         "Content"
-      ]
+      ],
+      "recovery": {
+        "at": "2026-10-15T18:04:53.720329+00:00",
+        "status": "Original master recovered and SHA-256 verified in private source index",
+        "public_video_upload": "Pending; not uploaded",
+        "approval_status": "Review"
+      }
     }
   ]
 }
