@@ -797,6 +797,376 @@
       "title": "Clone War Room",
       "version": "v2 · house captions (4:5) (★ APPROVED)",
       "category": "Seedance originals (made by Chase)"
+    },
+    {
+      "id": "sm-006-v1",
+      "src": "media/finals/sm-006-v1.mp4",
+      "brand": "SuperMoney",
+      "category": "Comedy/skit",
+      "group": "Future You — Tax Relief",
+      "title": "Future You — Tax Relief",
+      "version": "v1",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "Free Ads",
+      "advertiser": "SuperMoney",
+      "pt": 1.0,
+      "date_override": [
+        "Oct 2, 2026",
+        "2026-10-02T20:43:56-06:00"
+      ]
+    },
+    {
+      "id": "sm-007-v1",
+      "src": "media/finals/sm-007-v1.mp4",
+      "brand": "SuperMoney",
+      "category": "Comedy/skit",
+      "group": "Future Me’s Problem",
+      "title": "Future Me’s Problem",
+      "version": "v1",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "Free Ads",
+      "advertiser": "SuperMoney",
+      "pt": 1.0,
+      "date_override": [
+        "Oct 2, 2026",
+        "2026-10-02T21:20:44-06:00"
+      ]
+    },
+    {
+      "id": "sm-009-v1",
+      "src": "media/finals/sm-009-v1.mp4",
+      "brand": "SuperMoney",
+      "category": "Comedy/skit",
+      "group": "The Hard Part",
+      "title": "The Hard Part",
+      "version": "v1",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "Free Ads",
+      "advertiser": "SuperMoney",
+      "pt": 1.0,
+      "date_override": [
+        "Oct 2, 2026",
+        "2026-10-02T21:20:44-06:00"
+      ]
+    },
+    {
+      "id": "sm-008-v1",
+      "src": "media/finals/sm-008-v1.mp4",
+      "brand": "SuperMoney",
+      "category": "Comedy/skit",
+      "group": "The Only Reason",
+      "title": "The Only Reason",
+      "version": "v1",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "Free Ads",
+      "advertiser": "SuperMoney",
+      "pt": 1.0,
+      "date_override": [
+        "Oct 2, 2026",
+        "2026-10-02T21:20:44-06:00"
+      ]
+    },
+    {
+      "id": "sm-001-v1",
+      "src": "media/finals/sm-001-v1.mp4",
+      "brand": "SuperMoney",
+      "category": "Comedy/skit",
+      "group": "The Drawer",
+      "title": "The Drawer",
+      "version": "v1",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "Free Ads",
+      "advertiser": "SuperMoney",
+      "pt": 1.0,
+      "date_override": [
+        "Oct 2, 2026",
+        "2026-10-02T17:58:50-06:00"
+      ]
+    },
+    {
+      "id": "sm-004-v1",
+      "src": "media/finals/sm-004-v1.mp4",
+      "brand": "SuperMoney",
+      "category": "Comedy/skit",
+      "group": "Future You — App",
+      "title": "Future You — App",
+      "version": "v1",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "Free Ads",
+      "advertiser": "SuperMoney",
+      "pt": 1.0,
+      "date_override": [
+        "Oct 2, 2026",
+        "2026-10-02T17:58:50-06:00"
+      ]
+    },
+    {
+      "id": "sm-005-v1",
+      "src": "media/finals/sm-005-v1.mp4",
+      "brand": "SuperMoney",
+      "category": "UGC/presenter",
+      "group": "UGC with App Demo",
+      "title": "UGC with App Demo",
+      "version": "v1",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "Free Ads",
+      "advertiser": "SuperMoney",
+      "pt": 1.0,
+      "date_override": [
+        "Oct 2, 2026",
+        "2026-10-02T17:58:50-06:00"
+      ]
+    },
+    {
+      "id": "sm-003-v1",
+      "src": "media/finals/sm-003-v1.mp4",
+      "brand": "SuperMoney",
+      "category": "Comedy/skit",
+      "group": "One Place",
+      "title": "One Place",
+      "version": "v1",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "Free Ads",
+      "advertiser": "SuperMoney",
+      "pt": 1.0,
+      "date_override": [
+        "Oct 2, 2026",
+        "2026-10-02T17:58:50-06:00"
+      ]
+    },
+    {
+      "id": "sm-002-v1",
+      "src": "media/finals/sm-002-v1.mp4",
+      "brand": "SuperMoney",
+      "category": "Comedy/skit",
+      "group": "Money Mystery",
+      "title": "Money Mystery",
+      "version": "v1",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "Free Ads",
+      "advertiser": "SuperMoney",
+      "pt": 1.0,
+      "date_override": [
+        "Oct 2, 2026",
+        "2026-10-02T17:58:50-06:00"
+      ]
+    },
+    {
+      "id": "hv-001-jacket-revision-16x9",
+      "src": "media/finals/hv-001-jacket-revision-16x9.mp4",
+      "brand": "HVAC Samples",
+      "category": "Comedy/skit",
+      "group": "Fire the Penguin",
+      "title": "Fire the Penguin",
+      "version": "jacket-revision",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "Free Ads",
+      "advertiser": "Everwell (fictional)",
+      "pt": 1.0,
+      "date_override": [
+        "Sep 29, 2026",
+        "2026-09-29T19:37:53-06:00"
+      ]
+    },
+    {
+      "id": "hv-003-fixed-voice-16x9",
+      "src": "media/finals/hv-003-fixed-voice-16x9.mp4",
+      "brand": "HVAC Samples",
+      "category": "Comedy/skit",
+      "group": "Lifeguard — First Skit",
+      "title": "Lifeguard — First Skit",
+      "version": "fixed-voice",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "Free Ads",
+      "advertiser": "Everwell (fictional)",
+      "pt": 1.0,
+      "date_override": [
+        "Sep 11, 2026",
+        "2026-09-11T17:10:20-06:00"
+      ]
+    },
+    {
+      "id": "rb-013-fresh-orus-16x9",
+      "src": "media/finals/rb-013-fresh-orus-16x9.mp4",
+      "brand": "Revboo",
+      "category": "Teardown",
+      "group": "HVAC Teardown — Lifeguard",
+      "title": "HVAC Teardown — Lifeguard",
+      "version": "fresh-orus",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "RevBoo Ads",
+      "advertiser": "RevBoo",
+      "pt": 1.0,
+      "date_override": [
+        "Oct 1, 2026",
+        "2026-10-01T22:29:32-06:00"
+      ],
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
+    },
+    {
+      "id": "rb-013-reveal-segment-16x9",
+      "src": "media/finals/rb-013-reveal-segment-16x9.mp4",
+      "brand": "Revboo",
+      "category": "Teardown",
+      "group": "HVAC Teardown — Lifeguard",
+      "title": "HVAC Teardown — Lifeguard",
+      "version": "reveal-segment",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "RevBoo Ads",
+      "advertiser": "RevBoo",
+      "pt": 1.0,
+      "date_override": [
+        "Sep 29, 2026",
+        "2026-09-29T22:26:33-06:00"
+      ],
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
+    },
+    {
+      "id": "rb-014-real-ad-opening-16x9",
+      "src": "media/finals/rb-014-real-ad-opening-16x9.mp4",
+      "brand": "Revboo",
+      "category": "Teardown",
+      "group": "HVAC Teardown — Penguin",
+      "title": "HVAC Teardown — Penguin",
+      "version": "real-ad-opening",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "RevBoo Ads",
+      "advertiser": "RevBoo",
+      "pt": 1.0,
+      "date_override": [
+        "Oct 1, 2026",
+        "2026-10-01T22:46:15-06:00"
+      ],
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
+    },
+    {
+      "id": "hv-002-original-16x9",
+      "src": "media/finals/hv-002-original-16x9.mp4",
+      "brand": "HVAC Samples",
+      "category": "Comedy/skit",
+      "group": "Fire the Lifeguard",
+      "title": "Fire the Lifeguard",
+      "version": "original",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "Free Ads",
+      "advertiser": "Everwell (fictional)",
+      "pt": 1.0,
+      "date_override": [
+        "Sep 29, 2026",
+        "2026-09-29T19:15:20-06:00"
+      ]
+    },
+    {
+      "id": "rb-013-car-smash-v2-16x9",
+      "src": "media/finals/rb-013-car-smash-v2-16x9.mp4",
+      "brand": "Revboo",
+      "category": "Teardown",
+      "group": "HVAC Teardown — Lifeguard",
+      "title": "HVAC Teardown — Lifeguard",
+      "version": "car-smash-v2",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "RevBoo Ads",
+      "advertiser": "RevBoo",
+      "pt": 1.0,
+      "date_override": [
+        "Sep 30, 2026",
+        "2026-09-30T21:06:24-06:00"
+      ],
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
+    },
+    {
+      "id": "rb-013-fictional-v1-16x9",
+      "src": "media/finals/rb-013-fictional-v1-16x9.mp4",
+      "brand": "Revboo",
+      "category": "Teardown",
+      "group": "HVAC Teardown — Lifeguard",
+      "title": "HVAC Teardown — Lifeguard",
+      "version": "fictional-v1",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded.",
+      "status": "review",
+      "collection_tag": "RevBoo Ads",
+      "advertiser": "RevBoo",
+      "pt": 1.0,
+      "date_override": [
+        "Sep 30, 2026",
+        "2026-09-30T20:24:08-06:00"
+      ],
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
+    },
+    {
+      "id": "rb-013-ken-labelled-16x9",
+      "src": "media/finals/rb-013-ken-labelled-16x9.mp4",
+      "brand": "Revboo",
+      "category": "Teardown",
+      "group": "HVAC Teardown — Lifeguard",
+      "title": "HVAC Teardown — Lifeguard",
+      "version": "ken-labelled",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded. Ken is a legacy filename label; voice identity is unverified.",
+      "status": "review",
+      "collection_tag": "RevBoo Ads",
+      "advertiser": "RevBoo",
+      "pt": 1.0,
+      "date_override": [
+        "Sep 30, 2026",
+        "2026-09-30T21:34:05-06:00"
+      ],
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
+    },
+    {
+      "id": "rb-013-ken-warm-labelled-16x9",
+      "src": "media/finals/rb-013-ken-warm-labelled-16x9.mp4",
+      "brand": "Revboo",
+      "category": "Teardown",
+      "group": "HVAC Teardown — Lifeguard",
+      "title": "HVAC Teardown — Lifeguard",
+      "version": "ken-warm-labelled",
+      "note": "Existing export; web copy preserves the original edit and audio. Review status; no launch approval recorded. Ken is a legacy filename label; voice identity is unverified.",
+      "status": "review",
+      "collection_tag": "RevBoo Ads",
+      "advertiser": "RevBoo",
+      "pt": 1.0,
+      "date_override": [
+        "Sep 30, 2026",
+        "2026-09-30T22:14:09-06:00"
+      ],
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ]
     }
   ],
   "clips": [

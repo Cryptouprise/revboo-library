@@ -1020,5 +1020,160 @@
   "size": 10090964,
   "sha256": "a88b2376cc5ca8ee697e59f4afd847f07b3e34d0e43d43a2bbd3e624b76b3a73",
   "master": true
+ },
+ "sm-006-v1.mp4": {
+  "tag": "media-v1",
+  "size": 4167504,
+  "sha256": "98a6405179078deff5e09f01f34ee8e91e94d11919c065c6cae7eb9e871aa4d9"
+ },
+ "sm-007-v1.mp4": {
+  "tag": "media-v1",
+  "size": 4233645,
+  "sha256": "aff494e4aa87e5d3b2ce953294f4e2099466b2b4f1809643bd685c8863346673"
+ },
+ "sm-009-v1.mp4": {
+  "tag": "media-v1",
+  "size": 4279606,
+  "sha256": "8f649f615b0464aa5db013c385e2f4d42e3826c3f418b3f542f71e33d1d2bb27"
+ },
+ "sm-008-v1.mp4": {
+  "tag": "media-v1",
+  "size": 4271405,
+  "sha256": "6c92020523f5e93b6fc5d0645d4b4d3c02950583881986c9fba956142069ef3b"
+ },
+ "sm-001-v1.mp4": {
+  "tag": "media-v1",
+  "size": 4957250,
+  "sha256": "c1043f750d9af1e876699ae6746ea775b4d0c2f2e236107edc0dfd43352eb04c"
+ },
+ "sm-004-v1.mp4": {
+  "tag": "media-v1",
+  "size": 4844051,
+  "sha256": "e00127579d0ffe23e284658e04c22d26e041166e2ee83f3b5cf793f7236fc071"
+ },
+ "sm-005-v1.mp4": {
+  "tag": "media-v1",
+  "size": 3279304,
+  "sha256": "171be6f8553b2887ce620af45d9c605eca2ce17cac204350a4d860b952215acd"
+ },
+ "sm-003-v1.mp4": {
+  "tag": "media-v1",
+  "size": 4236972,
+  "sha256": "2319146b6c8f3fa6055deab725a0f6a8f9a5b6a73743bc5f136e7d7091506268"
+ },
+ "sm-002-v1.mp4": {
+  "tag": "media-v1",
+  "size": 4407221,
+  "sha256": "e9c4c6d8175622240e7d808b0ab225bd5088cb7decdf9dd3662bd8cc7094585d"
+ },
+ "hv-001-jacket-revision-16x9.mp4": {
+  "tag": "media-v1",
+  "size": 3597171,
+  "sha256": "5e398c97f7d56fffbf2f14c04d6e3f1a198a9a391df17f06543eab3395d3ee56"
+ },
+ "hv-003-fixed-voice-16x9.mp4": {
+  "tag": "media-v1",
+  "size": 3015123,
+  "sha256": "aa48bac8450c00f9471f0ca3068d0afb8c1303e21244029d6a293e42350e62da"
+ },
+ "rb-013-fresh-orus-16x9.mp4": {
+  "tag": "media-v1",
+  "size": 4981432,
+  "sha256": "a52d0f5322a46ef69db1bd052a8b352dd5fec6d88bb8a89abceb1a7dde580568"
+ },
+ "rb-013-reveal-segment-16x9.mp4": {
+  "tag": "media-v1",
+  "size": 4322017,
+  "sha256": "a9820728526b4408f841a48ffb1fa8c4790f5e6d4d7c1dcc6b08a50c3c6020b8"
+ },
+ "rb-014-real-ad-opening-16x9.mp4": {
+  "tag": "media-v1",
+  "size": 5017532,
+  "sha256": "e6e1e1ad474b536ebea48ab60f1eeb155de90c33ec316dafe265d993986d40f2"
+ },
+ "hv-002-original-16x9.mp4": {
+  "tag": "media-v1",
+  "size": 3662626,
+  "sha256": "7c8ccf7b2162fcbced0309a2df27ff2a8f00efc7c1893ed40b0afee40c7c0613"
+ },
+ "rb-013-car-smash-v2-16x9.mp4": {
+  "tag": "media-v1",
+  "size": 4986918,
+  "sha256": "04602e8b788556a5518fc11e800ee0c2cc5ac8978c2c4d7bffef8d7e57e5283f"
+ },
+ "rb-013-fictional-v1-16x9.mp4": {
+  "tag": "media-v1",
+  "size": 5129184,
+  "sha256": "d780b3661195c7fae25899fd3dda754f2f191a512b116b28e7914d84840590de"
+ },
+ "rb-013-ken-labelled-16x9.mp4": {
+  "tag": "media-v1",
+  "size": 5017061,
+  "sha256": "66f5f5681cb5232c03723c297cc42be432f6a5b8117435f8e7045de3a60d02e6"
+ },
+ "rb-013-ken-warm-labelled-16x9.mp4": {
+  "tag": "media-v1",
+  "size": 5017225,
+  "sha256": "2d0cfaf78148ef33d6fb61446f6acc3ae794fd46651112c4f32cad68ac9afb86"
+ },
+ "hv-001-jacket-revision.mp4": {
+  "tag": "media-v1",
+  "size": 3596848,
+  "sha256": "b973847069698b9b6654461495478acc1a08ca8185388b6c076cb5e24f099da8",
+  "note": "Incorrect aspect-ratio upload attempt; not used by the gallery. Correct widescreen export has the -16x9 suffix."
+ },
+ "hv-002-original.mp4": {
+  "tag": "media-v1",
+  "size": 3673136,
+  "sha256": "256aae78bc71106e2db8f4ccbdc3386413e545ad72994e004c1a5a1707c72dde",
+  "note": "Incorrect aspect-ratio upload attempt; not used by the gallery. Correct widescreen export has the -16x9 suffix."
+ },
+ "hv-003-fixed-voice.mp4": {
+  "tag": "media-v1",
+  "size": 3011091,
+  "sha256": "26e0202151db3b7c89fa97a189ee1092a91c43075347c92b6026c0e0deec6202",
+  "note": "Incorrect aspect-ratio upload attempt; not used by the gallery. Correct widescreen export has the -16x9 suffix."
+ },
+ "rb-013-car-smash-v2.mp4": {
+  "tag": "media-v1",
+  "size": 4992224,
+  "sha256": "a2b594b2da375027a93e148cbcd19e33765e97f303b43e064f70d83ea0cadc2c",
+  "note": "Incorrect aspect-ratio upload attempt; not used by the gallery. Correct widescreen export has the -16x9 suffix."
+ },
+ "rb-013-fictional-v1.mp4": {
+  "tag": "media-v1",
+  "size": 5125927,
+  "sha256": "d19319827a90cf3b4220a3cf0b8553485121d9c59529affba376a5bee059c15c",
+  "note": "Incorrect aspect-ratio upload attempt; not used by the gallery. Correct widescreen export has the -16x9 suffix."
+ },
+ "rb-013-fresh-orus.mp4": {
+  "tag": "media-v1",
+  "size": 4985300,
+  "sha256": "c8f6cd82d84324903ed23129bc44c48818d89c6b6206ea59b3ee5765fb3597ca",
+  "note": "Incorrect aspect-ratio upload attempt; not used by the gallery. Correct widescreen export has the -16x9 suffix."
+ },
+ "rb-013-ken-labelled.mp4": {
+  "tag": "media-v1",
+  "size": 5022852,
+  "sha256": "a3829c4c3f97097015616f4e6b70633640b607cf18d0fe8d6a264d404451b100",
+  "note": "Incorrect aspect-ratio upload attempt; not used by the gallery. Correct widescreen export has the -16x9 suffix."
+ },
+ "rb-013-ken-warm-labelled.mp4": {
+  "tag": "media-v1",
+  "size": 5022524,
+  "sha256": "43d96355faf95b46883a2db56636d3b3e11c326c478d78760a965048acfdea76",
+  "note": "Incorrect aspect-ratio upload attempt; not used by the gallery. Correct widescreen export has the -16x9 suffix."
+ },
+ "rb-013-reveal-segment.mp4": {
+  "tag": "media-v1",
+  "size": 4322893,
+  "sha256": "95c06df3b45b5705268e009b35805154af71c19b8491e86622c048c54a84ad8b",
+  "note": "Incorrect aspect-ratio upload attempt; not used by the gallery. Correct widescreen export has the -16x9 suffix."
+ },
+ "rb-014-real-ad-opening.mp4": {
+  "tag": "media-v1",
+  "size": 5016759,
+  "sha256": "220f531805e7e24ff73648791beddd8b2d08b323f32109dfbee93313cad9a6a9",
+  "note": "Incorrect aspect-ratio upload attempt; not used by the gallery. Correct widescreen export has the -16x9 suffix."
  }
 }

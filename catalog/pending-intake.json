@@ -3,7 +3,7 @@
   "entries": [
     {
       "concept_id": "HV-001",
-      "id": "hv-001-jacket-revision",
+      "id": "hv-001-jacket-revision-16x9",
       "title": "Fire the Penguin",
       "name": "RevBoo-Fire-the-Penguin.mp4",
       "version": "jacket-revision",
@@ -13,19 +13,21 @@
       "category": "Comedy/skit",
       "duration": 17.866667,
       "sha256": "2853d3e830600d66ecbdc11ebdf48fce6a2d51ab1ea3b05f3ce7a6ed9c598d87",
-      "preview_sha256": "54b22d93ea7013648ea963c4efacc2cd1a39402c83298f54f31f37ce390a8fec",
-      "preview_bytes": 4621507,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "5e398c97f7d56fffbf2f14c04d6e3f1a198a9a391df17f06543eab3395d3ee56",
+      "preview_bytes": 3597171,
+      "status": "Uploaded; gallery status Review",
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/hv-001-jacket-revision-16x9.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "HV-003",
-      "id": "hv-003-fixed-voice",
+      "id": "hv-003-fixed-voice-16x9",
       "title": "Lifeguard — First Skit",
       "name": "RevBoo-Lifeguard-Fixed-Voice.mp4",
       "version": "fixed-voice",
@@ -35,15 +37,17 @@
       "category": "Comedy/skit",
       "duration": 15.0,
       "sha256": "e39e83f2a88dc8d550a6d299a2169838510823778861b48a93c803cadc676d74",
-      "preview_sha256": "d39a41f2975bf6a748a20d7d4dfc080fc705c27fb57ca6ee8803739d01eaea44",
-      "preview_bytes": 3911728,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "aa48bac8450c00f9471f0ca3068d0afb8c1303e21244029d6a293e42350e62da",
+      "preview_bytes": 3015123,
+      "status": "Uploaded; gallery status Review",
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/hv-003-fixed-voice-16x9.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "SM-006",
@@ -57,15 +61,17 @@
       "category": "Comedy/skit",
       "duration": 20.851,
       "sha256": "e658fee8c8b2408c98a89c8b52b95a6734ed3cedbbf95d0372f71b7c35b3b30e",
-      "preview_sha256": "1f71fbb0a35bf1a811af4845be63e787896697917318da946c12167ec92c655e",
-      "preview_bytes": 5234187,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "98a6405179078deff5e09f01f34ee8e91e94d11919c065c6cae7eb9e871aa4d9",
+      "preview_bytes": 4167504,
+      "status": "Uploaded; gallery status Review",
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-006-v1.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "SM-007",
@@ -79,15 +85,17 @@
       "category": "Comedy/skit",
       "duration": 21.342,
       "sha256": "4ff78625684dbbfdf89af71241dd379048e87953e2dc8b084146ca3949937c4c",
-      "preview_sha256": "35b45fa97a312793015c61a05e2ae4d3b53501dd41e4677cfed4761da9495936",
-      "preview_bytes": 5197429,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "aff494e4aa87e5d3b2ce953294f4e2099466b2b4f1809643bd685c8863346673",
+      "preview_bytes": 4233645,
+      "status": "Uploaded; gallery status Review",
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-007-v1.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "SM-009",
@@ -101,15 +109,17 @@
       "category": "Comedy/skit",
       "duration": 21.555,
       "sha256": "5bf013821f9dfb193e455d9fd4281a434753119cfcfdcc6a3410cb9f29ed9b46",
-      "preview_sha256": "f439f2d6ddd9eb247c476dd5ae3c339fffca302945dab140edd6cc2f245747bf",
-      "preview_bytes": 5186379,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "8f649f615b0464aa5db013c385e2f4d42e3826c3f418b3f542f71e33d1d2bb27",
+      "preview_bytes": 4279606,
+      "status": "Uploaded; gallery status Review",
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-009-v1.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "SM-008",
@@ -123,15 +133,17 @@
       "category": "Comedy/skit",
       "duration": 21.351,
       "sha256": "85941426acbfc53b12a564da75706604b6acad4eff032d289654b68cd01317f3",
-      "preview_sha256": "5da94757759b793e773e3670912b786f573d8d59ac1dd56c4abf3052dc2c3581",
-      "preview_bytes": 5209936,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "6c92020523f5e93b6fc5d0645d4b4d3c02950583881986c9fba956142069ef3b",
+      "preview_bytes": 4271405,
+      "status": "Uploaded; gallery status Review",
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-008-v1.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "SM-001",
@@ -145,15 +157,17 @@
       "category": "Comedy/skit",
       "duration": 24.951,
       "sha256": "45556494a697023ffa90e57b18c04f2554a07815c2dc79a008132d34f113b3f0",
-      "preview_sha256": "af7cfb9134936b0a3474752e05a77d1001206e791f7a28b6a582b6500d4ad8df",
-      "preview_bytes": 5193582,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "c1043f750d9af1e876699ae6746ea775b4d0c2f2e236107edc0dfd43352eb04c",
+      "preview_bytes": 4957250,
+      "status": "Uploaded; gallery status Review",
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-001-v1.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "SM-004",
@@ -167,19 +181,21 @@
       "category": "Comedy/skit",
       "duration": 24.351,
       "sha256": "2e5b1502ed5d1d11e717a072705108d698b13fca2803307e7180e4f990faba92",
-      "preview_sha256": "c57cbd912ef5db0cc2a873a42392d434ccf20ed5e139cc0556ad05504a13b9b3",
-      "preview_bytes": 5158880,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "e00127579d0ffe23e284658e04c22d26e041166e2ee83f3b5cf793f7236fc071",
+      "preview_bytes": 4844051,
+      "status": "Uploaded; gallery status Review",
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-004-v1.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "RB-013",
-      "id": "rb-013-fresh-orus",
+      "id": "rb-013-fresh-orus-16x9",
       "title": "HVAC Teardown — Lifeguard",
       "name": "RevBoo-HVAC-Teardown-Fresh-Orus.mp4",
       "version": "fresh-orus",
@@ -189,9 +205,9 @@
       "category": "Teardown",
       "duration": 40.533333,
       "sha256": "6991336693e29f9eab305144811ff6d6fbcf08c4f774bcecb245e6b87fc62b20",
-      "preview_sha256": "a1307cf79118b362bfdec8155dcfd7365c4751f033c939cb088dc426b661a131",
-      "preview_bytes": 5272354,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "a52d0f5322a46ef69db1bd052a8b352dd5fec6d88bb8a89abceb1a7dde580568",
+      "preview_bytes": 4981432,
+      "status": "Uploaded; gallery status Review",
       "usage_tags": [
         "Ads",
         "Content"
@@ -199,13 +215,15 @@
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-fresh-orus-16x9.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "RB-013",
-      "id": "rb-013-reveal-segment",
+      "id": "rb-013-reveal-segment-16x9",
       "title": "HVAC Teardown — Lifeguard",
       "name": "RevBoo-HVAC-Our-Ad-Reveal.mp4",
       "version": "reveal-segment",
@@ -215,9 +233,9 @@
       "category": "Teardown",
       "duration": 21.505,
       "sha256": "15a5ae33c102e8006dc31e7bc158bbeb7638924dbf8827134d83436e5df0a8a5",
-      "preview_sha256": "8708ba21f354aa78ecdbad62d60070e13bbf85948bf3c3c1a0b704900c75531e",
-      "preview_bytes": 5272550,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "a9820728526b4408f841a48ffb1fa8c4790f5e6d4d7c1dcc6b08a50c3c6020b8",
+      "preview_bytes": 4322017,
+      "status": "Uploaded; gallery status Review",
       "usage_tags": [
         "Ads",
         "Content"
@@ -225,9 +243,11 @@
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-reveal-segment-16x9.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "SM-005",
@@ -241,15 +261,17 @@
       "category": "UGC/presenter",
       "duration": 16.351,
       "sha256": "1523ab02d9cb231a447fd952b64154333d1534f4866cb047323263db118f32a2",
-      "preview_sha256": "a6b52fb091de92eb5b8cc8f9423cbb6d7854f27b298a61f7bbe08b961513c87f",
-      "preview_bytes": 4242693,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "171be6f8553b2887ce620af45d9c605eca2ce17cac204350a4d860b952215acd",
+      "preview_bytes": 3279304,
+      "status": "Uploaded; gallery status Review",
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-005-v1.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "SM-003",
@@ -263,19 +285,21 @@
       "category": "Comedy/skit",
       "duration": 21.351,
       "sha256": "b089c93daaf45ed1621f58c64cc95b81b4b46443a6f8635c8a6eb8c2a1c45d22",
-      "preview_sha256": "04e6300f376f9c9bf97bef8938802e3160cb435f92b3455c8c2182c262615637",
-      "preview_bytes": 5236918,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "2319146b6c8f3fa6055deab725a0f6a8f9a5b6a73743bc5f136e7d7091506268",
+      "preview_bytes": 4236972,
+      "status": "Uploaded; gallery status Review",
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-003-v1.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "RB-014",
-      "id": "rb-014-real-ad-opening",
+      "id": "rb-014-real-ad-opening-16x9",
       "title": "HVAC Teardown — Penguin",
       "name": "RevBoo-Real-HVAC-Penguin-Teardown.mp4",
       "version": "real-ad-opening",
@@ -285,9 +309,9 @@
       "category": "Teardown",
       "duration": 40.469,
       "sha256": "499fc23b6010226cf3aa94c568bdd1417cb35a2cbb6df773057d333acc154d26",
-      "preview_sha256": "8c061d124b70f1c5f150e52759b26a5d944a0384671d911af29821abe21299c2",
-      "preview_bytes": 5290096,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "e6e1e1ad474b536ebea48ab60f1eeb155de90c33ec316dafe265d993986d40f2",
+      "preview_bytes": 5017532,
+      "status": "Uploaded; gallery status Review",
       "usage_tags": [
         "Ads",
         "Content"
@@ -295,9 +319,11 @@
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-014-real-ad-opening-16x9.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "SM-002",
@@ -311,19 +337,21 @@
       "category": "Comedy/skit",
       "duration": 22.051,
       "sha256": "a33cb118418081df34789f2073a3823556b4c0928a39de7a6a8107cb953e3e88",
-      "preview_sha256": "395adace17e8f8779db32dc986c766629b6c175a18171e72bec6cb363c8c9cbf",
-      "preview_bytes": 5284933,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "e9c4c6d8175622240e7d808b0ab225bd5088cb7decdf9dd3662bd8cc7094585d",
+      "preview_bytes": 4407221,
+      "status": "Uploaded; gallery status Review",
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-002-v1.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "HV-002",
-      "id": "hv-002-original",
+      "id": "hv-002-original-16x9",
       "title": "Fire the Lifeguard",
       "name": "RevBoo-Fire-the-Lifeguard.mp4",
       "version": "original",
@@ -333,19 +361,21 @@
       "category": "Comedy/skit",
       "duration": 17.9,
       "sha256": "e4b051d31fa91ae599dba89402eff81f00c943a086fe394ff880b73563ef1c15",
-      "preview_sha256": "20ae2311af24bbfa81ade94f8cec5794d767186f66f3a4b58c6163c65ad48eb8",
-      "preview_bytes": 4714025,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "7c8ccf7b2162fcbced0309a2df27ff2a8f00efc7c1893ed40b0afee40c7c0613",
+      "preview_bytes": 3662626,
+      "status": "Uploaded; gallery status Review",
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/hv-002-original-16x9.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "RB-013",
-      "id": "rb-013-car-smash-v2",
+      "id": "rb-013-car-smash-v2-16x9",
       "title": "HVAC Teardown — Lifeguard",
       "name": "RevBoo-HVAC-Teardown-Car-Smash-v2.mp4",
       "version": "car-smash-v2",
@@ -355,9 +385,9 @@
       "category": "Teardown",
       "duration": 40.533333,
       "sha256": "2b01affad168bdab96d08765c1fcaed61a0f347723dfc2e0f355b20630befd2c",
-      "preview_sha256": "7578631b79ac22a551dc177840ae448ba1594e8c3f829b92317970d0b10e8625",
-      "preview_bytes": 5276516,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "04602e8b788556a5518fc11e800ee0c2cc5ac8978c2c4d7bffef8d7e57e5283f",
+      "preview_bytes": 4986918,
+      "status": "Uploaded; gallery status Review",
       "usage_tags": [
         "Ads",
         "Content"
@@ -365,13 +395,15 @@
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-car-smash-v2-16x9.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "RB-013",
-      "id": "rb-013-fictional-v1",
+      "id": "rb-013-fictional-v1-16x9",
       "title": "HVAC Teardown — Lifeguard",
       "name": "RevBoo-HVAC-Fictional-Ad-Teardown.mp4",
       "version": "fictional-v1",
@@ -381,9 +413,9 @@
       "category": "Teardown",
       "duration": 33.839,
       "sha256": "4930369fff2e080fda7bce6444e6e5971449f0a0fcf92852f319f1709519961f",
-      "preview_sha256": "c2daa2dcd402ef739e00127922db6ba3e4300d505e71bea936b7f5029d078a65",
-      "preview_bytes": 5402866,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "d780b3661195c7fae25899fd3dda754f2f191a512b116b28e7914d84840590de",
+      "preview_bytes": 5129184,
+      "status": "Uploaded; gallery status Review",
       "usage_tags": [
         "Ads",
         "Content"
@@ -391,13 +423,15 @@
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-fictional-v1-16x9.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "RB-013",
-      "id": "rb-013-ken-labelled",
+      "id": "rb-013-ken-labelled-16x9",
       "title": "HVAC Teardown — Lifeguard",
       "name": "RevBoo-HVAC-Teardown-Ken.mp4",
       "version": "ken-labelled",
@@ -407,9 +441,9 @@
       "category": "Teardown",
       "duration": 40.533333,
       "sha256": "2bde32a7fca3a881d2ab3f0468e0507106c76d5c659be5af55c2900897dfe9c1",
-      "preview_sha256": "6f14bfd5a4fe425acf0ab54e50b37f6c20d267cf6e7c3c72f339e359038985d1",
-      "preview_bytes": 5298926,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "66f5f5681cb5232c03723c297cc42be432f6a5b8117435f8e7045de3a60d02e6",
+      "preview_bytes": 5017061,
+      "status": "Uploaded; gallery status Review",
       "usage_tags": [
         "Ads",
         "Content"
@@ -417,13 +451,15 @@
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-ken-labelled-16x9.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     },
     {
       "concept_id": "RB-013",
-      "id": "rb-013-ken-warm-labelled",
+      "id": "rb-013-ken-warm-labelled-16x9",
       "title": "HVAC Teardown — Lifeguard",
       "name": "RevBoo-HVAC-Teardown-Ken-Warm.mp4",
       "version": "ken-warm-labelled",
@@ -433,9 +469,9 @@
       "category": "Teardown",
       "duration": 40.533333,
       "sha256": "50fa39f5832ac38c0e9107b60c5921b3569023a0dbe3647decd0c33d0626a3ee",
-      "preview_sha256": "4a5345c396bce273698f7f04c552aa4bc0ceffc34b0ae261ce2cf42f8151e52a",
-      "preview_bytes": 5296364,
-      "status": "Prepared; video release upload pending",
+      "preview_sha256": "2d0cfaf78148ef33d6fb61446f6acc3ae794fd46651112c4f32cad68ac9afb86",
+      "preview_bytes": 5017225,
+      "status": "Uploaded; gallery status Review",
       "usage_tags": [
         "Ads",
         "Content"
@@ -443,9 +479,11 @@
       "recovery": {
         "at": "2026-10-15T18:04:53.720329+00:00",
         "status": "Original master recovered and SHA-256 verified in private source index",
-        "public_video_upload": "Pending; not uploaded",
+        "public_video_upload": "Uploaded; size and SHA-256 verified",
         "approval_status": "Review"
-      }
+      },
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-ken-warm-labelled-16x9.mp4",
+      "uploaded_at": "2026-10-16T01:01:55+00:00"
     }
   ]
 }

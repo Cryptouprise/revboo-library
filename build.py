@@ -15,7 +15,7 @@ media_release.json (committed) records which tag holds each file plus its size a
 Local copies stay in media/finals and media/clips (gitignored). Posters stay in git (media/posters).
 Needs the `gh` CLI logged in with repo scope.
 
-Brands (the only allowed values): Revboo, Legal/PI, The Assist, Infinite AI, Solar Freedom, Generic/Other.
+Brands (the only allowed values): Revboo, Legal/PI, The Assist, Infinite AI, Solar Freedom, SuperMoney, HVAC Samples, Generic/Other.
 Dates = the source file's modification time unless an entry sets date_override.
 Entries added with `add` are saved in extra_sources.json so later rebuilds keep them.
 """
@@ -25,10 +25,11 @@ EXTRA=L+'extra_sources.json'
 REPO='Cryptouprise/revboo-library'
 RELEASE_INDEX=L+'media_release.json'   # {"<id>.mp4": {"tag": "media-v1", "size": ..., "sha256": ...}}
 RELEASE_PREFIX='media-v'; MAX_ASSETS=900   # GitHub allows 1000 assets per release; roll over before that
-BRANDS=['Revboo','Legal/PI','The Assist','Infinite AI','Solar Freedom','Generic/Other']
+BRANDS=['Revboo','Legal/PI','The Assist','Infinite AI','Solar Freedom','SuperMoney','HVAC Samples','Generic/Other']
 
 # ---------- brand guessing: first matching rule wins (order matters) ----------
 RULES=[
+ ('SuperMoney',r'supermoney|(^|[/_.\-])sm-\d'),
  ('Legal/PI',     r'attorney|lawyer|counsel|legal|injury|law-?firm|(^|[/_.\-])pi2?([/_.\-]|$)'),
  ('The Assist',   r'assist|andy|leadroller|lead-roller|newsletter|trovy'),
  ('Infinite AI',  r'infinite|myinfinite|ai-department|control-tower|imagine-sales|speed-to-lead|lead-response'),
@@ -41,7 +42,7 @@ def guess_brand(*texts):
         if re.search(rx,t): return b
     return 'Generic/Other'
 DEFAULT_CATEGORY={'Revboo':'Revboo ads','Legal/PI':'Ads for attorneys','The Assist':'The Assist ads',
-                  'Infinite AI':'Infinite AI videos','Solar Freedom':'Solar Freedom ads','Generic/Other':'Other videos'}
+                  'Infinite AI':'Infinite AI videos','Solar Freedom':'Solar Freedom ads','Generic/Other':'Other videos','SuperMoney':'Comedy/skit','HVAC Samples':'Comedy/skit'}
 
 # ---------- FINISHED ADS ----------
 # group = one ad concept (newest version is featured, older ones collapse under it)

@@ -33,6 +33,8 @@ Every video Chase makes or sends is filed automatically in the library: `/worksp
 | **The Assist** | Andy / LeadRoller / The Assist newsletter ads (`outreach/andy-board/…`). Other ads made for Andy's board (e.g. the Trovy UGC) also go here. |
 | **Infinite AI** | myinfinite.ai AI sales employee videos (control tower, hero VSL, UGC demos; `infinite-media/`, `uploads/ai-department-*`). |
 | **Solar Freedom** | breakyoursolarcontract.com ads. |
+| **SuperMoney** | SuperMoney app and tax-relief prospect videos. |
+| **HVAC Samples** | Fictional HVAC demonstration skits, including the penguin and lifeguard. Teardowns remain Revboo ads and Content. |
 | **Generic/Other** | Anything else. |
 
 If a video fits two brands, the more specific audience wins: an attorney-targeted Revboo ad is **Legal/PI**, not Revboo.

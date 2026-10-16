@@ -6,7 +6,7 @@ Search this file by client, concept ID, filename, format or version. The existin
 
 ## Reconciliation — October 15, 2026
 
-Recovered all 19 pending intake masters by SHA-256. Their public video upload remains pending; recovery does not approve them. Original footage and all existing release URLs are retained. Release inventory checks establish asset existence, not full playback QA.
+Recovered all 19 pending intake masters by SHA-256. All 19 now have published web copies on GitHub Releases with verified sizes and SHA-256 hashes; publication does not approve campaign launch. Original footage and all existing release URLs are retained. Release inventory checks establish asset existence, not full playback QA.
 
 ## Catalog
 
@@ -220,3 +220,27 @@ Recovered all 19 pending intake masters by SHA-256. Their public video upload re
 The private companion lists unmatched filenames and one incomplete Drive byte transfer. Unmatched means unidentified, not lost. Local-only paths without a persistent master reference remain unresolved; preview availability does not establish recovery of a full-quality master. No private media was published in this reconciliation.
 
 Keep each original, immutable export and approval hash. Link revisions to an exact parent only with evidence. Review unapproved assets and reuse rights before production. For intake, follow [the shared workflow](docs/AGENT_WORKFLOW.md).
+
+## Newly published existing exports — October 15, 2026
+
+| Company | Concept | Video | Version | Status |
+|---|---|---|---|---|
+| HVAC Samples | HV-001 | [Fire the Penguin](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/hv-001-jacket-revision-16x9.mp4) | jacket-revision | Review |
+| HVAC Samples | HV-002 | [Fire the Lifeguard](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/hv-002-original-16x9.mp4) | original | Review |
+| HVAC Samples | HV-003 | [Lifeguard — First Skit](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/hv-003-fixed-voice-16x9.mp4) | fixed-voice | Review |
+| Revboo | RB-013 | [HVAC Teardown — Lifeguard](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-car-smash-v2-16x9.mp4) | car-smash-v2 | Review |
+| Revboo | RB-013 | [HVAC Teardown — Lifeguard](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-fictional-v1-16x9.mp4) | fictional-v1 | Review |
+| Revboo | RB-013 | [HVAC Teardown — Lifeguard](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-fresh-orus-16x9.mp4) | fresh-orus | Review |
+| Revboo | RB-013 | [HVAC Teardown — Lifeguard](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-ken-labelled-16x9.mp4) | ken-labelled | Review |
+| Revboo | RB-013 | [HVAC Teardown — Lifeguard](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-ken-warm-labelled-16x9.mp4) | ken-warm-labelled | Review |
+| Revboo | RB-013 | [HVAC Teardown — Lifeguard](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-reveal-segment-16x9.mp4) | reveal-segment | Review |
+| Revboo | RB-014 | [HVAC Teardown — Penguin](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-014-real-ad-opening-16x9.mp4) | real-ad-opening | Review |
+| SuperMoney | SM-001 | [The Drawer](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-001-v1.mp4) | v1 | Review |
+| SuperMoney | SM-002 | [Money Mystery](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-002-v1.mp4) | v1 | Review |
+| SuperMoney | SM-003 | [One Place](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-003-v1.mp4) | v1 | Review |
+| SuperMoney | SM-004 | [Future You — App](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-004-v1.mp4) | v1 | Review |
+| SuperMoney | SM-005 | [UGC with App Demo](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-005-v1.mp4) | v1 | Review |
+| SuperMoney | SM-006 | [Future You — Tax Relief](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-006-v1.mp4) | v1 | Review |
+| SuperMoney | SM-007 | [Future Me’s Problem](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-007-v1.mp4) | v1 | Review |
+| SuperMoney | SM-008 | [The Only Reason](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-008-v1.mp4) | v1 | Review |
+| SuperMoney | SM-009 | [The Hard Part](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-009-v1.mp4) | v1 | Review |
