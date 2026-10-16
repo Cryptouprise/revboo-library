@@ -40,6 +40,12 @@ summary{cursor:pointer;font-weight:700;color:#ddd}
 .older .o-item video{width:100%;aspect-ratio:9/16;background:#000;border-radius:10px}
 .older .o-item div{font-size:12px;color:var(--mut);margin-top:4px}
 /* brand tabs */
+.company-picker{max-width:1280px;margin:0 auto;padding:0 20px 14px;display:flex;align-items:center;gap:12px;font-weight:700}
+.company-picker select{font:inherit;color:var(--ink,#eee);background:#1a1a1f;border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:220px}
+.company-picker select:focus-visible{outline:2px solid var(--o);outline-offset:3px}
+.pending-ad{padding:20px;border:1px solid var(--line);border-radius:12px;background:#141418}
+.pending-ad h3{margin:0 0 10px}.pending-ad p{color:var(--mut);font-size:14px}
+
 .tabs{max-width:1280px;margin:auto;display:flex;gap:8px;padding:0 20px 12px;overflow-x:auto;scrollbar-width:none}
 .tabs a{flex:none;text-decoration:none;color:#ddd;background:#1a1a1f;border:1px solid var(--line);border-radius:12px;padding:10px 16px;font-family:Anton;font-size:18px;letter-spacing:.5px;text-transform:uppercase;white-space:nowrap}
 .tabs a small{font-family:Inter;font-size:12px;color:var(--mut);margin-left:6px;font-weight:700}
@@ -94,7 +100,7 @@ footer{color:var(--mut);text-align:center;font-size:13px;padding:30px}
 </head>
 <body>
 <header><div class="bar"><div class="logo">REV<b>BOO</b> LIBRARY</div>
-<nav><a href="run.html" style="color:#ffcf33">★ Run page</a><a href="#approved" style="color:#ffcf33">★ Approved</a><a href="#ads">Finished Ads</a><a href="#clips">Clip Library</a><a href="#covers">Covers</a><a href="#brand" id="navBrand">Brand Assets</a><a href="https://github.com/Cryptouprise/revboo-library/blob/main/FINALS.md">FINALS ✓</a><a href="https://github.com/Cryptouprise/revboo-library/blob/main/BRAND.md">BRAND guide</a><a href="https://github.com/Cryptouprise/revboo-library/blob/main/plan/README.md">PLAN / Top 10</a></nav></div><div class="tabs" id="tabs"></div></header>
+<nav><a href="run.html" style="color:#ffcf33">★ Run page</a><a href="#approved" style="color:#ffcf33">★ Approved</a><a href="#ads">Finished Ads</a><a href="#clips">Clip Library</a><a href="#covers">Covers</a><a href="#brand" id="navBrand">Brand Assets</a><a href="https://github.com/Cryptouprise/revboo-library/blob/main/FINALS.md">FINALS ✓</a><a href="https://github.com/Cryptouprise/revboo-library/blob/main/BRAND.md">BRAND guide</a><a href="https://github.com/Cryptouprise/revboo-library/blob/main/plan/README.md">PLAN / Top 10</a></nav></div><div class="tabs" id="tabs"></div><label class="company-picker" for="company">Company<select id="company"><option value="All">All companies</option></select></label></header>
 <main>
 <a href="run.html" style="display:block;margin:18px 0 0;padding:16px 20px;border-radius:14px;background:#FF4B0A;color:#000;text-decoration:none;font-family:Anton,Impact,sans-serif;font-size:clamp(22px,3vw,32px);text-transform:uppercase;letter-spacing:.5px;text-align:center">★ Approved to Run: open the page with ONLY the 11 ads to run →</a>
 <div class="hero"><h1>Revboo <span>Video Library</span></h1>
@@ -130,7 +136,8 @@ const BRAND_NOTES={'Revboo':'Promos for Revboo itself.','Legal/PI':'Ads aimed at
 const touch=matchMedia('(hover:none)').matches;
 Promise.all([fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()),
   fetch('catalog/registry.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>({})),
-  fetch('covers.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>({covers:[]}))]).then(([m,reg,cvj])=>{
+  fetch('covers.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>({covers:[]})),
+  fetch('catalog/pending-intake.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>({entries:[]}))]).then(([m,reg,cvj,pending])=>{
   // ---- ★ approved (catalog/registry.json approved_ranking = source of truth)
   const RANKS=(reg.approved_ranking||[]).slice().sort((a,b)=>a.rank-b.rank);
   const APR={};RANKS.forEach(x=>(x.asset_ids||[]).forEach(id=>APR[id]=x.rank));
@@ -138,11 +145,16 @@ Promise.all([fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()),
   const CRK={};RANKS.forEach(x=>(x.cover_ids||[]).forEach(id=>CRK[id]=x.rank));
   const starChip=id=>APR[id]?`<span class="chip star">★ APPROVED #${APR[id]}</span>`:'';
   document.documentElement.style.setProperty('--o',m.brand?.color||'#FF4B0A');
-  const brands=m.brands||['Revboo','Legal/PI','The Assist','Infinite AI','Solar Freedom','Generic/Other'];
+  const brands=[...new Set([...(m.brands||['Revboo','Legal/PI','The Assist','Infinite AI','Solar Freedom','Generic/Other']),...(reg.concepts||[]).filter(c=>c.collection==='SuperMoney').map(c=>c.collection)])];
   const finals=(m.finals||[]).map(f=>({...f,brand:f.brand||'Generic/Other'}));
   const clipsAll=(m.clips||[]).map(c=>({...c,brand:c.brand||'Generic/Other'})).sort(byNew);
   const count=b=>finals.filter(f=>b==='All'||f.brand===b).length+clipsAll.filter(c=>b==='All'||c.brand===b).length;
   const tabsEl=document.getElementById('tabs');
+  const company=document.getElementById('company');
+  company.innerHTML=['All',...brands].map(b=>`<option value="${esc(b)}">${esc(b==='All'?'All companies':b)}</option>`).join('');
+  company.onchange=()=>{location.hash='brand='+encodeURIComponent(company.value)};
+  const pendingFor=b=>(pending.entries||[]).filter(x=>x.brand===b&&!finals.some(f=>f.id===x.id)&&!(reg.concepts||[]).find(c=>c.concept_id===x.concept_id)?.assets.length).sort((a,b)=>a.concept_id.localeCompare(b.concept_id));
+  const pendingHTML=b=>{const list=pendingFor(b);return list.length?`<div class="brandnote" role="status">${list.length} videos cataloged — video upload pending.</div><div class="ads">${list.map(x=>`<article class="pending-ad"><h3>${esc(x.title)}</h3><span class="chip">${esc(x.concept_id)}</span><span class="chip">Awaiting upload</span><p>${fmt(x.duration)} · ${esc(x.category)}</p></article>`).join('')}</div>`:''};
   const cur=()=>{const h=decodeURIComponent((location.hash.match(/brand=([^&]+)/)||[])[1]||'All');return h==='All'||brands.includes(h)?h:'All'};
   function drawTabs(b){tabsEl.innerHTML=['All',...brands].map(x=>`<a href="#brand=${encodeURIComponent(x)}" class="${x===b?'on':''} ${count(x)?'':'zero'}">${esc(x)}<small>${count(x)}</small></a>`).join('')}
   const adCard=(g,showBrand)=>{const f=g[0],old=g.slice(1);return `
@@ -161,10 +173,10 @@ Promise.all([fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()),
     const el=document.getElementById('adsGrid');
     const list=finals.filter(f=>b==='All'||f.brand===b);
     document.getElementById('adsTitle').innerHTML=(b==='All'?'':esc(b)+' · ')+'Finished <span>Ads</span>';
-    if(!list.length){el.innerHTML='<p class="empty">Nothing filed here yet.</p>';return}
+    if(!list.length){el.innerHTML=pendingHTML(b)||'<p class="empty">Nothing filed here yet.</p>';return}
     if(b==='All'){el.innerHTML=`<div class="ads">${groupsOf(list).map(g=>adCard(g,true)).join('')}</div>`;return}
     const cats=[...new Set(list.slice().sort(byNew).map(f=>f.category||'Ads'))];
-    el.innerHTML=`<p class="brandnote">${esc(BRAND_NOTES[b]||'')}</p>`+cats.map(c=>`<h3 class="cat">${esc(c)}</h3><div class="ads">${groupsOf(list.filter(f=>(f.category||'Ads')===c)).map(g=>adCard(g,false)).join('')}</div>`).join('');
+    el.innerHTML=`<p class="brandnote">${esc(BRAND_NOTES[b]||'')}</p>`+cats.map(c=>`<h3 class="cat">${esc(c)}</h3><div class="ads">${groupsOf(list.filter(f=>(f.category||'Ads')===c)).map(g=>adCard(g,false)).join('')}</div>`).join('')+pendingHTML(b);
   }
   // ---- ★ approved section
   {const FM={};finals.forEach(f=>FM[f.id]=f);const CV={};(cvj.covers||[]).forEach(c=>CV[c.id]=c);
@@ -218,7 +230,7 @@ Promise.all([fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()),
     <div class="bcard"><div class="fontdemo" style="font-size:44px">REVBOO<span style="color:var(--o)">.VIDEO</span></div><h3>Brand name</h3><p class="meta">Always exactly "Revboo" and "revboo.video".</p></div>`;
   Promise.resolve(cvj).then(c=>{document.getElementById('coverGrid').innerHTML=(c.covers||[]).filter(x=>x.status==='approved').map(x=>`<div class="bcard"><a href="${esc(x.file)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(x.file)}" alt="${esc(x.line)}"></a>
      ${CRK[x.id]?`<span class="chip star">★ APPROVED #${CRK[x.id]}</span>`:''}<h3>${esc(x.line)}</h3><div class="meta">${esc(x.aspect)} · ${esc(x.size)} · ${esc(x.made_by)} · for ${esc(x.for)}</div><div class="${x.warning?'w':'note'}">${x.warning?'⚠ ':''}${esc(x.note)}</div><a class="dl" href="${esc(x.file)}" download>⬇ Download</a></div>`).join('')}).catch(()=>{});
-  function route(){const b=cur();brandNow=b;drawTabs(b);drawAds(b);drawFilters();drawClips();
+  function route(){const b=cur();brandNow=b;company.value=b;drawTabs(b);drawAds(b);drawFilters();drawClips();
     const show=b==='All'||b==='Revboo';document.getElementById('brand').hidden=!show;document.getElementById('covers').hidden=!show;document.getElementById('navBrand').hidden=!show;
     document.title=(b==='All'?'':b+' · ')+'Revboo Video Library'}
   addEventListener('hashchange',()=>{if(/brand=/.test(location.hash)||location.hash==='')route()});
