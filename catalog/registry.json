@@ -3095,10 +3095,12 @@
       "aliases": [
         "RevBoo-Fire-the-Penguin.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "hv-001-jacket-revision-16x9"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3107,6 +3109,12 @@
           "at": "2026-10-04T18:10:49.390471+00:00",
           "agent": "ChatGPT",
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing jacket-revision export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "hv-001-jacket-revision-16x9"
         }
       ]
     },
@@ -3121,10 +3129,12 @@
       "aliases": [
         "RevBoo-Lifeguard-Fixed-Voice.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "hv-003-fixed-voice-16x9"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3133,6 +3143,12 @@
           "at": "2026-10-04T18:10:49.390471+00:00",
           "agent": "ChatGPT",
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing fixed-voice export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "hv-003-fixed-voice-16x9"
         }
       ]
     },
@@ -3147,10 +3163,12 @@
       "aliases": [
         "SuperMoney-06-future-you-tax-relief.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "sm-006-v1"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3159,6 +3177,12 @@
           "at": "2026-10-04T18:10:49.390471+00:00",
           "agent": "ChatGPT",
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing v1 export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "sm-006-v1"
         }
       ]
     },
@@ -3173,10 +3197,12 @@
       "aliases": [
         "SuperMoney-07-future-mes-problem.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "sm-007-v1"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3185,6 +3211,12 @@
           "at": "2026-10-04T18:10:49.390471+00:00",
           "agent": "ChatGPT",
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing v1 export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "sm-007-v1"
         }
       ]
     },
@@ -3199,10 +3231,12 @@
       "aliases": [
         "SuperMoney-09-the-hard-part.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "sm-009-v1"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3211,6 +3245,12 @@
           "at": "2026-10-04T18:10:49.390471+00:00",
           "agent": "ChatGPT",
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing v1 export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "sm-009-v1"
         }
       ]
     },
@@ -3225,10 +3265,12 @@
       "aliases": [
         "SuperMoney-08-only-reason.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "sm-008-v1"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3237,6 +3279,12 @@
           "at": "2026-10-04T18:10:49.390471+00:00",
           "agent": "ChatGPT",
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing v1 export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "sm-008-v1"
         }
       ]
     },
@@ -3251,10 +3299,12 @@
       "aliases": [
         "SuperMoney-01-tax-the-drawer.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "sm-001-v1"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3263,6 +3313,12 @@
           "at": "2026-10-04T18:10:49.390471+00:00",
           "agent": "ChatGPT",
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing v1 export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "sm-001-v1"
         }
       ]
     },
@@ -3277,10 +3333,12 @@
       "aliases": [
         "SuperMoney-04-future-you.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "sm-004-v1"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3289,6 +3347,12 @@
           "at": "2026-10-04T18:10:49.390471+00:00",
           "agent": "ChatGPT",
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing v1 export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "sm-004-v1"
         }
       ]
     },
@@ -3308,10 +3372,17 @@
         "RevBoo-HVAC-Teardown-Ken.mp4",
         "RevBoo-HVAC-Teardown-Ken-Warm.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "rb-013-fresh-orus-16x9",
+        "rb-013-reveal-segment-16x9",
+        "rb-013-car-smash-v2-16x9",
+        "rb-013-fictional-v1-16x9",
+        "rb-013-ken-labelled-16x9",
+        "rb-013-ken-warm-labelled-16x9"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3325,6 +3396,42 @@
           "at": "2026-10-04T18:30:00Z",
           "agent": "ChatGPT",
           "action": "User corrected teardowns to RevBoo Ads + Content; not Free Ads."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing fresh-orus export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "rb-013-fresh-orus-16x9"
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing reveal-segment export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "rb-013-reveal-segment-16x9"
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing car-smash-v2 export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "rb-013-car-smash-v2-16x9"
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing fictional-v1 export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "rb-013-fictional-v1-16x9"
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing ken-labelled export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "rb-013-ken-labelled-16x9"
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing ken-warm-labelled export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "rb-013-ken-warm-labelled-16x9"
         }
       ],
       "usage_tags": [
@@ -3343,10 +3450,12 @@
       "aliases": [
         "SuperMoney-05-UGC-With-App-Demo.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "sm-005-v1"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3355,6 +3464,12 @@
           "at": "2026-10-04T18:10:49.390471+00:00",
           "agent": "ChatGPT",
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing v1 export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "sm-005-v1"
         }
       ]
     },
@@ -3369,10 +3484,12 @@
       "aliases": [
         "SuperMoney-03-one-place.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "sm-003-v1"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3381,6 +3498,12 @@
           "at": "2026-10-04T18:10:49.390471+00:00",
           "agent": "ChatGPT",
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing v1 export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "sm-003-v1"
         }
       ]
     },
@@ -3395,10 +3518,12 @@
       "aliases": [
         "RevBoo-Real-HVAC-Penguin-Teardown.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "rb-014-real-ad-opening-16x9"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3412,6 +3537,12 @@
           "at": "2026-10-04T18:30:00Z",
           "agent": "ChatGPT",
           "action": "User corrected teardowns to RevBoo Ads + Content; not Free Ads."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing real-ad-opening export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "rb-014-real-ad-opening-16x9"
         }
       ],
       "usage_tags": [
@@ -3430,10 +3561,12 @@
       "aliases": [
         "SuperMoney-02-money-mystery.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "sm-002-v1"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3442,6 +3575,12 @@
           "at": "2026-10-04T18:10:49.390471+00:00",
           "agent": "ChatGPT",
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing v1 export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "sm-002-v1"
         }
       ]
     },
@@ -3456,10 +3595,12 @@
       "aliases": [
         "RevBoo-Fire-the-Lifeguard.mp4"
       ],
-      "assets": [],
+      "assets": [
+        "hv-002-original-16x9"
+      ],
       "approved_asset_id": null,
       "created_by": "Unknown",
-      "last_edited_by": "Unknown",
+      "last_edited_by": "ChatGPT",
       "agent_tags": [
         "ChatGPT"
       ],
@@ -3468,6 +3609,12 @@
           "at": "2026-10-04T18:10:49.390471+00:00",
           "agent": "ChatGPT",
           "action": "Reserved concept for user-authorized Free Ads catalog intake; source creator not independently verified."
+        },
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Published existing original export to the requested GitHub gallery; original edit and source hash retained. No launch approval inferred.",
+          "asset_id": "hv-002-original-16x9"
         }
       ]
     },
@@ -5693,6 +5840,1459 @@
       ],
       "approved_rank": 11,
       "approved_star": "★"
+    },
+    "sm-006-v1": {
+      "concept_id": "SM-006",
+      "asset_id": "sm-006-v1",
+      "title": "Future You — Tax Relief",
+      "kind": "ad",
+      "collection": "SuperMoney",
+      "advertiser": "SuperMoney",
+      "audience": null,
+      "category": "Comedy/skit",
+      "aliases": [
+        "SuperMoney-06-future-you-tax-relief.mp4"
+      ],
+      "branch": "legacy-v1",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-03T02:43:56.543477Z",
+      "master_reference": null,
+      "sha256": "98a6405179078deff5e09f01f34ee8e91e94d11919c065c6cae7eb9e871aa4d9",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-006-v1.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 20.851,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "e658fee8c8b2408c98a89c8b52b95a6734ed3cedbbf95d0372f71b7c35b3b30e",
+      "source_created_at": "2026-10-03T02:43:56.543477Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "collection_tag": "Free Ads"
+    },
+    "sm-007-v1": {
+      "concept_id": "SM-007",
+      "asset_id": "sm-007-v1",
+      "title": "Future Me’s Problem",
+      "kind": "ad",
+      "collection": "SuperMoney",
+      "advertiser": "SuperMoney",
+      "audience": null,
+      "category": "Comedy/skit",
+      "aliases": [
+        "SuperMoney-07-future-mes-problem.mp4"
+      ],
+      "branch": "legacy-v1",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-03T03:20:44.032647Z",
+      "master_reference": null,
+      "sha256": "aff494e4aa87e5d3b2ce953294f4e2099466b2b4f1809643bd685c8863346673",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-007-v1.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 21.342,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "4ff78625684dbbfdf89af71241dd379048e87953e2dc8b084146ca3949937c4c",
+      "source_created_at": "2026-10-03T03:20:44.032647Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "collection_tag": "Free Ads"
+    },
+    "sm-009-v1": {
+      "concept_id": "SM-009",
+      "asset_id": "sm-009-v1",
+      "title": "The Hard Part",
+      "kind": "ad",
+      "collection": "SuperMoney",
+      "advertiser": "SuperMoney",
+      "audience": null,
+      "category": "Comedy/skit",
+      "aliases": [
+        "SuperMoney-09-the-hard-part.mp4"
+      ],
+      "branch": "legacy-v1",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-03T03:20:44.052159Z",
+      "master_reference": null,
+      "sha256": "8f649f615b0464aa5db013c385e2f4d42e3826c3f418b3f542f71e33d1d2bb27",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-009-v1.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 21.555,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "5bf013821f9dfb193e455d9fd4281a434753119cfcfdcc6a3410cb9f29ed9b46",
+      "source_created_at": "2026-10-03T03:20:44.052159Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "collection_tag": "Free Ads"
+    },
+    "sm-008-v1": {
+      "concept_id": "SM-008",
+      "asset_id": "sm-008-v1",
+      "title": "The Only Reason",
+      "kind": "ad",
+      "collection": "SuperMoney",
+      "advertiser": "SuperMoney",
+      "audience": null,
+      "category": "Comedy/skit",
+      "aliases": [
+        "SuperMoney-08-only-reason.mp4"
+      ],
+      "branch": "legacy-v1",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-03T03:20:44.057740Z",
+      "master_reference": null,
+      "sha256": "6c92020523f5e93b6fc5d0645d4b4d3c02950583881986c9fba956142069ef3b",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-008-v1.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 21.351,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "85941426acbfc53b12a564da75706604b6acad4eff032d289654b68cd01317f3",
+      "source_created_at": "2026-10-03T03:20:44.057740Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "collection_tag": "Free Ads"
+    },
+    "sm-001-v1": {
+      "concept_id": "SM-001",
+      "asset_id": "sm-001-v1",
+      "title": "The Drawer",
+      "kind": "ad",
+      "collection": "SuperMoney",
+      "advertiser": "SuperMoney",
+      "audience": null,
+      "category": "Comedy/skit",
+      "aliases": [
+        "SuperMoney-01-tax-the-drawer.mp4"
+      ],
+      "branch": "legacy-v1",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-02T23:58:50.235825Z",
+      "master_reference": null,
+      "sha256": "c1043f750d9af1e876699ae6746ea775b4d0c2f2e236107edc0dfd43352eb04c",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-001-v1.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 24.951,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "45556494a697023ffa90e57b18c04f2554a07815c2dc79a008132d34f113b3f0",
+      "source_created_at": "2026-10-02T23:58:50.235825Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "collection_tag": "Free Ads"
+    },
+    "sm-004-v1": {
+      "concept_id": "SM-004",
+      "asset_id": "sm-004-v1",
+      "title": "Future You — App",
+      "kind": "ad",
+      "collection": "SuperMoney",
+      "advertiser": "SuperMoney",
+      "audience": null,
+      "category": "Comedy/skit",
+      "aliases": [
+        "SuperMoney-04-future-you.mp4"
+      ],
+      "branch": "legacy-v1",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-02T23:58:50.227897Z",
+      "master_reference": null,
+      "sha256": "e00127579d0ffe23e284658e04c22d26e041166e2ee83f3b5cf793f7236fc071",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-004-v1.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 24.351,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "2e5b1502ed5d1d11e717a072705108d698b13fca2803307e7180e4f990faba92",
+      "source_created_at": "2026-10-02T23:58:50.227897Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "collection_tag": "Free Ads"
+    },
+    "sm-005-v1": {
+      "concept_id": "SM-005",
+      "asset_id": "sm-005-v1",
+      "title": "UGC with App Demo",
+      "kind": "ad",
+      "collection": "SuperMoney",
+      "advertiser": "SuperMoney",
+      "audience": null,
+      "category": "UGC/presenter",
+      "aliases": [
+        "SuperMoney-05-UGC-With-App-Demo.mp4"
+      ],
+      "branch": "legacy-v1",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-02T23:58:50.255448Z",
+      "master_reference": null,
+      "sha256": "171be6f8553b2887ce620af45d9c605eca2ce17cac204350a4d860b952215acd",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-005-v1.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 16.351,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "1523ab02d9cb231a447fd952b64154333d1534f4866cb047323263db118f32a2",
+      "source_created_at": "2026-10-02T23:58:50.255448Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "collection_tag": "Free Ads"
+    },
+    "sm-003-v1": {
+      "concept_id": "SM-003",
+      "asset_id": "sm-003-v1",
+      "title": "One Place",
+      "kind": "ad",
+      "collection": "SuperMoney",
+      "advertiser": "SuperMoney",
+      "audience": null,
+      "category": "Comedy/skit",
+      "aliases": [
+        "SuperMoney-03-one-place.mp4"
+      ],
+      "branch": "legacy-v1",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-02T23:58:50.229586Z",
+      "master_reference": null,
+      "sha256": "2319146b6c8f3fa6055deab725a0f6a8f9a5b6a73743bc5f136e7d7091506268",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-003-v1.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 21.351,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "b089c93daaf45ed1621f58c64cc95b81b4b46443a6f8635c8a6eb8c2a1c45d22",
+      "source_created_at": "2026-10-02T23:58:50.229586Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "collection_tag": "Free Ads"
+    },
+    "sm-002-v1": {
+      "concept_id": "SM-002",
+      "asset_id": "sm-002-v1",
+      "title": "Money Mystery",
+      "kind": "ad",
+      "collection": "SuperMoney",
+      "advertiser": "SuperMoney",
+      "audience": null,
+      "category": "Comedy/skit",
+      "aliases": [
+        "SuperMoney-02-money-mystery.mp4"
+      ],
+      "branch": "legacy-v1",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-02T23:58:50.301614Z",
+      "master_reference": null,
+      "sha256": "e9c4c6d8175622240e7d808b0ab225bd5088cb7decdf9dd3662bd8cc7094585d",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/sm-002-v1.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 22.051,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "a33cb118418081df34789f2073a3823556b4c0928a39de7a6a8107cb953e3e88",
+      "source_created_at": "2026-10-02T23:58:50.301614Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "collection_tag": "Free Ads"
+    },
+    "hv-001-jacket-revision-16x9": {
+      "concept_id": "HV-001",
+      "asset_id": "hv-001-jacket-revision-16x9",
+      "title": "Fire the Penguin",
+      "kind": "ad",
+      "collection": "HVAC Samples",
+      "advertiser": "Everwell (fictional)",
+      "audience": null,
+      "category": "Comedy/skit",
+      "aliases": [
+        "RevBoo-Fire-the-Penguin.mp4"
+      ],
+      "branch": "legacy-jacket-revision",
+      "revision": 1,
+      "format": "16x9",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-09-30T01:37:53.501824Z",
+      "master_reference": null,
+      "sha256": "5e398c97f7d56fffbf2f14c04d6e3f1a198a9a391df17f06543eab3395d3ee56",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/hv-001-jacket-revision-16x9.mp4",
+      "native_dimensions": "1920x1080",
+      "export_dimensions": "1280x720",
+      "duration_seconds": 17.866667,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "2853d3e830600d66ecbdc11ebdf48fce6a2d51ab1ea3b05f3ce7a6ed9c598d87",
+      "source_created_at": "2026-09-30T01:37:53.501824Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "collection_tag": "Free Ads"
+    },
+    "hv-003-fixed-voice-16x9": {
+      "concept_id": "HV-003",
+      "asset_id": "hv-003-fixed-voice-16x9",
+      "title": "Lifeguard — First Skit",
+      "kind": "ad",
+      "collection": "HVAC Samples",
+      "advertiser": "Everwell (fictional)",
+      "audience": null,
+      "category": "Comedy/skit",
+      "aliases": [
+        "RevBoo-Lifeguard-Fixed-Voice.mp4"
+      ],
+      "branch": "legacy-fixed-voice",
+      "revision": 1,
+      "format": "16x9",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-09-11T23:10:20.528155Z",
+      "master_reference": null,
+      "sha256": "aa48bac8450c00f9471f0ca3068d0afb8c1303e21244029d6a293e42350e62da",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/hv-003-fixed-voice-16x9.mp4",
+      "native_dimensions": "1920x1080",
+      "export_dimensions": "1280x720",
+      "duration_seconds": 15.018,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "e39e83f2a88dc8d550a6d299a2169838510823778861b48a93c803cadc676d74",
+      "source_created_at": "2026-09-11T23:10:20.528155Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "collection_tag": "Free Ads"
+    },
+    "rb-013-fresh-orus-16x9": {
+      "concept_id": "RB-013",
+      "asset_id": "rb-013-fresh-orus-16x9",
+      "title": "HVAC Teardown — Lifeguard",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": null,
+      "category": "Teardown",
+      "aliases": [
+        "RevBoo-HVAC-Teardown-Fresh-Orus.mp4"
+      ],
+      "branch": "legacy-fresh-orus",
+      "revision": 1,
+      "format": "16x9",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-02T04:29:32.558418Z",
+      "master_reference": null,
+      "sha256": "a52d0f5322a46ef69db1bd052a8b352dd5fec6d88bb8a89abceb1a7dde580568",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-fresh-orus-16x9.mp4",
+      "native_dimensions": "1920x1080",
+      "export_dimensions": "1280x720",
+      "duration_seconds": 40.533333,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "6991336693e29f9eab305144811ff6d6fbcf08c4f774bcecb245e6b87fc62b20",
+      "source_created_at": "2026-10-02T04:29:32.558418Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ],
+      "collection_tag": "RevBoo Ads"
+    },
+    "rb-013-reveal-segment-16x9": {
+      "concept_id": "RB-013",
+      "asset_id": "rb-013-reveal-segment-16x9",
+      "title": "HVAC Teardown — Lifeguard",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": null,
+      "category": "Teardown",
+      "aliases": [
+        "RevBoo-HVAC-Our-Ad-Reveal.mp4"
+      ],
+      "branch": "legacy-reveal-segment",
+      "revision": 1,
+      "format": "16x9",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-09-30T04:26:33.182993Z",
+      "master_reference": null,
+      "sha256": "a9820728526b4408f841a48ffb1fa8c4790f5e6d4d7c1dcc6b08a50c3c6020b8",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-reveal-segment-16x9.mp4",
+      "native_dimensions": "1920x1080",
+      "export_dimensions": "1280x720",
+      "duration_seconds": 21.525,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "15a5ae33c102e8006dc31e7bc158bbeb7638924dbf8827134d83436e5df0a8a5",
+      "source_created_at": "2026-09-30T04:26:33.182993Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ],
+      "collection_tag": "RevBoo Ads"
+    },
+    "rb-014-real-ad-opening-16x9": {
+      "concept_id": "RB-014",
+      "asset_id": "rb-014-real-ad-opening-16x9",
+      "title": "HVAC Teardown — Penguin",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": null,
+      "category": "Teardown",
+      "aliases": [
+        "RevBoo-Real-HVAC-Penguin-Teardown.mp4"
+      ],
+      "branch": "legacy-real-ad-opening",
+      "revision": 1,
+      "format": "16x9",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-02T04:46:15.089389Z",
+      "master_reference": null,
+      "sha256": "e6e1e1ad474b536ebea48ab60f1eeb155de90c33ec316dafe265d993986d40f2",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-014-real-ad-opening-16x9.mp4",
+      "native_dimensions": "1920x1080",
+      "export_dimensions": "1280x720",
+      "duration_seconds": 40.483,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "499fc23b6010226cf3aa94c568bdd1417cb35a2cbb6df773057d333acc154d26",
+      "source_created_at": "2026-10-02T04:46:15.089389Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ],
+      "collection_tag": "RevBoo Ads"
+    },
+    "hv-002-original-16x9": {
+      "concept_id": "HV-002",
+      "asset_id": "hv-002-original-16x9",
+      "title": "Fire the Lifeguard",
+      "kind": "ad",
+      "collection": "HVAC Samples",
+      "advertiser": "Everwell (fictional)",
+      "audience": null,
+      "category": "Comedy/skit",
+      "aliases": [
+        "RevBoo-Fire-the-Lifeguard.mp4"
+      ],
+      "branch": "legacy-original",
+      "revision": 1,
+      "format": "16x9",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-09-30T01:15:20.181104Z",
+      "master_reference": null,
+      "sha256": "7c8ccf7b2162fcbced0309a2df27ff2a8f00efc7c1893ed40b0afee40c7c0613",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/hv-002-original-16x9.mp4",
+      "native_dimensions": "1920x1080",
+      "export_dimensions": "1280x720",
+      "duration_seconds": 17.92,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "e4b051d31fa91ae599dba89402eff81f00c943a086fe394ff880b73563ef1c15",
+      "source_created_at": "2026-09-30T01:15:20.181104Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "collection_tag": "Free Ads"
+    },
+    "rb-013-car-smash-v2-16x9": {
+      "concept_id": "RB-013",
+      "asset_id": "rb-013-car-smash-v2-16x9",
+      "title": "HVAC Teardown — Lifeguard",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": null,
+      "category": "Teardown",
+      "aliases": [
+        "RevBoo-HVAC-Teardown-Car-Smash-v2.mp4"
+      ],
+      "branch": "legacy-car-smash-v2",
+      "revision": 1,
+      "format": "16x9",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-01T03:06:24.295299Z",
+      "master_reference": null,
+      "sha256": "04602e8b788556a5518fc11e800ee0c2cc5ac8978c2c4d7bffef8d7e57e5283f",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-car-smash-v2-16x9.mp4",
+      "native_dimensions": "1920x1080",
+      "export_dimensions": "1280x720",
+      "duration_seconds": 40.533333,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "2b01affad168bdab96d08765c1fcaed61a0f347723dfc2e0f355b20630befd2c",
+      "source_created_at": "2026-10-01T03:06:24.295299Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ],
+      "collection_tag": "RevBoo Ads"
+    },
+    "rb-013-fictional-v1-16x9": {
+      "concept_id": "RB-013",
+      "asset_id": "rb-013-fictional-v1-16x9",
+      "title": "HVAC Teardown — Lifeguard",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": null,
+      "category": "Teardown",
+      "aliases": [
+        "RevBoo-HVAC-Fictional-Ad-Teardown.mp4"
+      ],
+      "branch": "legacy-fictional-v1",
+      "revision": 1,
+      "format": "16x9",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-01T02:24:08.465930Z",
+      "master_reference": null,
+      "sha256": "d780b3661195c7fae25899fd3dda754f2f191a512b116b28e7914d84840590de",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-fictional-v1-16x9.mp4",
+      "native_dimensions": "1920x1080",
+      "export_dimensions": "1280x720",
+      "duration_seconds": 33.839,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "4930369fff2e080fda7bce6444e6e5971449f0a0fcf92852f319f1709519961f",
+      "source_created_at": "2026-10-01T02:24:08.465930Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ],
+      "collection_tag": "RevBoo Ads"
+    },
+    "rb-013-ken-labelled-16x9": {
+      "concept_id": "RB-013",
+      "asset_id": "rb-013-ken-labelled-16x9",
+      "title": "HVAC Teardown — Lifeguard",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": null,
+      "category": "Teardown",
+      "aliases": [
+        "RevBoo-HVAC-Teardown-Ken.mp4"
+      ],
+      "branch": "legacy-ken-labelled",
+      "revision": 1,
+      "format": "16x9",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-01T03:34:05.393472Z",
+      "master_reference": null,
+      "sha256": "66f5f5681cb5232c03723c297cc42be432f6a5b8117435f8e7045de3a60d02e6",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-ken-labelled-16x9.mp4",
+      "native_dimensions": "1920x1080",
+      "export_dimensions": "1280x720",
+      "duration_seconds": 40.54,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "2bde32a7fca3a881d2ab3f0468e0507106c76d5c659be5af55c2900897dfe9c1",
+      "source_created_at": "2026-10-01T03:34:05.393472Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ],
+      "collection_tag": "RevBoo Ads"
+    },
+    "rb-013-ken-warm-labelled-16x9": {
+      "concept_id": "RB-013",
+      "asset_id": "rb-013-ken-warm-labelled-16x9",
+      "title": "HVAC Teardown — Lifeguard",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": null,
+      "category": "Teardown",
+      "aliases": [
+        "RevBoo-HVAC-Teardown-Ken-Warm.mp4"
+      ],
+      "branch": "legacy-ken-warm-labelled",
+      "revision": 1,
+      "format": "16x9",
+      "parent_asset_id": null,
+      "request": "User requested publication of existing SuperMoney, HVAC, penguin and teardown videos in the GitHub library on October 15, 2026.",
+      "change_log": [
+        "Original recovered by SHA-256.",
+        "Created H.264/AAC web copy with two-pass encoding at the native aspect ratio; preserved edit, timing and audio.",
+        "Uploaded to GitHub Releases and verified published size and SHA-256."
+      ],
+      "created_by": "Unknown",
+      "created_at": "2026-10-01T04:14:09.577698Z",
+      "master_reference": null,
+      "sha256": "2d0cfaf78148ef33d6fb61446f6acc3ae794fd46651112c4f32cad68ac9afb86",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-013-ken-warm-labelled-16x9.mp4",
+      "native_dimensions": "1920x1080",
+      "export_dimensions": "1280x720",
+      "duration_seconds": 40.54,
+      "script": null,
+      "verified_transcript": null,
+      "hook": null,
+      "offer": null,
+      "cta": null,
+      "voice_model": null,
+      "source_asset_ids": [],
+      "status": "Review",
+      "qa": {
+        "technical": "PASS: H.264/AAC at native aspect ratio, below 6 MB, complete FFmpeg decode; duration differs from original by less than 0.12 seconds. GitHub release size and SHA-256 verified.",
+        "speech": null,
+        "lip_sync_motion": null,
+        "branding_cta": null,
+        "full_playback": null,
+        "mobile_readability": null,
+        "remaining": [
+          "Full audiovisual and launch review not performed during filing."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "User authorized publication to this GitHub gallery. Prospect/demo work; campaign launch approval and third-party reuse rights are not established.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "live_platform_ids": [],
+      "last_edited_by": "ChatGPT",
+      "agent_tags": [
+        "ChatGPT"
+      ],
+      "history": [
+        {
+          "at": "2026-10-16T01:01:55+00:00",
+          "agent": "ChatGPT",
+          "action": "Imported existing export under its reserved concept; no source lineage or launch approval inferred.",
+          "parent_asset_id": null
+        }
+      ],
+      "source_sha256": "50fa39f5832ac38c0e9107b60c5921b3569023a0dbe3647decd0c33d0626a3ee",
+      "source_created_at": "2026-10-01T04:14:09.577698Z",
+      "exported_at": "2026-10-16T01:01:55+00:00",
+      "usage_tags": [
+        "Ads",
+        "Content"
+      ],
+      "collection_tag": "RevBoo Ads"
     }
   },
   "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber.",
