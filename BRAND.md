@@ -14,19 +14,21 @@ Revboo (**revboo.video**) is a done-for-you weekly video ad service. Every Revbo
 | Use | Copy (word for word) |
 |---|---|
 | Tagline 1 (contrarian line) | **"Don't fire your media buyer. Give them better ads."** |
+| Tagline 1b (approved alternate, Oct 15 2026) | **"Keep your media buyer. Your ads deserve better creative."** |
+| Price line (approved by Chase, Oct 15 2026) | **"Starting at $2k/month."** Use it only in the CTA, the end card or primary text, and at most once per ad. It can sit next to the free offer ("First 2 ads FREE. Starting at $2k/month."). Revboo starts at $2,000/month and goes well above $10k, so never imply a ceiling or quote any other price or tier. |
 | Tagline 2 (brand line) | **"Revboo. The revenue boost your ads can't afford to miss."** |
 | Offer (the only approved offer) | **"First 2 ads FREE. Delivered in 24 hours."** In Style C captions it's set mixed case: `First 2 ads *free*.` / `Delivered in 24 hours.` |
 | End-card line (Furnace) | "Done-for-you video ads. Delivered weekly." Sound-off hold line: "Get more out of your ad budget." |
 | Site / wordmark | **revboo.video**, spelled "Revboo" with two o's at the end and one "o" in ".video". AI generations have rendered it "REVBOOO" and "Donefor-your", so read every end card letter by letter. |
 
 - **Captions match the actual VO.** Check it with Whisper (small.en + large-v3) before captioning. If the VO says a wrong word, flag it (the Furnace VO said "your **abs**", and that take is rejected). Never caption what the VO *should* have said.
-- **No invented facts:** no fake stats, percentages, client counts, results, testimonials or prices. Research numbers can go in primary text only, with a citation, and never on screen.
+- **No invented facts:** no fake stats, percentages, client counts, results or testimonials, and no prices except the approved price line above. Research numbers can go in primary text only, with a citation, and never on screen.
 
 ## 2. Banned
 
 - **All-caps Anton "meme" captions** (Anton, stroked/outlined text, word-by-word pop/karaoke, shouting caps). This replaces the older PLAYBOOK guidance that used Anton.
 - **Fake stats or numbers** of any kind (see above).
-- **Unconfirmed pricing: "$2,000/month" and "20 ads"** (Muse cover #03). Chase has not confirmed them. Don't use them anywhere until he does.
+- **Unconfirmed claims: "20 ads"** (Muse cover #03), and any price other than "Starting at $2k/month" (e.g. tier prices, "only $2,000", per-ad prices). Chase approved the $2k starting price on Oct 15, 2026; the ad-count claim is still unconfirmed.
 - Captions over faces, people, on-screen text or the key action. Text in the top 12% or bottom 20% of a 9:16 frame.
 - More than one orange word in a caption, or none.
 - Watermarks (CapCut AI and others) and garbled AI lettering on screen.
@@ -137,7 +139,7 @@ Needs: Pillow, numpy, OpenCV, rapidocr_onnxruntime, onnxruntime, ffmpeg, and the
 - [ ] Only approved inputs (FINALS.md). VO transcribed and correct. Captions = VO.
 - [ ] Inter Tight 800, mixed case, white + exactly one orange word per caption; 0.30 s fade-in with 26 px rise; 2.2-3 s each.
 - [ ] Nothing in the top 12% / bottom 20%; no caption on a face, person, on-screen text or the key action; none on full-frame action. Overlap check, QA sheet and OCR read-back are clean.
-- [ ] Taglines and the offer word for word; no stats, prices or "$2,000 / 20 ads"; "revboo.video" spelled right.
+- [ ] Taglines and the offer word for word; no stats or "20 ads"; price only as "Starting at $2k/month" in the CTA/end card; "revboo.video" spelled right.
 - [ ] -14 LUFS / about -1 dBTP. End clip only on Revboo-branded ads, watermark cropped.
 - [ ] 9:16 + 4:5 + small copy + 9:16/4:5 covers (3-6 word hook, one orange word, subline, Revboo .video).
 
