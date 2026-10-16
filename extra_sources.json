@@ -1975,6 +1975,84 @@
         "People/Reactions"
       ],
       "used_in": []
+    },
+    {
+      "id": "hf-data-wall-rising-gold-chart",
+      "src": "/workspace/revboo/engine/sweep-inbox/2026-10-16/higgsfield/hf_20261015_145243_858e1e9b-ddaa-4c82-ae3a-191a65b41351.mp4",
+      "brand": "Generic/Other",
+      "note": "Higgsfield Kling 3.0 turbo, 16:9 1080p, generated Oct 15 2026 8:52 AM MT. Brand unconfirmed (real-estate/finance-style B-roll); filed Generic until Chase names the client. Fake UI text on screens, fine at speed.",
+      "date_override": [
+        "Oct 15, 2026",
+        "2026-10-15T08:52:42"
+      ],
+      "name": "Command-center data wall, chart turns into rising gold line",
+      "categories": [
+        "Transitions/FX",
+        "Products"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "hf-contract-keys-handshake-kitchen",
+      "src": "/workspace/revboo/engine/sweep-inbox/2026-10-16/higgsfield/hf_20261015_145242_07a8117b-c10d-4aca-ad7b-feac54a3bfb8.mp4",
+      "brand": "Generic/Other",
+      "note": "Higgsfield Kling 3.0 turbo, 16:9 1080p, generated Oct 15 2026 8:52 AM MT. Brand unconfirmed (real-estate/finance-style B-roll); filed Generic until Chase names the client.",
+      "date_override": [
+        "Oct 15, 2026",
+        "2026-10-15T08:52:42"
+      ],
+      "name": "Contract and house keys slid across counter, handshake (hands only)",
+      "categories": [
+        "People/Reactions",
+        "Products"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "hf-stressed-late-night-desk-bills",
+      "src": "/workspace/revboo/engine/sweep-inbox/2026-10-16/higgsfield/hf_20261015_145242_7b5eeb67-1cc1-49e9-8743-3018490c62f0.mp4",
+      "brand": "Generic/Other",
+      "note": "Higgsfield Kling 3.0 turbo, 16:9 1080p, generated Oct 15 2026 8:52 AM MT. Brand unconfirmed (real-estate/finance-style B-roll); filed Generic until Chase names the client. Face mostly hidden.",
+      "date_override": [
+        "Oct 15, 2026",
+        "2026-10-15T08:52:42"
+      ],
+      "name": "Stressed person at late-night desk, bills and phones",
+      "categories": [
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "hf-excavator-tears-down-old-house",
+      "src": "/workspace/revboo/engine/sweep-inbox/2026-10-16/higgsfield/hf_20261015_145242_c7193520-dd5d-4d3f-be11-ddb71491df73.mp4",
+      "brand": "Generic/Other",
+      "note": "Higgsfield Kling 3.0 turbo, 16:9 1080p, generated Oct 15 2026 8:52 AM MT. Brand unconfirmed (real-estate/finance-style B-roll); filed Generic until Chase names the client. Out-with-the-old metaphor.",
+      "date_override": [
+        "Oct 15, 2026",
+        "2026-10-15T08:52:42"
+      ],
+      "name": "Excavator tears into old house, golden-hour dust",
+      "categories": [
+        "Transitions/FX"
+      ],
+      "used_in": []
+    },
+    {
+      "id": "hf-aerial-new-townhomes-old-house",
+      "src": "/workspace/revboo/engine/sweep-inbox/2026-10-16/higgsfield/hf_20261015_145242_e9cbf5ba-401f-4341-8726-84161f6cb867.mp4",
+      "brand": "Generic/Other",
+      "note": "Higgsfield Kling 3.0 turbo, 16:9 1080p, generated Oct 15 2026 8:52 AM MT. Brand unconfirmed (real-estate/finance-style B-roll); filed Generic until Chase names the client. Old-vs-new metaphor.",
+      "date_override": [
+        "Oct 15, 2026",
+        "2026-10-15T08:52:42"
+      ],
+      "name": "Aerial push past new townhomes to one old house on overgrown lot",
+      "categories": [
+        "Transitions/FX"
+      ],
+      "used_in": []
     }
   ]
 }
