@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04T15:37:00-06:00",
-  "updated_by": "Grok (for Chase Fowler)",
+  "updated_at": "2026-10-17T17:23:00-06:00",
+  "updated_by": "Grok Bot (for Chase Fowler)",
   "entries": [
     {
       "concept_id": "RB-005",
@@ -101,6 +101,15 @@
       "note": "★ Approved – Ready to Run #11 (Chase, Oct 4, 2026, 3:37 PM MT; running). Fixed v02 is now the approved pick.",
       "updated_at": "2026-10-04T15:56:00-06:00",
       "updated_by": "Grok (for Chase Fowler)"
+    },
+    {
+      "concept_id": "RB-019",
+      "asset_id": "rb-019-a-v06-9x16",
+      "starred": true,
+      "rank": 12,
+      "note": "★ Approved – Ready to Run #12 (Chase, Oct 17, 2026). The Set final cut v6.",
+      "updated_at": "2026-10-17T17:23:00-06:00",
+      "updated_by": "Grok Bot (for Chase Fowler)"
     }
   ]
 }

@@ -450,6 +450,40 @@
     }
    ],
    "covers": []
+  },
+  {
+   "rank": 12,
+   "star": "★",
+   "title": "The Set",
+   "concept_id": "RB-019",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-17T17:23:00-06:00",
+   "fix_in_progress": false,
+   "note": "The Set final cut v6 (Oct 17, 2026; 9:16 + 4:5, 720p copies on the box) is the approved pick. Appended as #12 on approval; Chase can reorder. Monday Night (RB-018) is not approved.",
+   "files": [
+    {
+     "id": "rb-019-a-v06-9x16",
+     "aspect": "9:16",
+     "width": 720,
+     "height": 1280,
+     "duration": 59.8,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-019-a-v06-9x16.mp4",
+     "master_url": null,
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-019-a-v06-9x16.jpg"
+    },
+    {
+     "id": "rb-019-a-v06-4x5",
+     "aspect": "4:5",
+     "width": 1024,
+     "height": 1280,
+     "duration": 59.8,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-019-a-v06-4x5.mp4",
+     "master_url": null,
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-019-a-v06-4x5.jpg"
+    }
+   ],
+   "covers": []
   }
  ],
  "approved_videos": [
@@ -785,6 +819,30 @@
   }
  ],
  "rejected": [
+  {
+   "id": "flagship-v2-planet-ad-draft",
+   "title": "Planet Ad",
+   "version": "draft v2 (Oct 16)",
+   "url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flagship-v2-planet-ad-draft.mp4",
+   "source": "/workspace/revboo/edits/flagship-drafts-v2/archive/planet-ad/planet-ad-draft-v2.mp4",
+   "why": "REJECTED: Chase dropped Planet Ad on Oct 17, 2026 (edits/flagship-drafts-v2/archive/planet-ad/ARCHIVED.md). Kept for future spin-offs; do not run. Flagship draft pass 2 (Oct 16, 2026; shots generated 1:32-1:57 PM MT, exact render time not recorded). Rewritten per plan/FLAGSHIP-SCRIPTS-V2.md. Web preview of the master; master stays on the box."
+  },
+  {
+   "id": "flagship-v1-planet-ad-draft",
+   "title": "Planet Ad",
+   "version": "draft v1 (Oct 15)",
+   "url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flagship-v1-planet-ad-draft.mp4",
+   "source": "/workspace/revboo/edits/flagship-drafts/planet-ad/planet-ad-draft-v1.mp4",
+   "why": "REJECTED (mockup archive only): Chase dropped the Planet Ad concept on Oct 17, 2026 after the v2 rewrite. Flagship draft pass 1 (Oct 15, 2026, finished ~8:30 PM MT per edits/flagship-drafts/progress.md). Web preview of the master; master stays on the box."
+  },
+  {
+   "id": "flagship-v1-every-genre-draft",
+   "title": "One Line, Every Genre",
+   "version": "draft v1 (Oct 15)",
+   "url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flagship-v1-every-genre-draft.mp4",
+   "source": "/workspace/revboo/edits/flagship-drafts/every-genre/every-genre-draft-v1.mp4",
+   "why": "REJECTED (mockup archive only): Chase dropped \"One Line, Every Genre\" in his notes on the Oct 15 drafts (plan/FLAGSHIP-SCRIPTS-V2.md rule 1). Known issue: garbled sign text in the noir shot. Flagship draft pass 1 (Oct 15, 2026, finished ~8:30 PM MT per edits/flagship-drafts/progress.md). Web preview of the master; master stays on the box."
+  },
   {
    "id": "blast-furnace-take2",
    "title": "Blast Furnace / Change the Creative",

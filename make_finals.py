@@ -9,7 +9,7 @@ F={f['id']:f for f in m['finals']}
 reg=json.load(open('catalog/registry.json')); RANKS=sorted(reg.get('approved_ranking',[]),key=lambda x:x['rank'])
 RECS=reg.get('revision_records',{}); CVM={c['id']:c for c in cv}
 RANKED={i for x in RANKS for i in x['asset_ids']}
-def ar_of(f): return {(1080,1920):'9:16',(720,1280):'9:16',(1080,1350):'4:5'}.get((f['width'],f['height']),f"{f['width']}x{f['height']}")
+def ar_of(f): return {(1080,1920):'9:16',(720,1280):'9:16',(1080,1350):'4:5',(1024,1280):'4:5'}.get((f['width'],f['height']),f"{f['width']}x{f['height']}")
 def master_of(i):
     u=(RECS.get(i) or {}).get('master_reference') or ''
     return u if u.endswith('-MASTER.mp4') else ''

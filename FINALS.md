@@ -23,6 +23,7 @@
 | **★ 9** | PI Attorneys – Hammer Broke | PI-007 | 9:16 `pi-007-a-v02-9x16` 26.4 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-9x16.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-9x16-MASTER.mp4)<br>4:5 `pi-007-a-v02-4x5` 26.4 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-4x5.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/pi-007-a-v02-4x5-MASTER.mp4) | poster frame | ★ **Approved** |
 | **★ 10** | The Ad Graveyard v2 | RB-009 | 9:16 `rb-009-a-v02-9x16` 23.5 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16-MASTER.mp4)<br>4:5 `rb-009-a-v02-4x5` 23.5 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5-MASTER.mp4) | poster frame | ★ **Approved** |
 | **★ 11** | Clone War Room | RB-006 | 9:16 `rb-006-a-v02-9x16` 19.7 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16-MASTER.mp4)<br>4:5 `rb-006-a-v02-4x5` 19.7 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5-MASTER.mp4) | poster frame | ★ **Approved** |
+| **★ 12** | The Set | RB-019 | 9:16 `rb-019-a-v06-9x16` 59.8 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-019-a-v06-9x16.mp4)<br>4:5 `rb-019-a-v06-4x5` 59.8 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-019-a-v06-4x5.mp4) | poster frame | ★ **Approved** |
 
 ## APPROVED videos: details (Chase approved)
 
@@ -91,6 +92,9 @@ Other takes: hf_20260928_032417 (earlier take, different line order) not used. D
 
 | File | Why |
 |---|---|
+| `flagship-v2-planet-ad-draft` (Planet Ad, draft v2 (Oct 16)) | REJECTED: Chase dropped Planet Ad on Oct 17, 2026 (edits/flagship-drafts-v2/archive/planet-ad/ARCHIVED.md). Kept for future spin-offs; do not run. Flagship draft pass 2 (Oct 16, 2026; shots generated 1:32-1:57 PM MT, exact render time not recorded). Rewritten per plan/FLAGSHIP-SCRIPTS-V2.md. Web preview of the master; master stays on the box. |
+| `flagship-v1-planet-ad-draft` (Planet Ad, draft v1 (Oct 15)) | REJECTED (mockup archive only): Chase dropped the Planet Ad concept on Oct 17, 2026 after the v2 rewrite. Flagship draft pass 1 (Oct 15, 2026, finished ~8:30 PM MT per edits/flagship-drafts/progress.md). Web preview of the master; master stays on the box. |
+| `flagship-v1-every-genre-draft` (One Line, Every Genre, draft v1 (Oct 15)) | REJECTED (mockup archive only): Chase dropped "One Line, Every Genre" in his notes on the Oct 15 drafts (plan/FLAGSHIP-SCRIPTS-V2.md rule 1). Known issue: garbled sign text in the noir shot. Flagship draft pass 1 (Oct 15, 2026, finished ~8:30 PM MT per edits/flagship-drafts/progress.md). Web preview of the master; master stays on the box. |
 | `blast-furnace-take2` (Blast Furnace / Change the Creative, take 2 (furB fixed)) | REJECTED, do not use: same "your ABS can't afford to miss" voice-over as take 1 (the audio track is bit-identical; Whisper small.en/medium.en/large-v3 all hear "abs"). Only the end-card text was fixed. Kept for the archive. Use the captioned Furnace ad listed in FINALS.md. Original note: Shovels cash toward the furnace where the BIG SALE mascot burns, pulls the lever; end card 'Done-for-you video ads. Delivered weekly.' |
 | `promo-v1` (The Revenue Engine, v1 (stills)) | Rejected: stills slideshow. Kept for the archive. |
 | `blast-furnace-take1` (Blast Furnace / Change the Creative, take 1 · Seedance) | REJECTED, do not use: the last line says "your ABS can't afford to miss" instead of "ads" (Whisper small.en, medium.en and large-v3 all hear "abs", p 0.92-1.00, even when prompted toward "ads"). End card also misspelled "Donefor-your". Kept for the archive. Use the captioned Furnace ad listed in FINALS.md. Made about 10:30 PM MT on Sep 27. |
@@ -98,7 +102,7 @@ Other takes: hf_20260928_032417 (earlier take, different line order) not used. D
 
 ## Everything else
 
-The other 63 finished ads and 90 clips in the library are **not reviewed**. They may be old drafts. Ask Chase before using any of them.
+The other 99 finished ads and 95 clips in the library are **not reviewed**. They may be old drafts. Ask Chase before using any of them.
 
 ## Adding to this list
 Only when Chase approves something: add it to `approved_ranking` in `catalog/registry.json` (with an Approved revision record; see README), or `covers.json` (images), run `python3 make_finals.py`, and commit.
