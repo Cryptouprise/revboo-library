@@ -16,7 +16,8 @@ Local copies stay in media/finals and media/clips (gitignored). Posters stay in 
 Needs the `gh` CLI logged in with repo scope.
 
 Brands (the only allowed values): Revboo, Legal/PI, The Assist, Infinite AI, Solar Freedom, SuperMoney, HVAC Samples, Generic/Other.
-Dates = the source file's modification time unless an entry sets date_override.
+Dates come from stored metadata: date_override, else the date already in manifest.json for that id.
+Only a brand-new entry with neither falls back to the file mtime (and `add` pins it as date_override).
 Entries added with `add` are saved in extra_sources.json so later rebuilds keep them.
 """
 import os, re, sys, json, subprocess, datetime, argparse
@@ -144,6 +145,16 @@ def has_audio(p): return bool(subprocess.check_output(['ffprobe','-v','error','-
 def mdate(p):
     d=datetime.datetime.fromtimestamp(os.path.getmtime(p))
     return d.strftime('%b %-d, %Y'), d.isoformat(timespec='seconds')
+def entry_date(e,old_by_id,datesrc,eid=None):
+    """Date for an entry, from stored metadata first, never re-dated by a later mtime.
+    1. an explicit date_override in the source config / extra_sources.json;
+    2. the date already stored for this id in manifest.json (the box restores of Sep 28 and Oct 15
+       reset every file's mtime, so an existing entry must keep the date it was filed with);
+    3. only for a brand-new entry with neither: the source file's mtime."""
+    if 'date_override' in e: return tuple(e['date_override'])
+    old=old_by_id.get(eid or e.get('id'))
+    if old and old.get('date') and old.get('datetime'): return old['date'],old['datetime']
+    return mdate(datesrc)
 def clip_id(src):
     rel=src.replace(R,'').replace('/workspace/','')
     rel=re.sub(r'^outreach/andy-board/awesome/v2/videos/','assist-',rel)
@@ -251,8 +262,9 @@ def build(upload=True):
         assert brand in BRANDS,brand
         out=L+'media/finals/'+f['id']+'.mp4'; web_final(src,out,f.get('max_mb',5.6))
         d=dur(out); pp=L+'media/posters/'+f['id']+'.jpg'; poster(out,min(f.get('pt',d*0.33),d-0.3),pp)
-        ds,iso=f['date_override'] if 'date_override' in f else mdate(f.get('datesrc',src))
-        if f.get('datetime_nudge'):  # tie-break for files with identical mtimes (older versions)
+        ds,iso=entry_date(f,old_by_id,f.get('datesrc',src))
+        stored='date_override' not in f and f['id'] in old_by_id and old_by_id[f['id']].get('datetime')==iso
+        if f.get('datetime_nudge') and not stored:  # a stored datetime already carries its nudge  # tie-break for files with identical mtimes (older versions)
             iso=(datetime.datetime.fromisoformat(iso)+datetime.timedelta(seconds=f['datetime_nudge'])).isoformat(timespec='seconds')
         man['finals'].append(dict(id=f['id'],brand=brand,category=f.get('category') or DEFAULT_CATEGORY[brand],group=f['group'],title=f['title'],version=f.get('version','v1'),
             width=vinfo(out)[1],height=vinfo(out)[2],date=ds,datetime=iso,duration=round(d,1),video='media/finals/'+f['id']+'.mp4',poster='media/posters/'+f['id']+'.jpg',
@@ -271,7 +283,7 @@ def build(upload=True):
         assert brand in BRANDS,brand
         out=L+'media/clips/'+cid+'.mp4'; web_clip(src,out,c.get('audio',False))
         d=dur(out); pp=L+'media/posters/'+cid+'.jpg'; poster(out,min(c.get('pt',d/2),d-0.2),pp,w=360)
-        ds,iso=c['date_override'] if 'date_override' in c else mdate(src)
+        ds,iso=entry_date(c,old_by_id,src,cid)
         man['clips'].append(dict(id=cid,brand=brand,name=c['name'],categories=c.get('categories',[]),used_in=c.get('used_in',[]),note=c.get('note',''),date=ds,datetime=iso,
             duration=round(d,1),video='media/clips/'+cid+'.mp4',poster='media/posters/'+cid+'.jpg',source=src,size_mb=round(os.path.getsize(out)/1e6,2)))
         if c.get('brand_asset'): man['brand_assets'].append(cid)
@@ -303,12 +315,18 @@ def build(upload=True):
         else: missing.append(n)
     if missing: print(f'WARNING: {len(missing)} video(s) are not on a release yet and will NOT play on the live page '
                       f'(media/ is not committed). Run `python3 build.py sync`: {missing[:5]}')
-    man['finals'].sort(key=lambda x:x['datetime'],reverse=True)
-    man['clips'].sort(key=lambda x:x['datetime'],reverse=True)
+    # newest first; ties keep their previous manifest order so a rebuild doesn't reshuffle the file
+    for k in ('finals','clips'):
+        prev={e.get('id'):i for i,e in enumerate(OLD.get(k,[])) if isinstance(e,dict)}
+        man[k].sort(key=lambda x:prev.get(x['id'],-1))
+        man[k].sort(key=lambda x:x['datetime'],reverse=True)
     json.dump(man,open(L+'manifest.json','w'),indent=2,ensure_ascii=False)
     from collections import Counter
     print('finals',len(man['finals']),dict(Counter(f['brand'] for f in man['finals'])))
     print('clips',len(man['clips']),dict(Counter(c['brand'] for c in man['clips'])))
+    # keep the Finals / Drafts & Mockups split (finals.html, mockups.html) in step with the manifest
+    try: subprocess.run([sys.executable,L+'tools/make_sections.py'],check=True)
+    except Exception as err: print('WARNING: tools/make_sections.py failed:',err)
 
 def main():
     ap=argparse.ArgumentParser(description='Revboo video library builder')
@@ -335,6 +353,8 @@ def main():
         if a.poster_time is not None: e['pt']=a.poster_time
         if a.date:
             d=datetime.datetime.strptime(a.date,'%b %d, %Y'); e['date_override']=(d.strftime('%b %-d, %Y'),d.isoformat(timespec='seconds'))
+        else:   # pin the filing date now (file mtime at add time) so a later box restore can't re-date it
+            e['date_override']=list(mdate(src))
         ex=load_extra()
         if a.type=='final':
             e.update(group=a.group or title,title=title,version=a.version)

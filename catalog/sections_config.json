@@ -1,0 +1,54 @@
+{
+  "_doc": "Curation for the two-section library (finals.html / mockups.html). tools/make_sections.py reads this plus manifest.json, catalog/registry.json and finals.json and writes catalog/sections.json. Never delete entries; rejected work is labelled, not removed.",
+  "client_order": ["Revboo", "Legal/PI", "The Assist", "SuperMoney", "LeaseStack", "Infinite AI", "HVAC Samples", "Solar Freedom", "Generic/Other", "Unassigned B-roll"],
+  "client_notes": {
+    "Revboo": "Promos for Revboo itself (revboo.video), incl. teardowns and the flagship mockups.",
+    "Legal/PI": "Revboo ads aimed at attorneys/PI firms and law-firm spec ads.",
+    "The Assist": "Andy / LeadRoller / The Assist newsletter ads (plus the Trovy UGC made for Andy).",
+    "SuperMoney": "SuperMoney app and tax-relief prospect videos (Free Ads).",
+    "LeaseStack": "LeaseStack rebrand samples.",
+    "Infinite AI": "myinfinite.ai AI sales employee videos.",
+    "HVAC Samples": "Fictional HVAC demonstration skits (penguin, lifeguard).",
+    "Solar Freedom": "breakyoursolarcontract.com ads.",
+    "Generic/Other": "Anything that doesn't belong to a client above.",
+    "Unassigned B-roll": "Generic B-roll with no client yet. Assign it when it gets used."
+  },
+  "client_rules": [
+    {"client": "LeaseStack", "match": "leasestack"},
+    {"client": "Unassigned B-roll", "kind": "clip", "brand": "Generic/Other"}
+  ],
+  "status_overrides": {
+    "flagship-v1-planet-ad-draft": "rejected",
+    "flagship-v2-planet-ad-draft": "rejected",
+    "flagship-v1-every-genre-draft": "rejected"
+  },
+  "folder_overrides": {
+    "Mockups · Flagship v1": "Flagship v1 (Oct 15 drafts)",
+    "Mockups · Flagship v2": "Flagship v2 (Oct 16 drafts)",
+    "Rejected takes (do not use)": "Rejected takes"
+  },
+  "concept_labels": {
+    "Flagship · Planet Ad": "Planet Ad",
+    "Flagship · One Line, Every Genre": "One Line, Every Genre",
+    "Flagship · Monday Night": "Monday Night",
+    "Flagship · The Set": "The Set"
+  },
+  "placeholders": [
+    {
+      "id": "concept-flying-car",
+      "client": "Revboo",
+      "folder": "Flying Car (concepts, no video yet)",
+      "concept": "Flying Car",
+      "status": "draft",
+      "title": "Flying Car: Chase + a flying car (Tesla Roadster newsjack)",
+      "version": "3 written concepts · no video generated yet",
+      "date": "Oct 17, 2026",
+      "datetime": "2026-10-17T09:22:56-06:00",
+      "link": "https://github.com/Cryptouprise/revboo-library/blob/main/plan/FLYING-CAR-CONCEPTS.md",
+      "note": "Research + 3 concepts only (no spend). Renders will land here automatically when they are added to the library with build.py (group/title containing \"Flying Car\")."
+    }
+  ],
+  "concept_folder_rules": [
+    {"match": "flying.?car", "folder": "Flying Car (concepts, no video yet)", "concept": "Flying Car"}
+  ]
+}

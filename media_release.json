@@ -264,6 +264,41 @@
   "size": 328852,
   "sha256": "d6d7df7a9ea0230bd016fdd5a495f927956f4570824a0d3997dc7ed4a0c502cd"
  },
+ "flagship-v1-every-genre-draft.mp4": {
+  "tag": "media-v1",
+  "size": 5368126,
+  "sha256": "67c65b8b59e361232135d75872abb3ab6b4c465c6d6ea20220e65032db25e3bf"
+ },
+ "flagship-v1-monday-night-draft.mp4": {
+  "tag": "media-v1",
+  "size": 5383089,
+  "sha256": "9cca4068e459a5be55f31f4fe5204fd03928a9cad2e7609036f5baab0edde78c"
+ },
+ "flagship-v1-planet-ad-draft.mp4": {
+  "tag": "media-v1",
+  "size": 5452219,
+  "sha256": "8bc7905ba74884b63433d23a355d40075fd274c4cd8a428bf4c64c73a6315e41"
+ },
+ "flagship-v1-the-set-draft.mp4": {
+  "tag": "media-v1",
+  "size": 7593617,
+  "sha256": "7f6b2a3704e8160eb5b380d71612f1342c611dece7415687862bf7ee44b69f43"
+ },
+ "flagship-v2-monday-night-draft.mp4": {
+  "tag": "media-v1",
+  "size": 6688416,
+  "sha256": "0bbb3f794e8aaefddf1fe3437149b69e8b42de13a7a118e230fb55b2fe10cca8"
+ },
+ "flagship-v2-planet-ad-draft.mp4": {
+  "tag": "media-v1",
+  "size": 5390168,
+  "sha256": "00036c54f0c02852cdfeb8267162529780a3dceb344ef7ddfae450fb857843de"
+ },
+ "flagship-v2-the-set-draft.mp4": {
+  "tag": "media-v1",
+  "size": 7284949,
+  "sha256": "629734dc2ee3d7fae38bc150271ffa94c3b9301a6a6e40e0c43c4ec9288e2157"
+ },
  "furnace-captioned-4x5-v1-MASTER.mp4": {
   "tag": "media-v1",
   "size": 12845551,

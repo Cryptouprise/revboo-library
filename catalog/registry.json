@@ -3661,6 +3661,275 @@
       "approved_rank": 3,
       "approved_star": "★",
       "approval_status": "★ Approved – Ready to Run"
+    },
+    {
+      "concept_id": "RB-016",
+      "title": "Flagship – Planet Ad",
+      "kind": "ad",
+      "collection": "Revboo",
+      "category": "Brand promo",
+      "aliases": [
+        "planet-ad-draft-v1.mp4",
+        "planet-ad-draft-v2.mp4"
+      ],
+      "assets": [
+        "flagship-v1-planet-ad-draft",
+        "flagship-v2-planet-ad-draft"
+      ],
+      "approved_asset_id": null,
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:30:00-06:00",
+          "agent": "Grok",
+          "action": "Registered flagship mockups (Drafts & Mockups archive). Draft/rejected status per revision record; nothing approved."
+        }
+      ],
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads"
+      ]
+    },
+    {
+      "concept_id": "RB-017",
+      "title": "Flagship – One Line, Every Genre",
+      "kind": "ad",
+      "collection": "Revboo",
+      "category": "Brand promo",
+      "aliases": [
+        "every-genre-draft-v1.mp4"
+      ],
+      "assets": [
+        "flagship-v1-every-genre-draft"
+      ],
+      "approved_asset_id": null,
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:30:00-06:00",
+          "agent": "Grok",
+          "action": "Registered flagship mockups (Drafts & Mockups archive). Draft/rejected status per revision record; nothing approved."
+        }
+      ],
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads"
+      ]
+    },
+    {
+      "concept_id": "RB-018",
+      "title": "Flagship – Monday Night",
+      "kind": "ad",
+      "collection": "Revboo",
+      "category": "Brand promo",
+      "aliases": [
+        "monday-night-draft-v1.mp4",
+        "monday-night-draft-v2.mp4"
+      ],
+      "assets": [
+        "flagship-v1-monday-night-draft",
+        "flagship-v2-monday-night-draft"
+      ],
+      "approved_asset_id": null,
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:30:00-06:00",
+          "agent": "Grok",
+          "action": "Registered flagship mockups (Drafts & Mockups archive). Draft/rejected status per revision record; nothing approved."
+        }
+      ],
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads"
+      ]
+    },
+    {
+      "concept_id": "RB-019",
+      "title": "Flagship – The Set",
+      "kind": "ad",
+      "collection": "Revboo",
+      "category": "Brand promo",
+      "aliases": [
+        "the-set-draft-v1.mp4",
+        "the-set-draft-v2.mp4"
+      ],
+      "assets": [
+        "flagship-v1-the-set-draft",
+        "flagship-v2-the-set-draft"
+      ],
+      "approved_asset_id": null,
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:30:00-06:00",
+          "agent": "Grok",
+          "action": "Registered flagship mockups (Drafts & Mockups archive). Draft/rejected status per revision record; nothing approved."
+        }
+      ],
+      "collection_tag": "RevBoo Ads",
+      "usage_tags": [
+        "Ads"
+      ]
+    },
+    {
+      "concept_id": "CLIP-091",
+      "title": "Command-center data wall, chart turns into rising gold line",
+      "kind": "clip",
+      "collection": "Generic/Other",
+      "category": [
+        "Transitions/FX",
+        "Products"
+      ],
+      "aliases": [
+        "hf_20261015_145243_858e1e9b-ddaa-4c82-ae3a-191a65b41351.mp4"
+      ],
+      "assets": [
+        "hf-data-wall-rising-gold-chart"
+      ],
+      "approved_asset_id": null,
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:30:00-06:00",
+          "agent": "Grok",
+          "action": "Registered Oct 15 Higgsfield B-roll (daily sweep 2026-10-16) as Unassigned B-roll; brand unconfirmed."
+        }
+      ]
+    },
+    {
+      "concept_id": "CLIP-092",
+      "title": "Contract and house keys slid across counter, handshake (hands only)",
+      "kind": "clip",
+      "collection": "Generic/Other",
+      "category": [
+        "People/Reactions",
+        "Products"
+      ],
+      "aliases": [
+        "hf_20261015_145242_07a8117b-c10d-4aca-ad7b-feac54a3bfb8.mp4"
+      ],
+      "assets": [
+        "hf-contract-keys-handshake-kitchen"
+      ],
+      "approved_asset_id": null,
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:30:00-06:00",
+          "agent": "Grok",
+          "action": "Registered Oct 15 Higgsfield B-roll (daily sweep 2026-10-16) as Unassigned B-roll; brand unconfirmed."
+        }
+      ]
+    },
+    {
+      "concept_id": "CLIP-093",
+      "title": "Stressed person at late-night desk, bills and phones",
+      "kind": "clip",
+      "collection": "Generic/Other",
+      "category": [
+        "People/Reactions",
+        "Phones & Scrolling"
+      ],
+      "aliases": [
+        "hf_20261015_145242_7b5eeb67-1cc1-49e9-8743-3018490c62f0.mp4"
+      ],
+      "assets": [
+        "hf-stressed-late-night-desk-bills"
+      ],
+      "approved_asset_id": null,
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:30:00-06:00",
+          "agent": "Grok",
+          "action": "Registered Oct 15 Higgsfield B-roll (daily sweep 2026-10-16) as Unassigned B-roll; brand unconfirmed."
+        }
+      ]
+    },
+    {
+      "concept_id": "CLIP-094",
+      "title": "Excavator tears into old house, golden-hour dust",
+      "kind": "clip",
+      "collection": "Generic/Other",
+      "category": [
+        "Transitions/FX"
+      ],
+      "aliases": [
+        "hf_20261015_145242_c7193520-dd5d-4d3f-be11-ddb71491df73.mp4"
+      ],
+      "assets": [
+        "hf-excavator-tears-down-old-house"
+      ],
+      "approved_asset_id": null,
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:30:00-06:00",
+          "agent": "Grok",
+          "action": "Registered Oct 15 Higgsfield B-roll (daily sweep 2026-10-16) as Unassigned B-roll; brand unconfirmed."
+        }
+      ]
+    },
+    {
+      "concept_id": "CLIP-095",
+      "title": "Aerial push past new townhomes to one old house on overgrown lot",
+      "kind": "clip",
+      "collection": "Generic/Other",
+      "category": [
+        "Transitions/FX"
+      ],
+      "aliases": [
+        "hf_20261015_145242_e9cbf5ba-401f-4341-8726-84161f6cb867.mp4"
+      ],
+      "assets": [
+        "hf-aerial-new-townhomes-old-house"
+      ],
+      "approved_asset_id": null,
+      "created_by": "Unknown",
+      "last_edited_by": "Grok",
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:30:00-06:00",
+          "agent": "Grok",
+          "action": "Registered Oct 15 Higgsfield B-roll (daily sweep 2026-10-16) as Unassigned B-roll; brand unconfirmed."
+        }
+      ]
     }
   ],
   "revision_records": {
@@ -7293,6 +7562,272 @@
         "Content"
       ],
       "collection_tag": "RevBoo Ads"
+    },
+    "flagship-v1-planet-ad-draft": {
+      "concept_id": "RB-016",
+      "asset_id": "flagship-v1-planet-ad-draft",
+      "title": "Planet Ad",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "planet-ad-draft-v1.mp4"
+      ],
+      "branch": "A",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "Flagship draft pass 1 (plan/FLAGSHIP-CONCEPTS.md)",
+      "change_log": [
+        "REJECTED (mockup archive only): Chase dropped the Planet Ad concept on Oct 17, 2026 after the v2 rewrite. Flagship draft pass 1 (Oct 15, 2026, finished ~8:30 PM MT per edits/flagship-drafts/progress.md). Web preview of the master; master stays on the box."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-15T20:30:10-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-drafts/planet-ad/planet-ad-draft-v1.mp4",
+      "sha256": "42eaec25a8b3536fb4a36f6c50258b87838d608f9f79f9932a20de68fac17d75",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flagship-v1-planet-ad-draft.mp4",
+      "native_dimensions": null,
+      "export_dimensions": "720x1280",
+      "duration_seconds": 40.0,
+      "status": "Rejected",
+      "qa": {
+        "technical": "Web preview encoded by build.py; no full audiovisual QA recorded here."
+      },
+      "approval": null,
+      "agent_tags": [
+        "Grok"
+      ]
+    },
+    "flagship-v2-planet-ad-draft": {
+      "concept_id": "RB-016",
+      "asset_id": "flagship-v2-planet-ad-draft",
+      "title": "Planet Ad",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "planet-ad-draft-v2.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "flagship-v1-planet-ad-draft",
+      "request": "Flagship draft pass 2 (plan/FLAGSHIP-SCRIPTS-V2.md)",
+      "change_log": [
+        "REJECTED: Chase dropped Planet Ad on Oct 17, 2026 (edits/flagship-drafts-v2/archive/planet-ad/ARCHIVED.md). Kept for future spin-offs; do not run. Flagship draft pass 2 (Oct 16, 2026; shots generated 1:32-1:57 PM MT, exact render time not recorded). Rewritten per plan/FLAGSHIP-SCRIPTS-V2.md. Web preview of the master; master stays on the box."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-16T14:00:10-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-drafts-v2/archive/planet-ad/planet-ad-draft-v2.mp4",
+      "sha256": "9be5a42bd6d44cf60acc06b228fae25dfec07445aa5a1653ef232b32f96dd3cc",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flagship-v2-planet-ad-draft.mp4",
+      "native_dimensions": null,
+      "export_dimensions": "720x1280",
+      "duration_seconds": 48.9,
+      "status": "Rejected",
+      "qa": {
+        "technical": "Web preview encoded by build.py; no full audiovisual QA recorded here."
+      },
+      "approval": null,
+      "agent_tags": [
+        "Grok"
+      ]
+    },
+    "flagship-v1-every-genre-draft": {
+      "concept_id": "RB-017",
+      "asset_id": "flagship-v1-every-genre-draft",
+      "title": "One Line, Every Genre",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "every-genre-draft-v1.mp4"
+      ],
+      "branch": "A",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "Flagship draft pass 1 (plan/FLAGSHIP-CONCEPTS.md)",
+      "change_log": [
+        "REJECTED (mockup archive only): Chase dropped \"One Line, Every Genre\" in his notes on the Oct 15 drafts (plan/FLAGSHIP-SCRIPTS-V2.md rule 1). Known issue: garbled sign text in the noir shot. Flagship draft pass 1 (Oct 15, 2026, finished ~8:30 PM MT per edits/flagship-drafts/progress.md). Web preview of the master; master stays on the box."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-15T20:30:09-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-drafts/every-genre/every-genre-draft-v1.mp4",
+      "sha256": "e8c8975fcc0ac2ff1968a2f9a2c4862fd9d47df5125736afbe0b5c665a81231f",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flagship-v1-every-genre-draft.mp4",
+      "native_dimensions": null,
+      "export_dimensions": "720x1280",
+      "duration_seconds": 39.0,
+      "status": "Rejected",
+      "qa": {
+        "technical": "Web preview encoded by build.py; no full audiovisual QA recorded here."
+      },
+      "approval": null,
+      "agent_tags": [
+        "Grok"
+      ]
+    },
+    "flagship-v1-monday-night-draft": {
+      "concept_id": "RB-018",
+      "asset_id": "flagship-v1-monday-night-draft",
+      "title": "Monday Night",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "monday-night-draft-v1.mp4"
+      ],
+      "branch": "A",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "Flagship draft pass 1 (plan/FLAGSHIP-CONCEPTS.md)",
+      "change_log": [
+        "DRAFT, superseded by draft v2. Chase's notes: two voices overlapping; m4 teardown stacks our caption on the burned-in Furnace caption. Flagship draft pass 1 (Oct 15, 2026, finished ~8:30 PM MT per edits/flagship-drafts/progress.md). Web preview of the master; master stays on the box."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-15T20:30:08-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-drafts/monday-night/monday-night-draft-v1.mp4",
+      "sha256": "b7f66a8d838a1ba50cf90757b4f82a230a7ef119d7e3005b6d43ff6f4a2bed3d",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flagship-v1-monday-night-draft.mp4",
+      "native_dimensions": null,
+      "export_dimensions": "720x1280",
+      "duration_seconds": 41.9,
+      "status": "Draft",
+      "qa": {
+        "technical": "Web preview encoded by build.py; no full audiovisual QA recorded here."
+      },
+      "approval": null,
+      "agent_tags": [
+        "Grok"
+      ]
+    },
+    "flagship-v2-monday-night-draft": {
+      "concept_id": "RB-018",
+      "asset_id": "flagship-v2-monday-night-draft",
+      "title": "Monday Night",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "monday-night-draft-v2.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "flagship-v1-monday-night-draft",
+      "request": "Flagship draft pass 2 (plan/FLAGSHIP-SCRIPTS-V2.md)",
+      "change_log": [
+        "DRAFT, being finalized (final cut in progress in edits/flagship-finals). Not approved to run. Flagship draft pass 2 (Oct 16, 2026; shots generated 1:32-1:57 PM MT, exact render time not recorded). Rewritten per plan/FLAGSHIP-SCRIPTS-V2.md. Web preview of the master; master stays on the box."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-16T14:00:09-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-drafts-v2/monday-night-draft-v2.mp4",
+      "sha256": "42f74a0e59cc2ca013517622f6fb4a484b7096c6bb46956444870396b4b99dbc",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flagship-v2-monday-night-draft.mp4",
+      "native_dimensions": null,
+      "export_dimensions": "720x1280",
+      "duration_seconds": 55.0,
+      "status": "Draft",
+      "qa": {
+        "technical": "Web preview encoded by build.py; no full audiovisual QA recorded here."
+      },
+      "approval": null,
+      "agent_tags": [
+        "Grok"
+      ]
+    },
+    "flagship-v1-the-set-draft": {
+      "concept_id": "RB-019",
+      "asset_id": "flagship-v1-the-set-draft",
+      "title": "The Set",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "the-set-draft-v1.mp4"
+      ],
+      "branch": "A",
+      "revision": 1,
+      "format": "9x16",
+      "parent_asset_id": null,
+      "request": "Flagship draft pass 1 (plan/FLAGSHIP-CONCEPTS.md)",
+      "change_log": [
+        "DRAFT, superseded by draft v2. Known issues: t5 caption white-on-white; the Cutout renders as a real man. Flagship draft pass 1 (Oct 15, 2026, finished ~8:30 PM MT per edits/flagship-drafts/progress.md). Web preview of the master; master stays on the box."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-15T20:30:07-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-drafts/the-set/the-set-draft-v1.mp4",
+      "sha256": "7414519e055800b8e0e20fa56fb003df1c34154664ca2172c2cda536f7b6ebaa",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flagship-v1-the-set-draft.mp4",
+      "native_dimensions": null,
+      "export_dimensions": "720x1280",
+      "duration_seconds": 85.4,
+      "status": "Draft",
+      "qa": {
+        "technical": "Web preview encoded by build.py; no full audiovisual QA recorded here."
+      },
+      "approval": null,
+      "agent_tags": [
+        "Grok"
+      ]
+    },
+    "flagship-v2-the-set-draft": {
+      "concept_id": "RB-019",
+      "asset_id": "flagship-v2-the-set-draft",
+      "title": "The Set",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "the-set-draft-v2.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "flagship-v1-the-set-draft",
+      "request": "Flagship draft pass 2 (plan/FLAGSHIP-SCRIPTS-V2.md)",
+      "change_log": [
+        "DRAFT, being finalized (final cut in progress in edits/flagship-finals). Not approved to run. Flagship draft pass 2 (Oct 16, 2026; shots generated 1:32-1:57 PM MT, exact render time not recorded). Rewritten per plan/FLAGSHIP-SCRIPTS-V2.md. Web preview of the master; master stays on the box."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-16T14:00:08-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-drafts-v2/the-set-draft-v2.mp4",
+      "sha256": "245541d3fc301201d0fb53f0a820dc7b0ae9d8e825950d32ce263033056e962a",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flagship-v2-the-set-draft.mp4",
+      "native_dimensions": null,
+      "export_dimensions": "720x1280",
+      "duration_seconds": 59.2,
+      "status": "Draft",
+      "qa": {
+        "technical": "Web preview encoded by build.py; no full audiovisual QA recorded here."
+      },
+      "approval": null,
+      "agent_tags": [
+        "Grok"
+      ]
     }
   },
   "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber.",

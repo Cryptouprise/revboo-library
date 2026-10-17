@@ -1167,6 +1167,114 @@
         "Ads",
         "Content"
       ]
+    },
+    {
+      "id": "flagship-v1-planet-ad-draft",
+      "src": "/workspace/revboo/edits/flagship-drafts/planet-ad/planet-ad-draft-v1.mp4",
+      "group": "Flagship · Planet Ad",
+      "title": "Planet Ad",
+      "version": "draft v1 (Oct 15)",
+      "status": "rejected",
+      "date_override": [
+        "Oct 15, 2026",
+        "2026-10-15T20:30:10"
+      ],
+      "note": "REJECTED (mockup archive only): Chase dropped the Planet Ad concept on Oct 17, 2026 after the v2 rewrite. Flagship draft pass 1 (Oct 15, 2026, finished ~8:30 PM MT per edits/flagship-drafts/progress.md). Web preview of the master; master stays on the box.",
+      "brand": "Revboo",
+      "category": "Mockups · Flagship v1"
+    },
+    {
+      "id": "flagship-v1-every-genre-draft",
+      "src": "/workspace/revboo/edits/flagship-drafts/every-genre/every-genre-draft-v1.mp4",
+      "group": "Flagship · One Line, Every Genre",
+      "title": "One Line, Every Genre",
+      "version": "draft v1 (Oct 15)",
+      "status": "rejected",
+      "date_override": [
+        "Oct 15, 2026",
+        "2026-10-15T20:30:09"
+      ],
+      "note": "REJECTED (mockup archive only): Chase dropped \"One Line, Every Genre\" in his notes on the Oct 15 drafts (plan/FLAGSHIP-SCRIPTS-V2.md rule 1). Known issue: garbled sign text in the noir shot. Flagship draft pass 1 (Oct 15, 2026, finished ~8:30 PM MT per edits/flagship-drafts/progress.md). Web preview of the master; master stays on the box.",
+      "brand": "Revboo",
+      "category": "Mockups · Flagship v1"
+    },
+    {
+      "id": "flagship-v1-monday-night-draft",
+      "src": "/workspace/revboo/edits/flagship-drafts/monday-night/monday-night-draft-v1.mp4",
+      "group": "Flagship · Monday Night",
+      "title": "Monday Night",
+      "version": "draft v1 (Oct 15)",
+      "status": "draft",
+      "date_override": [
+        "Oct 15, 2026",
+        "2026-10-15T20:30:08"
+      ],
+      "note": "DRAFT, superseded by draft v2. Chase's notes: two voices overlapping; m4 teardown stacks our caption on the burned-in Furnace caption. Flagship draft pass 1 (Oct 15, 2026, finished ~8:30 PM MT per edits/flagship-drafts/progress.md). Web preview of the master; master stays on the box.",
+      "brand": "Revboo",
+      "category": "Mockups · Flagship v1"
+    },
+    {
+      "id": "flagship-v1-the-set-draft",
+      "src": "/workspace/revboo/edits/flagship-drafts/the-set/the-set-draft-v1.mp4",
+      "group": "Flagship · The Set",
+      "title": "The Set",
+      "version": "draft v1 (Oct 15, 85 s full cut)",
+      "status": "draft",
+      "date_override": [
+        "Oct 15, 2026",
+        "2026-10-15T20:30:07"
+      ],
+      "max_mb": 8.0,
+      "note": "DRAFT, superseded by draft v2. Known issues: t5 caption white-on-white; the Cutout renders as a real man. Flagship draft pass 1 (Oct 15, 2026, finished ~8:30 PM MT per edits/flagship-drafts/progress.md). Web preview of the master; master stays on the box.",
+      "brand": "Revboo",
+      "category": "Mockups · Flagship v1"
+    },
+    {
+      "id": "flagship-v2-planet-ad-draft",
+      "src": "/workspace/revboo/edits/flagship-drafts-v2/archive/planet-ad/planet-ad-draft-v2.mp4",
+      "group": "Flagship · Planet Ad",
+      "title": "Planet Ad",
+      "version": "draft v2 (Oct 16)",
+      "status": "rejected",
+      "date_override": [
+        "Oct 16, 2026",
+        "2026-10-16T14:00:10"
+      ],
+      "note": "REJECTED: Chase dropped Planet Ad on Oct 17, 2026 (edits/flagship-drafts-v2/archive/planet-ad/ARCHIVED.md). Kept for future spin-offs; do not run. Flagship draft pass 2 (Oct 16, 2026; shots generated 1:32-1:57 PM MT, exact render time not recorded). Rewritten per plan/FLAGSHIP-SCRIPTS-V2.md. Web preview of the master; master stays on the box.",
+      "brand": "Revboo",
+      "category": "Mockups · Flagship v2"
+    },
+    {
+      "id": "flagship-v2-monday-night-draft",
+      "src": "/workspace/revboo/edits/flagship-drafts-v2/monday-night-draft-v2.mp4",
+      "group": "Flagship · Monday Night",
+      "title": "Monday Night",
+      "version": "draft v2 (Oct 16)",
+      "status": "draft",
+      "date_override": [
+        "Oct 16, 2026",
+        "2026-10-16T14:00:09"
+      ],
+      "max_mb": 7.0,
+      "note": "DRAFT, being finalized (final cut in progress in edits/flagship-finals). Not approved to run. Flagship draft pass 2 (Oct 16, 2026; shots generated 1:32-1:57 PM MT, exact render time not recorded). Rewritten per plan/FLAGSHIP-SCRIPTS-V2.md. Web preview of the master; master stays on the box.",
+      "brand": "Revboo",
+      "category": "Mockups · Flagship v2"
+    },
+    {
+      "id": "flagship-v2-the-set-draft",
+      "src": "/workspace/revboo/edits/flagship-drafts-v2/the-set-draft-v2.mp4",
+      "group": "Flagship · The Set",
+      "title": "The Set",
+      "version": "draft v2 (Oct 16)",
+      "status": "draft",
+      "date_override": [
+        "Oct 16, 2026",
+        "2026-10-16T14:00:08"
+      ],
+      "max_mb": 7.5,
+      "note": "DRAFT, being finalized (final cut in progress in edits/flagship-finals). Not approved to run. Flagship draft pass 2 (Oct 16, 2026; shots generated 1:32-1:57 PM MT, exact render time not recorded). Rewritten per plan/FLAGSHIP-SCRIPTS-V2.md. Web preview of the master; master stays on the box.",
+      "brand": "Revboo",
+      "category": "Mockups · Flagship v2"
     }
   ],
   "clips": [
