@@ -9,6 +9,7 @@
 | [TEARDOWN-REVIEW.md](TEARDOWN-REVIEW.md) | Honest review of the before/after "teardown" ads (hook, sound-off, captions, VO, pacing, audio, end card). |
 | [PIPELINE.md](PIPELINE.md) | The repeatable edit pipeline: intake → Whisper → house captions → QA → covers → copy variants → library → FINALS. |
 | [UPCOMING.md](UPCOMING.md) | What to build next: hooks, concepts, SuperMoney "One Letter" prospect work, best-of original ad, cover A/B tests. |
+| [prompting/](prompting/) | **Video-prompt quality system.** [PROMPT-PLAYBOOK.md](prompting/PROMPT-PLAYBOOK.md) (per-model prompting, reference frames, hands, crowds, no AI text, native screen inserts, camera, routing + cost), [SHOT-CHECKLIST.md](prompting/SHOT-CHECKLIST.md) (pre-render gate + 0.5 s post-render QA). Tool: `/workspace/revboo/tools/prompt_swarm.py`. **Every shot prompt passes the checklist before render.** |
 
 ## Rules that override everything here
 - Brand/caption rules: [../BRAND.md](../BRAND.md). Approved files: [../FINALS.md](../FINALS.md). Filing: [../README.md](../README.md), [../AGENTS.md](../AGENTS.md).
