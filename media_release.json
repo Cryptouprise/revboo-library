@@ -299,6 +299,21 @@
   "size": 7284949,
   "sha256": "629734dc2ee3d7fae38bc150271ffa94c3b9301a6a6e40e0c43c4ec9288e2157"
  },
+ "flying-car-fumes-draft-v1.mp4": {
+  "tag": "media-v1",
+  "size": 5386992,
+  "sha256": "94d6a60bcb5f02f9993c69163766c3c1fd5baa771c1a1bb769db91e79d3106b6"
+ },
+ "flying-car-gridlock-draft-v1.mp4": {
+  "tag": "media-v1",
+  "size": 5391375,
+  "sha256": "f2642cdafe2b400b489f869f04a1b1b5c4a2c673a646592154d66b2a265d5dbe"
+ },
+ "flying-car-reveal-draft-v1.mp4": {
+  "tag": "media-v1",
+  "size": 5306016,
+  "sha256": "49249a19f59a88c720a87f9d0fd8132da4dfcac4c90d0562bf78af3f19966a3b"
+ },
  "furnace-captioned-4x5-v1-MASTER.mp4": {
   "tag": "media-v1",
   "size": 12845551,

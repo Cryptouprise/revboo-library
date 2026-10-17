@@ -1,6 +1,17 @@
 {
   "_doc": "Curation for the two-section library (finals.html / mockups.html). tools/make_sections.py reads this plus manifest.json, catalog/registry.json and finals.json and writes catalog/sections.json. Never delete entries; rejected work is labelled, not removed.",
-  "client_order": ["Revboo", "Legal/PI", "The Assist", "SuperMoney", "LeaseStack", "Infinite AI", "HVAC Samples", "Solar Freedom", "Generic/Other", "Unassigned B-roll"],
+  "client_order": [
+    "Revboo",
+    "Legal/PI",
+    "The Assist",
+    "SuperMoney",
+    "LeaseStack",
+    "Infinite AI",
+    "HVAC Samples",
+    "Solar Freedom",
+    "Generic/Other",
+    "Unassigned B-roll"
+  ],
   "client_notes": {
     "Revboo": "Promos for Revboo itself (revboo.video), incl. teardowns and the flagship mockups.",
     "Legal/PI": "Revboo ads aimed at attorneys/PI firms and law-firm spec ads.",
@@ -14,8 +25,15 @@
     "Unassigned B-roll": "Generic B-roll with no client yet. Assign it when it gets used."
   },
   "client_rules": [
-    {"client": "LeaseStack", "match": "leasestack"},
-    {"client": "Unassigned B-roll", "kind": "clip", "brand": "Generic/Other"}
+    {
+      "client": "LeaseStack",
+      "match": "leasestack"
+    },
+    {
+      "client": "Unassigned B-roll",
+      "kind": "clip",
+      "brand": "Generic/Other"
+    }
   ],
   "status_overrides": {
     "flagship-v1-planet-ad-draft": "rejected",
@@ -37,7 +55,7 @@
     {
       "id": "concept-flying-car",
       "client": "Revboo",
-      "folder": "Flying Car (concepts, no video yet)",
+      "folder": "Flying Car",
       "concept": "Flying Car",
       "status": "draft",
       "title": "Flying Car: Chase + a flying car (Tesla Roadster newsjack)",
@@ -49,6 +67,10 @@
     }
   ],
   "concept_folder_rules": [
-    {"match": "flying.?car", "folder": "Flying Car (concepts, no video yet)", "concept": "Flying Car"}
+    {
+      "match": "flying.?car",
+      "folder": "Flying Car",
+      "concept": "Flying Car"
+    }
   ]
 }

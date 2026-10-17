@@ -1275,6 +1275,51 @@
       "note": "DRAFT, being finalized (final cut in progress in edits/flagship-finals). Not approved to run. Flagship draft pass 2 (Oct 16, 2026; shots generated 1:32-1:57 PM MT, exact render time not recorded). Rewritten per plan/FLAGSHIP-SCRIPTS-V2.md. Web preview of the master; master stays on the box.",
       "brand": "Revboo",
       "category": "Mockups · Flagship v2"
+    },
+    {
+      "id": "flying-car-reveal-draft-v1",
+      "src": "/workspace/revboo/edits/flying-car/reveal-draft.mp4",
+      "brand": "Revboo",
+      "note": "DRAFT v1 (Oct 17, 2026), pending Chase's approval; do not run. Flying-car metaphor: the stale/busted ad is a junker hatchback, the Revboo ad is our own matte-orange flying car (no Tesla design/logo, no Musk). Higgsfield nano_banana_2 keyframes + Kling 3.0 pro i2v; real readable mock ads composited on phones/screens/billboard; house Style C captions; -14 LUFS. Chase appears only from behind (cap + bomber); face shots pending his likeness. Master: /workspace/revboo/edits/flying-car/ reveal-draft.mp4. Arena announcer (ElevenLabs v4 Brian).",
+      "pt": 21.0,
+      "date_override": [
+        "Oct 17, 2026",
+        "2026-10-17T00:00:00"
+      ],
+      "group": "Flying Car · The Reveal",
+      "title": "Flying Car · The Reveal",
+      "version": "draft v1 (Oct 17)",
+      "category": "Mockups · Flying Car"
+    },
+    {
+      "id": "flying-car-fumes-draft-v1",
+      "src": "/workspace/revboo/edits/flying-car/fumes-draft.mp4",
+      "brand": "Revboo",
+      "note": "DRAFT v1 (Oct 17, 2026), pending Chase's approval; do not run. Flying-car metaphor: the stale/busted ad is a junker hatchback, the Revboo ad is our own matte-orange flying car (no Tesla design/logo, no Musk). Higgsfield nano_banana_2 keyframes + Kling 3.0 pro i2v; real readable mock ads composited on phones/screens/billboard; house Style C captions; -14 LUFS. Chase appears only from behind (cap + bomber); face shots pending his likeness. Master: /workspace/revboo/edits/flying-car/ fumes-draft.mp4. Deadpan narrator (ElevenLabs v4 Brian).",
+      "pt": 27.0,
+      "date_override": [
+        "Oct 17, 2026",
+        "2026-10-17T00:00:00"
+      ],
+      "group": "Flying Car · Fumes",
+      "title": "Flying Car · Fumes",
+      "version": "draft v1 (Oct 17)",
+      "category": "Mockups · Flying Car"
+    },
+    {
+      "id": "flying-car-gridlock-draft-v1",
+      "src": "/workspace/revboo/edits/flying-car/gridlock-draft.mp4",
+      "brand": "Revboo",
+      "note": "DRAFT v1 (Oct 17, 2026), pending Chase's approval; do not run. Flying-car metaphor: the stale/busted ad is a junker hatchback, the Revboo ad is our own matte-orange flying car (no Tesla design/logo, no Musk). Higgsfield nano_banana_2 keyframes + Kling 3.0 pro i2v; real readable mock ads composited on phones/screens/billboard; house Style C captions; -14 LUFS. Chase appears only from behind (cap + bomber); face shots pending his likeness. Master: /workspace/revboo/edits/flying-car/ gridlock-draft.mp4. Narrator MAI-Voice-2.1 Grant.",
+      "pt": 21.0,
+      "date_override": [
+        "Oct 17, 2026",
+        "2026-10-17T00:00:00"
+      ],
+      "group": "Flying Car · Gridlock",
+      "title": "Flying Car · Gridlock",
+      "version": "draft v1 (Oct 17)",
+      "category": "Mockups · Flying Car"
     }
   ],
   "clips": [
