@@ -304,15 +304,30 @@
   "size": 5386992,
   "sha256": "94d6a60bcb5f02f9993c69163766c3c1fd5baa771c1a1bb769db91e79d3106b6"
  },
+ "flying-car-fumes-draft-v2.mp4": {
+  "tag": "media-v1",
+  "size": 5409261,
+  "sha256": "04de599ff7cb3dc7308d542efa932518684fba5669543bf57296d71896dcd2c5"
+ },
  "flying-car-gridlock-draft-v1.mp4": {
   "tag": "media-v1",
   "size": 5391375,
   "sha256": "f2642cdafe2b400b489f869f04a1b1b5c4a2c673a646592154d66b2a265d5dbe"
  },
+ "flying-car-gridlock-draft-v2.mp4": {
+  "tag": "media-v1",
+  "size": 5418137,
+  "sha256": "27099afbf5d94baf921ce563f5018f99a287d4850e07f9d7b1eda260c96c8632"
+ },
  "flying-car-reveal-draft-v1.mp4": {
   "tag": "media-v1",
   "size": 5306016,
   "sha256": "49249a19f59a88c720a87f9d0fd8132da4dfcac4c90d0562bf78af3f19966a3b"
+ },
+ "flying-car-reveal-draft-v2.mp4": {
+  "tag": "media-v1",
+  "size": 5343401,
+  "sha256": "848514fcafaa8a87e1be23563b0511eea4afa17a022d70f9542a1973b8a1b308"
  },
  "furnace-captioned-4x5-v1-MASTER.mp4": {
   "tag": "media-v1",

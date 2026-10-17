@@ -3967,7 +3967,8 @@
         "reveal-draft.mp4"
       ],
       "assets": [
-        "flying-car-reveal-draft-v1"
+        "flying-car-reveal-draft-v1",
+        "flying-car-reveal-draft-v2"
       ],
       "approved_asset_id": null,
       "created_by": "Grok",
@@ -3980,6 +3981,11 @@
           "at": "2026-10-17T11:30:00-06:00",
           "agent": "Grok",
           "action": "Registered Flying Car draft v1 (Drafts & Mockups). Nothing approved."
+        },
+        {
+          "at": "2026-10-17T12:20:00-06:00",
+          "agent": "Grok",
+          "action": "Added draft v2 (QA fix pass: hand-free phone UI inserts, no-people replacement shots, real-font ad text, captions match VO). Nothing approved."
         }
       ],
       "collection_tag": "RevBoo Ads",
@@ -3997,7 +4003,8 @@
         "fumes-draft.mp4"
       ],
       "assets": [
-        "flying-car-fumes-draft-v1"
+        "flying-car-fumes-draft-v1",
+        "flying-car-fumes-draft-v2"
       ],
       "approved_asset_id": null,
       "created_by": "Grok",
@@ -4010,6 +4017,11 @@
           "at": "2026-10-17T11:30:00-06:00",
           "agent": "Grok",
           "action": "Registered Flying Car draft v1 (Drafts & Mockups). Nothing approved."
+        },
+        {
+          "at": "2026-10-17T12:20:00-06:00",
+          "agent": "Grok",
+          "action": "Added draft v2 (QA fix pass: hand-free phone UI inserts, no-people replacement shots, real-font ad text, captions match VO). Nothing approved."
         }
       ],
       "collection_tag": "RevBoo Ads",
@@ -4027,7 +4039,8 @@
         "gridlock-draft.mp4"
       ],
       "assets": [
-        "flying-car-gridlock-draft-v1"
+        "flying-car-gridlock-draft-v1",
+        "flying-car-gridlock-draft-v2"
       ],
       "approved_asset_id": null,
       "created_by": "Grok",
@@ -4040,6 +4053,11 @@
           "at": "2026-10-17T11:30:00-06:00",
           "agent": "Grok",
           "action": "Registered Flying Car draft v1 (Drafts & Mockups). Nothing approved."
+        },
+        {
+          "at": "2026-10-17T12:20:00-06:00",
+          "agent": "Grok",
+          "action": "Added draft v2 (QA fix pass: hand-free phone UI inserts, no-people replacement shots, real-font ad text, captions match VO). Nothing approved."
         }
       ],
       "collection_tag": "RevBoo Ads",
@@ -8115,7 +8133,8 @@
       "parent_asset_id": null,
       "request": "Chase-approved production of plan/FLYING-CAR-CONCEPTS.md (Oct 17, 2026)",
       "change_log": [
-        "DRAFT v1 (Oct 17, 2026). Busted ad = junker hatchback, Revboo ad = own matte-orange flying car. Arena announcer, ElevenLabs v4 Brian. Chase only from behind; face shots pending his likeness. Web preview of the master; master stays on the box."
+        "DRAFT v1 (Oct 17, 2026). Busted ad = junker hatchback, Revboo ad = own matte-orange flying car. Arena announcer, ElevenLabs v4 Brian. Chase only from behind; face shots pending his likeness. Web preview of the master; master stays on the box.",
+        "Superseded by draft v2 (independent QA failed v1 on AI hands/crowds and ad-text typos)."
       ],
       "created_by": "Grok",
       "last_edited_by": "Grok",
@@ -8153,7 +8172,8 @@
       "parent_asset_id": null,
       "request": "Chase-approved production of plan/FLYING-CAR-CONCEPTS.md (Oct 17, 2026)",
       "change_log": [
-        "DRAFT v1 (Oct 17, 2026). Busted ad = junker hatchback, Revboo ad = own matte-orange flying car. Deadpan narrator, ElevenLabs v4 Brian. Chase only from behind; face shots pending his likeness. Web preview of the master; master stays on the box."
+        "DRAFT v1 (Oct 17, 2026). Busted ad = junker hatchback, Revboo ad = own matte-orange flying car. Deadpan narrator, ElevenLabs v4 Brian. Chase only from behind; face shots pending his likeness. Web preview of the master; master stays on the box.",
+        "Superseded by draft v2 (independent QA failed v1 on AI hands/crowds and ad-text typos)."
       ],
       "created_by": "Grok",
       "last_edited_by": "Grok",
@@ -8191,7 +8211,8 @@
       "parent_asset_id": null,
       "request": "Chase-approved production of plan/FLYING-CAR-CONCEPTS.md (Oct 17, 2026)",
       "change_log": [
-        "DRAFT v1 (Oct 17, 2026). Busted ad = junker hatchback, Revboo ad = own matte-orange flying car. Narrator MAI-Voice-2.1 Grant. Chase only from behind; face shots pending his likeness. Web preview of the master; master stays on the box."
+        "DRAFT v1 (Oct 17, 2026). Busted ad = junker hatchback, Revboo ad = own matte-orange flying car. Narrator MAI-Voice-2.1 Grant. Chase only from behind; face shots pending his likeness. Web preview of the master; master stays on the box.",
+        "Superseded by draft v2 (independent QA failed v1 on AI hands/crowds and ad-text typos)."
       ],
       "created_by": "Grok",
       "last_edited_by": "Grok",
@@ -8363,6 +8384,120 @@
           "action": "Registered final cut v3 as Draft.",
           "parent_asset_id": "flagship-v2-the-set-draft"
         }
+      ]
+    },
+    "flying-car-reveal-draft-v2": {
+      "concept_id": "RB-020",
+      "asset_id": "flying-car-reveal-draft-v2",
+      "title": "Flying Car – The Reveal",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Local businesses / brands running paid social",
+      "category": "Brand promo",
+      "aliases": [
+        "reveal-draft.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "flying-car-reveal-draft-v1",
+      "request": "Chase-approved production of plan/FLYING-CAR-CONCEPTS.md (Oct 17, 2026)",
+      "change_log": [
+        "DRAFT v2 (Oct 17, 2026), QA fix pass on v1: replaced every shot built on AI hands, crowds with raised arms or close faces (phone taps/scroll/notification now rendered phone UI with real fonts; seated/filming crowds, buyer, driver and pushing-crew shots replaced with no-people Kling shots; raised-phone silhouettes faded out), fixed ad typos with real fonts (SPRING SALE!!!, Don't wait!, Real crews, northside_roofing  Real roofs, no nonsense.), real stale-ad laptop screen, captions match VO. Chase only from behind."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-17T12:00:00-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flying-car/reveal-draft.mp4",
+      "sha256": "9e3bbfe960ad6f37503bbceec9b942aed164952b17209b2c473091bd1276d0f3",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flying-car-reveal-draft-v2.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 52.0,
+      "status": "Draft",
+      "qa": {
+        "technical": "Every 0.5 s frame inspected by Grok for hands, faces, text and morphing; Whisper transcript matches captions; -14 LUFS."
+      },
+      "approval": null,
+      "agent_tags": [
+        "Grok"
+      ]
+    },
+    "flying-car-fumes-draft-v2": {
+      "concept_id": "RB-021",
+      "asset_id": "flying-car-fumes-draft-v2",
+      "title": "Flying Car – Fumes",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Local businesses / brands running paid social",
+      "category": "Brand promo",
+      "aliases": [
+        "fumes-draft.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "flying-car-fumes-draft-v1",
+      "request": "Chase-approved production of plan/FLYING-CAR-CONCEPTS.md (Oct 17, 2026)",
+      "change_log": [
+        "DRAFT v2 (Oct 17, 2026), QA fix pass on v1: replaced every shot built on AI hands, crowds with raised arms or close faces (phone taps/scroll/notification now rendered phone UI with real fonts; seated/filming crowds, buyer, driver and pushing-crew shots replaced with no-people Kling shots; raised-phone silhouettes faded out), fixed ad typos with real fonts (SPRING SALE!!!, Don't wait!, Real crews, northside_roofing  Real roofs, no nonsense.), real stale-ad laptop screen, captions match VO. Chase only from behind."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-17T12:00:00-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flying-car/fumes-draft.mp4",
+      "sha256": "581baf8c9b5187cfdbcd264b9ac31ba2342d44943d124e6188b20b2f046aad31",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flying-car-fumes-draft-v2.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 46.9,
+      "status": "Draft",
+      "qa": {
+        "technical": "Every 0.5 s frame inspected by Grok for hands, faces, text and morphing; Whisper transcript matches captions; -14 LUFS."
+      },
+      "approval": null,
+      "agent_tags": [
+        "Grok"
+      ]
+    },
+    "flying-car-gridlock-draft-v2": {
+      "concept_id": "RB-022",
+      "asset_id": "flying-car-gridlock-draft-v2",
+      "title": "Flying Car – Gridlock",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Local businesses / brands running paid social",
+      "category": "Brand promo",
+      "aliases": [
+        "gridlock-draft.mp4"
+      ],
+      "branch": "A",
+      "revision": 2,
+      "format": "9x16",
+      "parent_asset_id": "flying-car-gridlock-draft-v1",
+      "request": "Chase-approved production of plan/FLYING-CAR-CONCEPTS.md (Oct 17, 2026)",
+      "change_log": [
+        "DRAFT v2 (Oct 17, 2026), QA fix pass on v1: replaced every shot built on AI hands, crowds with raised arms or close faces (phone taps/scroll/notification now rendered phone UI with real fonts; seated/filming crowds, buyer, driver and pushing-crew shots replaced with no-people Kling shots; raised-phone silhouettes faded out), fixed ad typos with real fonts (SPRING SALE!!!, Don't wait!, Real crews, northside_roofing  Real roofs, no nonsense.), real stale-ad laptop screen, captions match VO. Chase only from behind."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-17T12:00:00-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flying-car/gridlock-draft.mp4",
+      "sha256": "a57b071f34cf2b61707fc99243f9c2cf644d2221bd156e948d5410ccac57f71b",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/flying-car-gridlock-draft-v2.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "720x1280",
+      "duration_seconds": 47.5,
+      "status": "Draft",
+      "qa": {
+        "technical": "Every 0.5 s frame inspected by Grok for hands, faces, text and morphing; Whisper transcript matches captions; -14 LUFS."
+      },
+      "approval": null,
+      "agent_tags": [
+        "Grok"
       ]
     }
   },
