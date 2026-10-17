@@ -974,6 +974,26 @@
   "sha256": "220f531805e7e24ff73648791beddd8b2d08b323f32109dfbee93313cad9a6a9",
   "note": "Incorrect aspect-ratio upload attempt; not used by the gallery. Correct widescreen export has the -16x9 suffix."
  },
+ "rb-018-a-v03-9x16.mp4": {
+  "tag": "media-v1",
+  "size": 7599062,
+  "sha256": "af318e446c1e98bf4ba84b77f28b8d1b9ad9995f9cb395e08bc1f580db8febcd"
+ },
+ "rb-018-a-v04-9x16.mp4": {
+  "tag": "media-v1",
+  "size": 7668926,
+  "sha256": "0fe43c8cc4ec346d6f0dd601e371fcab3bf0198100dfc63123d8f14f2340965d"
+ },
+ "rb-019-a-v03-9x16.mp4": {
+  "tag": "media-v1",
+  "size": 7617058,
+  "sha256": "b4d49067c6f88831f0986af957fd5a538a4052d07a55396b571ca54b741af369"
+ },
+ "rb-019-a-v04-9x16.mp4": {
+  "tag": "media-v1",
+  "size": 7515385,
+  "sha256": "37eb61d17fb8963a4d75fbc15adac8c684551e466fcecfa7b0d81499af95738c"
+ },
  "remake-r1.mp4": {
   "tag": "media-v1",
   "size": 329961,

@@ -3732,11 +3732,14 @@
       "category": "Brand promo",
       "aliases": [
         "monday-night-draft-v1.mp4",
-        "monday-night-draft-v2.mp4"
+        "monday-night-draft-v2.mp4",
+        "monday-night-final.mp4"
       ],
       "assets": [
         "flagship-v1-monday-night-draft",
-        "flagship-v2-monday-night-draft"
+        "flagship-v2-monday-night-draft",
+        "rb-018-a-v03-9x16",
+        "rb-018-a-v04-9x16"
       ],
       "approved_asset_id": null,
       "created_by": "Grok",
@@ -3749,6 +3752,16 @@
           "at": "2026-10-17T10:30:00-06:00",
           "agent": "Grok",
           "action": "Registered flagship mockups (Drafts & Mockups archive). Draft/rejected status per revision record; nothing approved."
+        },
+        {
+          "at": "2026-10-17T10:50:00-06:00",
+          "agent": "Grok",
+          "action": "Added final cut v3 (rb-018-a-v03-9x16) as a Draft pending Chase's approval; not filed under Finals."
+        },
+        {
+          "at": "2026-10-17T11:45:00-06:00",
+          "agent": "Grok",
+          "action": "Added final cut v4 (rb-018-a-v04-9x16) QA-fix pass as a Draft pending Chase's approval; not filed under Finals."
         }
       ],
       "collection_tag": "RevBoo Ads",
@@ -3764,11 +3777,14 @@
       "category": "Brand promo",
       "aliases": [
         "the-set-draft-v1.mp4",
-        "the-set-draft-v2.mp4"
+        "the-set-draft-v2.mp4",
+        "the-set-final.mp4"
       ],
       "assets": [
         "flagship-v1-the-set-draft",
-        "flagship-v2-the-set-draft"
+        "flagship-v2-the-set-draft",
+        "rb-019-a-v03-9x16",
+        "rb-019-a-v04-9x16"
       ],
       "approved_asset_id": null,
       "created_by": "Grok",
@@ -3781,6 +3797,16 @@
           "at": "2026-10-17T10:30:00-06:00",
           "agent": "Grok",
           "action": "Registered flagship mockups (Drafts & Mockups archive). Draft/rejected status per revision record; nothing approved."
+        },
+        {
+          "at": "2026-10-17T10:50:00-06:00",
+          "agent": "Grok",
+          "action": "Added final cut v3 (rb-019-a-v03-9x16) as a Draft pending Chase's approval; not filed under Finals."
+        },
+        {
+          "at": "2026-10-17T11:45:00-06:00",
+          "agent": "Grok",
+          "action": "Added final cut v4 (rb-019-a-v04-9x16) QA-fix pass as a Draft pending Chase's approval; not filed under Finals."
         }
       ],
       "collection_tag": "RevBoo Ads",
@@ -7919,6 +7945,158 @@
         "Grok"
       ]
     },
+    "rb-018-a-v03-9x16": {
+      "concept_id": "RB-018",
+      "asset_id": "rb-018-a-v03-9x16",
+      "title": "Monday Night",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "monday-night-final.mp4"
+      ],
+      "branch": "A",
+      "revision": 3,
+      "format": "9x16",
+      "parent_asset_id": "flagship-v2-monday-night-draft",
+      "request": "Finals of the two kept flagship scripts (Chase, Oct 17): real ads on phones, regenerate weak shots, avatar cut-in, caption fixes, upscale. Budget ~$10-15 on Higgsfield.",
+      "change_log": [
+        "DRAFT (final cut v3), pending Chase's approval. Not approved to run; file under Revboo > Finals only after approval.",
+        "Real readable mock ads (stale 'BIG SALE' vs fresh competitor/Revboo Reels-style screens) composited onto every phone head and handheld phone (LK optical-flow tracking + corner-pin); VS, scroll, chaos and 2x2 winner-grid UI inserts.",
+        "Regenerated on Higgsfield: crew shot (m7, faces off-frame) and sideline-reporter avatar (Kling v3.0 + Sync Lipsync 3) for the 'making video is slow' line.",
+        "Busy trophy (m9) and confetti/shower (m8) captions moved and frosted; very bright caption zones auto-frosted; all segments ByteDance-upscaled to 1080x1920; -14 LUFS master."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-17T10:30:37-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-finals/monday-night-final-v1.mp4 (also -v1-720p, -v1-4x5, -v1-4x5-720p)",
+      "sha256": "c75ca211ee2bf6de9732144b1363a14c8883d3f379c253c04ea0530d4b61d4dd",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-018-a-v03-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 56.06,
+      "script": "plan/FLAGSHIP-SCRIPTS-V2.md; finals notes in plan/FLAGSHIP-FINALS-V3.md",
+      "verified_transcript": "Tonight's matchup: your ad from March versus a competitor who posts new ones every week. They've subbed in a new hook every play. You're on the same guy. He's tired. And he's scrolled out of bounds; didn't even make it past the first second. Meanwhile, the owner is still paying full price to keep him on the field. His coach is calling for a sub. The bench is empty. Why? Because making video is slow, the tools change monthly, and nobody's got time. Enter the Revboo bench: real people making four fresh ads a week. Test it until one breaks loose. Real editors. AI speed. Fresh ads every week. Keep your media buyer. Your ads deserve better creative. (faster-whisper small.en on the mix, Oct 17)",
+      "hook": "Your ad from March vs. a competitor who posts new ones every week (football matchup).",
+      "offer": "First 2 ads free. Starting at $2k/month.",
+      "cta": "Real editors. AI speed. Fresh ads every week.",
+      "voice_model": "VO reused from draft v2 (Higgsfield Voiceover); avatar lipsync Sync Lipsync 3 on Kling v3.0 clip",
+      "source_asset_ids": [
+        "flagship-v2-monday-night-draft"
+      ],
+      "status": "Draft",
+      "qa": {
+        "technical": "1080x1920 24fps H.264 CRF14 + AAC 256k; -14 LUFS integrated, true peak about -1.2 dBFS.",
+        "speech": "Whisper transcript matches script; no VO overlaps (checked span list).",
+        "lip_sync_motion": "Avatar lipsync checked by eye; acceptable at phone size.",
+        "branding_cta": "House Style C captions, one at a time, one orange accent word; end card First 2 ads free / $2k/month.",
+        "full_playback": "Frame sheets at 1 s plus spot checks of every caption window, Oct 17.",
+        "mobile_readability": "Bright/busy caption zones frosted; captions kept off faces.",
+        "remaining": [
+          "Some composited screens show slight edge float on fast hand moves.",
+          "End-card explosion clip is the shared Revboo endclip (logo breaks apart by design)."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "AI-generated footage and Revboo-made mock ads; no third-party brands.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "cost_note": "Combined finals spend for both videos: 100.17 Higgsfield credits (~$4.41); not split per video.",
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:50:00-06:00",
+          "agent": "Grok",
+          "action": "Registered final cut v3 as Draft.",
+          "parent_asset_id": "flagship-v2-monday-night-draft"
+        }
+      ]
+    },
+    "rb-019-a-v03-9x16": {
+      "concept_id": "RB-019",
+      "asset_id": "rb-019-a-v03-9x16",
+      "title": "The Set",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "the-set-final.mp4"
+      ],
+      "branch": "A",
+      "revision": 3,
+      "format": "9x16",
+      "parent_asset_id": "flagship-v2-the-set-draft",
+      "request": "Finals of the two kept flagship scripts (Chase, Oct 17): real ads on phones, regenerate weak shots, avatar cut-in, caption fixes, upscale. Budget ~$10-15 on Higgsfield.",
+      "change_log": [
+        "DRAFT (final cut v3), pending Chase's approval. Not approved to run; file under Revboo > Finals only after approval.",
+        "Real readable mock ads composited onto the selfie phone, tablet (REC camera UI), two held phones (skin-protected) and the store TV (fresh ad; garbled EXIT sign blurred); chaos and winner-grid UI inserts.",
+        "Regenerated on Higgsfield: crew shot (t7b, faces from behind) and a 'Revboo producer' avatar intro (Kling v3.0 + Sync Lipsync 3).",
+        "Bright caption zones frosted; closing caption moved off the owner's face; all segments ByteDance-upscaled to 1080x1920; -14 LUFS master."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-17T10:46:26-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-finals/the-set-final-v1.mp4 (also -v1-720p, -v1-4x5, -v1-4x5-720p)",
+      "sha256": "357546a9d8905ca63842a8e93d610fa296eecad7d778a6a0eeffb6a30b469108",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-019-a-v03-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 59.83,
+      "script": "plan/FLAGSHIP-SCRIPTS-V2.md; finals notes in plan/FLAGSHIP-FINALS-V3.md",
+      "verified_transcript": "This is take 40 of one ad for one week. He's the writer, the actor, the editor, and the guy who has to run the business tomorrow. Every month there's a new tool that's supposed to make this easy. It never is. So the ad he finally made runs for two months. Customers stop seeing it. His media buyer keeps asking for something new to test. There's nothing. And every day the budget keeps paying for the ad everyone's tired of. So hand us the set. We're a real creative team. We write, shoot with AI, edit, and ship new ads every week. Every batch is tested. Losers get cut. Winners get more. That's how you find the next one faster. Real editors. AI speed. Fresh ads every week. Keep your media buyer. Your ads deserve better creative. (faster-whisper small.en on the mix, Oct 17)",
+      "hook": "Take forty of one ad for one week: the owner doing every job himself.",
+      "offer": "First 2 ads free. Starting at $2k/month.",
+      "cta": "Real editors. AI speed. Fresh ads every week.",
+      "voice_model": "VO reused from draft v2 (Higgsfield Voiceover); avatar lipsync Sync Lipsync 3 on Kling v3.0 clip",
+      "source_asset_ids": [
+        "flagship-v2-the-set-draft"
+      ],
+      "status": "Draft",
+      "qa": {
+        "technical": "1080x1920 24fps H.264 CRF14 + AAC 256k; -14 LUFS integrated, true peak about -1.2 dBFS.",
+        "speech": "Whisper transcript matches script; no VO overlaps (checked span list).",
+        "lip_sync_motion": "Avatar lipsync checked by eye; acceptable at phone size.",
+        "branding_cta": "House Style C captions, one at a time, one orange accent word; end card First 2 ads free / $2k/month.",
+        "full_playback": "Frame sheets at 1 s plus spot checks of every caption window, Oct 17.",
+        "mobile_readability": "Bright/busy caption zones frosted; captions kept off faces.",
+        "remaining": [
+          "Some composited screens show slight edge float on fast hand moves.",
+          "End-card explosion clip is the shared Revboo endclip (logo breaks apart by design)."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "AI-generated footage and Revboo-made mock ads; no third-party brands.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "cost_note": "Combined finals spend for both videos: 100.17 Higgsfield credits (~$4.41); not split per video.",
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:50:00-06:00",
+          "agent": "Grok",
+          "action": "Registered final cut v3 as Draft.",
+          "parent_asset_id": "flagship-v2-the-set-draft"
+        }
+      ]
+    },
     "flying-car-reveal-draft-v1": {
       "concept_id": "RB-020",
       "asset_id": "flying-car-reveal-draft-v1",
@@ -8031,6 +8209,160 @@
       "approval": null,
       "agent_tags": [
         "Grok"
+      ]
+    },
+    "rb-018-a-v04-9x16": {
+      "concept_id": "RB-018",
+      "asset_id": "rb-018-a-v04-9x16",
+      "title": "Monday Night",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "monday-night-final.mp4"
+      ],
+      "branch": "A",
+      "revision": 4,
+      "format": "9x16",
+      "parent_asset_id": "rb-018-a-v03-9x16",
+      "request": "QA-fix pass (Chase, Oct 17): fix bad hands/anatomy, crew faces, garbled phone UI and typos; budget ~150 Higgsfield credits for both.",
+      "change_log": [
+        "DRAFT (final cut v4, QA-fix pass), pending Chase's approval. Not approved to run.",
+        "Re-rendered on Higgsfield Kling v3.0 pro: owner-in-box (arms crossed, cash untouched; jersey swoosh/crest inpainted out), sideline reporter with lapel mic (no handheld mic; re-lipsynced with Sync Lipsync 3), crew runners as a wide shot from behind with empty hands, confetti-card shower with no bucket.",
+        "Cropped opening line-up to remove the blob-handed left player; tired player zoomed so hands are off-frame; trophy shot trimmed to first 2.95 s (slowed), tightened and background blurred.",
+        "Added house-style captions 'Making video is slow.' and 'Nobody's got time.' (reporter line now split into 3 captions)."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-17T11:42:00-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-finals/monday-night-final.mp4 (also -720p, -4x5, -4x5-720p); previous cut kept as monday-night-final-v1*.mp4",
+      "sha256": "74d5f574fcccbae2ff9ad06f3170f91c5ac3fa7e0bde4f24d9796ac13197670c",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-018-a-v04-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 56.06,
+      "script": "plan/FLAGSHIP-SCRIPTS-V2.md; finals notes in plan/FLAGSHIP-FINALS-V3.md (v4 section)",
+      "verified_transcript": "Tonight's matchup: your ad from March versus a competitor who posts new ones every week. They've subbed in a new hook every play. You're on the same guy. He's tired. And he's scrolled out of bounds; didn't even make it past the first second. Meanwhile, the owner is still paying full price to keep him on the field. His coach is calling for a sub. The bench is empty. Why? Because making video is slow, the tools change monthly, and nobody's got time. Enter the Revboo bench: real people making four fresh ads a week. Test it until one breaks loose. Real editors. AI speed. Fresh ads every week. Keep your media buyer. Your ads deserve better creative. (faster-whisper small.en on the mix, Oct 17)",
+      "hook": "Your ad from March vs. a competitor who posts new ones every week (football matchup).",
+      "offer": "First 2 ads free. Starting at $2k/month.",
+      "cta": "Real editors. AI speed. Fresh ads every week.",
+      "voice_model": "VO reused from draft v2 (Higgsfield Voiceover); avatar lipsync Sync Lipsync 3 on Kling v3.0 clip",
+      "source_asset_ids": [
+        "rb-018-a-v03-9x16"
+      ],
+      "status": "Draft",
+      "qa": {
+        "technical": "1080x1920 24fps H.264 CRF14 + AAC 256k; -14 LUFS integrated, true peak about -1.2 dBFS.",
+        "speech": "Whisper transcript matches script; no VO overlaps (checked span list).",
+        "lip_sync_motion": "Avatar lipsync checked by eye; acceptable at phone size.",
+        "branding_cta": "House Style C captions, one at a time, one orange accent word; end card First 2 ads free / $2k/month.",
+        "full_playback": "Frames extracted every 0.5 s and inspected (hands, faces, screen text), plus full-res spot checks, Oct 17.",
+        "mobile_readability": "Bright/busy caption zones frosted; captions kept off faces.",
+        "remaining": [
+          "Crest area on the owner's jersey shows a faint smoothed patch in some frames.",
+          "Confetti shot: subject is small in frame; confetti is sparse at the start.",
+          "Crew runners are small (wide shot by design)."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "AI-generated footage and Revboo-made mock ads; no third-party brands.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "cost_note": "QA-fix pass spend for both videos: 82.3 Higgsfield credits (8 Kling v3.0 pro clips 70.0 incl. one rejected shredder retry, 1 Sync Lipsync 12.3); not split per video.",
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:50:00-06:00",
+          "agent": "Grok",
+          "action": "Registered final cut v3 as Draft.",
+          "parent_asset_id": "flagship-v2-monday-night-draft"
+        }
+      ]
+    },
+    "rb-019-a-v04-9x16": {
+      "concept_id": "RB-019",
+      "asset_id": "rb-019-a-v04-9x16",
+      "title": "The Set",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "the-set-final.mp4"
+      ],
+      "branch": "A",
+      "revision": 4,
+      "format": "9x16",
+      "parent_asset_id": "rb-019-a-v03-9x16",
+      "request": "QA-fix pass (Chase, Oct 17): fix bad hands/anatomy, crew faces, garbled phone UI and typos; budget ~150 Higgsfield credits for both.",
+      "change_log": [
+        "DRAFT (final cut v4, QA-fix pass), pending Chase's approval. Not approved to run.",
+        "Crew intro (0:29-0:33) re-rendered on Kling v3.0 pro from behind; no crew faces to camera.",
+        "Mock-ad UI redrawn with safe margins and readable handles (@brightkilnco, @morningleaf.co), 'Sponsored', clean icons; fixes clipped 'this changed my mornings' and 'kiln'. Applied to the two-phones shot and the winner grid.",
+        "Media buyer (static, empty folder, hands below desk) and shredder (locked camera, no hands) re-rendered on Kling v3.0 pro; owner coffee shot trimmed to the clean sip (slowed)."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok",
+      "created_at": "2026-10-17T11:42:00-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-finals/the-set-final.mp4 (also -720p, -4x5, -4x5-720p); previous cut kept as the-set-final-v1*.mp4",
+      "sha256": "e484c8384ab0b10e27adc7d899873c63380465fa867330f0cd8bbefd29b1e063",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-019-a-v04-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 59.83,
+      "script": "plan/FLAGSHIP-SCRIPTS-V2.md; finals notes in plan/FLAGSHIP-FINALS-V3.md (v4 section)",
+      "verified_transcript": "This is take 40 of one ad for one week. He's the writer, the actor, the editor, and the guy who has to run the business tomorrow. Every month there's a new tool that's supposed to make this easy. It never is. So the ad he finally made runs for two months. Customers stop seeing it. His media buyer keeps asking for something new to test. There's nothing. And every day the budget keeps paying for the ad everyone's tired of. So hand us the set. We're a real creative team. We write, shoot with AI, edit, and ship new ads every week. Every batch is tested. Losers get cut. Winners get more. That's how you find the next one faster. Real editors. AI speed. Fresh ads every week. Keep your media buyer. Your ads deserve better creative. (faster-whisper small.en on the mix, Oct 17)",
+      "hook": "Take forty of one ad for one week: the owner doing every job himself.",
+      "offer": "First 2 ads free. Starting at $2k/month.",
+      "cta": "Real editors. AI speed. Fresh ads every week.",
+      "voice_model": "VO reused from draft v2 (Higgsfield Voiceover); avatar lipsync Sync Lipsync 3 on Kling v3.0 clip",
+      "source_asset_ids": [
+        "rb-019-a-v03-9x16"
+      ],
+      "status": "Draft",
+      "qa": {
+        "technical": "1080x1920 24fps H.264 CRF14 + AAC 256k; -14 LUFS integrated, true peak about -1.2 dBFS.",
+        "speech": "Whisper transcript matches script; no VO overlaps (checked span list).",
+        "lip_sync_motion": "Avatar lipsync checked by eye; acceptable at phone size.",
+        "branding_cta": "House Style C captions, one at a time, one orange accent word; end card First 2 ads free / $2k/month.",
+        "full_playback": "Frames extracted every 0.5 s and inspected (hands, faces, screen text), plus full-res spot checks, Oct 17.",
+        "mobile_readability": "Bright/busy caption zones frosted; captions kept off faces.",
+        "remaining": [
+          "A crew member at the right of the intro is seen in rear 3/4 profile for ~1 s.",
+          "Laptops in the crew/owner shot show Apple-style logos (unchanged from v3).",
+          "Shredder shot is a minimal static hold (bills sit in the feed tray)."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "AI-generated footage and Revboo-made mock ads; no third-party brands.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "cost_note": "QA-fix pass spend for both videos: 82.3 Higgsfield credits (8 Kling v3.0 pro clips 70.0 incl. one rejected shredder retry, 1 Sync Lipsync 12.3); not split per video.",
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T10:50:00-06:00",
+          "agent": "Grok",
+          "action": "Registered final cut v3 as Draft.",
+          "parent_asset_id": "flagship-v2-the-set-draft"
+        }
       ]
     }
   },
