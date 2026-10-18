@@ -3733,7 +3733,9 @@
       "aliases": [
         "monday-night-draft-v1.mp4",
         "monday-night-draft-v2.mp4",
-        "monday-night-final.mp4"
+        "monday-night-final.mp4",
+        "monday-night-final-v5.mp4",
+        "monday-night-final-4x5.mp4"
       ],
       "assets": [
         "flagship-v1-monday-night-draft",
@@ -3741,11 +3743,14 @@
         "rb-018-a-v03-9x16",
         "rb-018-a-v04-9x16",
         "rb-018-a-v05-9x16",
-        "rb-018-a-v06-9x16"
+        "rb-018-a-v06-9x16",
+        "rb-018-a-v06b-9x16",
+        "rb-018-a-v07-9x16",
+        "rb-018-a-v07-4x5"
       ],
-      "approved_asset_id": null,
+      "approved_asset_id": "rb-018-a-v07-9x16",
       "created_by": "Grok",
-      "last_edited_by": "Grok",
+      "last_edited_by": "Grok Bot",
       "agent_tags": [
         "Grok"
       ],
@@ -3774,12 +3779,26 @@
           "at": "2026-10-17T14:47:00-06:00",
           "agent": "Grok",
           "action": "Added final cut v6 (rb-018-a-v06-9x16) as a Draft pending Chase's approval; not filed under Finals."
+        },
+        {
+          "at": "2026-10-17T18:42:00-06:00",
+          "agent": "Grok Bot",
+          "action": "Filed the round-5 cut as Draft v6b; ★ Chase approved Monday Night v7 (round-6 rebuild) as the final: added as ★ Approved #13. approved_asset_id -> rb-018-a-v07-9x16 (+ 4:5 rb-018-a-v07-4x5).",
+          "parent_asset_id": null
         }
       ],
       "collection_tag": "RevBoo Ads",
       "usage_tags": [
         "Ads"
-      ]
+      ],
+      "approved_asset_ids": [
+        "rb-018-a-v07-9x16",
+        "rb-018-a-v07-4x5"
+      ],
+      "approved_rank": 13,
+      "approved_star": "★",
+      "approval_status": "★ Approved – Ready to Run",
+      "approved_note": "Monday Night final cut v7 (Oct 17, 2026; round-6 rebuild, 51.5 s; 9:16 + 4:5, 720p copies on the box) is the approved pick. Appended as #13 on approval; Chase can reorder. Earlier cuts v03-v06b stay in Drafts & Mockups."
     },
     {
       "concept_id": "RB-019",
@@ -3851,7 +3870,7 @@
       "approved_rank": 12,
       "approved_star": "★",
       "approval_status": "★ Approved – Ready to Run",
-      "approved_note": "The Set final cut v6 (Oct 17, 2026; 9:16 + 4:5, 720p copies on the box) is the approved pick. Appended as #12 on approval; Chase can reorder. Monday Night (RB-018) is not approved."
+      "approved_note": "The Set final cut v6 (Oct 17, 2026; 9:16 + 4:5, 720p copies on the box) is the approved pick. Appended as #12 on approval; Chase can reorder."
     },
     {
       "concept_id": "CLIP-091",
@@ -8923,6 +8942,254 @@
           "parent_asset_id": "rb-019-a-v06-9x16"
         }
       ]
+    },
+    "rb-018-a-v06b-9x16": {
+      "concept_id": "RB-018",
+      "asset_id": "rb-018-a-v06b-9x16",
+      "title": "Monday Night",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "monday-night-final-v5.mp4"
+      ],
+      "branch": "A",
+      "revision": 6,
+      "format": "9x16",
+      "parent_asset_id": "rb-018-a-v06-9x16",
+      "request": "Round 5 pass on v6 (Oct 17).",
+      "change_log": [
+        "DRAFT (final cut v6b = round-5 cut), never approved; superseded by approved v07. Not approved to run."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok Bot",
+      "created_at": "2026-10-17T15:08:00-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-finals/monday-night-final-v5.mp4 (also -v5-720p, -v5-4x5, -v5-4x5-720p; round-5 cut, backed up under -v5 before the v7 rebuild)",
+      "sha256": "031932a09d1f416d03cef12696b129d9d74de8dd08f132c017fec9ccb982aa2f",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-018-a-v06b-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 56.06,
+      "script": "plan/FLAGSHIP-SCRIPTS-V2.md; fix log edits/flagship-finals/work/FIX-PROGRESS.md (ROUND 4)",
+      "verified_transcript": "Tonight's matchup: your ad from March versus a competitor who posts new ones every week. They've subbed in a new hook every play. You're on the same guy. He's tired. And he's scrolled out of bounds; didn't even make it past the first second. Meanwhile, the owner is still paying full price to keep him on the field. His coach is calling for a sub. The bench is empty. Why? Because making video is slow, the tools change monthly, and nobody's got time. Enter the Revboo bench: real people making four fresh ads a week. Test it until one breaks loose. Real editors. AI speed. Fresh ads every week. Keep your media buyer. Your ads deserve better creative. (faster-whisper small.en on the mix, Oct 17)",
+      "hook": "Your ad from March vs. a competitor who posts new ones every week (football matchup).",
+      "offer": "First 2 ads free. Starting at $2k/month.",
+      "cta": "Real editors. AI speed. Fresh ads every week.",
+      "voice_model": "VO reused from draft v2 (Higgsfield Voiceover); avatar lipsync Sync Lipsync 3 on Kling v3.0 clip",
+      "source_asset_ids": [
+        "rb-018-a-v06-9x16"
+      ],
+      "status": "Draft",
+      "qa": {
+        "technical": "1080x1920 24fps H.264 CRF14 + AAC 256k; -14 LUFS integrated, true peak about -1.2 dBFS.",
+        "speech": "Whisper transcript matches script; no VO overlaps (checked span list).",
+        "lip_sync_motion": "Avatar lipsync checked by eye; acceptable at phone size.",
+        "branding_cta": "House Style C captions, one at a time, one orange accent word; end card First 2 ads free / $2k/month.",
+        "full_playback": "Frames every 0.5 s across the whole video plus 8 fps strips on risk sections, Oct 17 (round 4).",
+        "mobile_readability": "Bright/busy caption zones frosted; captions kept off faces.",
+        "remaining": [
+          "Superseded by v07; kept for the archive."
+        ]
+      },
+      "approval": null,
+      "rights_reuse": "AI-generated footage and Revboo-made mock ads; no third-party brands.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "cost_note": "Round 4 spend for both videos: 23 Higgsfield credits (8 Nano Banana Pro stills/edits 16, 1 Kling 3.0 pro 7, Kling clip ultimately unused); not split per video.",
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T18:42:00-06:00",
+          "agent": "Grok Bot",
+          "action": "Filed the round-5 cut (previously unfiled) as Draft v6b; superseded by v07.",
+          "parent_asset_id": "rb-018-a-v06-9x16"
+        }
+      ]
+    },
+    "rb-018-a-v07-9x16": {
+      "concept_id": "RB-018",
+      "asset_id": "rb-018-a-v07-9x16",
+      "title": "Monday Night",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "monday-night-final.mp4"
+      ],
+      "branch": "A",
+      "revision": 7,
+      "format": "9x16",
+      "parent_asset_id": "rb-018-a-v06b-9x16",
+      "request": "Monday Night v6 rebuild plan (r6/REBUILD-PLAN.md), approved by Chase Oct 17 with 'spend the credits'; 45-credit ceiling.",
+      "change_log": [
+        "★ APPROVED FINAL (final cut v7), Chase Fowler, Oct 17, 2026, 6:42 PM MT.",
+        "Round 6 rebuild (plan edits/flagship-finals/work/r6/REBUILD-PLAN.md, approved by Chase): sideline-report and second reporter voice cut, m6 is the single announcer read over real motion (junker in gridlock, the pop-ups, junker in a dim garage, plate blurred); tumbleweed past the empty bench (cooler label painted out); new Kling 3.0 Pro shots: two players in plain orange helmets (no logos) jog out of the tunnel, press-box war room with real Revboo-made ads composited onto four tracked monitors, white Roadster lifts off the 50-yard line (garbled end-zone lettering smeared out); CapCut mark cropped off the exhaust clip; nose shield removed on every frame of the Revboo-hood supercar shot; no logo-on-black hold: the hood logo dissolves into the fire end clip with the Revboo wordmark persistent to the last frame and the offer large. 51.5 s."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok Bot",
+      "created_at": "2026-10-17T18:38:00-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-finals/monday-night-final.mp4 (also -720p, -4x5, -4x5-720p); previous cut kept as monday-night-final-v5*.mp4",
+      "sha256": "913b2231817500d86d185f561a7f0dcf28ef44e4a32acecd0475cc8de98057fc",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-018-a-v07-9x16.mp4",
+      "native_dimensions": "1080x1920",
+      "export_dimensions": "1080x1920",
+      "duration_seconds": 51.54,
+      "script": "plan/FLAGSHIP-SCRIPTS-V2.md; plan + log edits/flagship-finals/work/r6/REBUILD-PLAN.md, r6/PROGRESS.md",
+      "verified_transcript": "Tonight's matchup: your ad from March versus a competitor who posts new ones every week. They've subbed in a new hook every play. You're on the same guy. He's tired. And he's scrolled out of bounds; didn't even make it past the first second. Meanwhile, the owner is still paying full price to keep him on the field. His coach is calling for a sub. The bench is empty. Why? Because making video is slow, the tools change monthly, and nobody's got time. Enter the Revboo bench: real people making four fresh ads a week. Test it until one breaks loose. Real editors. AI speed. Fresh ads every week. Keep your media buyer. Your ads deserve better creative. (faster-whisper small.en on the v7 mix, Oct 17)",
+      "hook": "Your ad from March vs. a competitor who posts new ones every week (football matchup).",
+      "offer": "First 2 ads free. Starting at $2k/month.",
+      "cta": "Real editors. AI speed. Fresh ads every week.",
+      "voice_model": "VO reused from draft v2 (Higgsfield Voiceover, announcer \"brian\"); no lipsync",
+      "source_asset_ids": [
+        "rb-018-a-v06b-9x16"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "1080x1920 24fps H.264 CRF14 + AAC 256k; -14.2 LUFS integrated, true peak -1.1 dBFS.",
+        "speech": "Single announcer voice (Brian) throughout; Whisper small.en transcript matches the script; captions re-timed to m6 word times.",
+        "lip_sync_motion": "No lipsync shots in v7. New Kling shots QA'd frame by frame (S1 legs/hands, S2 screens/heads, S3 car).",
+        "branding_cta": "House Style C captions, one at a time, one orange accent word, never over faces. End card: persistent Revboo wordmark over the fire to the last frame, First 2 ads free / Starting at $2k/month large, no black hold.",
+        "full_playback": "1 fps whole-video contact sheets + 4 fps on every new/reused shot (21.75-51.5 s), 4:5 sheet, brightest/last end-card frame (edits/flagship-finals/work/r6/qa/), Oct 17.",
+        "mobile_readability": "Bright caption zones banded/frosted; 4:5 crop keeps top captions in frame.",
+        "remaining": [
+          "Faint reflections of the three editors in the press-box glass (softened).",
+          "Ads on the war-room monitors are small in the wide (34.6-37.2 s); readable in the punch-in.",
+          "Supercar clip's own framing clips the left edge of the hood 'R'.",
+          "Roadster is a Tesla design (no badge), same open question as the Flying Car drafts."
+        ]
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-17T18:42:00-06:00",
+        "sha256": "913b2231817500d86d185f561a7f0dcf28ef44e4a32acecd0475cc8de98057fc",
+        "asset": "box:/workspace/revboo/edits/flagship-finals/monday-night-final.mp4",
+        "evidence": "Chase approved Monday Night final cut v7 (the round-6 rebuild, 51.54 s) on Oct 17, 2026 at 6:42 PM MT (relayed to Grok Bot) as the approved final in all four exports (9:16, 9:16 720p, 4:5, 4:5 720p)."
+      },
+      "rights_reuse": "AI-generated footage and Revboo-made mock ads; no third-party brands.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "cost_note": "Round 6 spend: 34.75 Higgsfield credits (6 Nano Banana Pro stills/edits 12, Kling 3.0 Pro 8.75 + 7 + 7).",
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T18:38:00-06:00",
+          "agent": "Grok Bot",
+          "action": "Rendered final cut v7 (round-6 rebuild).",
+          "parent_asset_id": "rb-018-a-v06b-9x16"
+        },
+        {
+          "at": "2026-10-17T18:42:00-06:00",
+          "agent": "Grok Bot",
+          "action": "Filed in the library and recorded Chase's approval: Monday Night v7 is the approved final (★ #13). Status Approved.",
+          "parent_asset_id": "rb-018-a-v06b-9x16"
+        }
+      ]
+    },
+    "rb-018-a-v07-4x5": {
+      "concept_id": "RB-018",
+      "asset_id": "rb-018-a-v07-4x5",
+      "title": "Monday Night",
+      "kind": "ad",
+      "collection": "Revboo",
+      "advertiser": "RevBoo",
+      "audience": "Brands running paid social / media buyers",
+      "category": "Brand promo",
+      "aliases": [
+        "monday-night-final-4x5.mp4"
+      ],
+      "branch": "A",
+      "revision": 7,
+      "format": "4x5",
+      "parent_asset_id": "rb-018-a-v07-9x16",
+      "request": "Monday Night v6 rebuild plan (r6/REBUILD-PLAN.md), approved by Chase Oct 17 with 'spend the credits'; 45-credit ceiling.",
+      "change_log": [
+        "★ APPROVED FINAL (final cut v7), Chase Fowler, Oct 17, 2026, 6:42 PM MT.",
+        "Round 6 rebuild (plan edits/flagship-finals/work/r6/REBUILD-PLAN.md, approved by Chase): sideline-report and second reporter voice cut, m6 is the single announcer read over real motion (junker in gridlock, the pop-ups, junker in a dim garage, plate blurred); tumbleweed past the empty bench (cooler label painted out); new Kling 3.0 Pro shots: two players in plain orange helmets (no logos) jog out of the tunnel, press-box war room with real Revboo-made ads composited onto four tracked monitors, white Roadster lifts off the 50-yard line (garbled end-zone lettering smeared out); CapCut mark cropped off the exhaust clip; nose shield removed on every frame of the Revboo-hood supercar shot; no logo-on-black hold: the hood logo dissolves into the fire end clip with the Revboo wordmark persistent to the last frame and the offer large. 51.5 s."
+      ],
+      "created_by": "Grok",
+      "last_edited_by": "Grok Bot",
+      "created_at": "2026-10-17T18:39:00-06:00",
+      "master_reference": "box:/workspace/revboo/edits/flagship-finals/monday-night-final-4x5.mp4 (also -4x5-720p)",
+      "sha256": "b29f505bd31468734c0214e618a45f7231d041ccb3cd0e49e18eb87455fa884a",
+      "preview_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-018-a-v07-4x5.mp4",
+      "native_dimensions": "1080x1350",
+      "export_dimensions": "1080x1350",
+      "duration_seconds": 51.54,
+      "script": "plan/FLAGSHIP-SCRIPTS-V2.md; plan + log edits/flagship-finals/work/r6/REBUILD-PLAN.md, r6/PROGRESS.md",
+      "verified_transcript": "Tonight's matchup: your ad from March versus a competitor who posts new ones every week. They've subbed in a new hook every play. You're on the same guy. He's tired. And he's scrolled out of bounds; didn't even make it past the first second. Meanwhile, the owner is still paying full price to keep him on the field. His coach is calling for a sub. The bench is empty. Why? Because making video is slow, the tools change monthly, and nobody's got time. Enter the Revboo bench: real people making four fresh ads a week. Test it until one breaks loose. Real editors. AI speed. Fresh ads every week. Keep your media buyer. Your ads deserve better creative. (faster-whisper small.en on the v7 mix, Oct 17)",
+      "hook": "Your ad from March vs. a competitor who posts new ones every week (football matchup).",
+      "offer": "First 2 ads free. Starting at $2k/month.",
+      "cta": "Real editors. AI speed. Fresh ads every week.",
+      "voice_model": "VO reused from draft v2 (Higgsfield Voiceover, announcer \"brian\"); no lipsync",
+      "source_asset_ids": [
+        "rb-018-a-v07-9x16"
+      ],
+      "status": "Approved",
+      "qa": {
+        "technical": "1080x1350 24fps H.264 CRF16 + AAC 256k (audio copied from the 9:16); -14.2 LUFS.",
+        "speech": "Single announcer voice (Brian) throughout; Whisper small.en transcript matches the script; captions re-timed to m6 word times.",
+        "lip_sync_motion": "No lipsync shots in v7. New Kling shots QA'd frame by frame (S1 legs/hands, S2 screens/heads, S3 car).",
+        "branding_cta": "House Style C captions, one at a time, one orange accent word, never over faces. End card: persistent Revboo wordmark over the fire to the last frame, First 2 ads free / Starting at $2k/month large, no black hold.",
+        "full_playback": "1 fps whole-video contact sheets + 4 fps on every new/reused shot (21.75-51.5 s), 4:5 sheet, brightest/last end-card frame (edits/flagship-finals/work/r6/qa/), Oct 17.",
+        "mobile_readability": "Bright caption zones banded/frosted; 4:5 crop keeps top captions in frame.",
+        "remaining": [
+          "Faint reflections of the three editors in the press-box glass (softened).",
+          "Ads on the war-room monitors are small in the wide (34.6-37.2 s); readable in the punch-in.",
+          "Supercar clip's own framing clips the left edge of the hood 'R'.",
+          "Roadster is a Tesla design (no badge), same open question as the Flying Car drafts."
+        ]
+      },
+      "approval": {
+        "by": "Chase Fowler",
+        "at": "2026-10-17T18:42:00-06:00",
+        "sha256": "b29f505bd31468734c0214e618a45f7231d041ccb3cd0e49e18eb87455fa884a",
+        "asset": "box:/workspace/revboo/edits/flagship-finals/monday-night-final-4x5.mp4",
+        "evidence": "Chase approved Monday Night final cut v7 (the round-6 rebuild, 51.54 s) on Oct 17, 2026 at 6:42 PM MT (relayed to Grok Bot) as the approved final in all four exports (9:16, 9:16 720p, 4:5, 4:5 720p)."
+      },
+      "rights_reuse": "AI-generated footage and Revboo-made mock ads; no third-party brands.",
+      "costs": {
+        "video": null,
+        "audio": null,
+        "edit": null,
+        "review": null
+      },
+      "cost_note": "Round 6 spend: 34.75 Higgsfield credits (6 Nano Banana Pro stills/edits 12, Kling 3.0 Pro 8.75 + 7 + 7).",
+      "live_platform_ids": [],
+      "agent_tags": [
+        "Grok"
+      ],
+      "history": [
+        {
+          "at": "2026-10-17T18:39:00-06:00",
+          "agent": "Grok Bot",
+          "action": "Created 4:5 per-shot reframe of final cut v7 (make45).",
+          "parent_asset_id": "rb-018-a-v07-9x16"
+        },
+        {
+          "at": "2026-10-17T18:42:00-06:00",
+          "agent": "Grok Bot",
+          "action": "Filed in the library and recorded Chase's approval (★ #13).",
+          "parent_asset_id": "rb-018-a-v07-9x16"
+        }
+      ]
     }
   },
   "notes": "Imported from existing manifest 2026-10-04. No launch approvals inferred. Append permanent IDs; never renumber.",
@@ -9133,7 +9400,23 @@
       "approved_at": "2026-10-17T17:23:00-06:00",
       "status": "★ Approved – Ready to Run",
       "fix_in_progress": false,
-      "note": "The Set final cut v6 (Oct 17, 2026; 9:16 + 4:5, 720p copies on the box) is the approved pick. Appended as #12 on approval; Chase can reorder. Monday Night (RB-018) is not approved."
+      "note": "The Set final cut v6 (Oct 17, 2026; 9:16 + 4:5, 720p copies on the box) is the approved pick. Appended as #12 on approval; Chase can reorder."
+    },
+    {
+      "rank": 13,
+      "star": "★",
+      "concept_id": "RB-018",
+      "title": "Monday Night",
+      "asset_ids": [
+        "rb-018-a-v07-9x16",
+        "rb-018-a-v07-4x5"
+      ],
+      "cover_ids": [],
+      "approved_by": "Chase Fowler",
+      "approved_at": "2026-10-17T18:42:00-06:00",
+      "status": "★ Approved – Ready to Run",
+      "fix_in_progress": false,
+      "note": "Monday Night final cut v7 (Oct 17, 2026; round-6 rebuild, 51.5 s; 9:16 + 4:5, 720p copies on the box) is the approved pick. Appended as #13 on approval; Chase can reorder. Earlier cuts v03-v06b stay in Drafts & Mockups."
     }
   ]
 }

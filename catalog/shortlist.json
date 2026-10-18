@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T17:23:00-06:00",
+  "updated_at": "2026-10-17T18:42:00-06:00",
   "updated_by": "Grok Bot (for Chase Fowler)",
   "entries": [
     {
@@ -109,6 +109,15 @@
       "rank": 12,
       "note": "★ Approved – Ready to Run #12 (Chase, Oct 17, 2026). The Set final cut v6.",
       "updated_at": "2026-10-17T17:23:00-06:00",
+      "updated_by": "Grok Bot (for Chase Fowler)"
+    },
+    {
+      "concept_id": "RB-018",
+      "asset_id": "rb-018-a-v07-9x16",
+      "starred": true,
+      "rank": 13,
+      "note": "★ Approved – Ready to Run #13 (Chase, Oct 17, 2026, 6:42 PM MT). Monday Night final cut v7.",
+      "updated_at": "2026-10-17T18:42:00-06:00",
       "updated_by": "Grok Bot (for Chase Fowler)"
     }
   ]

@@ -1009,6 +1009,21 @@
   "size": 7536209,
   "sha256": "b54cb308de6a73dba94139edcfee20fb77795914c898ec290b699ea5acee2171"
  },
+ "rb-018-a-v06b-9x16.mp4": {
+  "tag": "media-v1",
+  "size": 7555056,
+  "sha256": "a2686bbadad7773d039391117457a122568ec669231518d62ef2e9d170932468"
+ },
+ "rb-018-a-v07-4x5.mp4": {
+  "tag": "media-v1",
+  "size": 7684384,
+  "sha256": "eb9fb91ae6836aabe7fc0617cfb51c00e29653be9a76681c726aedb9dc9f9c43"
+ },
+ "rb-018-a-v07-9x16.mp4": {
+  "tag": "media-v1",
+  "size": 7721526,
+  "sha256": "ec0d345e3b95bd1433ac0471221ea933ffe84629403cbe7f2eb1685aa4a49cf0"
+ },
  "rb-019-a-v03-9x16.mp4": {
   "tag": "media-v1",
   "size": 7617058,

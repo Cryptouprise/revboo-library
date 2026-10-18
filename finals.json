@@ -460,7 +460,7 @@
    "approved_by": "Chase Fowler",
    "approved_at": "2026-10-17T17:23:00-06:00",
    "fix_in_progress": false,
-   "note": "The Set final cut v6 (Oct 17, 2026; 9:16 + 4:5, 720p copies on the box) is the approved pick. Appended as #12 on approval; Chase can reorder. Monday Night (RB-018) is not approved.",
+   "note": "The Set final cut v6 (Oct 17, 2026; 9:16 + 4:5, 720p copies on the box) is the approved pick. Appended as #12 on approval; Chase can reorder.",
    "files": [
     {
      "id": "rb-019-a-v06-9x16",
@@ -481,6 +481,40 @@
      "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-019-a-v06-4x5.mp4",
      "master_url": null,
      "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-019-a-v06-4x5.jpg"
+    }
+   ],
+   "covers": []
+  },
+  {
+   "rank": 13,
+   "star": "★",
+   "title": "Monday Night",
+   "concept_id": "RB-018",
+   "status": "approved",
+   "approved_by": "Chase Fowler",
+   "approved_at": "2026-10-17T18:42:00-06:00",
+   "fix_in_progress": false,
+   "note": "Monday Night final cut v7 (Oct 17, 2026; round-6 rebuild, 51.5 s; 9:16 + 4:5, 720p copies on the box) is the approved pick. Appended as #13 on approval; Chase can reorder. Earlier cuts v03-v06b stay in Drafts & Mockups.",
+   "files": [
+    {
+     "id": "rb-018-a-v07-9x16",
+     "aspect": "9:16",
+     "width": 1080,
+     "height": 1920,
+     "duration": 51.5,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-018-a-v07-9x16.mp4",
+     "master_url": null,
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-018-a-v07-9x16.jpg"
+    },
+    {
+     "id": "rb-018-a-v07-4x5",
+     "aspect": "4:5",
+     "width": 1080,
+     "height": 1350,
+     "duration": 51.5,
+     "web_url": "https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-018-a-v07-4x5.mp4",
+     "master_url": null,
+     "poster": "https://cryptouprise.github.io/revboo-library/media/posters/rb-018-a-v07-4x5.jpg"
     }
    ],
    "covers": []

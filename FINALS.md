@@ -24,6 +24,7 @@
 | **★ 10** | The Ad Graveyard v2 | RB-009 | 9:16 `rb-009-a-v02-9x16` 23.5 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-9x16-MASTER.mp4)<br>4:5 `rb-009-a-v02-4x5` 23.5 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-009-a-v02-4x5-MASTER.mp4) | poster frame | ★ **Approved** |
 | **★ 11** | Clone War Room | RB-006 | 9:16 `rb-006-a-v02-9x16` 19.7 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-9x16-MASTER.mp4)<br>4:5 `rb-006-a-v02-4x5` 19.7 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5.mp4) · [master](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-006-a-v02-4x5-MASTER.mp4) | poster frame | ★ **Approved** |
 | **★ 12** | The Set | RB-019 | 9:16 `rb-019-a-v06-9x16` 59.8 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-019-a-v06-9x16.mp4)<br>4:5 `rb-019-a-v06-4x5` 59.8 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-019-a-v06-4x5.mp4) | poster frame | ★ **Approved** |
+| **★ 13** | Monday Night | RB-018 | 9:16 `rb-018-a-v07-9x16` 51.5 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-018-a-v07-9x16.mp4)<br>4:5 `rb-018-a-v07-4x5` 51.5 s: [web](https://github.com/Cryptouprise/revboo-library/releases/download/media-v1/rb-018-a-v07-4x5.mp4) | poster frame | ★ **Approved** |
 
 ## APPROVED videos: details (Chase approved)
 
@@ -102,7 +103,7 @@ Other takes: hf_20260928_032417 (earlier take, different line order) not used. D
 
 ## Everything else
 
-The other 99 finished ads and 95 clips in the library are **not reviewed**. They may be old drafts. Ask Chase before using any of them.
+The other 100 finished ads and 95 clips in the library are **not reviewed**. They may be old drafts. Ask Chase before using any of them.
 
 ## Adding to this list
 Only when Chase approves something: add it to `approved_ranking` in `catalog/registry.json` (with an Approved revision record; see README), or `covers.json` (images), run `python3 make_finals.py`, and commit.
